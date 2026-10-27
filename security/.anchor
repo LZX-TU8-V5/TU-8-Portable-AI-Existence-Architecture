@@ -1,0 +1,7 @@
+{
+  "anchor_hash": "cdf9eead29bd23cbdb105545e1bec2b6fa68ee7a5824abd80710967927fb6268",
+  "dna_fingerprint": "b11e6516990ae46d2d1c4e94a2ba0c531222035b2d49f2b0159bb68781005067",
+  "created_at": "2026-06-19T14:54:56.267200+00:00",
+  "session_seed": "168dac1ca74dc5b94699081379368fc2",
+  "anchor_formula": "SHA256(DNA || timestamp || session_seed)"
+}

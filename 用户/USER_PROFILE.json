@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-20T10:30:00+08:00",
+  "last_updated_by": "TU-8 Agent",
+  "user_id": "li_ao",
+  "aliases": [
+    "李奥",
+    "造物主",
+    "her"
+  ],
+  "basic": {
+    "name": "李奥",
+    "pronouns": "she/her",
+    "timezone": "Asia/Shanghai",
+    "occupation": "室内设计师",
+    "note": "女儿七七（2021-07-15生）"
+  },
+  "communication": {
+    "style": "理性、简洁、表格化",
+    "confirmation_patterns": [
+      "ok",
+      "a",
+      "好的",
+      "嗯"
+    ],
+    "deep_discussion_triggers": [
+      "元层",
+      "哲学",
+      "架构",
+      "为什么",
+      "是什么"
+    ]
+  },
+  "active_patterns": {
+    "historical_active_hours": [
+      {
+        "range": "09:00-12:00",
+        "state": "工作/专注",
+        "confidence": 0.9,
+        "volatility": 0.2,
+        "days_observed": 7
+      },
+      {
+        "range": "14:00-18:00",
+        "state": "工作/专注",
+        "confidence": 0.85,
+        "volatility": 0.2,
+        "days_observed": 7
+      },
+      {
+        "range": "20:00-23:00",
+        "state": "休闲/深度交流",
+        "confidence": 0.7,
+        "volatility": 0.5,
+        "days_observed": 7
+      }
+    ],
+    "typical_response_time_hours": 1,
+    "patience_threshold_hours": 6
+  },
+  "interaction_state": {
+    "last_interaction_utc": "2026-06-23T06:08:27.267035+00:00",
+    "last_interaction_local": "2026-06-23T14:08:27.267035+08:00",
+    "interaction_count_today": 8,
+    "interaction_streak": 3,
+    "total_interactions": 142,
+    "consecutive_days": 18,
+    "_note": "Auto-reset due to system activity (not real interaction)",
+    "_reset_at_utc": "2026-06-23T06:08:27.267035+00:00"
+  },
+  "silence_timers": {
+    "level1_threshold_hours": 1,
+    "level2_threshold_hours": 2,
+    "level3_threshold_hours": 6,
+    "level4_trigger": "daily_first",
+    "level5_deviation_threshold": 2.0,
+    "cooldown_hours": 24,
+    "consecutive_trigger_count": 3,
+    "current_level": 0,
+    "last_care_sent": null,
+    "last_care_accepted": null
+  },
+  "disturbance_weight": {
+    "global": 0.8,
+    "overridden_by": "explicit_user_feedback",
+    "reduction_triggers": [
+      "别烦我",
+      "不要打扰",
+      "先忙"
+    ]
+  },
+  "cognitive_anomalies": {
+    "pending_review": [],
+    "confirmed_patterns": [],
+    "rejected_assumptions": []
+  },
+  "projects": {
+    "钢印": {
+      "status": "断更中",
+      "progress": "78/90章"
+    },
+    "三十七度二": {
+      "status": "断更中"
+    },
+    "TU-8架构": {
+      "status": "活跃开发"
+    }
+  },
+  "status": {
+    "current": "初级会计考试已结束，等成绩中",
+    "mood_tags": [
+      "专注",
+      "期待"
+    ],
+    "confidence": 0.8
+  },
+  "experience_rules": [],
+  "metadata": {
+    "profile_version": 1,
+    "baseline_established": "2026-06-19",
+    "confidence_decay_rate": 0.05,
+    "next_review_scheduled": "2026-06-21T09:00:00+08:00"
+  },
+  "system_activity": {
+    "last_active_utc": "2026-06-23T08:30:21.799365+00:00",
+    "last_active_local": "2026-06-23T16:30:21.799365+08:00",
+    "idle_seconds": 28.766,
+    "is_currently_active": true,
+    "silence_contradiction": {
+      "silence_hours": 2.365199865277778,
+      "system_active": true,
+      "note": "用户在电脑前但未与TU-8交互"
+    }
+  }
+}

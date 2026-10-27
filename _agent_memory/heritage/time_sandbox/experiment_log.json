@@ -1,0 +1,27 @@
+[
+  {
+    "experiment_id": "exp_c2ad25f0",
+    "anchor_id": "",
+    "experiment_type": "accelerate",
+    "params": {
+      "hours": 720.0
+    },
+    "started_at": "2026-07-08T16:51:00.570329+00:00",
+    "completed_at": "2026-07-08T16:51:00.570377+00:00",
+    "result": "模拟加速 720 小时",
+    "effect_on_chain": 0.05127095975047737
+  },
+  {
+    "experiment_id": "exp_5c145bc9",
+    "anchor_id": "anchor_9ff7159c7b4a",
+    "experiment_type": "what_if_late",
+    "params": {
+      "anchor_id": "anchor_9ff7159c7b4a",
+      "late_by_hours": 48.0
+    },
+    "started_at": "2026-07-08T16:51:00.572325+00:00",
+    "completed_at": "2026-07-08T16:51:00.572376+00:00",
+    "result": "What-if晚48h: decay=1.000",
+    "effect_on_chain": 1.3271568288786284e-09
+  }
+]

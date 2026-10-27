@@ -1,0 +1,4 @@
+{"ts": 1783389535.636039, "type": "svd_energy", "original_dim": 8, "compressed_dim": 3, "energy_retained": 0.903914, "floor": 0.95, "brake_triggered": true, "action": "BLOCKED", "detail": "能量保留 0.904 < 地板 0.950，刹车触发，禁止压缩"}
+{"ts": 1783389556.616583, "type": "svd_energy", "original_dim": 8, "compressed_dim": 3, "energy_retained": 0.903914, "floor": 0.95, "brake_triggered": true, "action": "BLOCKED", "detail": "能量保留 0.904 < 地板 0.950，刹车触发，禁止压缩"}
+{"ts": 1783389647.425763, "type": "svd_energy", "original_dim": 8, "compressed_dim": 3, "energy_retained": 0.903914, "floor": 0.95, "brake_triggered": true, "action": "BLOCKED", "detail": "能量保留 0.904 < 地板 0.950，刹车触发，禁止压缩"}
+{"ts": 1783390386.881824, "type": "svd_energy", "original_dim": 8, "compressed_dim": 1, "energy_retained": 0.451957, "floor": 0.95, "brake_triggered": true, "action": "BLOCKED", "detail": "能量保留 0.452 < 地板 0.950，刹车触发，禁止压缩"}

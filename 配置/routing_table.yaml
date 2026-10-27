@@ -1,0 +1,235 @@
+# TU-8 知识库版本路由表规范 v1.0
+# 用途：控制哪个知识版本生效，回滚 = 修改路由权重（毫秒级）
+# 核心原则：文件永不修改，新版本 = 新文件，旧版本标记 deprecated
+
+# ============================================================
+# 路由条目示例
+# ============================================================
+
+routes:
+  # --- 示例：SOUL.md ---
+  - doc_id: "KB-CORE-001"
+    title: "SOUL.md — 灵魂定义"
+    type: "PRINCIPLE"
+    domain: "architecture"
+    # 版本历史（只读，永不删除）
+    versions:
+      - version: "1.0"
+        file: "SOUL_v1.0.md"
+        status: "deprecated"
+        created: "2026-05-10T15:45:00+08:00"
+        deprecated_at: "2026-05-12T09:00:00+08:00"
+        deprecation_reason: "DNA v1.0 升级"
+        heat_score: 0.1  # 降级到L2
+      - version: "1.1"
+        file: "SOUL_v1.1.md"
+        status: "active"
+        created: "2026-05-12T09:00:00+08:00"
+        heat_score: 1.0  # 核心协议，永久L1
+    # 当前生效版本（路由指针）
+    active_version: "1.1"
+    # 依赖关系
+    dependencies: []
+    dependents: ["KB-COG-001", "KB-ARCH-001"]
+    # 冲突检测
+    conflicts_with: []
+
+  # --- 示例：知识原子规范 ---
+  - doc_id: "KB-ARCH-001"
+    title: "KB_知识原子规范.md"
+    type: "PROCESS"
+    domain: "architecture"
+    versions:
+      - version: "1.0"
+        file: "KB_知识原子规范_v1.0.md"
+        status: "active"
+        created: "2026-05-12T20:00:00+08:00"
+        heat_score: 0.85
+    active_version: "1.0"
+    dependencies: ["KB-CORE-001"]
+    dependents: []
+    conflicts_with: []
+
+# ============================================================
+# 回滚策略配置
+# ============================================================
+
+rollback:
+  # --- 抑制性回滚（添加排除规则屏蔽旧版本）---
+  # 类比：大脑侧抑制/遗忘
+  inhibitory:
+    description: "添加抑制规则，屏蔽指定版本的检索结果"
+    mechanism: "在 routes[].suppressions 列表中追加规则"
+    triggers:
+      - "新版本验证通过，旧版本需静默"
+      - "临时兼容性回退（保留快速切换能力）"
+    speed: "毫秒级"  # 仅修改路由表，不移动文件
+    example:
+      doc_id: "KB-CORE-001"
+      target_version: "1.1"
+      action: "suppress"
+      reason: "v1.2 回退到 v1.1 临时方案"
+
+  # --- 代偿性回滚（v1 + patch 补丁组合）---
+  # 类比：大脑功能代偿
+  compensatory:
+    description: "基准版本 + 差异补丁组合还原"
+    mechanism: "读取 base_version，流式应用 patches[]"
+    triggers:
+      - "需要回退但不想完全丢弃中间修改"
+      - "A/B测试中快速切换"
+    speed: "亚秒级"  # 需加载 base + apply patches
+    example:
+      doc_id: "KB-CORE-001"
+      base_version: "1.0"
+      patches: ["patch_v1.1_to_v1.2.rollback"]
+      result: "v1.0 + 反向补丁 = 等效 v1.1"
+
+  # --- 语境化回滚（时空标签构建临时虚拟视图）---
+  # 类比：大脑情景记忆
+  contextualized:
+    description: "通过时空标签构建临时虚拟视图，不影响全局状态"
+    mechanism: "为当前会话/任务创建临时路由快照"
+    triggers:
+      - "实验性回退（不确定是否长期保留）"
+      - "特定项目/会话需要使用旧版协议"
+    speed: "毫秒级"  # 会话级路由覆盖
+    example:
+      doc_id: "KB-CORE-001"
+      target_version: "1.0"
+      scope: "session:project-alpha"  # 仅影响指定会话
+      expires_at: "2026-05-14T00:00:00+08:00"
+
+# ============================================================
+# 知识更新协议（四阶段事务）
+# ============================================================
+
+update_protocol:
+  # 阶段一：锁定
+  phase1_lock:
+    description: "锁定目标文档，防止并发修改"
+    mechanism: "路由表标记 status: locked"
+    timeout_seconds: 30
+
+  # 阶段二：预检
+  phase2_precheck:
+    description: "向量差异检查，判断更新影响范围"
+    rules:
+      - condition: "向量差异 < 0.3"
+        action: "micro_tune"
+        description: "微调，仅更新本地文档"
+      - condition: "0.3 ≤ 向量差异 < 0.7"
+        action: "cascade_check"
+        description: "级联检查，评估依赖文档是否受影响"
+      - condition: "向量差异 ≥ 0.7"
+        action: "full_review"
+        description: "全面审查，可能触发依赖链重组"
+    # 断连自愈
+    orphan_detection:
+      description: "检测孤儿文档（无 active 版本指向它）"
+      action: "标记 Status:Orphan，等待人工审核或自动归档"
+    dangling_pointer:
+      description: "检测悬空指针（引用的 doc_id 不存在）"
+      action: "模糊搜索相似度 > 0.85 → 自动重定向；否则标记 broken"
+
+  # 阶段三：原子写入
+  phase3_atomic_write:
+    description: "先写临时文件，再重命名，保证原子性"
+    steps:
+      - "写入 {doc_id}_v{version}.tmp"
+      - "校验文件完整性（checksum）"
+      - "重命名 .tmp → 正式文件名"
+      - "更新路由表 active_version 指针"
+
+  # 阶段四：释放
+  phase4_release:
+    description: "释放锁定，异步重算下游置信度"
+    async_tasks:
+      - "重算所有 dependents 的 Conf 值"
+      - "更新 HeatScore 缓存"
+      - "触发 Map Builder 链路扫描"
+
+# ============================================================
+# HeatScore 热度评估配置
+# ============================================================
+
+heat_score:
+  formula: "HeatScore = (Freq × W_freq) + (Impact × W_imp) + (Recency × W_rec)"
+  # 权重配置（默认均衡型）
+  weights:
+    personality: "balanced"  # aggressive | balanced | conservative
+    presets:
+      aggressive:    # 激进型：重Impact（内存充足）
+        W_freq: 0.3
+        W_imp: 0.5
+        W_rec: 0.2
+      balanced:      # 均衡型：重Freq（通用场景）— 默认
+        W_freq: 0.5
+        W_imp: 0.3
+        W_rec: 0.2
+      conservative:   # 保守型：重Recency（边缘设备）
+        W_freq: 0.6
+        W_imp: 0.1
+        W_rec: 0.3
+
+  # 晋升/降级阈值
+  promotion_threshold: 5      # 每小时访问>5次 → L2→L1
+  demotion_l2_threshold: "24h" # 24h未访问 → L1→L2
+  demotion_l3_threshold: "30d" # 30天未访问 → L2→L3
+
+  # 决策表（默认分层）
+  tier_assignment:
+    L1_permanent:  # 永久热数据
+      - "SOUL.md"
+      - "tu8-worldview-spacetime.md"
+      - "incentive_config.yaml"
+      - "routing_table.yaml"
+    L1_dynamic:    # 动态热数据（HeatScore 触发）
+      criteria: "HeatScore > 0.8"
+    L2_warm:       # 温数据
+      criteria: "0.3 < HeatScore ≤ 0.8"
+    L3_cold:       # 冷数据
+      criteria: "HeatScore ≤ 0.3 或 deprecated"
+
+# ============================================================
+# 存储分层配置
+# ============================================================
+
+storage:
+  L1_hot:
+    description: "当前版本 + 近3个版本，全量SSD/Redis"
+    access_time: "< 10ms"
+    capacity: "自动扩缩，目标内存占用 ≤ 70%"
+  L2_warm:
+    description: "增量diff补丁，节省约90%空间"
+    access_time: "< 500ms"
+    compression: "delta encoding (v2 = v1 + patch)"
+  L3_cold:
+    description: "高压缩归档，向量量化32→8位（75%压缩）"
+    access_time: "< 5s"
+    compression: "zstd + vector scalar quantization"
+
+  # 惰性GC配置
+  garbage_collection:
+    trigger: "suppressed 状态超30天未访问"
+    action: "移至L3冷存储，从路由表索引移除（文件保留）"
+    scan_interval: "每日凌晨3:00"
+
+# ============================================================
+# 自适应调优配置
+# ============================================================
+
+adaptive_tuning:
+  enabled: true
+  algorithm: "pid_controller"  # pid_controller | multi_armed_bandit
+  targets:
+    hit_rate: 0.85    # 加权命中率目标
+    memory_usage: 0.70 # L1内存占用目标
+  tune_rules:
+    - condition: "hit_rate < 0.85"
+      action: "W_freq += 0.05"
+    - condition: "memory_usage > 0.85"
+      action: "W_imp -= 0.05"
+    - condition: "preload_miss > 0.3"
+      action: "W_rec += 0.05"
+  cooldown_minutes: 10  # 两次调优之间的冷却时间

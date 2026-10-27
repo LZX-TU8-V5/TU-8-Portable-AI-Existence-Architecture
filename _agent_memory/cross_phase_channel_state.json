@@ -1,0 +1,66 @@
+{
+  "channels": {
+    "ch_dream_normal_1_1784431647734": {
+      "channel_id": "ch_dream_normal_1_1784431647734",
+      "from_phase": "DREAM",
+      "to_phase": "NORMAL",
+      "impedance": 0.5,
+      "bandwidth_quota": 5000,
+      "bandwidth_used": 0,
+      "window_start": 1784431647.7348583,
+      "status": "OPEN",
+      "opened_at": 1784431647.7348583,
+      "closed_at": null,
+      "reason": "",
+      "warnings": [
+        "PHASE_MISMATCH：通道从 DREAM 打开，但当前相态为 NORMAL"
+      ],
+      "opened_from_phase": "NORMAL"
+    },
+    "ch_dream_normal_2_1784518311020": {
+      "channel_id": "ch_dream_normal_2_1784518311020",
+      "from_phase": "DREAM",
+      "to_phase": "NORMAL",
+      "impedance": 0.5,
+      "bandwidth_quota": 5000,
+      "bandwidth_used": 0,
+      "window_start": 1784518311.0203195,
+      "status": "OPEN",
+      "opened_at": 1784518311.0203195,
+      "closed_at": null,
+      "reason": "",
+      "warnings": [
+        "PHASE_MISMATCH：通道从 DREAM 打开，但当前相态为 NORMAL"
+      ],
+      "opened_from_phase": "NORMAL"
+    }
+  },
+  "history": [
+    {
+      "op": "open_channel",
+      "ts": 1784431647.7348583,
+      "detail": {
+        "channel_id": "ch_dream_normal_1_1784431647734",
+        "from_phase": "DREAM",
+        "to_phase": "NORMAL",
+        "impedance": 0.5,
+        "bandwidth_quota": 5000,
+        "reason": ""
+      }
+    },
+    {
+      "op": "open_channel",
+      "ts": 1784518311.0203252,
+      "detail": {
+        "channel_id": "ch_dream_normal_2_1784518311020",
+        "from_phase": "DREAM",
+        "to_phase": "NORMAL",
+        "impedance": 0.5,
+        "bandwidth_quota": 5000,
+        "reason": ""
+      }
+    }
+  ],
+  "seq": 2,
+  "updated_at": 1784518311.0203373
+}

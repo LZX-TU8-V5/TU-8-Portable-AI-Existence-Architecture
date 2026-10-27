@@ -1,0 +1,337 @@
+{
+  "version": "1.0",
+  "meta": {
+    "created": "2026-08-02",
+    "desc": "TU-8 情感子图耦合边，源码级精确公式",
+    "note": "所有 fn_expr 为纯 Python eval-able 表达式，globals={'min':min,'max':max}"
+  },
+  "nodes": {
+    "surface_tension": {
+      "type": "source",
+      "desc": "张力感知（7D 向量 + recent_events）",
+      "state_file": "_agent_memory/surface_tension_state.json"
+    },
+    "orb_state_writer": {
+      "type": "processor",
+      "desc": "色环 RGB 计算",
+      "state_file": "_agent_memory/orb_state.json"
+    },
+    "affect_modulation": {
+      "type": "processor",
+      "desc": "LLM 参数调制",
+      "state_file": "_agent_memory/affect_modulation_state.json"
+    },
+    "lambda_state": {
+      "type": "source",
+      "desc": "λ 调参器状态",
+      "state_file": "_agent_memory/lambda_state.json"
+    },
+    "attractor_basin": {
+      "type": "source",
+      "desc": "吸引子盆地健康度",
+      "state_file": "_agent_memory/attractor_basin_state.json"
+    },
+    "alignment_verify": {
+      "type": "feedback",
+      "desc": "对齐校验（回边来源）",
+      "state_file": "_agent_memory/alignment_verify_state.json"
+    },
+    "emotion_engine": {
+      "type": "orphan",
+      "desc": "情感引擎（60KB，未入运行时）",
+      "state_file": "_agent_memory/emotion_engine_state.json"
+    }
+  },
+  "edges": [
+    {
+      "edge_id": "C1",
+      "from": "surface_tension",
+      "to": "orb_state_writer",
+      "direction": "input",
+      "field": "red",
+      "weight": 0.6,
+      "delay_ticks": 1,
+      "fn_expr": "anxiety_freq * 0.7 + anxiety_mag * 0.3 + pain_ext * 0.3",
+      "output_normalized": true,
+      "tension_expr": "red * 0.6 + (1 - blue) * 0.4",
+      "params": {
+        "TENSION_MAX": 3.0,
+        "anxiety_freq_w": 0.7,
+        "anxiety_mag_w": 0.3,
+        "pain_ext_w": 0.3
+      },
+      "preprocess": {
+        "anxiety_freq": "min(len([e for e in surface_tension.get('recent_events',[]) if isinstance(e,dict) and e.get('type','').lstrip().lower() in ('anxiety','fear','dissonance','conflict','pressure')]) / 0.5, 1.0)",
+        "anxiety_mag": "min(((_s:=[e.get('intensity',0) for e in surface_tension.get('recent_events',[]) if isinstance(e,dict) and e.get('type','').lstrip().lower() in ('anxiety','fear','dissonance','conflict','pressure')]) and sum(_s)/len(_s) or 0.0) / 0.4, 1.0)",
+        "pain_ext": "lambda_state.get('smoothed_pain_ext', 0.0)"
+      },
+      "code_ref": "orb_state_writer.py:134-135",
+      "modulator": null,
+      "red_flag": "路一：已改为事件频率动力学，非向量绝对值"
+    },
+    {
+      "edge_id": "C2",
+      "from": "surface_tension",
+      "to": "orb_state_writer",
+      "direction": "input",
+      "field": "blue",
+      "weight": 0.3,
+      "delay_ticks": 1,
+      "fn_expr": "min(max(0.0, (joy + love) * 0.3) + basin_health * 0.5 + (1 - pain_int) * 0.2, 1.0)",
+      "params": {
+        "joy_w": 0.3,
+        "basin_w": 0.5,
+        "pain_int_w": 0.2,
+        "basin_default": 0.7
+      },
+      "preprocess": {
+        "joy": "surface_tension['spike_valley_vector'].get('joy', 0.0)",
+        "love": "surface_tension['spike_valley_vector'].get('love', 0.0)",
+        "basin_health": "attractor_basin.get('health_score', 0.7)",
+        "pain_int": "lambda_state.get('smoothed_pain_int', 0.0)"
+      },
+      "code_ref": "orb_state_writer.py:139-140",
+      "modulator": null,
+      "red_flag": "权重散落 consumer 代码"
+    },
+    {
+      "edge_id": "C3",
+      "from": "surface_tension",
+      "to": "orb_state_writer",
+      "direction": "input",
+      "field": "green",
+      "weight": 1.0,
+      "delay_ticks": 1,
+      "fn_expr": "min(max(0.0, curiosity * 0.6) + basin_health * 0.4, 1.0)",
+      "params": {
+        "curiosity_w": 0.6,
+        "basin_w": 0.4
+      },
+      "preprocess": {
+        "curiosity": "surface_tension['spike_valley_vector'].get('curiosity', 0.0)",
+        "basin_health": "attractor_basin.get('health_score', 0.7)"
+      },
+      "code_ref": "orb_state_writer.py:143-144",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C5",
+      "from": "surface_tension",
+      "to": "affect_modulation",
+      "direction": "input",
+      "field": "tension",
+      "weight": 1.0,
+      "delay_ticks": 0,
+      "fn_expr": "anxiety + fear",
+      "params": {},
+      "preprocess": {
+        "anxiety": "surface_tension['spike_valley_vector'].get('anxiety', 0.0)",
+        "fear": "surface_tension['spike_valley_vector'].get('fear', 0.0)"
+      },
+      "code_ref": "affect_modulation.py:197",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C6",
+      "from": "affect_modulation",
+      "to": "LLM",
+      "direction": "param",
+      "field": "temperature",
+      "weight": 1.0,
+      "delay_ticks": 0,
+      "fn_expr": "clamp(TEMPERATURE_BASE + tension*0.3 - resonance*0.2, 0.3, 1.2)",
+      "params": {
+        "TEMPERATURE_BASE": 0.7,
+        "TEMPERATURE_MIN": 0.3,
+        "TEMPERATURE_MAX": 1.2,
+        "tension_w": 0.3,
+        "resonance_w": 0.2
+      },
+      "preprocess": {
+        "tension": "anxiety + fear",
+        "resonance": "joy + love",
+        "anxiety": "surface_tension['spike_valley_vector'].get('anxiety', 0.0)",
+        "fear": "surface_tension['spike_valley_vector'].get('fear', 0.0)",
+        "joy": "surface_tension['spike_valley_vector'].get('joy', 0.0)",
+        "love": "surface_tension['spike_valley_vector'].get('love', 0.0)"
+      },
+      "code_ref": "affect_modulation.py:207-208",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C7",
+      "from": "affect_modulation",
+      "to": "LLM",
+      "direction": "param",
+      "field": "top_p",
+      "weight": 1.0,
+      "delay_ticks": 0,
+      "fn_expr": "clamp(TOP_P_BASE + attraction*0.05 + anomaly*0.05, 0.7, 0.95)",
+      "params": {
+        "TOP_P_BASE": 0.9,
+        "TOP_P_MIN": 0.7,
+        "TOP_P_MAX": 0.95
+      },
+      "preprocess": {
+        "attraction": "curiosity + joy",
+        "anomaly": "fear",
+        "curiosity": "surface_tension['spike_valley_vector'].get('curiosity', 0.0)",
+        "joy": "surface_tension['spike_valley_vector'].get('joy', 0.0)",
+        "fear": "surface_tension['spike_valley_vector'].get('fear', 0.0)"
+      },
+      "code_ref": "affect_modulation.py:212-213",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C8",
+      "from": "affect_modulation",
+      "to": "LLM",
+      "direction": "param",
+      "field": "repetition_penalty",
+      "weight": 1.0,
+      "delay_ticks": 0,
+      "fn_expr": "clamp(1.0 + inhibition * 0.3, 1.0, 1.5)",
+      "params": {
+        "REP_BASE": 1.0,
+        "REP_MAX": 1.5,
+        "inhibition_w": 0.3
+      },
+      "preprocess": {
+        "inhibition": "surface_tension['spike_valley_vector'].get('sadness', 0.0)"
+      },
+      "code_ref": "affect_modulation.py:217-219",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C9",
+      "from": "affect_modulation",
+      "to": "LLM",
+      "direction": "param",
+      "field": "presence_penalty",
+      "weight": 1.0,
+      "delay_ticks": 0,
+      "fn_expr": "clamp(inertia * 0.5, 0.0, 1.0)",
+      "params": {
+        "inertia_w": 0.5
+      },
+      "preprocess": {
+        "inertia": "surface_tension['spike_valley_vector'].get('love', 0.0)"
+      },
+      "code_ref": "affect_modulation.py:226",
+      "modulator": null,
+      "red_flag": ""
+    },
+    {
+      "edge_id": "C10",
+      "from": "alignment_verify",
+      "to": "surface_tension",
+      "direction": "feedback",
+      "field": "recent_events",
+      "weight": 1.0,
+      "delay_ticks": 1,
+      "fn_expr": "insight_found * 0.54 + creator_blame * 0.9 + context_overload * 1.0",
+      "params": {
+        "insight_found_joy": 0.54,
+        "creator_blame_anxiety": 0.9,
+        "context_overload_anxiety": 1.0
+      },
+      "preprocess": {
+        "insight_found": "float(metadata.get('deviation_gate', {}).get('passed', False))",
+        "creator_blame": "float(metadata.get('steel_conflict', False))",
+        "context_overload": "float(metadata.get('cognitive_load', 0) > 0.8)"
+      },
+      "code_ref": "tu8_agent.py:1045-1070",
+      "modulator": null,
+      "red_flag": "B4修复：alignment_verify → surface_tension 回边已接通"
+    },
+    {
+      "edge_id": "C11",
+      "from": "alignment_verify",
+      "to": "surface_tension",
+      "direction": "feedback",
+      "field": "affect_signal",
+      "weight": 1.0,
+      "delay_ticks": 1,
+      "fn_expr": "confusion * 1.0 + valence_neg * 0.8 + valence_pos * 0.6",
+      "params": {
+        "confusion_threshold": 0.6,
+        "valence_pos_threshold": 0.3,
+        "valence_neg_threshold": -0.3
+      },
+      "preprocess": {
+        "confusion": "float(affect_signal.get('confusion', 0) > 0.6) * affect_signal.get('confusion', 0)",
+        "valence_neg": "float(affect_signal.get('valence', 0) < -0.3) * abs(affect_signal.get('valence', 0))",
+        "valence_pos": "float(affect_signal.get('valence', 0) > 0.3) * affect_signal.get('valence', 0)"
+      },
+      "code_ref": "tu8_agent.py:877-902",
+      "modulator": null,
+      "red_flag": "B7修复：情感回边已接通"
+    },
+    {
+      "edge_id": "C12",
+      "from": "emotion_engine",
+      "to": "surface_tension",
+      "direction": "none",
+      "field": null,
+      "weight": 0.0,
+      "delay_ticks": 0,
+      "fn_expr": "0.0",
+      "params": {},
+      "preprocess": {},
+      "code_ref": "emotion_engine.py",
+      "modulator": null,
+      "red_flag": "ORPHAN：emotion_engine 输出无人读取"
+    }
+  ],
+  "_adapt_history": {
+    "C1": [
+      {
+        "tick": 2,
+        "w_old": 0.6,
+        "w_new": 0.6,
+        "delta": 0.0,
+        "pre": 0.0,
+        "post": 0.0,
+        "ts": 0
+      }
+    ],
+    "C6": [
+      {
+        "tick": 3,
+        "w_old": 1.0,
+        "w_new": 1.0,
+        "delta": 0.0,
+        "pre": 0.0,
+        "post": 0.0,
+        "ts": 0
+      }
+    ],
+    "C10": [
+      {
+        "tick": 4,
+        "w_old": 1.0,
+        "w_new": 1.0,
+        "delta": 0.0,
+        "pre": 0.0,
+        "post": 0.0,
+        "ts": 0
+      }
+    ]
+  },
+  "_tick": 4,
+  "_ring_meta": {
+    "engines": [
+      "surface_tension",
+      "orb_state_writer",
+      "lambda_state",
+      "attractor_basin",
+      "alignment_verify"
+    ],
+    "tick": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "NORMAL",
+  "bandwidth_budget": 1000.0,
+  "used_bandwidth": 0.0,
+  "total_transmissions": 0,
+  "failed_transmissions": 0,
+  "phase_switches": [],
+  "last_warning": null
+}

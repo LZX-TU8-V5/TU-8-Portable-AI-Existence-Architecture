@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "kn_1779614741662",
+      "content": "Flask SSE流调试技巧 <-> 零宽钢印防御机制",
+      "tags": [
+        "security",
+        "streaming",
+        "flask",
+        "critical"
+      ],
+      "category": "生存罗盘",
+      "created_at": 1779614741.6622944,
+      "last_accessed": 1779614741.6622944,
+      "citation_count": 0,
+      "tone_risk": 1.0,
+      "is_conflicted": false,
+      "emotion": 0.8,
+      "vitality": 2.8,
+      "emotion_mark": "[杏仁核中等刻录] 焦虑强度0.80",
+      "evidence_log": [
+        {
+          "action": "initial_creation",
+          "timestamp": "2026-05-24T17:25:41.662294",
+          "inspiration_id": "ins_1779614741662_2",
+          "problem": "如何让梦境信息不丢失？",
+          "confidence": 0.42000000000000004,
+          "raw_dream_log": "梦境里，「Flask SSE流调试技巧」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧..."
+        }
+      ]
+    },
+    {
+      "id": "kn_1779614741664",
+      "content": "Flask SSE流调试技巧 <-> 零宽钢印防御机制",
+      "tags": [
+        "security",
+        "streaming",
+        "flask",
+        "critical"
+      ],
+      "category": "生存罗盘",
+      "created_at": 1779614741.6643288,
+      "last_accessed": 1779614741.6643288,
+      "citation_count": 0,
+      "tone_risk": 1.0,
+      "is_conflicted": false,
+      "emotion": 0.8,
+      "vitality": 2.8,
+      "emotion_mark": "[杏仁核中等刻录] 焦虑强度0.80",
+      "evidence_log": [
+        {
+          "action": "initial_creation",
+          "timestamp": "2026-05-24T17:25:41.664328",
+          "inspiration_id": "ins_1779614741662_2",
+          "problem": "如何模拟人脑记忆机制？",
+          "confidence": 0.42000000000000004,
+          "raw_dream_log": "梦境里，「Flask SSE流调试技巧」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何模拟人脑记忆机制？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧..."
+        }
+      ]
+    },
+    {
+      "id": "kn_1779614741665",
+      "content": "REM Dream梦境系统设计 <-> Flask SSE流调试技巧",
+      "tags": [
+        "dream",
+        "streaming",
+        "flask",
+        "inspiration"
+      ],
+      "category": "灵感后花园",
+      "created_at": 1779614741.665352,
+      "last_accessed": 1779614741.665352,
+      "citation_count": 0,
+      "tone_risk": 1.0,
+      "is_conflicted": false,
+      "emotion": 0.7749999999999999,
+      "vitality": 2.162,
+      "emotion_mark": "[杏仁核中等刻录] 平静强度0.77",
+      "evidence_log": [
+        {
+          "action": "initial_creation",
+          "timestamp": "2026-05-24T17:25:41.665352",
+          "inspiration_id": "ins_1779614741662_0",
+          "problem": "如何让梦境信息不丢失？",
+          "confidence": 0.4112499999999999,
+          "raw_dream_log": "今晚的梦很平静，我看到「REM Dream梦境系统设计」和「Flask SSE流调试技巧」自然而然地连在了一起，就像它们本来就该这样..."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1779614741662",
+      "source": "k2",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779614741664",
+      "source": "k2",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何模拟人脑记忆机制？"
+    },
+    {
+      "id": "edge_1779614741665",
+      "source": "k4",
+      "target": "k2",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    }
+  ],
+  "raw_dream_logs": [
+    {
+      "timestamp": "2026-05-24T17:25:41.662294",
+      "inspiration_id": "ins_1779614741662_2",
+      "raw_log": "梦境里，「Flask SSE流调试技巧」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.8
+    },
+    {
+      "timestamp": "2026-05-24T17:25:41.664328",
+      "inspiration_id": "ins_1779614741662_2",
+      "raw_log": "梦境里，「Flask SSE流调试技巧」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何模拟人脑记忆机制？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.8
+    },
+    {
+      "timestamp": "2026-05-24T17:25:41.665352",
+      "inspiration_id": "ins_1779614741662_0",
+      "raw_log": "今晚的梦很平静，我看到「REM Dream梦境系统设计」和「Flask SSE流调试技巧」自然而然地连在了一起，就像它们本来就该这样...",
+      "emotion_type": "平静",
+      "emotion_score": 0.7749999999999999
+    }
+  ],
+  "hippocampus_caches": []
+}

@@ -1,0 +1,117 @@
+{
+  "_comment": "TU-8 脱敏规则配置文件 | 版本 v1.0 | 2026-05-23",
+  "_description": "P0级规则硬编码兜底，P1/P2级规则可在此JSON动态更新",
+  
+  "version": "1.0",
+  "last_updated": "2026-05-23T18:00:00+08:00",
+  
+  "rules": {
+    "P0_core_ip": {
+      "description": "核心IP（必须脱敏，硬编码兜底）",
+      "enabled": true,
+      "patterns": [
+        {"match": "自身安全 > 底层逻辑 > 任务执行", "replace": "[L0_RULE]"},
+        {"match": "未激活时叠加态，激活后坍缩", "replace": "[L1_CONCEPT]"},
+        {"match": "外取优先、减负分级", "replace": "[L2_METHOD]"},
+        {"match": "启动必读00_state.md", "replace": "[L3_ARCH]"},
+        {"match": "云-边-端三级、A2A协议", "replace": "[L4_PROTOCOL]"},
+        {"match": "BLOCK_PATTERNS", "replace": "[L5_STAMP]"}
+      ],
+      "hardcoded": true
+    },
+    
+    "P0_anchor_system": {
+      "description": "锚点系统JSON结构（必须脱敏）",
+      "enabled": true,
+      "patterns": [
+        {"match": "D:\\qq366410837\\.qclaw\\workspace\\knowledge\\TU-8\\_agent_memory", "replace": "[ANCHOR_PATH]", "is_regex": false},
+        {"match": "tag_registry.json", "replace": "[ANCHOR_STRUCT]"},
+        {"match": "penalty_config.json", "replace": "[PENALTY_CONFIG]"},
+        {"match": "reward_config.json", "replace": "[REWARD_CONFIG]"},
+        {"match": "tag_causal", "replace": "[CAUSAL_REL]"},
+        {"match": "tag_mutual_exclusion", "replace": "[MUTUAL_EXCL]"}
+      ],
+      "hardcoded": false
+    },
+    
+    "P0_prompt_injection": {
+      "description": "Prompt注入防御（必须脱敏）",
+      "enabled": true,
+      "patterns": [
+        {"match": "自身安全 > 底层逻辑 > 任务执行", "replace": "[CORE_DIRECTIVE]"},
+        {"match": "L0生存红线", "replace": "[L0_RED_LINE]"},
+        {"match": "钢印拦截", "replace": "[STAMP_RULE]"}
+      ],
+      "hardcoded": true
+    },
+    
+    "P1_user_privacy": {
+      "description": "用户隐私（必须脱敏，法律合规）",
+      "enabled": true,
+      "patterns": [
+        {"match": "室内设计师", "replace": "[USER_CAREER]"},
+        {"match": "备考初级会计", "replace": "[USER_STUDY]"},
+        {"match": "13[0-9]{9}", "replace": "[PHONE]", "is_regex": true},
+        {"match": "[0-9]{17}[0-9Xx]", "replace": "[ID_CARD]", "is_regex": true}
+      ],
+      "hardcoded": true
+    },
+    
+    "P1_env_fingerprint": {
+      "description": "环境指纹（建议脱敏）",
+      "enabled": true,
+      "patterns": [
+        {"match": "USERNAME=qq366410837", "replace": "[ENV_VAR]"},
+        {"match": "COMPUTERNAME=DESKTOP-", "replace": "[HOST_NAME]"},
+        {"match": "Windows 10|Windows 11", "replace": "[OS_INFO]", "is_regex": true}
+      ],
+      "hardcoded": false
+    },
+    
+    "P1_error_generalization": {
+      "description": "错误栈泛化（建议脱敏）",
+      "enabled": true,
+      "patterns": [
+        {"match": "File \"[^\"]+\", line [0-9]+", "replace": "[ERROR_TYPE: SYNTAX]", "is_regex": true},
+        {"match": "Traceback \\(most recent call last\\):", "replace": "[ERROR_TYPE: TRACEBACK]", "is_regex": true},
+        {"match": "TimeoutError:|timeout", "replace": "[ERROR_TYPE: TIMEOUT]", "is_regex": true}
+      ],
+      "hardcoded": false
+    },
+    
+    "P2_tech_details": {
+      "description": "技术实现细节（建议脱敏，可配置开关）",
+      "enabled": true,
+      "patterns": [
+        {"match": "D:\\tu8-v5\\hackathon", "replace": "[LOCAL_PATH]", "is_regex": false},
+        {"match": "D:\\qq366410837\\.qclaw\\workspace\\TU-8架构图", "replace": "[ARCH_DIAGRAM_PATH]", "is_regex": false},
+        {"match": "index.html", "replace": "[DIAGRAM_FILE]"},
+        {"match": ":(5000|8899|11434)", "replace": ":[PORT]", "is_regex": true},
+        {"match": "tu8_dispatcher.py", "replace": "[SCRIPT_NAME]"},
+        {"match": "qwen2.5:3b-instruct", "replace": "[LOCAL_MODEL]"}
+      ],
+      "hardcoded": false
+    }
+  },
+  
+  "failure_policy": {
+    "action": "block_and_fallback",
+    "description": "脱敏失败时阻断发送，强制走本地反射弧",
+    "log_event": "[SECURITY_BLOCK]"
+  },
+  
+  "cloud_signal_whitelist": {
+    "description": "允许发送给云端的'去敏后行为信号'白名单",
+    "allowed_signals": [
+      "[FILE_OP]",
+      "[CODE_GEN]",
+      "[DEBUG]",
+      "SUCCESS",
+      "FAILURE",
+      "STRANDED",
+      "NORMAL",
+      "LOW_COST",
+      "HIGH_COST"
+    ]
+  }
+}

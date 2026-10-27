@@ -1,0 +1,26 @@
+﻿# TU-8 健康指标配置
+
+health_score: 98
+max_score: 100
+
+thresholds:
+  warning: 70
+  critical: 50
+  shutdown: 30
+
+metrics:
+  - name: resource_usage
+    weight: 0.3
+    current: 15
+  
+  - name: context_freshness
+    weight: 0.3
+    current: 95
+  
+  - name: memory_integrity
+    weight: 0.2
+    current: 99
+  
+  - name: response_quality
+    weight: 0.2
+    current: 98

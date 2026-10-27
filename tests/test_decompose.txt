@@ -1,0 +1,13 @@
+﻿python : 11:17:11 [INFO] TU8.Planner: Planner��ʼ����� plans_dir=plans
+所在位置 行:1 字符: 131
++ ... ncoding]::UTF8; cd "D:\qq366410837\.qclaw\workspace\src"; python -c "
++                                                               ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (11:17:11 [INFO]...plans_dir=plans:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+11:17:11 [INFO] TU8.Planner: �ֽ�Ŀ��: ��ȡ SOUL.md ǰ50�в��ܽ�... �� plan_1779506231_aba93c
+11:17:11 [INFO] TU8.Planner: �ֽ����: 1 ������
+11:17:11 [INFO] TU8.Planner: �ƻ��ѱ���: plans\plan_1779506231_aba93c.json
+Plan ID: plan_1779506231_aba93c
+Tasks:
+  task_1: ��ȡ SOUL.md ǰ50�в��ܽ� | tags=['file_read']

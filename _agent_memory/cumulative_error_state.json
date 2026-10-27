@@ -1,0 +1,15 @@
+{
+  "sessions": {
+    "test_pipeline_001": [
+      {
+        "ts": 1784518311.022971,
+        "source": "phase_transition",
+        "value": 0.3,
+        "reason": "梦境态切换",
+        "tags": []
+      }
+    ]
+  },
+  "version": 1,
+  "last_update": 1784518311.0242393
+}

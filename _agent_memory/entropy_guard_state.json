@@ -1,0 +1,58 @@
+{
+  "chains": {
+    "T1": {
+      "chain_id": "T1",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821461,
+      "force_injection_count": 0
+    },
+    "T2": {
+      "chain_id": "T2",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821483,
+      "force_injection_count": 0
+    },
+    "T3": {
+      "chain_id": "T3",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821495,
+      "force_injection_count": 0
+    },
+    "T4": {
+      "chain_id": "T4",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821502,
+      "force_injection_count": 0
+    },
+    "T5": {
+      "chain_id": "T5",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821507,
+      "force_injection_count": 0
+    },
+    "T6": {
+      "chain_id": "T6",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821511,
+      "force_injection_count": 0
+    },
+    "T7": {
+      "chain_id": "T7",
+      "activation_count": 553,
+      "total_energy": 0.0,
+      "last_activation_ts": 1793101042.3821516,
+      "force_injection_count": 0
+    }
+  },
+  "total_activations": 3871,
+  "last_check_ts": 1793101042.3831413,
+  "injection_count": 0,
+  "init_ts": 1785573126.3439589,
+  "reset_ts": 0.0
+}

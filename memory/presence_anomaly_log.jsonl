@@ -1,0 +1,1 @@
+{"timestamp": "2026-07-24T00:43:20.910212+00:00", "local_time": "2026-07-24 08:43", "hour": 17, "gap_min": 2356.7, "type": "work_gap_anomaly", "period": "work_pm", "expected_max_min": 30, "observed_min": 2356.7, "delta_min": 2326.7, "severity": "medium", "description": "工作时段出现2357min离开，超出标准(30min)"}

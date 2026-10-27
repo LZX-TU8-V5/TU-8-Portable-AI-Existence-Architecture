@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TU-8 Draft Box Entry Schema",
+  "description": "草稿箱条目结构定义 - 存储待审核的学习内容",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "timestamp",
+    "mode",
+    "topic",
+    "content",
+    "sources",
+    "confidence",
+    "value_alignment",
+    "verification_status"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "description": "条目唯一标识，格式：DRAFT-YYYYMMDD-NNN",
+      "pattern": "^DRAFT-\\d{8}-\\d{3}$",
+      "examples": ["DRAFT-20260529-001"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 格式时间戳"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["autonomous_dream", "user_feed", "feedback"],
+      "description": "学习模式：梦境自驱/用户投喂/用户反馈"
+    },
+    "topic": {
+      "type": "string",
+      "description": "学习主题",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "content": {
+      "type": "object",
+      "description": "学习内容主体",
+      "required": ["summary", "key_insights"],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "自然语言摘要（人类可读）",
+          "minLength": 10
+        },
+        "key_insights": {
+          "type": "array",
+          "description": "关键洞察列表",
+          "items": {
+            "type": "object",
+            "required": ["insight", "evidence"],
+            "properties": {
+              "insight": {"type": "string"},
+              "evidence": {"type": "string"},
+              "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+            }
+          },
+          "minItems": 1,
+          "maxItems": 10
+        },
+        "open_questions": {
+          "type": "array",
+          "description": "待确认疑问",
+          "items": {"type": "string"},
+          "maxItems": 5
+        },
+        "raw_data": {
+          "type": "string",
+          "description": "原始数据（可选，用于深度审计）"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "信息来源列表",
+      "items": {
+        "type": "object",
+        "required": ["type", "uri", "credibility"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["github", "arxiv", "blog", "documentation", "user_input", "api", "other"]
+          },
+          "uri": {"type": "string"},
+          "title": {"type": "string"},
+          "credibility": {"type": "number", "minimum": 0, "maximum": 1},
+          "accessed_at": {"type": "string", "format": "date-time"}
+        }
+      },
+      "minItems": 1
+    },
+    "confidence": {
+      "type": "object",
+      "description": "置信度信息",
+      "required": ["initial", "final", "threshold"],
+      "properties": {
+        "initial": {"type": "number", "minimum": 0, "maximum": 1},
+        "final": {"type": "number", "minimum": 0, "maximum": 1},
+        "threshold": {"type": "number", "minimum": 0, "maximum": 1},
+        "threshold_adjusted": {"type": "boolean"},
+        "adjustment_log": {
+          "type": "object",
+          "properties": {
+            "from": {"type": "number"},
+            "to": {"type": "number"},
+            "reason": {"type": "string"}
+          }
+        }
+      }
+    },
+    "value_alignment": {
+      "type": "object",
+      "description": "价值对齐评估",
+      "required": ["score", "breakdown"],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "综合对齐分，< 0.4 禁止写入草稿箱"
+        },
+        "breakdown": {
+          "type": "object",
+          "description": "各维度得分",
+          "properties": {
+            "worldview": {"type": "number"},
+            "lifeview": {"type": "number"},
+            "values": {"type": "number"},
+            "social_view": {"type": "number"},
+            "ethics": {"type": "number"},
+            "historical_view": {"type": "number"},
+            "evolution_view": {"type": "number"}
+          }
+        },
+        "justification": {"type": "string"}
+      }
+    },
+    "cognitive_trace": {
+      "type": "object",
+      "description": "认知轨迹 - 七维验证链",
+      "required": ["verification_depth", "checks"],
+      "properties": {
+        "verification_depth": {
+          "type": "string",
+          "enum": ["full", "partial", "minimal"],
+          "description": "验证深度：full=7维，partial=3-6维，minimal=<3维"
+        },
+        "checks": {
+          "type": "object",
+          "properties": {
+            "worldview_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "lifeview_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "values_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "social_view_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "ethics_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "historical_view_check": {"type": "string", "enum": ["passed", "failed", "skipped"]},
+            "evolution_view_check": {"type": "string", "enum": ["passed", "failed", "skipped"]}
+          }
+        },
+        "debt_recorded": {
+          "type": "boolean",
+          "description": "是否有认知债务"
+        },
+        "debt_details": {
+          "type": "object",
+          "properties": {
+            "debt_id": {"type": "string"},
+            "missing_checks": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "estimated_risk": {"type": "string", "enum": ["low", "medium", "high"]}
+          }
+        }
+      }
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["pending", "approved", "rejected", "needs_revision"],
+      "description": "审核状态"
+    },
+    "user_feedback": {
+      "type": "object",
+      "description": "用户反馈（如有）",
+      "properties": {
+        "feedback_at": {"type": "string", "format": "date-time"},
+        "action": {"type": "string", "enum": ["approve", "reject", "revise", "calibrate"]},
+        "comment": {"type": "string"},
+        "dimension_intervention": {
+          "type": "string",
+          "description": "维度级干预，如修改世界观时触发《宪法修订草案》"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "元数据",
+      "properties": {
+        "dream_phase": {
+          "type": "string",
+          "enum": ["light", "deep", "rem", "none"]
+        },
+        "cognitive_resource_used": {"type": "number"},
+        "processing_time_ms": {"type": "number"},
+        "model_version": {"type": "string"},
+        "exploratory_mode": {"type": "boolean"}
+      }
+    }
+  }
+}

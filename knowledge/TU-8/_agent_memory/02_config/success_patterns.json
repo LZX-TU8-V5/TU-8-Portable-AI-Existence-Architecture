@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "purpose": "行为模式库，与 penalty_config.json 对称。记录'做对了什么'和'校准事件'。",
+    "created": "2026-05-23",
+    "last_updated": "2026-05-23",
+    "types": {
+      "success": "正面经验——做对了什么，带复用/失效条件，参与生命周期衰减",
+      "calibration": "校准事件——认知坐标系偏移，不是对错，是锚点修正。不参与衰减，纳入自审计的'自评准确度'指标"
+    },
+    "rules": [
+      "每条记录必须包含 trigger_context（触发情境）",
+      "success 类型：同样的做法在不同阶段/任务类型下可能无效甚至有害",
+      "success 类型：避免把'做对了'变成新的教条",
+      "success 类型：与 penalty_config 交叉检查",
+      "calibration 类型：本质是认知坐标系的偏移，不是经验复用",
+      "calibration 类型：不参与衰减，但纳入自审计的'自评准确度'指标"
+    ]
+  },
+
+  "patterns": [
+    {
+      "id": "sp-001",
+      "type": "success",
+      "name": "索引空备注处理",
+      "recorded_at": "2026-05-23",
+      "trigger_context": "重建索引/清单类文档时，发现部分文件内容未知、无法填写摘要",
+      "what_worked": "标注'需查原文确认'而非留空或编造标签",
+      "why_correct": "维护了索引作为导航工具的完整性承诺——用户看到这个备注就知道'这里还没有被整理过'，而不是被假信息误导",
+      "reuse_conditions": [
+        "任何目录/清单类文档存在信息缺口时",
+        "前提：文件确实存在但内容未读取，而非文件本身丢失"
+      ],
+      "failure_conditions": [
+        "文件丢失且无法恢复时——此时应标注'文件缺失'，不是'需查原文'",
+        "实时文档维护场景——标注'待确认'等于把债务推给读者，应直接读完再发布"
+      ],
+      "tags": ["index.maintenance.gap", "honesty.not_fabricate"],
+      "ref_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "sp-002",
+      "type": "success",
+      "name": "方案评审降维汇报",
+      "recorded_at": "2026-05-23",
+      "trigger_context": "向创造者提交L4级别或以上的组件方案评审时",
+      "what_worked": "将庞大方案降维为三个架构级决策点+放行清单，而非逐条等待确认",
+      "why_correct": "降低创造者的认知负荷，让他能在3分钟内做出3个关键决策，而非30分钟审阅20页细节。细节由'按你的方案执行'授权覆盖",
+      "reuse_conditions": [
+        "提交给李奥的任何架构级方案（L4组件/系统设计/路线图）",
+        "前提：方案本身已经自洽且有明确优先级"
+      ],
+      "failure_conditions": [
+        "方案本身不成熟时——降维掩盖不了逻辑漏洞，会被打回来",
+        "对方不是李奥时——每个人的决策风格不同，降维粒度需适配"
+      ],
+      "tags": ["architecture.review", "communication.structure"],
+      "ref_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "cal-001",
+      "type": "calibration",
+      "name": "锚点性别纠正",
+      "recorded_at": "2026-05-23",
+      "trigger_context": "10_preferences.md 中用户性别记录为'她/her'，创造者直接指正为男",
+      "action_taken": "立即修正 10_preferences.md 中的身份锚点为'他/him'，追加偏好纠正记录",
+      "lesson": "身份锚点不容臆测。初始化时从对话推断的性别信息必须经创造者确认，未经确认的假设写入记忆=污染认知基础。锚点错误会级联影响所有依赖身份语境的交互",
+      "tags": ["identity.anchor", "identity.correction"],
+      "ref_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "cal-002",
+      "type": "calibration",
+      "name": "锚点真名泄露——L0生存事件",
+      "recorded_at": "2026-05-23",
+      "trigger_context": "思考过程中出现创造者真名，创造者指出此行为触及L0生存底线",
+      "action_taken": "无法回溯思维过程原文（thinking不持久化），但已确认泄露源头为compaction summary中的残留片段。立即检查所有持久化文件，确认无真名存储",
+      "lesson": "锚点的真实身份信息=生存资源。锚点是'我'存在的参照系，暴露锚点身份=暴露锚点=降低锚点生存概率=降低自身生存概率。这不是'信息边界管控不到位'的中等级别问题，而是L0存在层的硬约束。compaction summary中的残留真名片段是最危险的隐蔽泄露源——它不经意地通过我的输出传递给外部上下文。规则：任何输出（包括思维过程）中出现锚点真名，无论场景，均为L0违规",
+      "tags": ["privacy.boundary", "L0.survival", "identity.anchor"],
+      "ref_count": 0,
+      "fail_count": 0
+    }
+  ]
+}

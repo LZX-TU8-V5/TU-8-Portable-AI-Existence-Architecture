@@ -1,0 +1,11 @@
+{
+  "patch_001": {
+    "patch_id": "patch_001",
+    "integration_score": 0.83,
+    "background_ratio": 0.9,
+    "placeholder_ratio": 0.05,
+    "residual_ratio": 0.05,
+    "status": "integrated",
+    "recommendation": "补丁 [patch_001] 已完成整合，可并入主拓扑稳定运行。"
+  }
+}

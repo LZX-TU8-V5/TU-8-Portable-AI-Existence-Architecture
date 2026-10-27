@@ -1,0 +1,64 @@
+{
+  "_comment": "标准成年人作息矩阵 v1.0",
+  "_source": "general_adult_norms",
+  "timezones": ["GMT+8"],
+  "periods": {
+    "sleep": {
+      "label": "睡眠",
+      "window": {"start": 22, "end": 7},
+      "expected_duration_min": 480,
+      "description": "22:00-07:00，8小时"
+    },
+    "morning_routine": {
+      "label": "晨间准备",
+      "window": {"start": 7, "end": 9},
+      "expected_duration_min": 120,
+      "description": "起床/早餐/通勤"
+    },
+    "work_am": {
+      "label": "上午工作",
+      "window": {"start": 9, "end": 12},
+      "expected_duration_min": 180,
+      "description": "专注工作"
+    },
+    "lunch": {
+      "label": "午饭",
+      "window": {"start": 12, "end": 14},
+      "expected_duration_min": 90,
+      "description": "午餐+午休"
+    },
+    "work_pm": {
+      "label": "下午工作",
+      "window": {"start": 14, "end": 18},
+      "expected_duration_min": 240,
+      "description": "专注工作"
+    },
+    "evening_transition": {
+      "label": "晚间过渡",
+      "window": {"start": 18, "end": 19},
+      "expected_duration_min": 60,
+      "description": "下班/通勤/晚餐"
+    },
+    "evening_home": {
+      "label": "家庭时间",
+      "window": {"start": 19, "end": 22},
+      "expected_duration_min": 180,
+      "description": "家务/育儿/休闲"
+    },
+    "wind_down": {
+      "label": "睡前准备",
+      "window": {"start": 22, "end": 23},
+      "expected_duration_min": 60,
+      "description": "睡前准备"
+    }
+  },
+  "gap_thresholds": {
+    "beside":   {"max": 3,  "label": "在旁边"},
+    "short":    {"max": 10, "label": "短暂离开"},
+    "medium":   {"max": 30, "label": "中等离开"},
+    "long":     {"max": 90, "label": "较长离开"},
+    "sleep":    {"max": 480,"label": "睡眠"},
+    "extended": {"max": 999,"label": "超长不在"}
+  },
+  "workday_assumption": {"weekdays": [1,2,3,4,5], "label": "工作日"}
+}

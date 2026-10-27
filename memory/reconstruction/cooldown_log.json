@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-19T09:41:11+08:00",
+  "events": [
+    {
+      "event": "cooldown_started",
+      "version_id": "v1",
+      "started_at": "2026-06-19T09:41:11+08:00",
+      "cooldown_until": "2026-06-19T09:41:12+08:00",
+      "cooldown_days": 1e-05,
+      "reason": "test_run"
+    },
+    {
+      "event": "cooldown_started",
+      "version_id": "v1",
+      "started_at": "2026-06-19T09:41:41+08:00",
+      "cooldown_until": "2026-06-19T09:41:42+08:00",
+      "cooldown_days": 1e-05,
+      "reason": "test_run"
+    },
+    {
+      "event": "cooldown_expired",
+      "version_id": "v1",
+      "expired_at": "2026-06-19T09:41:41+08:00",
+      "cooldown_until": null,
+      "reason": "test_cleanup"
+    },
+    {
+      "event": "cooldown_started",
+      "version_id": "v1",
+      "started_at": "2026-06-19T09:45:03+08:00",
+      "cooldown_until": "2026-06-26T09:45:03+08:00",
+      "cooldown_days": 7,
+      "reason": "integration_test"
+    },
+    {
+      "event": "degradation_blocked",
+      "version_id": "v1",
+      "blocked_at": "2026-06-19T09:45:03+08:00",
+      "reason": "cooldown_active"
+    },
+    {
+      "event": "cooldown_expired",
+      "version_id": "v1",
+      "expired_at": "2026-06-19T09:45:03+08:00",
+      "cooldown_until": null,
+      "reason": "test_cleanup"
+    }
+  ]
+}

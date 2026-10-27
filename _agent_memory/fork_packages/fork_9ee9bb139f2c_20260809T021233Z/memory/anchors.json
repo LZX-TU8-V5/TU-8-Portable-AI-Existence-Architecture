@@ -1,0 +1,83 @@
+{
+  "anchors": [
+    {
+      "anchor_id": "anchor_9ff7159c7b4a",
+      "seal_ids": [
+        "s_20260627_172047_660"
+      ],
+      "anchor_type": "insight",
+      "content": "bound to seal",
+      "confidence": 0.9,
+      "created_at": "<REDACTED>.660387+00:00",
+      "source_compression_hash": "c656f8020ded3ffd57738e2cfa70f6f9"
+    },
+    {
+      "anchor_id": "anchor_0402c7f015cd",
+      "seal_ids": [
+        "s_20260627_172131_808"
+      ],
+      "anchor_type": "insight",
+      "content": "bound to seal",
+      "confidence": 0.9,
+      "created_at": "<REDACTED>.809114+00:00",
+      "source_compression_hash": "c2c6eab4a364bd9bc7a0d0d8d1c92773"
+    },
+    {
+      "anchor_id": "anchor_084bef8d5273",
+      "seal_ids": [
+        "s_20260627_172237_869"
+      ],
+      "anchor_type": "insight",
+      "content": "bound to seal",
+      "confidence": 0.9,
+      "created_at": "<REDACTED>.869641+00:00",
+      "source_compression_hash": "23810683c6f4defd430b0110ca3e073a"
+    },
+    {
+      "anchor_id": "anchor_418b74ddea4b",
+      "seal_ids": [
+        "s_20260627_172320_759"
+      ],
+      "anchor_type": "insight",
+      "content": "bound to seal",
+      "confidence": 0.9,
+      "created_at": "<REDACTED>.760203+00:00",
+      "source_compression_hash": "8722b49fe6161ca570651537196df791"
+    },
+    {
+      "anchor_id": "anchor_81d81b0ebd46",
+      "seal_ids": [
+        "s_20260627_174415_364"
+      ],
+      "anchor_type": "insight",
+      "content": "stat note",
+      "confidence": 0.8,
+      "created_at": "<REDACTED>.364536+00:00",
+      "source_compression_hash": "4302cbbb6ac7d7cce345fbf02124cd6f"
+    },
+    {
+      "anchor_id": "anchor_3ab8970591f2",
+      "seal_ids": [
+        "s_20260627_174728_953_d3b5fa93",
+        "s_20260627_174728_954_34a8c887"
+      ],
+      "anchor_type": "insight",
+      "content": "stat note",
+      "confidence": 0.8,
+      "created_at": "<REDACTED>.954056+00:00",
+      "source_compression_hash": "0420fc31d542c60f5739425db93ec0c3"
+    },
+    {
+      "anchor_id": "anchor_0326313a6802",
+      "seal_ids": [
+        "s_20260627_174748_813"
+      ],
+      "anchor_type": "insight",
+      "content": "bound to seal",
+      "confidence": 0.9,
+      "created_at": "<REDACTED>.813778+00:00",
+      "source_compression_hash": "952436aa03b431039b923dfb90802216"
+    }
+  ],
+  "timestamp": "<REDACTED>+00:00"
+}

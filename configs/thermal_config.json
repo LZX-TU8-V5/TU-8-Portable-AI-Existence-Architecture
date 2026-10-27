@@ -1,0 +1,19 @@
+{
+  "L1_threshold": 0.6,
+  "L2_threshold": 0.8,
+  "L3_threshold": 1.0,
+  "cooldown_seconds": 300,
+  "auto_unload": true,
+  "unload_targets": [
+    "inactive_anchors",
+    "weak_connections"
+  ],
+  "tension_weights": {
+    "cognitive_friction": 0.3,
+    "dream_topology": 0.2,
+    "anchor_activation": 0.2,
+    "semantic_overload": 0.15,
+    "contradiction": 0.15
+  },
+  "spike_normalization": 60.0
+}

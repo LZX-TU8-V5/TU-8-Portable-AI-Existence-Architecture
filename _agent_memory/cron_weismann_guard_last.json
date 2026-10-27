@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.17,
+  "stdout": "[weismann_guard] ALERT: 4 germline file(s) changed:\n  - soul (SOUL.md): f820f53f -> 82148583\n  - meta_cognition (架构/L2.5_元认知设计.md): cc4bd367 -> MISSING\n  - architecture_log (ARCHITECTURE_LOG.md): c37f5d23 -> MISSING\n  - vault_index (secure_vault/index.json): 8044b54b -> 458c1616\n  alerts written: 4\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:23.306314+00:00",
+  "script": "weismann_guard"
+}

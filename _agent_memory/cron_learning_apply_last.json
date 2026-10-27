@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.33,
+  "stdout": "[TensionDistiller] 完成: 0 节点, 最高张力 0.000, 耗时 89.1ms\n[T5→T2] 铸印: seal_1793101042_lp_auto_ (learning:memo)\n[T5→T2] 铸印: seal_1793101042_lp_auto_ (learning:memo)\n[learning_apply] produce={'produced': True, 'nodes': 0}\n[learning_apply] type_counts={'steel_vs_creator': 6}\n[learning_apply] triggered={'steel_vs_creator': 6}\n[learning_apply] curiosity_events=11 blind=11 underest=0\n[learning_apply] curiosity_applied=[{'signal': 'structural_blind', 'count': 11, 'applied': 1, 'errors': 0}]\n[learning_apply] l",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:22.826214+00:00",
+  "script": "learning_apply"
+}

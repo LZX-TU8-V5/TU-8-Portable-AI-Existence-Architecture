@@ -1,0 +1,243 @@
+{
+  "A_000": {
+    "theta": 0,
+    "S_xy": -0.007812,
+    "S_xz": -0.007812,
+    "S_yz": 0.0,
+    "interior": 128,
+    "boundary": 384,
+    "area": 0.0
+  },
+  "A_005": {
+    "theta": 5,
+    "S_xy": -0.006409,
+    "S_xz": -0.006384,
+    "S_yz": 0.087156,
+    "interior": 12,
+    "boundary": 129,
+    "area": 716.7071
+  },
+  "A_015": {
+    "theta": 15,
+    "S_xy": -0.003601,
+    "S_xz": -0.003478,
+    "S_yz": 0.258819,
+    "interior": 35,
+    "boundary": 129,
+    "area": 2195.0398
+  },
+  "A_030": {
+    "theta": 30,
+    "S_xy": 0.00116,
+    "S_xz": 0.001004,
+    "S_yz": 0.5,
+    "interior": 74,
+    "boundary": 129,
+    "area": 4729.6534
+  },
+  "A_037": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148
+  },
+  "A_045": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0
+  },
+  "A_060": {
+    "theta": 60,
+    "S_xy": 0.019226,
+    "S_xz": 0.009613,
+    "S_yz": 0.866025,
+    "interior": 222,
+    "boundary": 129,
+    "area": 14188.9602
+  },
+  "A_075": {
+    "theta": 75,
+    "S_xy": 0.050476,
+    "S_xz": 0.013064,
+    "S_yz": 0.965926,
+    "interior": 478,
+    "boundary": 129,
+    "area": 30572.9602
+  },
+  "A_090": {
+    "theta": 90,
+    "S_xy": 255175614893677.66,
+    "S_xz": 0.015625,
+    "S_yz": 1.0,
+    "interior": 2090398637209007488,
+    "boundary": 384,
+    "area": 1.3378551278137647e+20
+  },
+  "C_015_n05": {
+    "theta": 15,
+    "S_xy": -0.003601,
+    "S_xz": -0.003478,
+    "S_yz": 0.258819,
+    "interior": 35,
+    "boundary": 129,
+    "area": 2195.0398,
+    "noise_sigma": 0.5
+  },
+  "C_015_n10": {
+    "theta": 15,
+    "S_xy": -0.003601,
+    "S_xz": -0.003478,
+    "S_yz": 0.258819,
+    "interior": 35,
+    "boundary": 129,
+    "area": 2195.0398,
+    "noise_sigma": 1.0
+  },
+  "C_015_n20": {
+    "theta": 15,
+    "S_xy": -0.003601,
+    "S_xz": -0.003478,
+    "S_yz": 0.258819,
+    "interior": 35,
+    "boundary": 129,
+    "area": 2195.0398,
+    "noise_sigma": 2.0
+  },
+  "C_037_n05": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148,
+    "noise_sigma": 0.5
+  },
+  "C_037_n10": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148,
+    "noise_sigma": 1.0
+  },
+  "C_037_n20": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148,
+    "noise_sigma": 2.0
+  },
+  "C_045_n05": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0,
+    "noise_sigma": 0.5
+  },
+  "C_045_n10": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0,
+    "noise_sigma": 1.0
+  },
+  "C_045_n20": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0,
+    "noise_sigma": 2.0
+  },
+  "C_060_n05": {
+    "theta": 60,
+    "S_xy": 0.019226,
+    "S_xz": 0.009613,
+    "S_yz": 0.866025,
+    "interior": 222,
+    "boundary": 129,
+    "area": 14188.9602,
+    "noise_sigma": 0.5
+  },
+  "C_060_n10": {
+    "theta": 60,
+    "S_xy": 0.019226,
+    "S_xz": 0.009613,
+    "S_yz": 0.866025,
+    "interior": 222,
+    "boundary": 129,
+    "area": 14188.9602,
+    "noise_sigma": 1.0
+  },
+  "C_060_n20": {
+    "theta": 60,
+    "S_xy": 0.019226,
+    "S_xz": 0.009613,
+    "S_yz": 0.866025,
+    "interior": 222,
+    "boundary": 129,
+    "area": 14188.9602,
+    "noise_sigma": 2.0
+  },
+  "D_037_t02": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148,
+    "texture_cover": 0.2
+  },
+  "D_037_t04": {
+    "theta": 37,
+    "S_xy": 0.003967,
+    "S_xz": 0.003168,
+    "S_yz": 0.601815,
+    "interior": 97,
+    "boundary": 129,
+    "area": 6173.1148,
+    "texture_cover": 0.4
+  },
+  "D_045_t02": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0,
+    "texture_cover": 0.2
+  },
+  "D_045_t04": {
+    "theta": 45,
+    "S_xy": 0.007751,
+    "S_xz": 0.005481,
+    "S_yz": 0.707107,
+    "interior": 128,
+    "boundary": 129,
+    "area": 8192.0,
+    "texture_cover": 0.4
+  }
+}

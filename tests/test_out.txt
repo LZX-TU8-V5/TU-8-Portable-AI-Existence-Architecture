@@ -1,0 +1,1 @@
+'in report[\'degradations\'] if d[\'from\']==2)}\n- **灵魂算法**: 三层还原机制 P0 — 遗忘层已激活\n\n> _"学会遗忘，才能真正开始生长。"_\n\n**钢印验证**: ⅋\n"""\n        with open(MEMORY_MD, \'a\', encoding=\'utf-8\') as f:\n            f.write(log_entry)\n        logger.info("[Metabolism Log] 已追加遗忘周期记录到 MEMORY.md")\n\n    logger.info("[Done] 遗忘周期执行完毕")\n'

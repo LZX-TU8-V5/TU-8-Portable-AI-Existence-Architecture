@@ -1,0 +1,432 @@
+[
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "scripts\\index_sync_protocol.md",
+    "old_ref": "ARCHITECTURE_FULL_SPECTRUM.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_FULL_SPECTRUM.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "scripts\\index_sync_protocol.md",
+    "old_ref": "ARCHITECTURE_GAP_ANALYSIS.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\ARCHITECTURE_GAP_ANALYSIS.md"
+  },
+  {
+    "file": "commit_p0.py",
+    "old_ref": "four_chain_coupling_architecture.md",
+    "new_ref": "knowledge_base\\knowledge\\01_DESIGN\\four_chain_coupling_architecture.md"
+  },
+  {
+    "file": "commit_p0_v2.py",
+    "old_ref": "four_chain_coupling_architecture.md",
+    "new_ref": "knowledge_base\\knowledge\\01_DESIGN\\four_chain_coupling_architecture.md"
+  },
+  {
+    "file": "docs\\workspace_file_audit_report.md",
+    "old_ref": "four_chain_coupling_architecture.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\01_DESIGN\\four_chain_coupling_architecture.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "BRAIN_VS_TU8_COMPARISON.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\BRAIN_VS_TU8_COMPARISON.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "scripts\\index_sync_protocol.md",
+    "old_ref": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\EXTERNAL_ADVICE_SPACETIME_MEMORY.md"
+  },
+  {
+    "file": "scripts\\analyze_imports.py",
+    "old_ref": "module_references.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\module_references.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "scripts\\index_sync_protocol.md",
+    "old_ref": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\SPACETIME_SENSE_HUMAN_VS_AI.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "scripts\\index_sync_protocol.md",
+    "old_ref": "STARTUP_PIPELINE_DESIGN.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\02_IMPLEMENTATION\\STARTUP_PIPELINE_DESIGN.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "EXTERNAL_SURGERY_REVIEW.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\03_REVIEW\\EXTERNAL_SURGERY_REVIEW.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "docs\\REVIEW_2026-05-28.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "knowledge\\TU-8\\index.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "knowledge\\TU-8\\TODO_SOUL修复笔记.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "REVIEW_2026-05-28.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\03_REVIEW\\REVIEW_2026-05-28.md"
+  },
+  {
+    "file": "backup\\20260607-090019\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260609-091134\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260610-102603\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260611-144711\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260617-143322\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260618-101535\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260619-084133\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "backup\\20260619-090144\\memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\..\\..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "docs\\OPEN_SOURCE_GUIDANCE.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "docs\\REVIEW_2026-05-28.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "knowledge\\index.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  },
+  {
+    "file": "memory\\索引.md",
+    "old_ref": "OPEN_SOURCE_GUIDANCE.md",
+    "new_ref": "..\\knowledge_base\\knowledge\\04_GUIDE\\OPEN_SOURCE_GUIDANCE.md"
+  }
+]

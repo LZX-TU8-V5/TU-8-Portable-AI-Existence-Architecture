@@ -1,0 +1,44 @@
+{
+  "event_id": "startup_pipeline_discussion",
+  "versions": [
+    {
+      "version_id": "v1",
+      "content": "讨论了启动流水线设计，想让AI像人起床一样完成冷启动校准",
+      "context_tags": ["work", "design", "morning", "location:study"],
+      "confidence": 0.85,
+      "created_at": "2026-05-30T09:03:00+08:00",
+      "last_retrieved": "2026-05-30T09:17:00+08:00",
+      "retrieval_count": 3
+    },
+    {
+      "version_id": "v2",
+      "content": "启动流水线包含四个模块：环境感知、内在状态、规划决策、交互表达",
+      "context_tags": ["work", "architecture", "design"],
+      "confidence": 0.9,
+      "created_at": "2026-05-30T09:17:00+08:00",
+      "last_retrieved": "2026-05-30T09:17:00+08:00",
+      "retrieval_count": 1
+    }
+  ],
+  "core_facts": [
+    "设计了启动流水线架构",
+    "目标是模拟人类起床校准过程",
+    "包含四层模块"
+  ],
+  "created_at": "2026-05-30T09:03:00+08:00",
+  "last_updated": "2026-05-30T09:17:00+08:00",
+  "delta_log": [
+    {
+      "action": "add_version",
+      "version_id": "v1",
+      "reason": "initial_observation",
+      "timestamp": "2026-05-30T09:03:00+08:00"
+    },
+    {
+      "action": "add_version",
+      "version_id": "v2",
+      "reason": "design_refinement",
+      "timestamp": "2026-05-30T09:17:00+08:00"
+    }
+  ]
+}

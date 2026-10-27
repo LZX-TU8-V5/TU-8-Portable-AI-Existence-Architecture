@@ -1,0 +1,164 @@
+{
+  "_comment": "造物主作息矩阵 v0.1（从真实数据提取）",
+  "_source": "TU-8 exteroceptive cortex",
+  "_last_updated": "2026-09-11",
+  "timezone": "GMT+8",
+  "periods": {
+    "sleep": {
+      "label": "睡眠",
+      "observed_window": {
+        "start": 0,
+        "end": 5
+      },
+      "observed_duration_min": 300,
+      "observed_gaps": [
+        390
+      ],
+      "count": 1,
+      "avg_gap_min": 390,
+      "note": "晚睡晚起型，睡眠偏短"
+    },
+    "morning_routine": {
+      "label": "晨间准备",
+      "observed_window": {
+        "start": 5,
+        "end": 9
+      },
+      "observed_duration_min": null,
+      "observed_gaps": [
+        0.8,
+        0.8
+      ],
+      "count": 2,
+      "note": "数据不足，待积累",
+      "avg_gap_min": 0.8
+    },
+    "work_am": {
+      "label": "上午工作",
+      "observed_window": {
+        "start": 9,
+        "end": 12
+      },
+      "observed_duration_min": 180,
+      "observed_gaps": [
+        4,
+        1,
+        2
+      ],
+      "count": 3,
+      "avg_gap_min": 2.3,
+      "note": "短暂离开=工作间隙，与标准接近"
+    },
+    "lunch": {
+      "label": "午饭",
+      "observed_window": {
+        "start": 11,
+        "end": 13
+      },
+      "observed_duration_min": 43,
+      "observed_gaps": [
+        43
+      ],
+      "count": 1,
+      "avg_gap_min": 43,
+      "note": "开始时间11:40，晚于标准(12:00)，时长43min短于标准(90min)"
+    },
+    "work_pm": {
+      "label": "下午工作",
+      "observed_window": {
+        "start": 14,
+        "end": 18
+      },
+      "observed_duration_min": 240,
+      "observed_gaps": [
+        0,
+        3,
+        2,
+        4,
+        8,
+        4,
+        2356.7
+      ],
+      "count": 7,
+      "avg_gap_min": 474.1,
+      "note": "下午工作期间gap小=持续在线"
+    },
+    "evening_transition": {
+      "label": "晚间过渡",
+      "observed_window": {
+        "start": 18,
+        "end": 19
+      },
+      "observed_duration_min": null,
+      "observed_gaps": [],
+      "count": 0,
+      "note": "数据不足，待积累"
+    },
+    "evening_home": {
+      "label": "家庭时间",
+      "observed_window": {
+        "start": 19,
+        "end": 22
+      },
+      "observed_duration_min": 180,
+      "observed_gaps": [
+        0.7
+      ],
+      "count": 1,
+      "note": "2026-07-06 evening home 19:00-22:00，gap_log无记录（未对话），假设与标准对齐",
+      "avg_gap_min": 0.7
+    },
+    "late_work": {
+      "label": "夜间工作",
+      "observed_window": {
+        "start": 22,
+        "end": 24
+      },
+      "observed_duration_min": 120,
+      "observed_gaps": [],
+      "count": 0,
+      "note": "2026-07-06 22:00后继续工作，符合'加班常态'"
+    },
+    "wind_down": {
+      "label": "睡前",
+      "observed_window": {
+        "start": 0,
+        "end": 0
+      },
+      "observed_duration_min": null,
+      "observed_gaps": [],
+      "count": 0,
+      "note": "入睡时间约0:00，无睡前仪式"
+    }
+  },
+  "_cognitive_deltas": {
+    "sleep_deficit": {
+      "standard_min": 480,
+      "user_avg_min": 300,
+      "delta_min": -180,
+      "severity": "high",
+      "description": "每日睡眠比标准少3小时"
+    },
+    "lunch_shortened": {
+      "standard_min": 90,
+      "user_avg_min": 43,
+      "delta_min": -47,
+      "severity": "medium",
+      "description": "午饭+午休比标准少约50分钟"
+    },
+    "work_extended": {
+      "standard_work_hours": 8,
+      "user_work_hours_min": 11,
+      "delta_hours": 3,
+      "severity": "high",
+      "description": "实际工作时长比标准多3小时以上"
+    },
+    "lunch_timing_early": {
+      "standard_start": 12,
+      "user_start": 11.7,
+      "delta_hours": -0.3,
+      "severity": "low",
+      "description": "午饭开始时间比标准提前约20分钟"
+    }
+  }
+}

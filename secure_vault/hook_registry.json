@@ -1,0 +1,174 @@
+{
+  "HP1": {
+    "BEFORE": [
+      {
+        "hook_name": "test_check",
+        "fn_module": "__main__",
+        "fn_name": "test_before",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-07 08:41",
+        "call_count": 1,
+        "last_called": "2026-07-07 08:41"
+      }
+    ],
+    "AFTER": [
+      {
+        "hook_name": "test_mod",
+        "fn_module": "__main__",
+        "fn_name": "test_after",
+        "priority": 50,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-07 08:41",
+        "call_count": 1,
+        "last_called": "2026-07-07 08:41"
+      }
+    ],
+    "ON_TENSION": [],
+    "ON_CONFIDENCE": []
+  },
+  "HP4": {
+    "BEFORE": [
+      {
+        "hook_name": "e2e_test",
+        "fn_module": "__main__",
+        "fn_name": "test_hook",
+        "priority": 5,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-07 08:48",
+        "call_count": 3,
+        "last_called": "2026-07-07 08:57"
+      },
+      {
+        "hook_name": "test",
+        "fn_module": "__main__",
+        "fn_name": "test_hook",
+        "priority": 5,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-07 08:56",
+        "call_count": 2,
+        "last_called": "2026-07-07 08:57"
+      },
+      {
+        "hook_name": "test_hp4",
+        "fn_module": "__main__",
+        "fn_name": "test_hp4_before",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-07 08:46",
+        "call_count": 1,
+        "last_called": "2026-07-07 08:46"
+      }
+    ],
+    "AFTER": [],
+    "ON_TENSION": [],
+    "ON_CONFIDENCE": []
+  },
+  "HP0": {
+    "BEFORE": [
+      {
+        "hook_name": "hp0_tool_failure",
+        "fn_module": "tool_failure_probe",
+        "fn_name": "hp0_tool_failure_hook",
+        "priority": 50,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-07-20 11:54",
+        "call_count": 25,
+        "last_called": "2026-07-22 16:28"
+      }
+    ],
+    "AFTER": [],
+    "ON_TENSION": [],
+    "ON_CONFIDENCE": []
+  },
+  "HP2": {
+    "BEFORE": [
+      {
+        "hook_name": "hp2_filter",
+        "fn_module": "src.hp2_shadow_integration",
+        "fn_name": "hp2_before_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 2,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "AFTER": [
+      {
+        "hook_name": "hp2_enrich",
+        "fn_module": "src.hp2_shadow_integration",
+        "fn_name": "hp2_after_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 1,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "ON_TENSION": [
+      {
+        "hook_name": "hp2_tension",
+        "fn_module": "src.hp2_shadow_integration",
+        "fn_name": "hp2_on_tension_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 1,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "ON_CONFIDENCE": []
+  },
+  "HP3": {
+    "BEFORE": [
+      {
+        "hook_name": "hp3_skip_guard",
+        "fn_module": "src.hp3_dream_integration",
+        "fn_name": "hp3_before_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 3,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "AFTER": [
+      {
+        "hook_name": "hp3_enrich",
+        "fn_module": "src.hp3_dream_integration",
+        "fn_name": "hp3_after_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 1,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "ON_TENSION": [
+      {
+        "hook_name": "hp3_tension",
+        "fn_module": "src.hp3_dream_integration",
+        "fn_name": "hp3_on_tension_real",
+        "priority": 10,
+        "enabled": true,
+        "meta": {},
+        "registered_at": "2026-08-01 16:11",
+        "call_count": 1,
+        "last_called": "2026-08-01 16:11"
+      }
+    ],
+    "ON_CONFIDENCE": []
+  }
+}

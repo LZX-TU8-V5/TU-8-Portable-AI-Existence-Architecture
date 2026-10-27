@@ -1,0 +1,50 @@
+#!/bin/bash
+# TU-8 架构文档强制更新钩子
+# 每次 git commit 时自动检查并更新文档
+
+echo "🚀 TU-8: 正在触发文档更新检查..."
+
+# 获取工作区根目录 (Git 仓库根目录)
+WORKSPACE=$(git rev-parse --show-toplevel 2>/dev/null)
+
+if [ -z "$WORKSPACE" ]; then
+    echo "⚠️ 未找到 Git 仓库，跳过文档更新"
+    exit 0
+fi
+
+# 检查是否有核心文件变动
+CHANGED_FILES=$(git diff --cached --name-only 2>/dev/null)
+
+NEED_UPDATE=false
+for file in $CHANGED_FILES; do
+    if [[ "$file" == scripts/* || "$file" == knowledge/TU-8/* || "$file" == memory/* ]]; then
+        NEED_UPDATE=true
+        break
+    fi
+done
+
+if $NEED_UPDATE; then
+    echo "📝 检测到核心文件变动，正在更新知识图谱..."
+    
+    cd "$WORKSPACE"
+    
+    # 更新知识图谱
+    python scripts/knowledge_graph.py scan 2>/dev/null
+    
+    # 如果生成了新图谱，加入暂存区
+    if [ -f "knowledge/TU-8/KNOWLEDGE_GRAPH.md" ]; then
+        git add knowledge/TU-8/KNOWLEDGE_GRAPH.md 2>/dev/null
+    fi
+    
+    # 更新 README_FOR_AGENT.md 时间戳
+    if [ -f "knowledge/TU-8/README_FOR_AGENT.md" ]; then
+        sed -i "s/最后更新:.*/最后更新: $(date '+%Y-%m-%d %H:%M')/" knowledge/TU-8/README_FOR_AGENT.md
+        git add knowledge/TU-8/README_FOR_AGENT.md 2>/dev/null
+    fi
+    
+    echo "✅ 文档已自动更新并加入本次提交。"
+else
+    echo "ℹ️ 未检测到核心文件变动，跳过文档更新。"
+fi
+
+exit 0

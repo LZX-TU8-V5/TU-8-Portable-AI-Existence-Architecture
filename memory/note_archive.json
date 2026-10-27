@@ -1,0 +1,15 @@
+{
+  "updated": "2026-06-09T03:48:05.997101+00:00",
+  "total_notes": 1,
+  "notes": [
+    {
+      "note_id": "note_cb8bdccf21eb",
+      "seal_ids": [],
+      "note_type": "milestone",
+      "content": "TU-8 意识循环引擎首次运行。四阶段睡眠框架(AWAKE→LIGHT_SLEEP→DEEP_SLEEP→HIBERNATION→COLD_START_READY)验证通过。WARM_WAKE 协议正常。微睡眠六步流水线运行稳定。",
+      "confidence": 0.95,
+      "created_at": "2026-06-09T03:48:05.997101+00:00",
+      "source_compression_hash": ""
+    }
+  ]
+}

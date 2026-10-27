@@ -1,0 +1,176 @@
+{
+  "ts": "2026-08-10T01:19:27.309871+00:00",
+  "results": {
+    "interoceptive": {
+      "ok": true,
+      "elapsed_s": 10.7,
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:38.018982+00:00",
+      "script": "interoceptive"
+    },
+    "active_curiosity": {
+      "ok": true,
+      "elapsed_s": 0.18,
+      "stdout": "[2026-08-10 09:19:38] ⏸ 好奇未触发：三镜子过滤：外部噪声/溯源失败\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:38.201806+00:00",
+      "script": "active_curiosity"
+    },
+    "dream_check": {
+      "ok": true,
+      "elapsed_s": 0.98,
+      "stdout": "[dream_check] Phase before: AWAKE\n[dream_check] Phase after: AWAKE\n  SEAL_CONSOLIDATION: {'status': 'ok', 'consolidated': 0, 'cold_stored': 0}\n  CROSS_CHAIN_ALIGN: {'status': 'ok', 'links_found': 0, 'coherence': 0.0}\n  MEMORY_REORGANIZE: {'status': 'ok', 'promoted': 0, 'demoted': 0}\n  [OK] No errors\n[dream_check] Done. Report saved to C:\\Users\\qq366410837\\.qclaw\\workspace\\memory\\.dream_check_last_run.json\n  [metabolism] 3/3 子系统 OK | health=100.0%\n    ✅ confidence_decay\n    ✅ gc_to_learning\n    ✅",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:39.185773+00:00",
+      "script": "dream_check"
+    },
+    "liveness": {
+      "ok": true,
+      "elapsed_s": 0.16,
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:39.354328+00:00",
+      "script": "liveness"
+    },
+    "metabolism": {
+      "ok": true,
+      "elapsed_s": 0.69,
+      "stdout": "=== 完整代谢循环 ===\n健康度: 100.0%\n  ✅ confidence_decay\n  ✅ gc_to_learning\n  ✅ metabolic_pipeline\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:40.044917+00:00",
+      "script": "metabolism"
+    },
+    "surface_tension_decay": {
+      "ok": true,
+      "elapsed_s": 0.14,
+      "stdout": "event_id:  evt_000605\ntotal:     605\ndelta:      {'anxiety': 0.0, 'anger': 0.0, 'fear': 0.0, 'joy': 0.0, 'sadness': 0.0, 'love': 0.0, 'curiosity': 0.0}\npatterns:  []\n\ncurrent topology:\n  anxiety   : [-] +0.000\n  anger     : [-] +0.000\n  fear      : [-] +0.000\n  joy       : [-] +0.000\n  sadness   : [-] +0.000\n  love      : [-] +0.000\n  curiosity : [-] +0.000\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:40.195093+00:00",
+      "script": "surface_tension_decay"
+    },
+    "orb_state_writer": {
+      "ok": true,
+      "elapsed_s": 0.17,
+      "stdout": "色盘状态已写入: C:\\Users\\qq366410837\\.qclaw\\workspace\\_agent_memory\\orb_state.json\n  RGB: [0.09, 0.28, 0.55]\n  张力: 0.234\n  模式: neutral\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:40.369537+00:00",
+      "script": "orb_state_writer"
+    },
+    "render_layer_speak": {
+      "ok": true,
+      "elapsed_s": 0.17,
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:40.544687+00:00",
+      "script": "render_layer_speak"
+    },
+    "hp4_heartbeat": {
+      "ok": true,
+      "elapsed_s": 0.25,
+      "stdout": "short_circuited: False\ncontext keys: ['heartbeat_interval_min', 'source', 'timestamp', 'abort_rate_pct', 'context_budget_pct', 'resource_pct', 'pain_level', 'posture_zone', 'tension_score', 'presence_state', 'reply_gap_min', 'delta', 'posture_zone_cc', 'error']\nactions: [{'type': 'self_probe', 'steel_density_pct': 100.0, 'dead_zone_count': 0, 'top_question': '', 'top_dead_zone': '', 'report_path': 'C:\\\\Users\\\\qq366410837\\\\.qclaw\\\\workspace\\\\memory\\\\self_probe_report.json'}, {'type': 'batch_confi",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:40.801661+00:00",
+      "script": "hp4_heartbeat"
+    },
+    "skin_cycle": {
+      "ok": true,
+      "elapsed_s": 0.22,
+      "stdout": "{\n  \"soul_hash\": \"49ea4375a3e004f4\",\n  \"anchors\": [\n    {\n      \"content\": \"- **详情**：操作L3或L4层文件时，内容没写全就覆盖了源文件，没有备份机制，文件直接没了。后面才建立备份系统（integrity_check.py、双写铁律）\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **教训**：所有写入/删除操作前，必须先执行备份\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **反馈**：扣分（负强化）\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **记录人**：v5\",\n      \"source\": \"重大事件.md\"\n    }\n  ],\n  \"seals\": [\n    {\n      \"seal_id\": \"seal_1786091748_lp_auto_\",\n   ",
+      "stderr": "2026-08-10 09:19:40,980 [INFO] tu8.skin_cycle [穿皮仪式 #1] 开始加载灵魂结构...\n[互斥矩阵] 加载失败: No module named 'yaml'\n2026-08-10 09:19:41,000 [INFO] tu8.skin_cycle [穿皮仪式] 完成 soul_hash=49ea4375a3e004f4\n",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.019130+00:00",
+      "script": "skin_cycle"
+    },
+    "prune_guard": {
+      "ok": true,
+      "elapsed_s": 0.22,
+      "stdout": "[prune_guard] forget: auto_pruned=0 crash=False(0); thermal: NORMAL action=正常通行 unloaded=0 truncated=0\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.235543+00:00",
+      "script": "prune_guard"
+    },
+    "entropy_guard": {
+      "ok": true,
+      "elapsed_s": 0.14,
+      "stdout": "[entropy_guard] status=NORMAL H=1.000 chains=7 dormant=1 injected=-\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.392638+00:00",
+      "script": "entropy_guard"
+    },
+    "visual_world_model": {
+      "ok": true,
+      "elapsed_s": 0.1,
+      "stdout": "[visual_wm] PARKED: missing dependency: No module named 'numpy' (L5 stage requires numpy+cv2)\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.498320+00:00",
+      "script": "visual_world_model"
+    },
+    "learning_apply": {
+      "ok": true,
+      "elapsed_s": 0.15,
+      "stdout": "[T5→T2] 铸印: seal_1786324781_lp_auto_ (learning:memo)\n[learning_apply] produce={'produced': False, 'reason': 'fresh'}\n[learning_apply] type_counts={'frustration_edge': 12}\n[learning_apply] triggered={'frustration_edge': 12}\n[learning_apply] loop_turned=True\n[learning_apply] applied frustration_edge x12: {'type': 'frustration_edge', 'count': 12, 'applied': 1, 'errors': 0}\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.654166+00:00",
+      "script": "learning_apply"
+    },
+    "health_probe": {
+      "ok": true,
+      "elapsed_s": 0.17,
+      "stdout": "{\"ok\": \"5/9 OK\", \"stale\": 1, \"dead\": 3, \"unknown\": 0}\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.827384+00:00",
+      "script": "health_probe"
+    },
+    "coupling_adapt": {
+      "ok": true,
+      "elapsed_s": 0.14,
+      "stdout": "",
+      "stderr": "[coupling_adapt] tick=4 adapted=3 [C1(w=0.600), C6(w=1.000), C10(w=1.000)]\n",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:41.968795+00:00",
+      "script": "coupling_adapt"
+    },
+    "weismann_guard": {
+      "ok": true,
+      "elapsed_s": 0.18,
+      "stdout": "[weismann_guard] OK: 5 germline files unchanged\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:42.147190+00:00",
+      "script": "weismann_guard"
+    },
+    "weismann_evaluate": {
+      "ok": true,
+      "elapsed_s": 0.13,
+      "stdout": "[weismann_eval] PASS: composite=0.74\n  L1 hardcheck: PASS (score=1.0)\n  L2 selfeval:  PASS (score=0.6, density=0.0)\n  L3 environment: neutral (0.5)\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:42.281379+00:00",
+      "script": "weismann_evaluate"
+    },
+    "weismann_seepage": {
+      "ok": true,
+      "elapsed_s": 0.15,
+      "stdout": "[weismann_seepage] 无新提案（已有内容已去重）\n",
+      "stderr": "",
+      "returncode": 0,
+      "ts": "2026-08-10T01:19:42.432715+00:00",
+      "script": "weismann_seepage"
+    }
+  }
+}

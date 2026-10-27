@@ -1,0 +1,50 @@
+{
+  "id": "test_plan_001",
+  "goal": "测试 TU-8 Toolchain 集成",
+  "tasks": {
+    "task_1": {
+      "id": "task_1",
+      "description": "读取 SOUL.md 文件前10行",
+      "status": "done",
+      "depends_on": [],
+      "result": "[Toolchain] 准备调用 read: {'path': 'SOUL.md', 'offset': 1, 'limit': 50}",
+      "error": "",
+      "created_at": 1779610907.8544538,
+      "started_at": 1779610907.8595223,
+      "finished_at": 1779610907.8595223,
+      "tags": [
+        "file_read"
+      ],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "task_2": {
+      "id": "task_2",
+      "description": "执行 python --version",
+      "status": "done",
+      "depends_on": [],
+      "result": "[Toolchain] 准备调用 exec: {'command': 'python --version', 'workdir': 'D:\\\\qq366410837\\\\.qclaw\\\\workspace', 'timeout': 60}",
+      "error": "",
+      "created_at": 1779610907.8544538,
+      "started_at": 1779610907.8595223,
+      "finished_at": 1779610907.8595223,
+      "tags": [
+        "shell",
+        "exec"
+      ],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "done",
+  "created_at": 1779610907.8544538,
+  "updated_at": 1779610907.8544538,
+  "approved_at": 1779610907.8544538,
+  "finished_at": 1779610907.8595223,
+  "context": {},
+  "strategy": "sequential"
+}

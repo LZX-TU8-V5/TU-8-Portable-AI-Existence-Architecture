@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-10-27 19:58:53",
+  "distribution": {
+    "L1": {
+      "count": 102,
+      "bytes": 403466
+    },
+    "L2": {
+      "count": 81,
+      "bytes": 674426
+    },
+    "L3": {
+      "count": 1638,
+      "bytes": 17640887
+    }
+  },
+  "promote_candidates": [
+    {
+      "path": "memory\\archive\\2026-07-12.md",
+      "age_days": 107,
+      "size": 3559
+    },
+    {
+      "path": "memory\\archive\\2026-07-13.md",
+      "age_days": 106,
+      "size": 2385
+    },
+    {
+      "path": "memory\\archive\\2026-07-14.md",
+      "age_days": 105,
+      "size": 6080
+    },
+    {
+      "path": "memory\\archive\\2026-07-15.md",
+      "age_days": 104,
+      "size": 3196
+    },
+    {
+      "path": "memory\\archive\\2026-07-16.md",
+      "age_days": 103,
+      "size": 14528
+    },
+    {
+      "path": "memory\\archive\\2026-07-18.md",
+      "age_days": 101,
+      "size": 672
+    },
+    {
+      "path": "memory\\archive\\2026-07-19.md",
+      "age_days": 100,
+      "size": 8783
+    },
+    {
+      "path": "memory\\archive\\2026-07-20.md",
+      "age_days": 99,
+      "size": 20744
+    },
+    {
+      "path": "memory\\archive\\2026-07-21.md",
+      "age_days": 98,
+      "size": 5691
+    },
+    {
+      "path": "memory\\archive\\2026-07-22.md",
+      "age_days": 97,
+      "size": 967
+    },
+    {
+      "path": "memory\\archive\\2026-07-25.md",
+      "age_days": 94,
+      "size": 6238
+    },
+    {
+      "path": "memory\\archive\\2026-08-01.md",
+      "age_days": 87,
+      "size": 6013
+    },
+    {
+      "path": "memory\\archive\\2026-08-02.md",
+      "age_days": 86,
+      "size": 4748
+    },
+    {
+      "path": "memory\\archive\\2026-08-04.md",
+      "age_days": 84,
+      "size": 599
+    },
+    {
+      "path": "memory\\archive\\2026-08-06.md",
+      "age_days": 82,
+      "size": 994
+    },
+    {
+      "path": "memory\\archive\\2026-08-09.md",
+      "age_days": 79,
+      "size": 7494
+    },
+    {
+      "path": "memory\\archive\\2026-08-10.md",
+      "age_days": 78,
+      "size": 2279
+    },
+    {
+      "path": "memory\\archive\\2026-08-12.md",
+      "age_days": 76,
+      "size": 4394
+    },
+    {
+      "path": "memory\\archive\\2026-08-13.md",
+      "age_days": 75,
+      "size": 2423
+    },
+    {
+      "path": "memory\\archive\\2026-08-14.md",
+      "age_days": 74,
+      "size": 2439
+    },
+    {
+      "path": "memory\\archive\\2026-08-15.md",
+      "age_days": 73,
+      "size": 2477
+    },
+    {
+      "path": "memory\\archive\\2026-08-16.md",
+      "age_days": 72,
+      "size": 946
+    },
+    {
+      "path": "memory\\archive\\2026-08-17.md",
+      "age_days": 71,
+      "size": 737
+    },
+    {
+      "path": "memory\\archive\\2026-08-19.md",
+      "age_days": 69,
+      "size": 2259
+    },
+    {
+      "path": "memory\\archive\\2026-08-26.md",
+      "age_days": 62,
+      "size": 957
+    },
+    {
+      "path": "memory\\archive\\2026-08-27.md",
+      "age_days": 61,
+      "size": 13890
+    },
+    {
+      "path": "memory\\archive\\2026-08-28.md",
+      "age_days": 60,
+      "size": 8111
+    },
+    {
+      "path": "memory\\archive\\2026-08-29.md",
+      "age_days": 59,
+      "size": 15599
+    },
+    {
+      "path": "memory\\short\\2026-09-07.md",
+      "age_days": 50,
+      "size": 22594
+    },
+    {
+      "path": "memory\\archive\\2026-09-21.md",
+      "age_days": 36,
+      "size": 1319
+    },
+    {
+      "path": "memory\\archive\\2026-09-24.md",
+      "age_days": 33,
+      "size": 3501
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 临时文件
+_tmp_*
+_snapshots/
+*.tmp
+*.bak
+临时_整理中转/
+
+# 环境与凭证（绝不入库）
+.env
+.env.*
+openclaw.json
+openclaw.json.*
+qclaw.json
+tokens.json
+*credential*
+*secret*
+*_auth_state.txt
+skill-usage.json
+
+# 数据库与缓存
+*.db
+*.sqlite
+*.sqlite3
+knowledge_graph.db
+.cache/
+.pytest_cache/
+
+# 日志
+*.log
+audit_logs/
+defense_logs/
+logs/
+
+# 备份归档
+backup/
+backups/
+_GOV_ARCHIVE_*/
+_opensource_stage/

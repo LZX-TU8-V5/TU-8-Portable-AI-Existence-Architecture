@@ -1,0 +1,13 @@
+{
+  "saved_at": "2026-06-10T03:19:21.547486+00:00",
+  "recent_messages": [
+    "用户: 帮我做 Q9",
+    "AI: 好的，先读 cognitive_readiness.py"
+  ],
+  "active_files": [
+    "src/cognitive_readiness.py"
+  ],
+  "pending_task": "Q9 认知就绪度 P0→P3 渐进扩展",
+  "draft_buffer": "def _map_score_to_depth(self, score):",
+  "message_count": 2
+}

@@ -1,0 +1,107 @@
+{
+  "timestamp": 1780709595.9157734,
+  "total": 3,
+  "inspirations": [
+    {
+      "id": "ins_0000",
+      "node_a": {
+        "id": "4",
+        "content": "Flask SSE流调试冲突",
+        "timestamp": 1780699595.8969142,
+        "tags": [
+          "flask.sse.debug",
+          "streaming"
+        ],
+        "emotion": 0.7,
+        "freq": 1
+      },
+      "node_b": {
+        "id": "3",
+        "content": "紧急修复生产环境Bug",
+        "timestamp": 1780709395.8969142,
+        "tags": [
+          "critical",
+          "error_handling",
+          "紧急"
+        ],
+        "emotion": 0.9,
+        "freq": 2
+      },
+      "problem": "工具链错误处理模块如何更鲁棒？",
+      "day_weight": 0.0,
+      "cross_weight": 0.0,
+      "intuition_weight": 0.6000000000000001,
+      "confidence": 0.33000000000000007,
+      "time_style": "创新探索",
+      "status": "待验证",
+      "created_at": 1780709595.9127774
+    },
+    {
+      "id": "ins_0002",
+      "node_a": {
+        "id": "4",
+        "content": "Flask SSE流调试冲突",
+        "timestamp": 1780699595.8969142,
+        "tags": [
+          "flask.sse.debug",
+          "streaming"
+        ],
+        "emotion": 0.7,
+        "freq": 1
+      },
+      "node_b": {
+        "id": "3",
+        "content": "紧急修复生产环境Bug",
+        "timestamp": 1780709395.8969142,
+        "tags": [
+          "critical",
+          "error_handling",
+          "紧急"
+        ],
+        "emotion": 0.9,
+        "freq": 2
+      },
+      "problem": "如何防止AI在压力下被迫撒谎？",
+      "day_weight": 0.0,
+      "cross_weight": 0.0,
+      "intuition_weight": 0.6000000000000001,
+      "confidence": 0.33000000000000007,
+      "time_style": "创新探索",
+      "status": "待验证",
+      "created_at": 1780709595.9127774
+    },
+    {
+      "id": "ins_0001",
+      "node_a": {
+        "id": "6",
+        "content": "零宽钢印防御机制",
+        "timestamp": 1780706595.8969142,
+        "tags": [
+          "security",
+          "honeypot"
+        ],
+        "emotion": 0.85,
+        "freq": 2
+      },
+      "node_b": {
+        "id": "4",
+        "content": "Flask SSE流调试冲突",
+        "timestamp": 1780699595.8969142,
+        "tags": [
+          "flask.sse.debug",
+          "streaming"
+        ],
+        "emotion": 0.7,
+        "freq": 1
+      },
+      "problem": "工具链错误处理模块如何更鲁棒？",
+      "day_weight": 0.0,
+      "cross_weight": 0.0,
+      "intuition_weight": 0.5874999999999999,
+      "confidence": 0.323125,
+      "time_style": "创新探索",
+      "status": "待验证",
+      "created_at": 1780709595.9127774
+    }
+  ]
+}

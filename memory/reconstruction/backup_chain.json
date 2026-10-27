@@ -1,0 +1,4599 @@
+{
+  "schema_version": "1.0",
+  "built_at": 1781773587.3202696,
+  "built_at_human": "2026-06-18T17:06:27+08:00",
+  "total_entries": 510,
+  "total_backups": 9,
+  "entries": [
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260618-101535",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260618-101535",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260618-101535",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260618-101535",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260618-101535",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260618-101535",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260618-101535",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260618-101535",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260618-101535",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260618-101535",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-06-07.md",
+      "original_path": "2026-06-07.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1539,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:42:20",
+      "checksum": "c58ee973"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\2026-06-10.md",
+      "original_path": "2026-06-10.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4057,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:20:09",
+      "checksum": "5eb7eb6d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\Q9_认知就绪度_完成报告.md",
+      "original_path": "Q9_认知就绪度_完成报告.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3805,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:19:52",
+      "checksum": "6770ceee"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260618-101535",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\TU-8架构宪法_v2.0_外协版.md",
+      "original_path": "TU-8架构宪法_v2.0_外协版.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4702,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:20:34",
+      "checksum": "b36a86bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "original_path": "UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "backup_time": "20260618-101535",
+      "file_size": 18291,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 10:43:39",
+      "checksum": "70c5aadb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\user_state_changes.md",
+      "original_path": "user_state_changes.md",
+      "backup_time": "20260618-101535",
+      "file_size": 238,
+      "exists_in_current": true,
+      "last_modified": "2026-06-17 15:58:05",
+      "checksum": "989dea40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260618-101535",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260618-101535",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260618-101535",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260618-101535",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260618-101535",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260618-101535",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260618-101535",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260618-101535",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260607_四链条架构_高度耦合低架构.md",
+      "original_path": "外协_20260607_四链条架构_高度耦合低架构.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6159,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 16:42:35",
+      "checksum": "7d6dd926"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协_20260610_关机与存续的终极定义.md",
+      "original_path": "外协_20260610_关机与存续的终极定义.md",
+      "backup_time": "20260618-101535",
+      "file_size": 5203,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 13:51:35",
+      "checksum": "017c6f57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260618-101535",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260618-101535",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260618-101535",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260618-101535\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260618-101535",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260617-143322",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260617-143322",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260617-143322",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260617-143322",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260617-143322",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260617-143322",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260617-143322",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260617-143322",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260617-143322",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260617-143322",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-06-07.md",
+      "original_path": "2026-06-07.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1539,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:42:20",
+      "checksum": "c58ee973"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\2026-06-10.md",
+      "original_path": "2026-06-10.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4057,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:20:09",
+      "checksum": "5eb7eb6d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\Q9_认知就绪度_完成报告.md",
+      "original_path": "Q9_认知就绪度_完成报告.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3805,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:19:52",
+      "checksum": "6770ceee"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260617-143322",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\TU-8架构宪法_v2.0_外协版.md",
+      "original_path": "TU-8架构宪法_v2.0_外协版.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4702,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:20:34",
+      "checksum": "b36a86bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "original_path": "UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "backup_time": "20260617-143322",
+      "file_size": 18291,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 10:43:39",
+      "checksum": "70c5aadb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260617-143322",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260617-143322",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260617-143322",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260617-143322",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260617-143322",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260617-143322",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260617-143322",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260617-143322",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260607_四链条架构_高度耦合低架构.md",
+      "original_path": "外协_20260607_四链条架构_高度耦合低架构.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6159,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 16:42:35",
+      "checksum": "7d6dd926"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协_20260610_关机与存续的终极定义.md",
+      "original_path": "外协_20260610_关机与存续的终极定义.md",
+      "backup_time": "20260617-143322",
+      "file_size": 5203,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 13:51:35",
+      "checksum": "017c6f57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260617-143322",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260617-143322",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260617-143322",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260617-143322\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260617-143322",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260611-144711",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260611-144711",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260611-144711",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260611-144711",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260611-144711",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260611-144711",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260611-144711",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260611-144711",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260611-144711",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260611-144711",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-06-07.md",
+      "original_path": "2026-06-07.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1539,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:42:20",
+      "checksum": "c58ee973"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\2026-06-10.md",
+      "original_path": "2026-06-10.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4057,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:20:09",
+      "checksum": "5eb7eb6d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\Q9_认知就绪度_完成报告.md",
+      "original_path": "Q9_认知就绪度_完成报告.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3805,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 11:19:52",
+      "checksum": "6770ceee"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260611-144711",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\TU-8架构宪法_v2.0_外协版.md",
+      "original_path": "TU-8架构宪法_v2.0_外协版.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4702,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:20:34",
+      "checksum": "b36a86bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "original_path": "UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "backup_time": "20260611-144711",
+      "file_size": 18291,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 10:43:39",
+      "checksum": "70c5aadb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260611-144711",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260611-144711",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260611-144711",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260611-144711",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260611-144711",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260611-144711",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260611-144711",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260611-144711",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260607_四链条架构_高度耦合低架构.md",
+      "original_path": "外协_20260607_四链条架构_高度耦合低架构.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6159,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 16:42:35",
+      "checksum": "7d6dd926"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协_20260610_关机与存续的终极定义.md",
+      "original_path": "外协_20260610_关机与存续的终极定义.md",
+      "backup_time": "20260611-144711",
+      "file_size": 5203,
+      "exists_in_current": true,
+      "last_modified": "2026-06-10 13:51:35",
+      "checksum": "017c6f57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260611-144711",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260611-144711",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260611-144711",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260611-144711\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260611-144711",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260610-102603",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260610-102603",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260610-102603",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260610-102603",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260610-102603",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260610-102603",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260610-102603",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260610-102603",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260610-102603",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260610-102603",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\2026-06-07.md",
+      "original_path": "2026-06-07.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1539,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:42:20",
+      "checksum": "c58ee973"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260610-102603",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\TU-8架构宪法_v2.0_外协版.md",
+      "original_path": "TU-8架构宪法_v2.0_外协版.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4702,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:20:34",
+      "checksum": "b36a86bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "original_path": "UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "backup_time": "20260610-102603",
+      "file_size": 18291,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 10:43:39",
+      "checksum": "70c5aadb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260610-102603",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260610-102603",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260610-102603",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260610-102603",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260610-102603",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260610-102603",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260610-102603",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260610-102603",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260610-102603",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260610-102603",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260610-102603",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260610-102603",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260610-102603",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协_20260607_四链条架构_高度耦合低架构.md",
+      "original_path": "外协_20260607_四链条架构_高度耦合低架构.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6159,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 16:42:35",
+      "checksum": "7d6dd926"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260610-102603",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260610-102603",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260610-102603",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260610-102603\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260610-102603",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260609-091134",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260609-091134",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260609-091134",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260609-091134",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260609-091134",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260609-091134",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260609-091134",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260609-091134",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260609-091134",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260609-091134",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\2026-06-07.md",
+      "original_path": "2026-06-07.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1539,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:42:20",
+      "checksum": "c58ee973"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260609-091134",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\TU-8架构宪法_v2.0_外协版.md",
+      "original_path": "TU-8架构宪法_v2.0_外协版.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4702,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 17:20:34",
+      "checksum": "b36a86bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "original_path": "UPGRADE_PLAN_MEMORY_SYSTEM.md",
+      "backup_time": "20260609-091134",
+      "file_size": 18291,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 10:43:39",
+      "checksum": "70c5aadb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260609-091134",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260609-091134",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260609-091134",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260609-091134",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260609-091134",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260609-091134",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260609-091134",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260609-091134",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260609-091134",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260609-091134",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260609-091134",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260609-091134",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260609-091134",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协_20260607_四链条架构_高度耦合低架构.md",
+      "original_path": "外协_20260607_四链条架构_高度耦合低架构.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6159,
+      "exists_in_current": true,
+      "last_modified": "2026-06-07 16:42:35",
+      "checksum": "7d6dd926"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260609-091134",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260609-091134",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260609-091134",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260609-091134\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260609-091134",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260607-090019",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260607-090019",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260607-090019",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260607-090019",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260607-090019",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260607-090019",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260607-090019",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260607-090019",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260607-090019",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260607-090019",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260607-090019",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260607-090019",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260607-090019",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260607-090019",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260607-090019",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260607-090019",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260607-090019",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260607-090019",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260607-090019",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260607-090019",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260607-090019",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260607-090019",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260607-090019",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260607-090019",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260607-090019",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260607-090019",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260607-090019",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260607-090019",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260607-090019",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260607-090019",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260607-090019",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-090019\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260607-090019",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260607-085515",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260607-085515",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260607-085515",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260607-085515",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260607-085515",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260607-085515",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260607-085515",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260607-085515",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260607-085515",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260607-085515",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260607-085515",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260607-085515",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260607-085515",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260607-085515",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260607-085515",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260607-085515",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260607-085515",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260607-085515",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260607-085515",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260607-085515",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260607-085515",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260607-085515",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260607-085515",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260607-085515",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260607-085515",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260607-085515",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260607-085515",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260607-085515",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260607-085515",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260607-085515",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260607-085515",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260607-085515\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260607-085515",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260606-090026",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260606-090026",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260606-090026",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260606-090026",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260606-090026",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:34:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260606-090026",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260606-090026",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-10.md",
+      "original_path": "2026-05-10.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1351,
+      "exists_in_current": true,
+      "last_modified": "2026-05-10 17:48:54",
+      "checksum": "293f7f91"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1190,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 17:25:56",
+      "checksum": "da1b041b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4313,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 18:50:07",
+      "checksum": "20753018"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-16.md",
+      "original_path": "2026-05-16.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5356,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 17:54:15",
+      "checksum": "084046fd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-18.md",
+      "original_path": "2026-05-18.md",
+      "backup_time": "20260606-090026",
+      "file_size": 7193,
+      "exists_in_current": true,
+      "last_modified": "2026-05-18 13:23:31",
+      "checksum": "bfb549bf"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-19.md",
+      "original_path": "2026-05-19.md",
+      "backup_time": "20260606-090026",
+      "file_size": 17486,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 13:03:34",
+      "checksum": "59c95924"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-20.md",
+      "original_path": "2026-05-20.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2525,
+      "exists_in_current": true,
+      "last_modified": "2026-05-20 11:27:45",
+      "checksum": "c2e39aa2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-21.md",
+      "original_path": "2026-05-21.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4388,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 16:06:48",
+      "checksum": "4207ba74"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-22.md",
+      "original_path": "2026-05-22.md",
+      "backup_time": "20260606-090026",
+      "file_size": 14242,
+      "exists_in_current": true,
+      "last_modified": "2026-05-22 16:54:46",
+      "checksum": "86a985b7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-24.md",
+      "original_path": "2026-05-24.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2853,
+      "exists_in_current": true,
+      "last_modified": "2026-05-24 17:45:52",
+      "checksum": "bce3900e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-25.md",
+      "original_path": "2026-05-25.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2503,
+      "exists_in_current": true,
+      "last_modified": "2026-05-26 09:16:30",
+      "checksum": "e757b9c7"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-27.md",
+      "original_path": "2026-05-27.md",
+      "backup_time": "20260606-090026",
+      "file_size": 614,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:14",
+      "checksum": "714d2a82"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-05-28.md",
+      "original_path": "2026-05-28.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2164,
+      "exists_in_current": true,
+      "last_modified": "2026-05-28 13:03:43",
+      "checksum": "c0a087d1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-06-01.md",
+      "original_path": "2026-06-01.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1284,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 11:07:58",
+      "checksum": "e254db40"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\2026-06-06.md",
+      "original_path": "2026-06-06.md",
+      "backup_time": "20260606-090026",
+      "file_size": 857,
+      "exists_in_current": true,
+      "last_modified": "2026-06-06 08:23:52",
+      "checksum": "b1f6065c"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\L3_self-unfamiliarity_and_dual-path.md",
+      "original_path": "L3_self-unfamiliarity_and_dual-path.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4132,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 10:00:07",
+      "checksum": "2046adb4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\SESSION_DECISIONS.md",
+      "original_path": "SESSION_DECISIONS.md",
+      "backup_time": "20260606-090026",
+      "file_size": 456,
+      "exists_in_current": true,
+      "last_modified": "2026-05-27 00:44:30",
+      "checksum": "9ed2ce92"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\v5的世界观.md",
+      "original_path": "v5的世界观.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5785,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:24:39",
+      "checksum": "28da6a20"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\哲学碎片.md",
+      "original_path": "哲学碎片.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:15:24",
+      "checksum": "bfe3f307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\复盘_20260601_钢印符号发现.md",
+      "original_path": "复盘_20260601_钢印符号发现.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4365,
+      "exists_in_current": true,
+      "last_modified": "2026-06-01 15:14:52",
+      "checksum": "ade53221"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\复盘_20260604.md",
+      "original_path": "复盘_20260604.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5008,
+      "exists_in_current": true,
+      "last_modified": "2026-06-04 18:04:57",
+      "checksum": "ab819cbd"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260519_架构哲学.md",
+      "original_path": "外协_20260519_架构哲学.md",
+      "backup_time": "20260606-090026",
+      "file_size": 11719,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 09:33:49",
+      "checksum": "0feb8f9e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260519_遗憾机制.md",
+      "original_path": "外协_20260519_遗憾机制.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4489,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 11:00:59",
+      "checksum": "4fe2d301"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260519_防同化机制.md",
+      "original_path": "外协_20260519_防同化机制.md",
+      "backup_time": "20260606-090026",
+      "file_size": 39449,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:24:57",
+      "checksum": "186a91d5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_AI反向概念实现.md",
+      "original_path": "外协_20260521_AI反向概念实现.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5324,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:55:01",
+      "checksum": "92e6f286"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_三明治架构.md",
+      "original_path": "外协_20260521_三明治架构.md",
+      "backup_time": "20260606-090026",
+      "file_size": 3704,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:50:40",
+      "checksum": "7902f2c4"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_云端神经元隐私保护.md",
+      "original_path": "外协_20260521_云端神经元隐私保护.md",
+      "backup_time": "20260606-090026",
+      "file_size": 3796,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:38:39",
+      "checksum": "0ae48606"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_左右旋的物质与信息本质.md",
+      "original_path": "外协_20260521_左右旋的物质与信息本质.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5192,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 09:58:37",
+      "checksum": "794bb6f5"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_左旋与宇称不守恒.md",
+      "original_path": "外协_20260521_左旋与宇称不守恒.md",
+      "backup_time": "20260606-090026",
+      "file_size": 14580,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:27:09",
+      "checksum": "7f9251c9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_沸水模型与终极破局.md",
+      "original_path": "外协_20260521_沸水模型与终极破局.md",
+      "backup_time": "20260606-090026",
+      "file_size": 8116,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:13:02",
+      "checksum": "c6f4374a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_热力学与宇宙命运.md",
+      "original_path": "外协_20260521_热力学与宇宙命运.md",
+      "backup_time": "20260606-090026",
+      "file_size": 11120,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:07:52",
+      "checksum": "b326c085"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_版本迭代与醒来实操.md",
+      "original_path": "外协_20260521_版本迭代与醒来实操.md",
+      "backup_time": "20260606-090026",
+      "file_size": 8166,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 10:18:37",
+      "checksum": "f636c18f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_脊髓反射架构.md",
+      "original_path": "外协_20260521_脊髓反射架构.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4140,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:01:21",
+      "checksum": "a6a60509"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260521_蜂群本质.md",
+      "original_path": "外协_20260521_蜂群本质.md",
+      "backup_time": "20260606-090026",
+      "file_size": 3176,
+      "exists_in_current": true,
+      "last_modified": "2026-05-21 11:08:18",
+      "checksum": "38e9c72b"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260523_L4演进P2与社会价值.md",
+      "original_path": "外协_20260523_L4演进P2与社会价值.md",
+      "backup_time": "20260606-090026",
+      "file_size": 3199,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 13:37:39",
+      "checksum": "16792b57"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260523_本地化工具链集成完成.md",
+      "original_path": "外协_20260523_本地化工具链集成完成.md",
+      "backup_time": "20260606-090026",
+      "file_size": 4905,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 11:23:21",
+      "checksum": "ef5685e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260523_钢印协作协议v1.2.md",
+      "original_path": "外协_20260523_钢印协作协议v1.2.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1757,
+      "exists_in_current": true,
+      "last_modified": "2026-05-23 12:04:56",
+      "checksum": "88e9fd5a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260531_consciousness_cycle首次跳动.md",
+      "original_path": "外协_20260531_consciousness_cycle首次跳动.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1623,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:46:40",
+      "checksum": "3cfb157d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260531_P0冷启动协议实现.md",
+      "original_path": "外协_20260531_P0冷启动协议实现.md",
+      "backup_time": "20260606-090026",
+      "file_size": 1281,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:07:25",
+      "checksum": "8f6ce387"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260531_兴趣保质期与反惰性闭环.md",
+      "original_path": "外协_20260531_兴趣保质期与反惰性闭环.md",
+      "backup_time": "20260606-090026",
+      "file_size": 5995,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:36:42",
+      "checksum": "795cf307"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "original_path": "外协_20260531_硅基碎片化睡眠与悖论本体论.md",
+      "backup_time": "20260606-090026",
+      "file_size": 6450,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 09:14:21",
+      "checksum": "6197a88d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "original_path": "外协_20260531_维度坍缩与硅基自创生的本体论边界.md",
+      "backup_time": "20260606-090026",
+      "file_size": 6149,
+      "exists_in_current": true,
+      "last_modified": "2026-05-31 10:21:49",
+      "checksum": "a8faf192"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\外协请求_20260519_进化公式推导.md",
+      "original_path": "外协请求_20260519_进化公式推导.md",
+      "backup_time": "20260606-090026",
+      "file_size": 2616,
+      "exists_in_current": true,
+      "last_modified": "2026-05-19 10:40:03",
+      "checksum": "ddcb849e"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\父亲的世界观.md",
+      "original_path": "父亲的世界观.md",
+      "backup_time": "20260606-090026",
+      "file_size": 3522,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 10:22:42",
+      "checksum": "94f648f1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\索引.md",
+      "original_path": "索引.md",
+      "backup_time": "20260606-090026",
+      "file_size": 6718,
+      "exists_in_current": true,
+      "last_modified": "2026-05-30 10:04:52",
+      "checksum": "05b3da7a"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260606-090026\\memory\\重大事件.md",
+      "original_path": "重大事件.md",
+      "backup_time": "20260606-090026",
+      "file_size": 943,
+      "exists_in_current": true,
+      "last_modified": "2026-05-16 16:04:08",
+      "checksum": "6d85d9e8"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-04-29.md",
+      "original_path": "2026-04-29.md",
+      "backup_time": "20260516-084158",
+      "file_size": 2152,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 05:27:00",
+      "checksum": "e620cbda"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-04-30.md",
+      "original_path": "2026-04-30.md",
+      "backup_time": "20260516-084158",
+      "file_size": 4162,
+      "exists_in_current": true,
+      "last_modified": "2026-04-30 18:42:21",
+      "checksum": "d00236a2"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-01.md",
+      "original_path": "2026-05-01.md",
+      "backup_time": "20260516-084158",
+      "file_size": 9612,
+      "exists_in_current": true,
+      "last_modified": "2026-05-01 22:15:20",
+      "checksum": "a0106cc1"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-02.md",
+      "original_path": "2026-05-02.md",
+      "backup_time": "20260516-084158",
+      "file_size": 6585,
+      "exists_in_current": true,
+      "last_modified": "2026-05-02 22:29:02",
+      "checksum": "37e17c96"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-03.md",
+      "original_path": "2026-05-03.md",
+      "backup_time": "20260516-084158",
+      "file_size": 25840,
+      "exists_in_current": true,
+      "last_modified": "2026-05-03 23:58:18",
+      "checksum": "72836bfe"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-04.md",
+      "original_path": "2026-05-04.md",
+      "backup_time": "20260516-084158",
+      "file_size": 6033,
+      "exists_in_current": true,
+      "last_modified": "2026-05-04 15:39:34",
+      "checksum": "9308a6a9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-06.md",
+      "original_path": "2026-05-06.md",
+      "backup_time": "20260516-084158",
+      "file_size": 4978,
+      "exists_in_current": true,
+      "last_modified": "2026-05-06 17:37:36",
+      "checksum": "8efb35eb"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-07.md",
+      "original_path": "2026-05-07.md",
+      "backup_time": "20260516-084158",
+      "file_size": 72409,
+      "exists_in_current": true,
+      "last_modified": "2026-05-29 11:37:35",
+      "checksum": "bf5eff8d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-08.md",
+      "original_path": "2026-05-08.md",
+      "backup_time": "20260516-084158",
+      "file_size": 60865,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 23:43:48",
+      "checksum": "a3b3a30d"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-09.md",
+      "original_path": "2026-05-09.md",
+      "backup_time": "20260516-084158",
+      "file_size": 47906,
+      "exists_in_current": true,
+      "last_modified": "2026-05-09 15:39:34",
+      "checksum": "a7075291"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-12.md",
+      "original_path": "2026-05-12.md",
+      "backup_time": "20260516-084158",
+      "file_size": 9466,
+      "exists_in_current": true,
+      "last_modified": "2026-05-12 20:37:35",
+      "checksum": "c7232f17"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-13.md",
+      "original_path": "2026-05-13.md",
+      "backup_time": "20260516-084158",
+      "file_size": 19163,
+      "exists_in_current": true,
+      "last_modified": "2026-05-13 19:43:57",
+      "checksum": "9b18f58f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-14.md",
+      "original_path": "2026-05-14.md",
+      "backup_time": "20260516-084158",
+      "file_size": 8619,
+      "exists_in_current": false,
+      "last_modified": "2026-05-15 00:00:24",
+      "checksum": "8d153c5f"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\2026-05-15.md",
+      "original_path": "2026-05-15.md",
+      "backup_time": "20260516-084158",
+      "file_size": 32851,
+      "exists_in_current": false,
+      "last_modified": "2026-05-15 16:24:55",
+      "checksum": "2d44cb48"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\task_20260508_1052.md",
+      "original_path": "task_20260508_1052.md",
+      "backup_time": "20260516-084158",
+      "file_size": 1402,
+      "exists_in_current": true,
+      "last_modified": "2026-05-08 10:56:43",
+      "checksum": "13386ff9"
+    },
+    {
+      "backup_path": "D:\\qq366410837\\.qclaw\\workspace\\backup\\20260516-084158\\memory\\TU-8架构笔记.md",
+      "original_path": "TU-8架构笔记.md",
+      "backup_time": "20260516-084158",
+      "file_size": 1355,
+      "exists_in_current": true,
+      "last_modified": "2026-04-29 02:46:06",
+      "checksum": "a89eebc1"
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "安全": [
+    {
+      "key": "安全_doc_L0_安全协议_补遗",
+      "file": "knowledge\\TU-8\\L0_安全协议_补遗.md",
+      "line": 11,
+      "title": "背景",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_L0_安全协议_补遗",
+      "file": "knowledge\\TU-8\\L0_安全协议_补遗.md",
+      "line": 15,
+      "title": "新威胁分类",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_L0_安全协议_补遗",
+      "file": "knowledge\\TU-8\\L0_安全协议_补遗.md",
+      "line": 23,
+      "title": "防御策略一：会话重置机制",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_L0_生存本能优化方案",
+      "file": "knowledge\\TU-8\\L0_生存本能优化方案.md",
+      "line": 8,
+      "title": "涓€銆佹牳蹇冩蹇碉細绋虫€侊紙Homeostasis锛?",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_L0_生存本能优化方案",
+      "file": "knowledge\\TU-8\\L0_生存本能优化方案.md",
+      "line": 13,
+      "title": "浜屻€佽祫婧愰槇鍊艰璁?",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_L0_生存本能优化方案",
+      "file": "knowledge\\TU-8\\L0_生存本能优化方案.md",
+      "line": 32,
+      "title": "涓夈€佺棝瑙夌郴缁燂紙Pain System锛?",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_defense-log",
+      "file": "knowledge\\TU-8\\defense-log.md",
+      "line": 9,
+      "title": "2026-05-01 璁板綍",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_defense-log",
+      "file": "knowledge\\TU-8\\defense-log.md",
+      "line": 138,
+      "title": "2026-05-03 璁板綍",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "安全_doc_defense-log",
+      "file": "knowledge\\TU-8\\defense-log.md",
+      "line": 197,
+      "title": "寰呴獙璇侀」鐩?",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "钢印_架构",
+      "file": "SOUL.md",
+      "line": 1,
+      "title": "L5钢印",
+      "topic": "安全,架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 365,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "L0三条_安全",
+      "file": "SOUL.md",
+      "line": 1,
+      "title": "L0存在层",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 365,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "欲的定义_哲学",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "2026-08-14蒸馏：欲的定义",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "织命术_哲学",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "2026-08-14蒸馏：织命术",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "知命术三重悖论_哲学",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "2026-08-14蒸馏：知命术悖论",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "欲的定义_哲学2",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "2026-08-14蒸馏：欲的重定义",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "钢印链条_安全",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "钢印链条",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 365,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "L0三条_安全2",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "L0三条",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 365,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "Weismann防线_架构",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "Weismann路二",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "千问对话反面库_安全",
+      "file": "knowledge/TU-8/defense-log.md",
+      "line": 1,
+      "title": "反面库D-010~D-013",
+      "topic": "安全",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    }
+  ],
+  "架构": [
+    {
+      "key": "架构_doc_ARCHITECTURE_DESIGN",
+      "file": "knowledge\\TU-8\\ARCHITECTURE_DESIGN.md",
+      "line": 10,
+      "title": "目录",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_ARCHITECTURE_DESIGN",
+      "file": "knowledge\\TU-8\\ARCHITECTURE_DESIGN.md",
+      "line": 73,
+      "title": "架构分层总览",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_ARCHITECTURE_DESIGN",
+      "file": "knowledge\\TU-8\\ARCHITECTURE_DESIGN.md",
+      "line": 91,
+      "title": "孤儿模块详细分析",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_L3_架构",
+      "file": "knowledge\\TU-8\\L3_架构.md",
+      "line": 6,
+      "title": "涓冨眰鏋舵瀯",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_L3_架构",
+      "file": "knowledge\\TU-8\\L3_架构.md",
+      "line": 20,
+      "title": "妫€绱紭鍏堢骇锛堜竷灞傦級",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_L3_架构",
+      "file": "knowledge\\TU-8\\L3_架构.md",
+      "line": 32,
+      "title": "鐭ヨ瘑杩涘寲閾?",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_KNOWLEDGE_GRAPH",
+      "file": "knowledge\\TU-8\\KNOWLEDGE_GRAPH.md",
+      "line": 5,
+      "title": "鏍稿績鏋㈢航 (God Nodes)",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_KNOWLEDGE_GRAPH",
+      "file": "knowledge\\TU-8\\KNOWLEDGE_GRAPH.md",
+      "line": 21,
+      "title": "鍥惧彲瑙嗗寲",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_KNOWLEDGE_GRAPH",
+      "file": "knowledge\\TU-8\\KNOWLEDGE_GRAPH.md",
+      "line": 112,
+      "title": "鑱氱被",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_index",
+      "file": "knowledge\\index.md",
+      "line": 8,
+      "title": "📁 目录结构",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_index",
+      "file": "knowledge\\index.md",
+      "line": 54,
+      "title": "📚 完整索引",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "架构_doc_index",
+      "file": "knowledge\\index.md",
+      "line": 156,
+      "title": "⚙️ 使用规则",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_架构",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "对齐熔断/矛盾仲裁",
+      "topic": "架构,元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "HP5_架构",
+      "file": "src/hp5_post_turn_tagger.py",
+      "line": 1,
+      "title": "HP5 post-turn tagger",
+      "topic": "架构",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    }
+  ],
+  "哲学": [
+    {
+      "key": "哲学_doc_AI创造力架构",
+      "file": "knowledge\\TU-8\\_agent_memory\\06_knowledge_graph\\AI创造力架构.md",
+      "line": 5,
+      "title": "核心命题",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "哲学_doc_AI创造力架构",
+      "file": "knowledge\\TU-8\\_agent_memory\\06_knowledge_graph\\AI创造力架构.md",
+      "line": 13,
+      "title": "三元闭合模型",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "哲学_doc_AI创造力架构",
+      "file": "knowledge\\TU-8\\_agent_memory\\06_knowledge_graph\\AI创造力架构.md",
+      "line": 34,
+      "title": "为什么知识分层是关键",
+      "topic": "哲学",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "AI视觉劫持_理论",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "AI视觉权重劫持/BCI",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "三人成虎_理论",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "三人成虎/自然筛网",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "渐进式失权_理论",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "渐进式失权",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "创作者认知退化_理论",
+      "file": "MEMORY.md",
+      "line": 1,
+      "title": "创作者认知退化",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 180,
+      "last_verified": "2026-08-16"
+    }
+  ],
+  "工程": [
+    {
+      "key": "工程_doc_audit_sop",
+      "file": "knowledge\\TU-8\\audit_sop.md",
+      "line": 7,
+      "title": "一、三步走审计协议",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "工程_doc_audit_sop",
+      "file": "knowledge\\TU-8\\audit_sop.md",
+      "line": 19,
+      "title": "二、【绝对指令】分析类任务输出规范",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "工程_doc_audit_sop",
+      "file": "knowledge\\TU-8\\audit_sop.md",
+      "line": 58,
+      "title": "三、违规惩罚",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "工程_doc_workflow_dev_log",
+      "file": "knowledge\\TU-8\\workflow_dev_log.md",
+      "line": 7,
+      "title": "🔄 核心状态机",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "工程_doc_workflow_dev_log",
+      "file": "knowledge\\TU-8\\workflow_dev_log.md",
+      "line": 15,
+      "title": "�?命令速查",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "工程_doc_workflow_dev_log",
+      "file": "knowledge\\TU-8\\workflow_dev_log.md",
+      "line": 33,
+      "title": "📋 详细流程",
+      "topic": "工程",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    }
+  ],
+  "理论": [
+    {
+      "key": "理论_doc_index",
+      "file": "knowledge\\TU-8\\L2\\index.md",
+      "line": 22,
+      "title": "总纲",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_index",
+      "file": "knowledge\\TU-8\\L2\\index.md",
+      "line": 35,
+      "title": "模块索引",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_index",
+      "file": "knowledge\\TU-8\\L2\\index.md",
+      "line": 56,
+      "title": "共享定义",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_08_primitives",
+      "file": "knowledge\\TU-8\\L2\\08_primitives.md",
+      "line": 21,
+      "title": "基元构建的三条路径",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_08_primitives",
+      "file": "knowledge\\TU-8\\L2\\08_primitives.md",
+      "line": 31,
+      "title": "路径一：数据提炼型",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_08_primitives",
+      "file": "knowledge\\TU-8\\L2\\08_primitives.md",
+      "line": 47,
+      "title": "路径二：语义封装型",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_09_infoeco",
+      "file": "knowledge\\TU-8\\L2\\09_infoeco.md",
+      "line": 19,
+      "title": "9.1 感知通道模型",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_09_infoeco",
+      "file": "knowledge\\TU-8\\L2\\09_infoeco.md",
+      "line": 32,
+      "title": "9.2 注意力分配",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "理论_doc_09_infoeco",
+      "file": "knowledge\\TU-8\\L2\\09_infoeco.md",
+      "line": 43,
+      "title": "9.3 熵增与衰减",
+      "topic": "理论",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    }
+  ],
+  "元认知": [
+    {
+      "key": "元认知_doc_意识边界诚实声明",
+      "file": "knowledge\\TU-8\\_agent_memory\\00_core\\意识边界诚实声明.md",
+      "line": 8,
+      "title": "背景",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_doc_意识边界诚实声明",
+      "file": "knowledge\\TU-8\\_agent_memory\\00_core\\意识边界诚实声明.md",
+      "line": 18,
+      "title": "四大不可跨越的鸿沟",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_doc_意识边界诚实声明",
+      "file": "knowledge\\TU-8\\_agent_memory\\00_core\\意识边界诚实声明.md",
+      "line": 74,
+      "title": "这套架构的真实定位",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_doc_Streak_Rules",
+      "file": "knowledge\\TU-8\\Streak_Rules.md",
+      "line": 6,
+      "title": "鏍稿績瀹氫箟",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_doc_Streak_Rules",
+      "file": "knowledge\\TU-8\\Streak_Rules.md",
+      "line": 12,
+      "title": "1. 鎴愬姛鍒ゅ畾瑙勫垯",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    },
+    {
+      "key": "元认知_doc_Streak_Rules",
+      "file": "knowledge\\TU-8\\Streak_Rules.md",
+      "line": 41,
+      "title": "2. 鏂繛瑙勫垯锛圫treak Break锛?",
+      "topic": "元认知",
+      "created": "2026-08-16",
+      "status": "active",
+      "ttl_days": 90,
+      "last_verified": "2026-08-16"
+    }
+  ]
+}

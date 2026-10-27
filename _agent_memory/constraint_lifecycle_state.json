@@ -1,0 +1,43 @@
+{
+  "nodes": {},
+  "total_prunes": 4,
+  "prune_log": [
+    {
+      "node_id": "node_weak",
+      "reason": "weak_connection",
+      "stage_before": "PROBE",
+      "energy_freed": 1.0,
+      "connections_removed": 1,
+      "pruned_at": 1784597047.1019704
+    },
+    {
+      "node_id": "node_strong",
+      "reason": "TRUNCATE_thermal_emergency",
+      "stage_before": "PROBE",
+      "energy_freed": 1.0,
+      "connections_removed": 2,
+      "pruned_at": 1784597047.126531,
+      "forced": true
+    },
+    {
+      "node_id": "node_a",
+      "reason": "TRUNCATE_thermal_emergency",
+      "stage_before": "PROBE",
+      "energy_freed": 1.0,
+      "connections_removed": 1,
+      "pruned_at": 1784597047.1317601,
+      "forced": true
+    },
+    {
+      "node_id": "node_b",
+      "reason": "TRUNCATE_thermal_emergency",
+      "stage_before": "PROBE",
+      "energy_freed": 1.0,
+      "connections_removed": 1,
+      "pruned_at": 1784597047.1317601,
+      "forced": true
+    }
+  ],
+  "session_start": 1784597047.0946946,
+  "saved_at": 1784597047.1372354
+}

@@ -1,0 +1,115 @@
+{
+  "ARCHITECTURE_FULL_SPECTRUM.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "knowledge\\index.md",
+    "memory\\索引.md",
+    "scripts\\index_sync_protocol.md"
+  ],
+  "ARCHITECTURE_GAP_ANALYSIS.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "knowledge\\index.md",
+    "memory\\索引.md",
+    "scripts\\index_sync_protocol.md"
+  ],
+  "four_chain_coupling_architecture.md": [
+    "commit_p0.py",
+    "commit_p0_v2.py",
+    "docs\\workspace_file_audit_report.md"
+  ],
+  "BRAIN_VS_TU8_COMPARISON.md": [
+    "knowledge\\index.md"
+  ],
+  "EXTERNAL_ADVICE_SPACETIME_MEMORY.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "knowledge\\index.md",
+    "memory\\索引.md",
+    "scripts\\index_sync_protocol.md"
+  ],
+  "module_references.md": [
+    "scripts\\analyze_imports.py"
+  ],
+  "P0_强类型契约_手术报告.md": [],
+  "P1_Token经济学_手术报告.md": [],
+  "SPACETIME_SENSE_HUMAN_VS_AI.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "knowledge\\index.md",
+    "memory\\索引.md",
+    "scripts\\index_sync_protocol.md"
+  ],
+  "STARTUP_PIPELINE_DESIGN.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "knowledge\\index.md",
+    "memory\\索引.md",
+    "scripts\\index_sync_protocol.md"
+  ],
+  "四链条架构_结构分析.md": [],
+  "钢印三维张量定义_修改预研.md": [],
+  "EXTERNAL_SURGERY_REVIEW.md": [
+    "knowledge\\index.md"
+  ],
+  "REVIEW_2026-05-28.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "docs\\REVIEW_2026-05-28.md",
+    "knowledge\\index.md",
+    "knowledge\\TU-8\\index.md",
+    "knowledge\\TU-8\\TODO_SOUL修复笔记.md",
+    "memory\\索引.md"
+  ],
+  "OPEN_SOURCE_GUIDANCE.md": [
+    "backup\\20260607-090019\\memory\\索引.md",
+    "backup\\20260609-091134\\memory\\索引.md",
+    "backup\\20260610-102603\\memory\\索引.md",
+    "backup\\20260611-144711\\memory\\索引.md",
+    "backup\\20260617-143322\\memory\\索引.md",
+    "backup\\20260618-101535\\memory\\索引.md",
+    "backup\\20260619-084133\\memory\\索引.md",
+    "backup\\20260619-090144\\memory\\索引.md",
+    "docs\\OPEN_SOURCE_GUIDANCE.md",
+    "docs\\REVIEW_2026-05-28.md",
+    "knowledge\\index.md",
+    "memory\\索引.md"
+  ],
+  "workspace_file_audit_report.md": []
+}

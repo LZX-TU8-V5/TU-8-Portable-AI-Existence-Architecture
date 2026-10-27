@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-19T12:44:08.181006+08:00",
+  "updated_at": "2026-10-27T19:58:14.751954+08:00",
+  "total_decay_events": 4,
+  "pruned_by_decay": 0,
+  "events": [
+    {
+      "version_id": "v2",
+      "event": "time_decay",
+      "from": 0.45,
+      "to": 0.274278,
+      "delta": -0.175722,
+      "reason": "时间衰减 Δt=10.0天",
+      "ts": "2026-06-19T12:44:08.200010+08:00"
+    },
+    {
+      "version_id": "v3",
+      "event": "time_decay",
+      "from": 0.25,
+      "to": 0.215493,
+      "delta": -0.034507,
+      "reason": "时间衰减 Δt=3.0天",
+      "ts": "2026-06-19T12:44:08.200010+08:00"
+    },
+    {
+      "version_id": "v2",
+      "event": "time_decay",
+      "from": 0.45,
+      "to": 0.274278,
+      "delta": -0.175722,
+      "reason": "时间衰减 Δt=10.0天",
+      "ts": "2026-06-19T12:44:08.201012+08:00"
+    },
+    {
+      "version_id": "v3",
+      "event": "time_decay",
+      "from": 0.25,
+      "to": 0.215493,
+      "delta": -0.034507,
+      "reason": "时间衰减 Δt=3.0天",
+      "ts": "2026-06-19T12:44:08.201012+08:00"
+    }
+  ],
+  "version_snapshots": {
+    "v2": [
+      {
+        "ts": "2026-06-19T12:44:08.200010+08:00",
+        "confidence": 0.274278,
+        "event": "time_decay"
+      },
+      {
+        "ts": "2026-06-19T12:44:08.201012+08:00",
+        "confidence": 0.274278,
+        "event": "time_decay"
+      }
+    ],
+    "v3": [
+      {
+        "ts": "2026-06-19T12:44:08.200010+08:00",
+        "confidence": 0.215493,
+        "event": "time_decay"
+      },
+      {
+        "ts": "2026-06-19T12:44:08.201012+08:00",
+        "confidence": 0.215493,
+        "event": "time_decay"
+      }
+    ]
+  }
+}

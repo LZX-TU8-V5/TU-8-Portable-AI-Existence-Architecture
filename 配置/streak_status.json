@@ -1,0 +1,15 @@
+{
+  "user_id": "default_user",
+  "current_streak": 1,
+  "last_active_time": "2026-05-15T07:51:34",
+  "k_entropy": 1.0,
+  "shield_level": 0,
+  "shield_status": 0,
+  "earned_medals": [],
+  "total_tasks_completed": 1,
+  "total_score": 9.0,
+  "frozen": false,
+  "melted": false,
+  "last_update": "2026-05-15T07:51:34",
+  "last_meltdown_time": "2026-05-15T07:46:17"
+}

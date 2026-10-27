@@ -1,0 +1,43 @@
+{
+  "total_closures": 2,
+  "loops": {
+    "2ae5ba9378011730": {
+      "loop_id": "2ae5ba9378011730",
+      "loop_type": "悖论圈",
+      "opened_at": 1781772641.483537,
+      "closed_at": 1781772641.4845457,
+      "state": "closed_success",
+      "event_count": 2,
+      "events": [
+        {
+          "description": "Attempt 1",
+          "severity": 0.6,
+          "resolved": false
+        },
+        {
+          "description": "Attempt 2",
+          "severity": 0.8,
+          "resolved": true
+        }
+      ],
+      "closure_hash": ""
+    },
+    "e2dd5a118179d1bf": {
+      "loop_id": "e2dd5a118179d1bf",
+      "loop_type": "涌现圈",
+      "opened_at": 1781772641.4855514,
+      "closed_at": 1781772641.4855514,
+      "state": "closed_success",
+      "event_count": 1,
+      "events": [
+        {
+          "description": "Anchor #010",
+          "severity": 0.9,
+          "resolved": true
+        }
+      ],
+      "closure_hash": ""
+    }
+  },
+  "stage": "SPROUTING"
+}

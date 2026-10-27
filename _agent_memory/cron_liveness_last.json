@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.18,
+  "stdout": "",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:58:30.740417+00:00",
+  "script": "liveness"
+}

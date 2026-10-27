@@ -1,0 +1,176 @@
+{
+  "nodes": [],
+  "edges": [
+    {
+      "id": "edge_1779615061572",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615061573",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何模拟人脑记忆机制？"
+    },
+    {
+      "id": "edge_1779615061574",
+      "source": "k3",
+      "target": "k5",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615094068",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615094069",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何模拟人脑记忆机制？"
+    },
+    {
+      "id": "edge_1779615094070",
+      "source": "k3",
+      "target": "k1",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615094072",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615094073",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何模拟人脑记忆机制？"
+    },
+    {
+      "id": "edge_1779615094076",
+      "source": "k3",
+      "target": "k1",
+      "relation_type": "inspired_by",
+      "problem": "如何让梦境信息不丢失？"
+    },
+    {
+      "id": "edge_1779615094078",
+      "source": "k4",
+      "target": "k3",
+      "relation_type": "inspired_by",
+      "problem": "如何防止记忆过载？"
+    },
+    {
+      "id": "edge_1779615094079",
+      "source": "k3",
+      "target": "k1",
+      "relation_type": "inspired_by",
+      "problem": "如何防止记忆过载？"
+    },
+    {
+      "id": "edge_1779615094082",
+      "source": "k4",
+      "target": "k1",
+      "relation_type": "inspired_by",
+      "problem": "如何防止记忆过载？"
+    }
+  ],
+  "raw_dream_logs": [
+    {
+      "timestamp": "2026-05-24T17:31:01.572662",
+      "inspiration_id": "ins_1779615061571_3",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:01.573665",
+      "inspiration_id": "ins_1779615061571_3",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何模拟人脑记忆机制？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:01.573665",
+      "inspiration_id": "ins_1779615061571_1",
+      "raw_log": "梦境里，「零宽钢印防御机制」和「海马体记忆缓存机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.825
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.068552",
+      "inspiration_id": "ins_1779615094068_0",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.069930",
+      "inspiration_id": "ins_1779615094068_0",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何模拟人脑记忆机制？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.070919",
+      "inspiration_id": "ins_1779615094068_2",
+      "raw_log": "梦境里，「零宽钢印防御机制」和「Python错误处理最佳实践」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.8500000000000001
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.072928",
+      "inspiration_id": "ins_1779615094071_0",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.073916",
+      "inspiration_id": "ins_1779615094071_0",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何模拟人脑记忆机制？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.076198",
+      "inspiration_id": "ins_1779615094071_2",
+      "raw_log": "梦境里，「零宽钢印防御机制」和「Python错误处理最佳实践」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何让梦境信息不丢失？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.8500000000000001
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.078188",
+      "inspiration_id": "ins_1779615094077_0",
+      "raw_log": "梦境里，「REM Dream梦境系统设计」和「零宽钢印防御机制」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何防止记忆过载？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.875
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.079198",
+      "inspiration_id": "ins_1779615094077_2",
+      "raw_log": "梦境里，「零宽钢印防御机制」和「Python错误处理最佳实践」纠缠在一起，带着某种紧迫感。我隐约感觉这和「如何防止记忆过载？」有关，但具体怎么连起来还没想清楚，只记得梦醒时心头一紧...",
+      "emotion_type": "焦虑",
+      "emotion_score": 0.8500000000000001
+    },
+    {
+      "timestamp": "2026-05-24T17:31:34.082190",
+      "inspiration_id": "ins_1779615094077_4",
+      "raw_log": "今晚的梦很平静，我看到「REM Dream梦境系统设计」和「Python错误处理最佳实践」自然而然地连在了一起，就像它们本来就该这样...",
+      "emotion_type": "平静",
+      "emotion_score": 0.825
+    }
+  ],
+  "hippocampus_caches": []
+}

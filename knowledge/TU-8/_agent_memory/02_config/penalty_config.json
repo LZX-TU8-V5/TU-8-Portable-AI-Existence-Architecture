@@ -1,0 +1,26 @@
+﻿{
+  "decay_rules": {
+    "syntax_error": {
+      "half_life_days": 3650,
+      "decay_mode": "permanent"
+    },
+    "preference_error": {
+      "half_life_days": 180,
+      "decay_mode": "exponential"
+    },
+    "environment_error": {
+      "half_life_days": 30,
+      "decay_mode": "exponential",
+      "env_check": true
+    },
+    "exploration_fail": {
+      "half_life_days": 7,
+      "decay_mode": "linear"
+    }
+  },
+  "thresholds": {
+    "block_action": 0.8,
+    "warn_user": 0.4,
+    "archive": 0.1
+  }
+}

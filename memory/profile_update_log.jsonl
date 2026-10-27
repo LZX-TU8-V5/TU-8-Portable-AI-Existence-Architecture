@@ -1,0 +1,4 @@
+{"event": "dissatisfaction_recorded", "text": "不对，这个逻辑有问题", "action": "no_update", "reason": "need_human_review"}
+{"event": "dissatisfaction_recorded", "text": "重做", "action": "no_update", "reason": "need_human_review"}
+{"event": "dissatisfaction_recorded", "text": "不对，重做", "action": "no_update", "reason": "need_human_review"}
+{"timestamp": "2026-07-05T12:27:04.742588+00:00", "read": 6, "processed": 5, "updates": [{"field": "_dissatisfaction_log", "value": "不对，这个逻辑有问题", "action": "logged_only"}, {"field": "_topic_jump", "value": "今天天气怎么样", "action": "observed_no_update"}, {"field": "_dissatisfaction_log", "value": "重做", "action": "logged_only"}, {"field": "_dissatisfaction_log", "value": "不对，重做", "action": "logged_only"}, {"field": "_topic_jump", "value": "今天天气不错", "action": "observed_no_update"}], "errors": []}

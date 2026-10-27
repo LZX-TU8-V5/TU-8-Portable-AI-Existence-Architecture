@@ -1,0 +1,32 @@
+{
+  "total_transmissions": 2,
+  "failed_transmissions": 0,
+  "phase_switches": [
+    {
+      "ts": 1784431647.7745836,
+      "prev": "NORMAL",
+      "next": "COLLAPSE",
+      "reason": "测试张力超限"
+    },
+    {
+      "ts": 1784431647.8152719,
+      "prev": "COLLAPSE",
+      "next": "NORMAL",
+      "reason": "测试热保护冷却"
+    },
+    {
+      "ts": 1784518311.0692072,
+      "prev": "NORMAL",
+      "next": "COLLAPSE",
+      "reason": "测试张力超限"
+    },
+    {
+      "ts": 1784518311.1193852,
+      "prev": "COLLAPSE",
+      "next": "NORMAL",
+      "reason": "测试热保护冷却"
+    }
+  ],
+  "last_warning": null,
+  "bandwidth_used": 0.0
+}

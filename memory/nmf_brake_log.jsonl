@@ -1,0 +1,3 @@
+{"ts": 1783389535.6389077, "type": "nmf_dim", "card_id": "card_normal", "tag_count": 5, "max_tags": 12, "brake_triggered": false, "action": "PASS", "detail": "标签数 5 ≤ 12，无需干预"}
+{"ts": 1783389556.6186469, "type": "nmf_dim", "card_id": "card_normal", "tag_count": 5, "max_tags": 12, "brake_triggered": false, "action": "PASS", "detail": "标签数 5 ≤ 12，无需干预"}
+{"ts": 1783389647.4286408, "type": "nmf_dim", "card_id": "card_normal", "tag_count": 5, "max_tags": 12, "brake_triggered": false, "action": "PASS", "detail": "标签数 5 ≤ 12，无需干预"}

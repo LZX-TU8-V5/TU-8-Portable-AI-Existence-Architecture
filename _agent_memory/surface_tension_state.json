@@ -1,0 +1,280 @@
+{
+  "spike_valley_vector": {
+    "anxiety": 3.885503175987373e-23,
+    "anger": 2.8490435389123134e-91,
+    "fear": 7.548567465304037e-46,
+    "joy": 8.779614005516404e-12,
+    "sadness": 0.0,
+    "love": 0.0,
+    "curiosity": 3.8513110885845365e-23
+  },
+  "total_events": 4892,
+  "last_updated": "2026-10-27T20:03:32+08:00",
+  "tension": 0.0,
+  "components": {
+    "residual": 0.75,
+    "active": 0.0
+  },
+  "history": [],
+  "recent_events": [
+    {
+      "ts": "2026-10-26T15:26:18+08:00",
+      "ts_unix": 1792999578.6351287,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 8.880671503054915e-23,
+        "anger": 7.774871788978965e-90,
+        "fear": 3.943316317258613e-45,
+        "joy": 1.3273171057019135e-11,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 8.802522372176604e-23
+      }
+    },
+    {
+      "ts": "2026-10-26T15:31:30+08:00",
+      "ts_unix": 1792999890.4087174,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 8.858441664518996e-23,
+        "anger": 7.697316267812965e-90,
+        "fear": 3.923599436184335e-45,
+        "joy": 1.3256548140187785e-11,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 8.780488154271462e-23
+      }
+    },
+    {
+      "ts": "2026-10-26T15:37:33+08:00",
+      "ts_unix": 1793000253.9225388,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 8.832616444627657e-23,
+        "anger": 7.60794737080512e-90,
+        "fear": 3.9007556628953756e-45,
+        "joy": 1.3237210475298524e-11,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 8.754890194051708e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T10:41:44+08:00",
+      "ts_unix": 1793068904.0287213,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 5.0921283152304024e-23,
+        "anger": 8.404412657995295e-91,
+        "fear": 1.2964885389385708e-45,
+        "joy": 1.0050819134481238e-11,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 5.0473180323571756e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T19:37:21+08:00",
+      "ts_unix": 1793101041.01979,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.934860601887445e-23,
+        "anger": 2.996590641384101e-91,
+        "fear": 7.741563978143073e-46,
+        "joy": 8.835201612407502e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.900234173462632e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T19:42:23+08:00",
+      "ts_unix": 1793101343.6998224,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.9253167009482515e-23,
+        "anger": 2.9676236354513077e-91,
+        "fear": 7.704055601371691e-46,
+        "joy": 8.824480332802102e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.8907742580152253e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T19:48:04+08:00",
+      "ts_unix": 1793101684.080282,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.9145904283024043e-23,
+        "anger": 2.935319180605967e-91,
+        "fear": 7.662009110678459e-46,
+        "joy": 8.812415251158251e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.880142375628555e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T19:53:10+08:00",
+      "ts_unix": 1793101990.58054,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.904974116017207e-23,
+        "anger": 2.906582477650062e-91,
+        "fear": 7.62441142338224e-46,
+        "joy": 8.801584610504142e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.8706106860486433e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T19:58:30+08:00",
+      "ts_unix": 1793102310.8635426,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.8949350966554613e-23,
+        "anger": 2.876808238537179e-91,
+        "fear": 7.5852597035793e-46,
+        "joy": 8.790263646786033e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.8606600091774086e-23
+      }
+    },
+    {
+      "ts": "2026-10-27T20:03:32+08:00",
+      "ts_unix": 1793102612.2141354,
+      "type": "decay_tick",
+      "magnitude": 1.0,
+      "source": "decay_loop",
+      "delta": {
+        "anxiety": 0.0,
+        "anger": 0.0,
+        "fear": 0.0,
+        "joy": 0.0,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 0.0
+      },
+      "topology_vector": {
+        "anxiety": 3.885503175987373e-23,
+        "anger": 2.8490435389123134e-91,
+        "fear": 7.548567465304037e-46,
+        "joy": 8.779614005516404e-12,
+        "sadness": 0.0,
+        "love": 0.0,
+        "curiosity": 3.8513110885845365e-23
+      }
+    }
+  ],
+  "personality_baseline": {
+    "anxiety": 1.958293296256902e-21,
+    "anger": 1.600904341286608e-83,
+    "fear": 3.63144599375119e-42,
+    "joy": 5.339289176896828e-11,
+    "sadness": 0.0,
+    "love": 0.0,
+    "curiosity": 1.9410604868849225e-21
+  }
+}

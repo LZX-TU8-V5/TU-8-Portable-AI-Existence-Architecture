@@ -1,0 +1,24 @@
+{
+  "last_report": {
+    "timestamp": "2026-08-10T02:28:22.024291+00:00",
+    "input_vectors": 792,
+    "output_bases": 50,
+    "compression_ratio": 15.84,
+    "energy_retained": 0.9,
+    "duration_ms": 391.94,
+    "sources_processed": [
+      "surface_tension"
+    ],
+    "t0_tension_nodes": 12,
+    "t0_top_tension": 0.6,
+    "t1_graph_nodes": 12,
+    "t1_isomorphisms": 0,
+    "t2_hang_points": 10,
+    "t2_critical": 0,
+    "t3_active_cycles": 60,
+    "t3_highest_tension": 0.6,
+    "anchor_coverage": 0.3719,
+    "anchor_uncovered_count": 0
+  },
+  "last_update": "2026-08-10T02:28:22.416226+00:00"
+}

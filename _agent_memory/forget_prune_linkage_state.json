@@ -1,0 +1,16 @@
+{
+  "total_auto_pruned": 1,
+  "total_crash_pruned": 1,
+  "crash_events": [
+    {
+      "tension": 0.9,
+      "threshold": 0.85,
+      "pruned": [
+        "node_peel_1"
+      ],
+      "ts": 1784597000.5696664
+    }
+  ],
+  "session_start": 1784597000.4763734,
+  "saved_at": 1793102612.4897392
+}

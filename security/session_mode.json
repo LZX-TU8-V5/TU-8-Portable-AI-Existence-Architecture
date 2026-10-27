@@ -1,0 +1,27 @@
+{
+  "mode": "FULL",
+  "result": "AUTO_PASS",
+  "reason": "no_history",
+  "timestamp": "2026-09-24T15:13:44.000000+00:00",
+  "session_gap_seconds": 0,
+  "date_context": {
+    "current_date": "2026-09-24",
+    "current_time": "23:13",
+    "day_of_week": "Thu",
+    "is_new_day": false,
+    "days_since_last_boot": 0,
+    "last_boot_date": "2026-09-24",
+    "boot_source": "inject_fallback"
+  },
+  "gap_severity": "normal",
+  "hostname": "LAPTOP-HJPFSOKP",
+  "workspace_hash": "11",
+  "cognitive_readiness": null,
+  "verification_needed": false,
+  "verification_message": null,
+  "interoception_consistency": {
+    "status": "ok",
+    "posture": "nominal",
+    "reasons": []
+  }
+}

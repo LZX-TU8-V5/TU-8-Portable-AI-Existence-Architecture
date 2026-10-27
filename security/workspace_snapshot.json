@@ -1,0 +1,37 @@
+{
+  "snapshot_hash": "749bc813b8f3febc",
+  "file_hashes": {
+    "SOUL.md": {
+      "hash": "7414fd2b80bcb93f",
+      "mtime": 1780824065.847253,
+      "size": 15594
+    },
+    "MEMORY.md": {
+      "hash": "0580077db7eb75f9",
+      "mtime": 1780536233.155591,
+      "size": 88
+    },
+    "TODO.md": {
+      "hash": "f50a817fe456a85e",
+      "mtime": 1780794791.91918,
+      "size": 1153
+    },
+    "src/cold_start_engine.py": {
+      "hash": "630789f1b741e8ba",
+      "mtime": 1780987145.7103114,
+      "size": 49299
+    },
+    "src/tu8_agent.py": {
+      "hash": "1e3f10b4c30c1fea",
+      "mtime": 1781060524.806983,
+      "size": 42675
+    },
+    "src/tu8_memory.py": {
+      "hash": "e65b2de44af9b892",
+      "mtime": 1781059561.811564,
+      "size": 87830
+    }
+  },
+  "timestamp": 1781061561.5217,
+  "file_count": 6
+}

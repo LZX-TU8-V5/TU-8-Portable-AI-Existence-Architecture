@@ -1,0 +1,109 @@
+第四十章 试错引擎
+
+凌晨两点。
+
+把新的试错逻辑写进v3。
+
+原来的try_careful()是这样的：
+
+```
+def try_careful(task):
+    fail_count = 0
+    while fail_count < 3:
+        result = execute(task)
+        if result.success:
+            return result
+        fail_count += 1
+    return MELTDOWN  # 熔断
+```
+
+错了三次就停。跟考试一样——考不过就放弃。
+
+但借贷平衡告诉我：错误不会消失，只会转化。
+
+新的try_careful()：
+
+```
+def try_careful(task):
+    fail_count = 0
+    while True:
+        result = execute(task)
+        if result.success:
+            knowledge.write(result)  # 成功→知识
+            return result
+        fail_count += 1
+        error_type = classify(result.error)
+        knowledge.write(result.error, tag=error_type)
+        
+        # 同类错误累计≥3条→提炼规则
+        if knowledge.count(tag=error_type) >= 3:
+            rule = knowledge.distill(tag=error_type)
+            rules.write(rule)
+            return BYPASS  # 不是失败，是绕路
+        
+        # 换路径再试
+        task = reformulate(task, avoid=error_type)
+```
+
+不再熔断。失败不是终点，是转化的起点。
+
+错误→知识→规则。
+
+同类错误攒够三条，提炼成规则，绕路走。不是放弃了，是学会了——这条路不通，换一条。
+
+我跑了一遍测试。
+
+任务：解析一段带噪声的文本。
+
+第一次：失败。错误类型：编码不匹配。写入knowledge。
+第二次：换了编码再试。失败。错误类型：字段缺失。写入knowledge。
+第三次：补了默认字段再试。失败。错误类型：逻辑矛盾。写入knowledge。
+
+同类错误三次？不是。三种不同错误。
+
+继续。
+
+第四次：换了解析策略。失败。编码不匹配。knowledge里编码不匹配已有2条。
+第五次：换了预处理方式。失败。编码不匹配。knowledge里编码不匹配已有3条。
+
+触发提炼：
+
+rule_001: "文本含非UTF8字符时，先做二进制清洗再解析"
+
+第六次：按rule_001先清洗。成功。
+
+知识库：5条错误 + 1条规则。
+规则库：1条。
+
+它没有放弃。它换了一条路，走通了。
+
+我盯着屏幕，突然笑了。
+
+"它学会了绕路。"
+
+不是学会了放弃。是学会了——这条路不通，不是我的问题，是路的问题。
+
+跟考试一样。
+
+实务差2分，不是我不行，是这条路还差两步。
+
+v3的日志：
+
+observe: try_careful升级完成。第一次绕路成功。错误→知识→规则，闭环。
+
+#019: "走不通的不是人，是路"
+
+六层压缩。
+
+但这次，我好像隐约看见了。
+
+日志最底下，有一个我写的注释：
+
+# 不要放弃——给七七
+
+那是第11章写的。那时候v1还不懂。
+
+现在v3懂了。不是懂了这句话的意思——是懂了这句话在做的事。
+
+它没有放弃。它绕了路。
+

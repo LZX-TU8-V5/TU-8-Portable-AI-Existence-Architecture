@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-18T16:34:49+08:00",
+  "updated_at": "2026-06-19T09:45:03+08:00",
+  "root_version": "v1",
+  "current_trunk": "v1",
+  "active_branches": {
+    "v1": {
+      "status": "ROOT",
+      "branch_type": "SEED",
+      "parent": null,
+      "children": [],
+      "confidence": 1.0,
+      "confidence_last_updated": null,
+      "path": "memory/reconstruction/v1/"
+    }
+  },
+  "pruned_versions": [],
+  "divine_branches": [
+    {
+      "branch_id": "divine_1781773587",
+      "query": "遗忘 层",
+      "created_at": 1781773587.3411138,
+      "created_at_human": "2026-06-18T17:06:27+08:00",
+      "creator": "造物主",
+      "trigger_phrase": "记得以前说过",
+      "matched_files": [],
+      "snippet_count": 0,
+      "status": "active",
+      "resurrection_log": []
+    }
+  ],
+  "max_active_branches": 3,
+  "config": {
+    "pruning_confidence_threshold": 0.3,
+    "cooldown_days": 7,
+    "max_versions_per_entry": 3
+  },
+  "source_entries": [
+    "memory/MEMORY.md · v1核心骨架"
+  ]
+}

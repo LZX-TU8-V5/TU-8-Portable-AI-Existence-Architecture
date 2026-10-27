@@ -1,0 +1,1752 @@
+[
+  {
+    "ts": "2026-10-19T13:16:12.529420+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T13:48:12.436673+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T14:22:09.370936+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T14:36:53.905393+00:00",
+    "produce": {
+      "produced": false,
+      "reason": "fresh"
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T15:07:51.059738+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T15:38:58.403429+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T16:10:28.115585+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-19T16:41:28.328394+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T01:08:31.869746+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T02:46:04.529624+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T13:08:48.858618+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T13:40:13.152817+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T14:11:28.583115+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T14:42:29.505174+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T15:13:33.418935+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T15:45:15.096217+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T16:17:06.021937+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T16:48:05.729140+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-20T17:19:13.809569+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T01:00:56.699776+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T01:33:16.296354+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T02:05:11.693681+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T02:37:08.391014+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T03:09:10.549908+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T07:08:58.477035+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T07:40:12.301665+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-21T08:58:35.833696+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-22T01:44:40.273441+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-23T08:30:50.722795+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-23T09:06:10.809131+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T01:22:24.672783+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T01:54:07.714692+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T02:24:54.905942+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T02:57:40.336485+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T03:28:26.348358+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T03:59:11.131694+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T04:29:55.964215+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T05:00:41.717594+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T05:31:27.339569+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T06:02:12.482304+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T06:32:57.051917+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T07:03:41.798811+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-24T07:34:26.463338+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-25T02:09:09.377871+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-26T00:53:50.686676+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-26T01:29:50.970562+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-26T02:13:53.544158+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-26T07:26:21.627862+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-27T02:41:47.674548+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  },
+  {
+    "ts": "2026-10-27T11:37:22.801764+00:00",
+    "produce": {
+      "produced": true,
+      "nodes": 0
+    },
+    "type_counts": {
+      "steel_vs_creator": 6
+    },
+    "triggered": {
+      "steel_vs_creator": 6
+    },
+    "applied": [
+      {
+        "type": "steel_vs_creator",
+        "count": 6,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "curiosity": {
+      "blind_count": 11,
+      "underest_count": 0,
+      "events_read": 11
+    },
+    "curiosity_applied": [
+      {
+        "signal": "structural_blind",
+        "count": 11,
+        "applied": 1,
+        "errors": 0
+      }
+    ],
+    "loop_turned": true
+  }
+]

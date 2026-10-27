@@ -1,0 +1,13 @@
+{
+  "triggered": false,
+  "total_anchors": 7,
+  "test_anchors_filtered": 0,
+  "real_anchors_analyzed": 7,
+  "dead_zones": [],
+  "probe_questions": [],
+  "steel_density_pct": 100.0,
+  "orphan_anchors": 0,
+  "avg_connections": 3.14,
+  "similarity_threshold": 0.35,
+  "summary": "✅ DAG 健康：钢印密度 100%，孤立锚点 0 个，无结构死区。"
+}

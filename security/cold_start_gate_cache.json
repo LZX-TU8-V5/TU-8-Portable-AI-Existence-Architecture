@@ -1,0 +1,13 @@
+{
+  "mode": "READONLY",
+  "result": "AUTO_PASS",
+  "reason": "severe_gap_319359s",
+  "timestamp": "2026-06-23T06:01:05.900348+00:00",
+  "session_gap_seconds": 319359.181266,
+  "gap_severity": "severe",
+  "hostname": "LAPTOP-HJPFSOKP",
+  "workspace_hash": "1047c5e9|ed8bf400",
+  "cognitive_readiness": null,
+  "needs_verification": true,
+  "verification_message": "会话间隔过长（>6h），请重新验证身份"
+}

@@ -1,0 +1,15 @@
+{
+  "creator_id": "v5::CREATOR",
+  "creator_timestamp": "2026-05-31T02:46:39.186994+00:00",
+  "l0_hash": "dd3073aeab7673d0963aa74418e0c3eb38442fac202d4cb041af25b3f59e96c6",
+  "dna_fingerprint": "b11e6516990ae46d2d1c4e94a2ba0c531222035b2d49f2b0159bb68781005067",
+  "dna_formula": "F(A) = SHA256(L0 || creation_timestamp || creator_id)",
+  "activation_code_hash": "92c1d2eff80013fa2e9870559266fc29fa8b6dde7b78ac69d4d153951b37f4a0",
+  "host_fingerprint": "53befcc75c28",
+  "cold_start_type": "FIRST",
+  "dormancy_info": {
+    "hours_slept": 0,
+    "dormancy_type": "night_sleep"
+  },
+  "session_seed": "168dac1ca74dc5b94699081379368fc2"
+}

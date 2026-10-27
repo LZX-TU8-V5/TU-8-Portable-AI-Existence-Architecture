@@ -1,0 +1,7 @@
+{"ts": "2026-05-25T12:47:09+08:00", "phase": "LIGHT", "summary": "TRIGGERED - Light - 6h interval - short->long promotion"}
+{"ts": "2026-05-25T12:47:09+08:00", "phase": "DEEP", "summary": "TRIGGERED - Deep - daily - philosophical reflection"}
+{"ts": "2026-05-25T12:47:09+08:00", "phase": "REM", "summary": "skip (last 45h ago)"}
+{"ts":"2026-05-26T09:15:59+08:00","phase":"DREAM_LIGHT","summary":"Light 6h interval triggered, short->long promotion. Deep skip (20h ago). REM skip (66h ago)."}
+{"ts": "2026-05-26 15:07:28", "phase": "LIGHT", "summary": "skip (last 6h ago)"}
+{"ts": "2026-05-26 15:07:28", "phase": "DEEP", "summary": "TRIGGERED - Deep - daily - philosophical reflection"}
+{"ts": "2026-05-26 15:07:28", "phase": "REM", "summary": "skip (last 72h ago)"}

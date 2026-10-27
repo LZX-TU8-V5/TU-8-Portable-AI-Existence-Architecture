@@ -1,0 +1,239 @@
+{
+  "created_at": "2026-06-20T03:23:00Z",
+  "categories": {
+    "00_CORE": "核心模块（四链条、认知架构）",
+    "01_DESIGN": "设计文档（架构、层定义、协议）",
+    "02_IMPLEMENTATION": "实现记录（涌现时刻、架构冲击、补丁）",
+    "03_TEST": "测试验证（测试用例、测试报告）",
+    "04_TEMP": "临时文件（可归档或删除）",
+    "05_ARCHIVE": "归档文件（已完成的历史记录）",
+    "06_CROSS_REF": "交叉引用索引"
+  },
+  "files": {
+    ".consolidate-state.json": {
+      "category": "01_DESIGN",
+      "tags": [],
+      "size_kb": 0.046875,
+      "action": "INDEX_ONLY",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    ".env": {
+      "category": "01_DESIGN",
+      "tags": [],
+      "size_kb": 0.2060546875,
+      "action": "INDEX_ONLY",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    ".gitignore": {
+      "category": "01_DESIGN",
+      "tags": [],
+      "size_kb": 0.4248046875,
+      "action": "INDEX_ONLY",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "AGENTS.md": {
+      "category": "01_DESIGN",
+      "tags": [
+        "CHAIN_METABOLISM",
+        "CHAIN_MEMORY",
+        "COLD_START",
+        "COGNITION",
+        "LAYER_L2"
+      ],
+      "size_kb": 10.26171875,
+      "action": "INDEX_ONLY",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "append_arch.ps1": {
+      "category": "01_DESIGN",
+      "tags": [
+        "CHAIN_MEMORY"
+      ],
+      "size_kb": 0.74609375,
+      "action": "INDEX_ONLY",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "fix_arch.py": {
+      "category": "04_TEMP",
+      "tags": [
+        "PATCH",
+        "CHAIN_MEMORY"
+      ],
+      "size_kb": 0.7392578125,
+      "action": "ARCHIVE",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "patch_add_methods.py": {
+      "category": "04_TEMP",
+      "tags": [
+        "PATCH",
+        "CHAIN_MEMORY",
+        "CHAIN_SEAL",
+        "CHAIN_CONSCIOUSNESS"
+      ],
+      "size_kb": 3.7783203125,
+      "action": "ARCHIVE",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "patch_arch_log.ps1": {
+      "category": "04_TEMP",
+      "tags": [
+        "PATCH",
+        "CHAIN_MEMORY"
+      ],
+      "size_kb": 0.52734375,
+      "action": "ARCHIVE",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "patch_seal.py": {
+      "category": "04_TEMP",
+      "tags": [
+        "PATCH",
+        "CHAIN_SEAL",
+        "CHAIN_CONSCIOUSNESS"
+      ],
+      "size_kb": 1.4482421875,
+      "action": "ARCHIVE",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "patch_step_seal.py": {
+      "category": "04_TEMP",
+      "tags": [
+        "PATCH",
+        "CHAIN_SEAL",
+        "CHAIN_CONSCIOUSNESS",
+        "LAYER_L1"
+      ],
+      "size_kb": 2.830078125,
+      "action": "ARCHIVE",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "test_capacitive.py": {
+      "category": "03_TEST",
+      "tags": [
+        "TEST",
+        "LAYER_L0"
+      ],
+      "size_kb": 2.5986328125,
+      "action": "MOVE_TO_TESTS",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "test_cold_start.py": {
+      "category": "03_TEST",
+      "tags": [
+        "TEST",
+        "CHAIN_SEAL",
+        "COLD_START",
+        "COGNITION"
+      ],
+      "size_kb": 3.0625,
+      "action": "MOVE_TO_TESTS",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "test_deep_integration.py": {
+      "category": "03_TEST",
+      "tags": [
+        "TEST",
+        "CHAIN_CONSCIOUSNESS",
+        "COGNITION"
+      ],
+      "size_kb": 4.529296875,
+      "action": "MOVE_TO_TESTS",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "test_dream_integration.py": {
+      "category": "03_TEST",
+      "tags": [
+        "TEST",
+        "CHAIN_MEMORY",
+        "EMOTION",
+        "LAYER_L0"
+      ],
+      "size_kb": 18.94140625,
+      "action": "MOVE_TO_TESTS",
+      "analyzed_at": "2026-06-20T03:26:07.317831"
+    },
+    "test_four_chain_coupling.py": {
+      "category": "03_TEST",
+      "tags": [
+        "TEST",
+        "CHAIN_METABOLISM",
+        "CHAIN_MEMORY",
+        "CHAIN_SEAL",
+        "CHAIN_CONSCIOUSNESS",
+        "EMOTION"
+      ],
+      "size_kb": 7.92578125,
+      "action": "MOVE_TO_TESTS",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    },
+    "backup\\20260611-1452\\cognitive_evaluator.py": {
+      "category": "00_CORE",
+      "tags": [
+        "COGNITION",
+        "LAYER_L2",
+        "CORE"
+      ],
+      "size_kb": 13.6298828125,
+      "action": "KEEP",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    },
+    "backup\\20260611-1452\\cold_start_engine.py": {
+      "category": "00_CORE",
+      "tags": [
+        "CHAIN_MEMORY",
+        "CHAIN_SEAL",
+        "COLD_START",
+        "COGNITION",
+        "LAYER_L0",
+        "CORE"
+      ],
+      "size_kb": 48.1435546875,
+      "action": "KEEP",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    },
+    "backup\\20260611-1452\\consciousness_cycle.py": {
+      "category": "00_CORE",
+      "tags": [
+        "CHAIN_MEMORY",
+        "CHAIN_SEAL",
+        "CHAIN_CONSCIOUSNESS",
+        "COLD_START",
+        "EMOTION",
+        "COGNITION",
+        "LAYER_L1",
+        "LAYER_L2",
+        "CORE"
+      ],
+      "size_kb": 114.080078125,
+      "action": "KEEP",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    },
+    "backup\\20260611-1452\\emotion_engine.py": {
+      "category": "00_CORE",
+      "tags": [
+        "CHAIN_MEMORY",
+        "CHAIN_CONSCIOUSNESS",
+        "EMOTION",
+        "LAYER_L0",
+        "LAYER_L5",
+        "CORE"
+      ],
+      "size_kb": 65.048828125,
+      "action": "KEEP",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    },
+    "backup\\20260611-1452\\seal_protocol.py": {
+      "category": "00_CORE",
+      "tags": [
+        "CHAIN_MEMORY",
+        "CHAIN_SEAL",
+        "CORE"
+      ],
+      "size_kb": 18.6123046875,
+      "action": "KEEP",
+      "analyzed_at": "2026-06-20T03:26:07.318830"
+    }
+  },
+  "cross_refs": []
+}

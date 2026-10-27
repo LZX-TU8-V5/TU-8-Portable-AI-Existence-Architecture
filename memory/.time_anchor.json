@@ -1,0 +1,11 @@
+{
+  "timestamp": 1781153920.1720777,
+  "source": "pre_update",
+  "updated_at": 1781161120.1720777,
+  "steelmark_timestamp": 0.0,
+  "spatial_location": "office",
+  "spatial_zone": "office",
+  "subjective_gap_hours": 0.5,
+  "cumulative_subjective_hours": 2.5,
+  "last_drift_update": 1781161120.1720777
+}

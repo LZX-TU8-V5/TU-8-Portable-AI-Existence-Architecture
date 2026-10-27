@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lp_1783263138_1d36",
+    "confidence": 0.6000000000000001,
+    "support": 2,
+    "source_pattern": "社会认知模式：用户深夜模式（2次提及）",
+    "created_at": 1783263138.1726086,
+    "type": "INTUITION",
+    "track": "palace",
+    "content": "社会认知模式：用户深夜模式",
+    "action": "inject_intuition",
+    "_pending_since": 1783263138.1755402,
+    "_pending_cycles": 1
+  },
+  {
+    "id": "lp_001",
+    "topic": "早餐吃了什么",
+    "content": "今天吃了鸡蛋和面包",
+    "learning_type": "habit_formation",
+    "confidence": 0.5,
+    "support": 0.7,
+    "_tension": 0.1,
+    "_pending_since": 1784712057.2894237,
+    "_pending_cycles": 2
+  }
+]

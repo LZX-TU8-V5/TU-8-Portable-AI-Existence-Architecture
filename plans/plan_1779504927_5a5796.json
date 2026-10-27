@@ -1,0 +1,101 @@
+{
+  "id": "plan_1779504927_5a5796",
+  "goal": "写一个CSV处理脚本",
+  "tasks": {
+    "task_1": {
+      "id": "task_1",
+      "description": "分析需求，确定输入输出和边界条件",
+      "status": "pending",
+      "depends_on": [],
+      "result": "",
+      "error": "",
+      "created_at": 1779504927.768085,
+      "started_at": null,
+      "finished_at": null,
+      "tags": [],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "task_2": {
+      "id": "task_2",
+      "description": "设计模块结构和接口",
+      "status": "pending",
+      "depends_on": [
+        "task_1"
+      ],
+      "result": "",
+      "error": "",
+      "created_at": 1779504927.768085,
+      "started_at": null,
+      "finished_at": null,
+      "tags": [],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "task_3": {
+      "id": "task_3",
+      "description": "编写代码实现功能",
+      "status": "pending",
+      "depends_on": [
+        "task_2"
+      ],
+      "result": "",
+      "error": "",
+      "created_at": 1779504927.768085,
+      "started_at": null,
+      "finished_at": null,
+      "tags": [],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "task_4": {
+      "id": "task_4",
+      "description": "编写测试用例并验证",
+      "status": "pending",
+      "depends_on": [
+        "task_3"
+      ],
+      "result": "",
+      "error": "",
+      "created_at": 1779504927.768085,
+      "started_at": null,
+      "finished_at": null,
+      "tags": [],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    "task_5": {
+      "id": "task_5",
+      "description": "编写使用文档",
+      "status": "pending",
+      "depends_on": [
+        "task_3"
+      ],
+      "result": "",
+      "error": "",
+      "created_at": 1779504927.768085,
+      "started_at": null,
+      "finished_at": null,
+      "tags": [],
+      "priority": 0,
+      "estimated_minutes": 0,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  },
+  "status": "draft",
+  "created_at": 1779504927.768085,
+  "updated_at": 1779504927.768085,
+  "approved_at": null,
+  "finished_at": null,
+  "context": {},
+  "strategy": "sequential"
+}

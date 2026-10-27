@@ -1,0 +1,69 @@
+{
+  "root": "v1",
+  "nodes": {
+    "v1": {
+      "version": "v1",
+      "status": "draft",
+      "created_at": 1783251772.7992525,
+      "confirmed_at": null,
+      "confirmed_by": null,
+      "parent": null,
+      "children": [
+        "v1.1",
+        "v1.2",
+        "v1.3"
+      ],
+      "description": "初始架构版本",
+      "changes": [
+        "SOUL.md",
+        "AGENTS.md"
+      ],
+      "metadata": {}
+    },
+    "v1.1": {
+      "version": "v1.1",
+      "status": "stable",
+      "created_at": 1783251772.8009517,
+      "confirmed_at": 1783251772.8039365,
+      "confirmed_by": "造物主",
+      "parent": "v1",
+      "children": [],
+      "description": "排除法集成",
+      "changes": [
+        "state_machine_dimensions.py",
+        "elimination_rules.py"
+      ],
+      "metadata": {}
+    },
+    "v1.2": {
+      "version": "v1.2",
+      "status": "proposed",
+      "created_at": 1783251772.8068473,
+      "confirmed_at": null,
+      "confirmed_by": null,
+      "parent": "v1",
+      "children": [],
+      "description": "代谢链条+直觉引擎",
+      "changes": [
+        "memory_gc.py",
+        "metabolic_pipeline.py",
+        "intuition_engine.py"
+      ],
+      "metadata": {}
+    },
+    "v1.3": {
+      "version": "v1.3",
+      "status": "draft",
+      "created_at": 1783251772.8080754,
+      "confirmed_at": null,
+      "confirmed_by": null,
+      "parent": "v1",
+      "children": [],
+      "description": "认知差距监控器",
+      "changes": [
+        "cognitive_pain_monitor.py"
+      ],
+      "metadata": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "soul": {
+    "path": "SOUL.md",
+    "sha256": "f820f53f4cf5d5ef5fcd7e01ce2303fe8cee1e41bbd6f41bd613cec1e431d033",
+    "updated_at": "2026-08-09T03:08:16Z"
+  },
+  "meta_cognition": {
+    "path": "架构/L2.5_元认知设计.md",
+    "sha256": "cc4bd367a5ff981750bc730487fe78967013106f6f9ca14c669d9e7d3952f8f2",
+    "updated_at": "2026-08-09T03:08:16Z"
+  },
+  "architecture_log": {
+    "path": "ARCHITECTURE_LOG.md",
+    "sha256": "c37f5d23b07807b518bb3d0272fe88b047bc11c550ffb9be7f6f426800035ca4",
+    "updated_at": "2026-08-09T03:08:16Z"
+  },
+  "vault_index": {
+    "path": "secure_vault/index.json",
+    "sha256": "8044b54bac7135597ee85f5834d0e4478e514bf41c78a46022176432e364439f",
+    "updated_at": "2026-08-09T03:08:16Z"
+  },
+  "vault_keys": {
+    "path": "secure_vault/data/keys.txt",
+    "sha256": "9ec0cde258f250d1857bcd0eeb0c88e4b9f12cbeb401d3013daf78a40991e3ce",
+    "updated_at": "2026-08-09T03:08:16Z"
+  }
+}

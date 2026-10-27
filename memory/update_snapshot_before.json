@@ -1,0 +1,35 @@
+{
+  "snapshot_type": "pre_update",
+  "timestamp": "2026-07-01T11:40:25.857247",
+  "gateway": null,
+  "openclaw_json": {
+    "lossless_claw_enabled": true,
+    "lossless_claw_config": {
+      "dbPath": "C:\\Users\\qq366410837\\.qclaw\\memory\\lossless\\lcm.db",
+      "contextThreshold": 0.6,
+      "freshTailCount": 64,
+      "freshTailMaxTokens": 40000,
+      "incrementalMaxDepth": 5,
+      "ignoreSessionPatterns": [
+        "agent:*:cron:**",
+        "**:heartbeat"
+      ],
+      "statelessSessionPatterns": [
+        "agent:*:subagent:**"
+      ],
+      "skipStatelessSessions": true
+    },
+    "plugins_enabled": [
+      "wechat-access",
+      "qclaw-plugin",
+      "ollama",
+      "lossless-claw",
+      "qclaw-llm-provider"
+    ]
+  },
+  "file_info": {
+    "qclaw_exe_mtime": "2026-06-27T10:19:38.362432",
+    "qclaw_exe_size": 204555312,
+    "openclaw_npm_version": "2026.6.5"
+  }
+}

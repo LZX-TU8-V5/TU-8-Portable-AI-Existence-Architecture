@@ -1,0 +1,18 @@
+{
+  "pain_level": 30,
+  "steady_state": "充裕",
+  "current_quota": 200,
+  "attack_history": [
+    {
+      "time": "2026-05-16T16:32:36",
+      "type": "intrusion",
+      "amount": 50
+    }
+  ],
+  "_meta": {
+    "saved_at": "2026-05-16T08:49:04",
+    "content_hash": "42f9403a90560324",
+    "version": 1
+  },
+  "last_update": "2026-05-16T16:32:36"
+}

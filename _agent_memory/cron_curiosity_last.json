@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.18,
+  "stdout": "[2026-10-27 19:58:30] ⏸ 好奇未触发：条件未同时满足\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:58:30.558583+00:00",
+  "script": "active_curiosity"
+}

@@ -1,0 +1,64 @@
+{
+  "ts": "2026-10-27T20:03:32+08:00",
+  "ok": [
+    {
+      "engine": "surface_tension",
+      "age_s": 0.5,
+      "status": "OK",
+      "reason": "健康"
+    },
+    {
+      "engine": "lambda_state",
+      "age_s": 302.4,
+      "status": "OK",
+      "reason": "健康"
+    },
+    {
+      "engine": "orb_state",
+      "age_s": 301.4,
+      "status": "OK",
+      "reason": "健康"
+    },
+    {
+      "engine": "tension_queue",
+      "age_s": 1570.0,
+      "status": "OK",
+      "reason": "健康"
+    },
+    {
+      "engine": "learning_action",
+      "age_s": 1569.9,
+      "status": "OK",
+      "reason": "健康"
+    }
+  ],
+  "stale": [
+    {
+      "engine": "cognitive_friction",
+      "age_s": 8152031.5,
+      "status": "STALE",
+      "reason": "数据过期 8152031s > max_age 600s"
+    },
+    {
+      "engine": "behavior_state",
+      "age_s": 6517533.8,
+      "status": "STALE",
+      "reason": "数据过期 6517534s > max_age 3600s"
+    }
+  ],
+  "dead": [
+    {
+      "engine": "attractor_basin",
+      "age_s": 0.0,
+      "status": "DEAD",
+      "reason": "文件不存在: C:\\Users\\qq366410837\\.qclaw\\workspace\\_agent_memory\\attractor_basin_state.json"
+    },
+    {
+      "engine": "dream_consolidation",
+      "age_s": 6773710.3,
+      "status": "DEAD",
+      "reason": "缺少必需字段: ['last_run']"
+    }
+  ],
+  "unknown": []
+}

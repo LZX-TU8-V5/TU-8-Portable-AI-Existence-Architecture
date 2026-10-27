@@ -1,0 +1,797 @@
+{
+  "schema": "TAG_MANIFEST_v1.0",
+  "updated": "2026-06-25T01:30:00+08:00",
+  "legend": {
+    "chains": {
+      "STEEL": "钢印链",
+      "MEMORY": "记忆链",
+      "DISPATCH": "调度链",
+      "METABOLISM": "代谢链",
+      "CROSS_CHAIN": "跨链模块",
+      "INFRA": "基础设施",
+      "TEST": "测试文件",
+      "ORPHAN": "孤儿文件"
+    },
+    "status": {
+      "READY": "可直接复用",
+      "REVIEW": "需审查后重构",
+      "FRAGMENT": "碎片状态需整合",
+      "NEW": "新建模块",
+      "INTEGRATE": "需与现有模块整合"
+    },
+    "priority": {
+      "P0": "立即执行",
+      "P1": "下一批次",
+      "P2": "长期完善",
+      "P3": "可选优化"
+    }
+  },
+  "files": [
+    {
+      "name": "tu8_memory.py",
+      "size_kb": 122,
+      "lines": 2612,
+      "chain": "MEMORY",
+      "v17_component": "知识宫殿-知识库(L2情景记忆) + 三层读写",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "TU8MemoryEngine",
+        "GracefulDegradationManager",
+        "version_coherence_tracker"
+      ],
+      "dependencies": [],
+      "v17_action": "补充标注：L1/L2/L3层精确注释，无需改动代码"
+    },
+    {
+      "name": "consciousness_cycle.py",
+      "size_kb": 121,
+      "lines": 2532,
+      "chain": "METABOLISM",
+      "v17_component": "微睡眠核心 + 梦境期调度器 + 每日/周复盘",
+      "status": "REVIEW",
+      "priority": "P0",
+      "key_classes": [
+        "ConsciousnessEngine",
+        "SleepPhase",
+        "DreamScheduler",
+        "AWAKE/LIGHT_SLEEP/DEEP_SLEEP/HIBERNATION"
+      ],
+      "dependencies": [
+        "cognitive_evaluator",
+        "cognitive_time_engine",
+        "credit_assigner",
+        "decision_pruner",
+        "llm_gateway"
+      ],
+      "v17_action": "抽取 LIGHT_SLEEP 六步原子 → micro_sleep.py；抽取梦境调度 → dream_scheduler.py"
+    },
+    {
+      "name": "genesis_cycle.py",
+      "size_kb": 87,
+      "lines": 1976,
+      "chain": "METABOLISM",
+      "v17_component": "时间锚点沙箱(基础) + Snapshot生成",
+      "status": "FRAGMENT",
+      "priority": "P1",
+      "key_classes": [
+        "GenesisEngine",
+        "GenesisSnapshot",
+        "EvolutionTracker",
+        "RollbackEngine"
+      ],
+      "dependencies": [],
+      "v17_action": "抽取快照逻辑 → cold_start_engine.py；新建 time_anchor_sandbox.py 调用快照"
+    },
+    {
+      "name": "tu8_agent.py",
+      "size_kb": 66,
+      "lines": 1369,
+      "chain": "DISPATCH",
+      "v17_component": "主调度器入口 + 代理决策路由",
+      "status": "REVIEW",
+      "priority": "P2",
+      "key_classes": [
+        "TU8Agent"
+      ],
+      "dependencies": [
+        "tu8_dispatch",
+        "tu8_memory",
+        "tu8_compaction",
+        "ollama_client"
+      ],
+      "v17_action": "待 OpenClaw 集成完成后才重构"
+    },
+    {
+      "name": "emotion_engine.py",
+      "size_kb": 66,
+      "lines": 1611,
+      "chain": "METABOLISM",
+      "v17_component": "安抚模块前身（情感缓冲池）",
+      "status": "REVIEW",
+      "priority": "P1",
+      "key_classes": [
+        "AffectEngine",
+        "AffectState",
+        "EmotionVector",
+        "CircuitBreaker"
+      ],
+      "dependencies": [],
+      "v17_action": "抽取情感缓冲逻辑 → comfort_module.py；保留核心情感引擎"
+    },
+    {
+      "name": "sag_lite_knowledge_graph.py",
+      "size_kb": 52,
+      "lines": 1186,
+      "chain": "MEMORY",
+      "v17_component": "知识宫殿-图书馆(FTS5+向量检索)",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "SAGLiteKG",
+        "KGSchema"
+      ],
+      "dependencies": [],
+      "v17_action": "加注释标注为「知识宫殿-图书馆」层；无需改动"
+    },
+    {
+      "name": "cold_start_engine.py",
+      "size_kb": 49,
+      "lines": 1181,
+      "chain": "INFRA",
+      "v17_component": "强工作流引擎(基础) + 快照系统",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "ColdStartEngine",
+        "SnapshotManager",
+        "VerificationGate"
+      ],
+      "dependencies": [
+        "steel_seal_verifier"
+      ],
+      "v17_action": "新建 forced_workflow.py 整合 cold_start + deviation_gate + upgrade_mode"
+    },
+    {
+      "name": "tu8_dispatch.py",
+      "size_kb": 43,
+      "lines": 1096,
+      "chain": "DISPATCH",
+      "v17_component": "感知层(输入解析) + 上下文装配",
+      "status": "REVIEW",
+      "priority": "P1",
+      "key_classes": [
+        "DispatchRouter",
+        "DawnRitual",
+        "ThinkingWithStrangers",
+        "WriteBackRitual"
+      ],
+      "dependencies": [
+        "tu8_memory"
+      ],
+      "v17_action": "抽取感知输入 → sensory_input_layer.py；保留调度路由核心"
+    },
+    {
+      "name": "tu8_toolchain.py",
+      "size_kb": 37,
+      "lines": 826,
+      "chain": "DISPATCH",
+      "v17_component": "工具总线(执行层)",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "ToolChain",
+        "ToolAdapter"
+      ],
+      "dependencies": [
+        "tu8_planner"
+      ],
+      "v17_action": "标注为感知输出层前身，待 render_layer.py 新建"
+    },
+    {
+      "name": "memory_degradation.py",
+      "size_kb": 37,
+      "lines": 842,
+      "chain": "METABOLISM",
+      "v17_component": "遗忘引擎(降级) + 复活机制",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "FidelityManager",
+        "DegradationEngine",
+        "ResurrectionBranch"
+      ],
+      "dependencies": [
+        "confidence_decay_engine",
+        "fact_correction_scar"
+      ],
+      "v17_action": "整合 reward_engine 设计文档 v1.0 → 补充 promote_entry() 奖励升级逻辑"
+    },
+    {
+      "name": "cognitive_readiness.py",
+      "size_kb": 36,
+      "lines": 768,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "认知就绪度评估(启动 Gate)",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "CognitiveReadinessEvaluator",
+        "ReadinessScore"
+      ],
+      "dependencies": [],
+      "v17_action": "补充标注，可直接复用"
+    },
+    {
+      "name": "arch_fsm.py",
+      "size_kb": 35,
+      "lines": 768,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "架构变更状态机 → 强工作流状态机前身",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "ArchitectureFSM",
+        "LOCATE/BACKUP/MODIFY/APPROVE/ACTIVATE/ROLLBACK states"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 forced_workflow.py 整合 arch_fsm + cold_start_engine + deviation_gate"
+    },
+    {
+      "name": "tu8_planner.py",
+      "size_kb": 33,
+      "lines": 736,
+      "chain": "DISPATCH",
+      "v17_component": "规划器(L4阶段目标分解)",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "TaskPlanner",
+        "Goal",
+        "DAG"
+      ],
+      "dependencies": [
+        "tu8_memory"
+      ],
+      "v17_action": "无需改动"
+    },
+    {
+      "name": "naming_module.py",
+      "size_kb": 33,
+      "lines": 847,
+      "chain": "STEEL",
+      "v17_component": "呼名检测模块(v1.1 完整实现)",
+      "status": "READY",
+      "priority": "P0",
+      "key_classes": [
+        "NamingModule",
+        "IdentityBaseline",
+        "IdentityHealthChecker(ICI/SIS/TIS)"
+      ],
+      "dependencies": [
+        "steel_seal_verifier"
+      ],
+      "v17_action": "直接复用；补充遗产接口 → heritage_system.py"
+    },
+    {
+      "name": "quantized_memory.py",
+      "size_kb": 30,
+      "lines": 661,
+      "chain": "MEMORY",
+      "v17_component": "记忆量子化压缩(冷存储)",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "QuantizedMemory"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为知识宫殿冷存储层"
+    },
+    {
+      "name": "reflection_module.py",
+      "size_kb": 29,
+      "lines": 630,
+      "chain": "METABOLISM",
+      "v17_component": "每日复盘 + 周复盘(已有，未集成)",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "ReflectionModule",
+        "LightSleepConsume",
+        "DailyReview",
+        "WeeklyReview"
+      ],
+      "dependencies": [],
+      "v17_action": "接入梦境调度器 consciousness_cycle.py"
+    },
+    {
+      "name": "neural_reflex.py",
+      "size_kb": 28,
+      "lines": 680,
+      "chain": "DISPATCH",
+      "v17_component": "动态防御前身(L0-L4反射神经链路)",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "NeuralReflex",
+        "L0/L1/L2/L3/L4"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 dynamic_defense.py 整合 neural_reflex + bypass_mode"
+    },
+    {
+      "name": "confidence_decay_engine.py",
+      "size_kb": 27,
+      "lines": 619,
+      "chain": "METABOLISM",
+      "v17_component": "Confidence Engine(v1.0 完整)",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "ConfidenceDecayEngine",
+        "ConfidenceFormula"
+      ],
+      "dependencies": [],
+      "v17_action": "整合 reward_engine 设计文档 → 补充 promote_entry()"
+    },
+    {
+      "name": "tu8_compaction.py",
+      "size_kb": 26,
+      "lines": 566,
+      "chain": "MEMORY",
+      "v17_component": "LCM压缩引擎",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "TU8CompactionEngine"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为记忆层压缩工具"
+    },
+    {
+      "name": "decision_pruner.py",
+      "size_kb": 25,
+      "lines": 649,
+      "chain": "METABOLISM",
+      "v17_component": "树杈修剪(已有，未集成)",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "AdaptiveUCTPruner",
+        "MacroNodeFusion",
+        "DynamicAbstractionStack"
+      ],
+      "dependencies": [],
+      "v17_action": "接入梦境调度器 consciousness_cycle.py"
+    },
+    {
+      "name": "divine_branch_interceptor.py",
+      "size_kb": 24,
+      "lines": 524,
+      "chain": "STEEL",
+      "v17_component": "造物主 Divine Branch 口令拦截层",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "DivineBranchInterceptor"
+      ],
+      "dependencies": [],
+      "v17_action": "补充标注，直接复用"
+    },
+    {
+      "name": "llm_gateway.py",
+      "size_kb": 23,
+      "lines": 582,
+      "chain": "DISPATCH",
+      "v17_component": "LLM调度网关",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "LLMGateway",
+        "LLMRequest",
+        "LLMResponse"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为外层接口"
+    },
+    {
+      "name": "fact_correction_scar.py",
+      "size_kb": 23,
+      "lines": 484,
+      "chain": "METABOLISM",
+      "v17_component": "事实校正伤疤系统",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "FactCorrectionScar"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为代谢链事实校正"
+    },
+    {
+      "name": "credit_assigner.py",
+      "size_kb": 23,
+      "lines": 516,
+      "chain": "METABOLISM",
+      "v17_component": "自适应信用分配 → 经验库前身",
+      "status": "FRAGMENT",
+      "priority": "P1",
+      "key_classes": [
+        "AdaptiveCreditAssigner",
+        "HierarchicalRewardInjector"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 heritage_system.py → 整合 credit_assigner + decision_pruner → 经验库"
+    },
+    {
+      "name": "life_ring_tracker.py",
+      "size_kb": 23,
+      "lines": 468,
+      "chain": "STEEL",
+      "v17_component": "生命年轮追踪器(Layer0)",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "LifeRingTracker"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为钢印链时间维度"
+    },
+    {
+      "name": "deviation_gate.py",
+      "size_kb": 22,
+      "lines": 516,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "偏离度检测 → 强工作流熔断前身",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "DeviationGate",
+        "A_Line",
+        "B_Line"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 forced_workflow.py 整合 deviation_gate + cold_start_engine + arch_fsm"
+    },
+    {
+      "name": "version_cooldown.py",
+      "size_kb": 22,
+      "lines": 513,
+      "chain": "STEEL",
+      "v17_component": "版本树冷却计时器",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "VersionCooldown"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为钢印链版本控制"
+    },
+    {
+      "name": "environment_detector.py",
+      "size_kb": 21,
+      "lines": 531,
+      "chain": "INFRA",
+      "v17_component": "环境检测(启动用)",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "EnvironmentDetector"
+      ],
+      "dependencies": [],
+      "v17_action": "无需改动"
+    },
+    {
+      "name": "seal_protocol.py",
+      "size_kb": 19,
+      "lines": 512,
+      "chain": "STEEL",
+      "v17_component": "钩子协议定义 → 钩子注入器前身",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "SealPayload",
+        "CausalChainPayload",
+        "WriteBackEnvelope",
+        "ProtocolValidator"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 hook_injector.py 实现 4 种钩子类型"
+    },
+    {
+      "name": "seal_rag.py",
+      "size_kb": 16,
+      "lines": 410,
+      "chain": "STEEL",
+      "v17_component": "钢印RAG检索",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "SealRAG"
+      ],
+      "dependencies": [],
+      "v17_action": "接入 hook_injector.py"
+    },
+    {
+      "name": "audit_engine.py",
+      "size_kb": 16,
+      "lines": 364,
+      "chain": "INFRA",
+      "v17_component": "观测层前身(审计日志)",
+      "status": "FRAGMENT",
+      "priority": "P2",
+      "key_classes": [
+        "AuditEngine",
+        "Violation"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 telemetry.py → 实时遥测面板"
+    },
+    {
+      "name": "cold_start_gate.py",
+      "size_kb": 15,
+      "lines": 352,
+      "chain": "INFRA",
+      "v17_component": "冷启动Gate(会话模式判断)",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "ColdStartGate",
+        "SessionMode"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为 Infra 启动验证"
+    },
+    {
+      "name": "error_router.py",
+      "size_kb": 14,
+      "lines": 376,
+      "chain": "INFRA",
+      "v17_component": "错误路由与回滚",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "ErrorRouter"
+      ],
+      "dependencies": [],
+      "v17_action": "无需改动"
+    },
+    {
+      "name": "steel_seal_verifier.py",
+      "size_kb": 14,
+      "lines": 361,
+      "chain": "STEEL",
+      "v17_component": "钢印验证器(完整)",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "SteelSealVerifier"
+      ],
+      "dependencies": [],
+      "v17_action": "直接复用"
+    },
+    {
+      "name": "cognitive_evaluator.py",
+      "size_kb": 13,
+      "lines": 348,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "认知负载评估器",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "CognitiveLoadEvaluator",
+        "TFIDFEmbedder"
+      ],
+      "dependencies": [],
+      "v17_action": "无需改动"
+    },
+    {
+      "name": "cognitive_time_engine.py",
+      "size_kb": 12,
+      "lines": 344,
+      "chain": "STEEL",
+      "v17_component": "认知时间引擎 → 时间钢印链条前身",
+      "status": "REVIEW",
+      "priority": "P2",
+      "key_classes": [
+        "CognitiveTimeEngine",
+        "CognitiveAnchor"
+      ],
+      "dependencies": [],
+      "v17_action": "补充标注 Layer1~4 精确映射文档"
+    },
+    {
+      "name": "user_metabolism.py",
+      "size_kb": 12,
+      "lines": 289,
+      "chain": "METABOLISM",
+      "v17_component": "USER.md 代谢归档",
+      "status": "READY",
+      "priority": "P1",
+      "key_classes": [
+        "UserMetabolism"
+      ],
+      "dependencies": [
+        "memory_degradation"
+      ],
+      "v17_action": "接入四条链主调度"
+    },
+    {
+      "name": "cognitive_integration.py",
+      "size_kb": 12,
+      "lines": 317,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "认知组件集成模块",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "CognitiveIntegrationModule"
+      ],
+      "dependencies": [
+        "cognitive_evaluator",
+        "cognitive_time_engine",
+        "cognitive_manifold_aligner"
+      ],
+      "v17_action": "无需改动"
+    },
+    {
+      "name": "bypass_mode.py",
+      "size_kb": 12,
+      "lines": 242,
+      "chain": "INFRA",
+      "v17_component": "绕过模式 → 动态防御前身",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "BypassMode",
+        "SafetyLevel(FULL/MINIMAL)"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 dynamic_defense.py 整合 neural_reflex + bypass_mode"
+    },
+    {
+      "name": "_gen_hibernate_snapshot.py",
+      "size_kb": 5,
+      "lines": 123,
+      "chain": "METABOLISM",
+      "v17_component": "冬眠快照生成",
+      "status": "READY",
+      "priority": "P2",
+      "key_classes": [
+        "HibernateSnapshot"
+      ],
+      "dependencies": [],
+      "v17_action": "整合入 time_anchor_sandbox.py"
+    },
+    {
+      "name": "upgrade_mode.py",
+      "size_kb": 1,
+      "lines": 30,
+      "chain": "INFRA",
+      "v17_component": "升级模式切换 → 强工作流前身",
+      "status": "FRAGMENT",
+      "priority": "P0",
+      "key_classes": [
+        "UpgradeMode"
+      ],
+      "dependencies": [],
+      "v17_action": "新建 forced_workflow.py 整合 upgrade_mode + deviation_gate + arch_fsm"
+    },
+    {
+      "name": "chaos_adapter.py",
+      "size_kb": 6,
+      "lines": 129,
+      "chain": "CROSS_CHAIN",
+      "v17_component": "混沌适配器",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "ChaosAdapter"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为异常处理"
+    },
+    {
+      "name": "homeostatic_monitor.py",
+      "size_kb": 6,
+      "lines": 129,
+      "chain": "INFRA",
+      "v17_component": "稳态监控",
+      "status": "READY",
+      "priority": "P3",
+      "key_classes": [
+        "HomeostaticMonitor"
+      ],
+      "dependencies": [],
+      "v17_action": "标注为稳态监控"
+    },
+    {
+      "name": "consciousness_cycle_with_cognition.py",
+      "size_kb": 6,
+      "lines": 188,
+      "chain": "METABOLISM",
+      "v17_component": "认知增强版意识循环(旧版)",
+      "status": "ORPHAN",
+      "priority": "P3",
+      "key_classes": [],
+      "dependencies": [],
+      "v17_action": "标记为废弃文件，可删除"
+    },
+    {
+      "path": "sandbox/micro_sleep.py",
+      "chain": "METABOLISM",
+      "status": "READY",
+      "size_bytes": 30537,
+      "test": "test_micro_sleep.py",
+      "tests_passed": 29,
+      "description": "微睡眠引擎：从consciousness_cycle.py抽取，六步原子操作流水线",
+      "tags": [
+        "MICRO_SLEEP",
+        "METABOLISM",
+        "EXTRACTED"
+      ],
+      "last_updated": "2026-06-25"
+    },
+    "test_naming_module.py"
+  ],
+  "summary": {
+    "total_py_files": 51,
+    "total_kb": 1050,
+    "by_chain": {
+      "STEEL": 8,
+      "MEMORY": 3,
+      "DISPATCH": 4,
+      "METABOLISM": 10,
+      "CROSS_CHAIN": 4,
+      "INFRA": 8,
+      "TEST": 13,
+      "ORPHAN": 1
+    },
+    "by_status": {
+      "READY": 23,
+      "REVIEW": 5,
+      "FRAGMENT": 9,
+      "NEW": 0,
+      "INTEGRATE": 0
+    },
+    "p0_modules": [
+      "naming_module.py → 呼名检测（已完整）",
+      "consciousness_cycle.py → 抽取微睡眠 + 梦境调度",
+      "cold_start_engine.py + arch_fsm.py + deviation_gate.py + upgrade_mode.py → 强工作流引擎",
+      "neural_reflex.py + bypass_mode.py → 动态防御引擎",
+      "seal_protocol.py → 钩子注入器"
+    ]
+  },
+  "v17_action_summary": {
+    "new_files_to_create": [
+      "src/comfort_module.py",
+      "src/forced_workflow.py",
+      "src/dynamic_defense.py",
+      "src/hook_injector.py",
+      "src/heritage_system.py",
+      "src/time_anchor_sandbox.py",
+      "src/micro_sleep.py",
+      "src/dream_scheduler.py",
+      "src/telemetry.py",
+      "src/sensory_input_layer.py",
+      "src/render_layer.py"
+    ],
+    "existing_files_to_integrate": [
+      "naming_module.py",
+      "reflection_module.py + decision_pruner.py → consciousness_cycle.py",
+      "sag_lite_knowledge_graph.py → 标注为图书馆",
+      "tu8_memory.py → 标注为知识库",
+      "credit_assigner.py + decision_pruner.py → heritage_system.py",
+      "confidence_decay_engine.py + reward_engine_doc → 补充 promote_entry()"
+    ],
+    "files_to_annotate_only": [
+      "cognitive_time_engine.py → Layer1~4 标注",
+      "emotion_engine.py → 标注情感缓冲前身",
+      "audit_engine.py → 标注遥测前身",
+      "quantized_memory.py → 标注冷存储层"
+    ],
+    "files_to_delete": [
+      "consciousness_cycle_with_cognition.py"
+    ]
+  }
+}

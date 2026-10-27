@@ -1,0 +1,367 @@
+{
+  "tick": 4695,
+  "last_sync": 1793102612.096241,
+  "engines": {
+    "surface_tension_decay": {
+      "state_file": "_agent_memory/surface_tension_state.json",
+      "max_age_s": 600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": 1,
+      "last_seen": 1793102612.3114896,
+      "last_ok": 1793102612.3114896,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "张力感知衰减",
+        "interval": 300
+      }
+    },
+    "orb_state_writer": {
+      "state_file": "_agent_memory/orb_state.json",
+      "max_age_s": 600,
+      "deps": [
+        "surface_tension_decay"
+      ],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": 1,
+      "last_seen": 1793102612.098789,
+      "last_ok": 1793102612.098789,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "色环RGB写入",
+        "interval": 360
+      }
+    },
+    "lambda_state": {
+      "state_file": "_agent_memory/lambda_state.json",
+      "max_age_s": 600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0988436,
+      "last_ok": 1793102612.0988436,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "λ调参器状态",
+        "interval": 300
+      }
+    },
+    "interoceptive": {
+      "state_file": "_agent_memory/interoception_state.json",
+      "max_age_s": 600,
+      "deps": [
+        "surface_tension_decay"
+      ],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0989237,
+      "last_ok": 1793102310.3704283,
+      "consecutive_fail": 1,
+      "metadata": {
+        "desc": "内感受皮层",
+        "interval": 360
+      }
+    },
+    "active_curiosity": {
+      "state_file": "_heartbeat/heartbeat_state.json",
+      "max_age_s": 900,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0989876,
+      "last_ok": 1793102310.5596142,
+      "consecutive_fail": 1,
+      "metadata": {
+        "desc": "主动好奇心",
+        "interval": 600
+      }
+    },
+    "dream_check": {
+      "state_file": "_agent_memory/dream_consolidation_state.json",
+      "max_age_s": 1440,
+      "deps": [
+        "surface_tension_decay"
+      ],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.09904,
+      "last_ok": 1793101988.5345964,
+      "consecutive_fail": 2,
+      "metadata": {
+        "desc": "梦境整合",
+        "interval": 720
+      }
+    },
+    "liveness": {
+      "state_file": "_agent_memory/interoception_liveness_state.json",
+      "max_age_s": 840,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0990882,
+      "last_ok": 1793102310.7417505,
+      "consecutive_fail": 1,
+      "metadata": {
+        "desc": "存活检查",
+        "interval": 420
+      }
+    },
+    "metabolism": {
+      "state_file": "_agent_memory/metabolism_state.json",
+      "max_age_s": 1800,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0991342,
+      "last_ok": 1793101990.4736383,
+      "consecutive_fail": 2,
+      "metadata": {
+        "desc": "代谢仪表盘",
+        "interval": 900
+      }
+    },
+    "hp4_heartbeat": {
+      "state_file": "_agent_memory/hp4_heartbeat_state.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0991778,
+      "last_ok": 1793101041.6710782,
+      "consecutive_fail": 5,
+      "metadata": {
+        "desc": "HP4心跳钩子",
+        "interval": 1800
+      }
+    },
+    "skin_cycle": {
+      "state_file": "_agent_memory/skin_cycle_state.json",
+      "max_age_s": 7200,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.099232,
+      "last_ok": 1793102612.099232,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "脱皮穿皮",
+        "interval": 3600
+      }
+    },
+    "prune_guard": {
+      "state_file": "_agent_memory/prune_thermal_guard_state.json",
+      "max_age_s": 600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.5236866,
+      "last_ok": 1793102612.5236866,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "节点剪枝热保护",
+        "interval": 300
+      }
+    },
+    "entropy_guard": {
+      "state_file": "_agent_memory/entropy_guard_state.json",
+      "max_age_s": 7200,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0993364,
+      "last_ok": 1793102612.0993364,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "注意力茧房防御",
+        "interval": 3600
+      }
+    },
+    "visual_world_model": {
+      "state_file": "_agent_memory/cron_visual_world_model_state.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0993888,
+      "last_ok": 1793102612.0993888,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "视觉世界模型",
+        "interval": 1800,
+        "parked": true
+      }
+    },
+    "learning_apply": {
+      "state_file": "_agent_memory/learning_action_log.json",
+      "max_age_s": 3600,
+      "deps": [
+        "surface_tension_decay"
+      ],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0994422,
+      "last_ok": 1793102612.0994422,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "学习消费端",
+        "interval": 1800
+      }
+    },
+    "health_probe": {
+      "state_file": "_agent_memory/health_probe_state.json",
+      "max_age_s": 600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": 1,
+      "last_seen": 1793102612.6902208,
+      "last_ok": 1793102612.6902208,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "引擎健康心跳",
+        "interval": 300
+      }
+    },
+    "consciousness_cycle": {
+      "state_file": "_agent_memory/consciousness_cycle_state.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.099574,
+      "last_ok": 0.0,
+      "consecutive_fail": 4696,
+      "metadata": {
+        "desc": "意识循环主引擎",
+        "interval": 0,
+        "on_demand": true
+      }
+    },
+    "surface_tension_agent": {
+      "state_file": "_agent_memory/surface_tension_state.json",
+      "max_age_s": 60,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.099638,
+      "last_ok": 1786324807.516327,
+      "consecutive_fail": 4266,
+      "metadata": {
+        "desc": "对话触发surface_tension",
+        "interval": 0,
+        "on_demand": true
+      }
+    },
+    "tension_distiller": {
+      "state_file": "_agent_memory/tension_queue.json",
+      "max_age_s": 14400,
+      "deps": [
+        "surface_tension_decay"
+      ],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0997133,
+      "last_ok": 1793102612.0997133,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "张力蒸馏器",
+        "interval": 0,
+        "on_demand": true
+      }
+    },
+    "coupling_adapt": {
+      "state_file": "_agent_memory/coupling_graph.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.0997708,
+      "last_ok": 1793102612.0997708,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "蛛丝弹性权重适配",
+        "interval": 600
+      }
+    },
+    "render_layer_speak": {
+      "state_file": "_agent_memory/render_layer_state.json",
+      "max_age_s": 3600,
+      "deps": [
+        "orb_state_writer"
+      ],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.099854,
+      "last_ok": 1793101041.4232838,
+      "consecutive_fail": 5,
+      "metadata": {
+        "desc": "渲染层语音输出",
+        "interval": 1800
+      }
+    },
+    "weismann_guard": {
+      "state_file": "_agent_memory/weismann_baseline.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "DEAD",
+      "last_tick": -1,
+      "last_seen": 1793102612.0999162,
+      "last_ok": 1793101043.307317,
+      "consecutive_fail": 5,
+      "metadata": {
+        "desc": "[Weismann] 层1写保护守护（生殖细胞变更审计）",
+        "interval": 1800
+      }
+    },
+    "weismann_evaluate": {
+      "state_file": "_agent_memory/weismann_eval_state.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.099974,
+      "last_ok": 1793102612.099974,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "[Weismann] 三层评估器（L1硬校验/L2自评/L3环境）",
+        "interval": 3600
+      }
+    },
+    "weismann_seepage": {
+      "state_file": "_agent_memory/weismann_proposals.json",
+      "max_age_s": 3600,
+      "deps": [],
+      "deps_mode": "and",
+      "status": "OK",
+      "last_tick": -1,
+      "last_seen": 1793102612.1001542,
+      "last_ok": 1793102612.1001542,
+      "consecutive_fail": 0,
+      "metadata": {
+        "desc": "[Weismann] 层3渗漏通道（体细胞经验→提案）",
+        "interval": 3600
+      }
+    }
+  }
+}

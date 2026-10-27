@@ -1,0 +1,123 @@
+# TU-8 冷启动协议配置
+# 版本: v1.0
+# 更新: 2026-05-31
+# 路径: config/cold_start_config.yaml
+
+# =============================================================================
+# P0: 激活码机制
+# =============================================================================
+activation_code:
+  enabled: true
+  # 激活码存储位置（由 secure_vault 管理）
+  vault_path: "./secure_vault/data/keys.txt"
+  # 激活码类型: challenge_response | static_passphrase | hmac_otp
+  mode: "static_passphrase"
+  # 静态口令（第一道：版本号）
+  static_challenge: "v5"
+  # 静态口令（第二道：日期 — 创造者指定日期）
+  static_answer_pattern: "创造者指定日期"
+  # HmacOTP模式备用（未来启用）
+  hmac_secret: null
+  hmac_counter_file: "./security/hmac_counter.json"
+  # 激活码使用次数
+  max_attempts: 3
+  lockout_duration_minutes: 30
+  # 激活码成功后写入 genesis_block
+  genesis_block_path: "./memory/time_chain/genesis_block.json"
+
+# =============================================================================
+# genesis_block 数据结构
+# =============================================================================
+genesis_block:
+  # 不可变——写入后只读
+  immutable: true
+  schema:
+    creator_id: "创造者签名（激活码校验通过后生成）"
+    creator_timestamp: "T₀ ISO-8601 时间戳"
+    l0_hash: "SOUL.md 在 T₀ 时刻的 SHA256 哈希"
+    dna_fingerprint: "DNA指纹 F(A)，计算公式见钢印链条定稿"
+    activation_code_hash: "激活码的 SHA256 哈希（不存原文）"
+    host_fingerprint: "主机名+OS+工作目录的复合指纹"
+    cold_start_type: "FIRST | DORMANCY_WAKE | CRASH_RECOVER"
+    dormancy_info:
+      hours_slept: 0
+      dormancy_type: "night_sleep | idle | forced"
+    session_seed: "本次会话的随机种子（用于后续熵检测基准）"
+
+# =============================================================================
+# P0→P1 因果锁
+# =============================================================================
+causal_lock:
+  enabled: true
+  # P0完成后的输出文件——P1启动时检查此文件是否存在
+  lock_file: "./memory/time_chain/p0_complete.lock"
+  # P0完成后才能启动P1心跳写入
+  p1_block_until_p0: true
+
+# =============================================================================
+# 会话间隔检测
+# =============================================================================
+session_gap:
+  # 活跃记录文件
+  activity_log: "./security/activity.json"
+  # 语义标签分类阈值
+  thresholds:
+    short_break: 0.5    # <30分钟 → 短暂离开
+    normal_break: 2.0   # <2小时 → 正常间隔
+    long_break: 6.0     # <6小时 → 较长离开
+    night_sleep: 12.0   # <12小时 → 夜间休眠
+    deep_dormancy: 24.0 # ≥24小时 → 深度休眠
+  # 各标签对应的冷启动深度
+  cold_start_depth:
+    short_break: "MINIMAL"       # 仅时间戳刷新
+    normal_break: "LIGHT"        # 刷新时间戳 + 记忆索引检查
+    long_break: "STANDARD"        # 标准冷启动：环境检查 + 口令验证
+    night_sleep: "STANDARD"     # 同上
+    deep_dormancy: "FULL"        # 完整冷启动：全部流程 + genesis_block校验
+
+# =============================================================================
+# 环境检查项目
+# =============================================================================
+environment_check:
+  items:
+    - name: "host_identity"
+      description: "验证主机名是否匹配已知设备"
+      action: "socket.gethostname() against KNOWN_CARRIERS"
+    - name: "workspace_integrity"
+      description: "验证SOUL.md存在且可读"
+      action: "os.path.exists(SOUL_FILE)"
+    - name: "memory_directory"
+      description: "验证memory目录存在且有文件"
+      action: "os.path.isdir(MEMORY_DIR) and count > 0"
+    - name: "secure_vault"
+      description: "验证安全保险箱存在"
+      action: "os.path.isdir(SECURE_VAULT_DIR)"
+    - name: "python_runtime"
+      description: "验证Python可执行"
+      action: "check python path"
+    - name: "node_runtime"
+      description: "验证Node.js可执行"
+      action: "node --version"
+
+# =============================================================================
+# 口令双向验证
+# =============================================================================
+authentication:
+  enabled: true
+  # 双向验证流程：
+  # 1. 读取 secure_vault/data/keys.txt 中的口令
+  # 2. TU-8 生成挑战（从口令池中随机选取一个挑战）
+  # 3. 创造者应答
+  # 4. 匹配 → 通过
+  challenge_pool:
+    - type: "version"
+      question: "当前版本号？"
+      answer: "v5"
+    - type: "date"
+      question: "指定日期？"
+      answer: "7月15日"
+    - type: "identity"
+      question: "笔名由来？"
+      answer: "金木蟾"
+  # 验证后写入的会话状态
+  session_state_file: "./security/session_state.json"

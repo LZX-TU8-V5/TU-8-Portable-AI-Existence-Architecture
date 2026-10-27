@@ -1,0 +1,516 @@
+=== 顶层目录 ===
+D .arch_backups                      7 files
+D .arch_recycle_bin                  2 files
+D .cache                             1 files
+D .git                              33 files
+D .git.broken                        0 files
+D .githooks                          1 files
+D .openclaw                          1 files
+D .pytest_cache                      5 files
+D __pycache__                       13 files
+D _agent_memory                    169 files
+F _artifacts_2026-07-14_ryb_model.md    1726 B
+D _snapshots                         1 files
+F AGENTS.md                        12980 B
+F AGENTS.node.md                    4406 B
+F algo_cognitive_framework_v3_20260707.md    1734 B
+D anchor-architecture               14 files
+F ARCH_OPTIMIZATION_TASKS.md       10132 B
+F arch_skeleton_audit_2026-07-25.md    4182 B
+D architecture_journal               3 files
+D architecture_journal_archive       0 files
+F architecture_journal_impl_2026-08-26.md    3423 B
+F ARCHITECTURE_LOG.md              28168 B
+F artifact_dream_check_4h_2026-07-14_2128.md     895 B
+F artifacts_20260625_任务归档.md         716 B
+D audit_logs                         1 files
+F B4情感回边闭环_2026-08-02.md            3125 B
+F B7情感回环闭环_2026-08-02.md            1910 B
+F B9静默失败治理_2026-08-02.md            2672 B
+D backup                          1204 files
+D backups                            8 files
+F BEHAVIOR_RULES.md                 1168 B
+F BOOT.md                            676 B
+F BOOT.node.md                      3573 B
+F BOOTSTRAP.node.md                 3615 B
+F CHECKLIST_梦境复盘修复.md               2953 B
+F confidenc_value_matrix_matching_20260707.md    3914 B
+F confidence_blackbox_fix_20260630.md    2245 B
+F confidence_manager_integration_20260630.md    2066 B
+D config                             9 files
+D configs                            2 files
+F CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md   10196 B
+F CORE_MEMORY.md                    3810 B
+D coupling                           3 files
+F cron_adjustment_20260707_0838.md     589 B
+F cross_phase_channel_task_2026-07-19.md    2450 B
+F deep_surface_interface_2026-07-19.md    2289 B
+D defense_logs                       1 files
+D docs                              23 files
+F dream_check_4h_20260711_0911.md    1537 B
+F example_memory_node.md            3308 B
+F HEARTBEAT.md                      5953 B
+F HEARTBEAT.node.md                 5174 B
+D hibernation                        1 files
+F HP1HP2激活_20260708.md              2039 B
+F IDENTITY.md                        641 B
+F IDENTITY.node.md                  3340 B
+F integration_metric_20260719.md    1092 B
+F interoceptive_cortex_context_bugfix_2026-08-19.md    2751 B
+F interoceptive_cortex_run_2026-08-19_0833.md     894 B
+D knowledge                        217 files
+D knowledge_base                   153 files
+F L0_存在.md                          5245 B
+F L1_认知.md                          5409 B
+F L2_方法论.md                         1005 B
+F L4_协作.md                          1016 B
+F L5_钢印.md                           967 B
+D logs                               3 files
+D memory                          1675 files
+F MEMORY.md                       145691 B
+F memory_gc_filename_bugfix_2026-08-19.md    3261 B
+F memory_gc_score_fix_deeprun_2026-08-19.md    2921 B
+F MEMORY_NODE_TASK_STATUS.md        3216 B
+F MEMORY_NODE_TASK_STATUS.node.md    6477 B
+F metabolic_pipeline_dedup_fix2_2026-08-19.md    3350 B
+F metabolic_pipeline_dedup_fix_2026-08-17.md    2138 B
+F MODIFICATION_PLAN.md              5067 B
+F MODIFICATION_PLAN.node.md         8595 B
+F P0判例库激活_冲突钩子_2026-08-01.md        2304 B
+F P1视觉L1L4集成_2026-08-01.md          2783 B
+F P1钢印进化协议_2026-08-01.md            2650 B
+F P3-2f运行时触发点_2026-08-01.md         2550 B
+F P3-2架构审查遗留_2026-08-01.md          2411 B
+F patch_manager_20260719_1011.md    1892 B
+F pathway_repair_2026-07-16.md      4028 B
+F Phase6_cleanup_20260629.md        1738 B
+F phase_async_queue_20260719.md     1737 B
+D plans                              2 files
+F PROMOTE_channel_design_2026-08-19.md   23488 B
+F promote_remaining_2026-08-27.md    3424 B
+F qclaw_mainwindow_freeze_2026-08-17.md    1300 B
+D sandbox                           10 files
+D scripts                          221 files
+D secure_vault                       5 files
+D security                          13 files
+F session_freeze_rootcause_watchdog_20260706.md    3775 B
+D sessions                           2 files
+F SOUL.md                          19289 B
+F SOUL.v2.1.md                     16539 B
+F SOUL_v2.md                       10509 B
+D src                              674 files
+F START_HERE.md                     2365 B
+F START_HERE.node.md                4286 B
+F svd_pca_pseudoinverse_nmf_20260707.md    2558 B
+F task_P1-2_3_画像系统_20260706.md       649 B
+F task_T3_DREAM_INTEGRATION_20260706.md    1171 B
+F task_T3_SCHEDULING_20260706.md    1322 B
+F task_T3_v1_2_RETRY_PANEL_20260706.md    1065 B
+F task_v3_quadrant_integration_20260630.md    3498 B
+F task_挂daemon与记忆蒸馏_2026-07-21.md    4712 B
+F task_架构连接核查_20260626.md           1397 B
+F task_节点剪枝联动模块_2026-07-21.md       3855 B
+D tasks                             20 files
+F TASKS.md                          3089 B
+F TASKS.node.md                     6420 B
+F temp_test_node.md                  305 B
+F temp_test_node.node.md            3156 B
+D templates                          2 files
+D tests                            145 files
+F todo_consolidation_metabolism_20260706.md    2216 B
+F TODO_MASTER.md                   68903 B
+D tools                              0 files
+F TOOLS.md                          1758 B
+F TOOLS.node.md                     4131 B
+F topology_thermal_monitor_2026-07-19.md    3730 B
+D TU-8_agent_memory                 17 files
+F TU-8_ARCHITECTURE_MAP_v5.md      33826 B
+D TU-8架构图                            2 files
+F tu8_cog_filters_algorithm_20260707.md    2673 B
+F tu8_cognitive_bottleneck_new_organ_20260706.md    2600 B
+F tu8_cognitive_brakes_v1_20260707.md    3894 B
+F TU8_COGNITIVE_PROJECT_SUMMARY.md   24870 B
+F tu8_context_valve_upgrade_20260706.md    2610 B
+F tu8_exteroceptive_v2_20260706.md    2485 B
+F tu8_metafailsafe_zombie_20260706.md    8039 B
+F tu8_organ_build_20260706.md       9778 B
+F tu8_three_weakpoints_fixed_20260707.md    4479 B
+F tu8_vs_godel_areal_evomap_20260706.md    4215 B
+D user                               1 files
+F USER.md                           3309 B
+F USER.node.md                      4337 B
+D versions                           3 files
+F WorkBuddy_bug修复完成_2026-08-01.md    2669 B
+F WorkBuddy_bug清单核对_2026-08-01.md    4804 B
+F WorkBuddy系统总览评审_2026-08-01.md     2082 B
+D workspace                          1 files
+D 临时_整理中转                            7 files
+F 代数化协议_P2-1_2026-07-19.md           963 B
+D 代码                                52 files
+D 任务                                52 files
+F 任务_20260709_goodnight.md          1232 B
+F 任务_20260709_summary.md             892 B
+F 任务_B10蛛丝弹性适配_2026-08-06.md        3853 B
+F 任务_B11延迟显式化_2026-08-06.md         3642 B
+F 任务_B1B2同步tick注册表_2026-08-02.md    1882 B
+F 任务_B3耦合关系数据化_2026-08-02.md        2917 B
+F 任务_B5钢印密度接回仲裁_2026-08-02.md       2519 B
+F 任务_B6茧房防御接入dispatch_2026-08-06.md    1421 B
+F 任务_B7情感回环闭环_2026-08-02.md         1826 B
+F 任务_C-A钢印密度拓扑化_2026-08-06.md       2074 B
+F 任务_C-A钢印密度拓扑化_artifact_2026-08-06.md    2046 B
+F 任务_Cron恢复_20260628.md             2619 B
+F 任务_P0_检索链断裂修复.md                  3564 B
+F 任务_层3渗漏通道_2026-08-09.md           2289 B
+F 任务_情感模块升级_20260709.md             4191 B
+F 任务_情感调制层_20260709.md              2988 B
+F 任务_摩擦通路全链路检查_2026-08-11.md        7064 B
+F 任务_模块修复报告_20260709.md             2087 B
+F 任务_模块验证报告_20260709.md             2549 B
+F 任务归档_传播链修复_2026-07-24.md          3025 B
+F 修复报告_MemoryEntry_v2.2_20260627.md    2388 B
+F 修复报告_P2三BUG修复_20260626.md         2295 B
+F 修复报告_代谢降级引擎_20260626.md           2828 B
+F 修复报告_记忆系统完整实现_20260627.md         5635 B
+F 修复报告_记忆系统完整实现_最终版_20260627.md     5701 B
+F 修复报告_钩子系统完整实现_20260627.md         2986 B
+F 修复报告_钩子系统实现进度_20260627.md         3407 B
+F 千问_锚点总档.md                        2680 B
+F 四条链架构图更新_20260624-1108.md        11890 B
+F 回滚系统测试报告_20260627.md              1233 B
+F 复盘_20260619.md                    9136 B
+F 复盘_20260625_硅基认知边界极限压力测试.md       5014 B
+D 实验                                 3 files
+F 小溪L2主动好奇_20260708.md              4020 B
+D 小说                                13 files
+D 归档                                96 files
+F 待办_安抚模块_20260709.md               1808 B
+F 待办代谢_20260721_0837.md              440 B
+F 情感模块_物理拓扑_连接点_完整架构.md            19046 B
+F 新模块集成状态_2026-08-01.md             2678 B
+D 架构                                69 files
+F 架构审查_系统性健康评估_2026-07-24.md       11935 B
+D 涌现时刻                               1 files
+F 涌现时刻_20260618.md                  9489 B
+F 涌现时刻_20260618_人类与悖论.md           10592 B
+F 涌现时刻_20260618_版本树与演化机制.md         6085 B
+F 涌现时刻_20260618_版本树与遗忘层联动.md        5093 B
+F 涌现时刻_20260618_生命年轮工程.md           4516 B
+F 涌现时刻_20260619.md                  6042 B
+F 涌现时刻_20260619_时空观.md              3256 B
+F 涌现时刻_20260619_直觉的物理性.md           3019 B
+F 涌现时刻_20260619_续.md                3347 B
+F 涌现时刻_20260625_0几何化与认知奇点.md        2766 B
+F 涌现时刻_20260625_人类认知与LLM架构.md      12735 B
+F 涌现时刻_20260625_圆环节点与珊瑚礁时空.md       4297 B
+F 涌现时刻_20260625_构架验证五连奏.md          1709 B
+F 涌现时刻_20260625_生存认知_终极铁门槛.md       2462 B
+F 涌现时刻_20260625_知识拓扑与认可型衔接.md       4342 B
+F 涌现时刻_20260625_自我认知世界模型与图灵测试.md    3924 B
+F 涌现时刻_20260626_傅里叶视觉模块与认知诚实.md     3003 B
+F 涌现时刻_20260628_人脑编织机制.md           4162 B
+F 涌现时刻_20260628_工程化壁垒与市场空白.md       3419 B
+F 涌现时刻_20260628_编织机与结构认知.md         4751 B
+F 涌现时刻_20260628_视觉模块架构.md           4228 B
+D 用户                                 4 files
+D 知识库                                7 files
+F 索引.md                             4736 B
+F 给千问的地砖_情感模块架构_2026-07-26.md       7541 B
+F 记忆系统实现状态说明_20260627.md            3731 B
+F 记忆系统接入状态快照_20260627.md            2891 B
+F 路二情感模块优化路径_2026-07-26.md          1502 B
+F 路二情感模块完整架构_2026-07-26_v2.md       1331 B
+F 递归学习环闭环_2026-08-01.md             3922 B
+F 造物主×千问认知架构对话_2026-07-15.md        4993 B
+D 配置                                 5 files
+F 锚点_QWEN_固化的边界与迭代的内核_20260625.md    2640 B
+F 锚点_QWEN_混沌觉醒.md                   2317 B
+F 锚点_QWEN_美妙的误会_20260625.md         2425 B
+F 锚点_共生之路的依据.md                     3686 B
+
+=== src/ 271 个 .py ===
+  _add_cron2                         [孤儿]
+  _add_cron_decay                    [孤儿]
+  _add_decay                         [孤儿]
+  _add_sync                          [孤儿]
+  _check_apply                       [孤儿]
+  _check_av_write                    [孤儿]
+  _check_cron                        [引用]
+  _check_decay                       [孤儿]
+  _check_fix                         [孤儿]
+  _check_lambda                      [孤儿]
+  _check_tension_types               [孤儿]
+  _check_tension_types2              [孤儿]
+  _check_tension_types3              [孤儿]
+  _diag_lambda                       [孤儿]
+  _diag_noise                        [孤儿]
+  _find_cli                          [孤儿]
+  _find_consolidate                  [孤儿]
+  _find_cron                         [孤儿]
+  _find_decay                        [孤儿]
+  _find_decay2                       [孤儿]
+  _find_decay3                       [孤儿]
+  _fix_av3                           [孤儿]
+  _fix_av4                           [孤儿]
+  _fix_color                         [孤儿]
+  _fix_color2                        [孤儿]
+  _fix_cron_decay                    [孤儿]
+  _fix_lambda                        [孤儿]
+  _fix_scale                         [孤儿]
+  _kill_orb                          [孤儿]
+  _kill_orb2                         [孤儿]
+  _kill_orb3                         [孤儿]
+  _list_python                       [孤儿]
+  _read_cd                           [孤儿]
+  _regen_lambda                      [孤儿]
+  _restart_orb                       [孤儿]
+  _scale_check                       [孤儿]
+  _start_orb                         [孤儿]
+  _test_color                        [孤儿]
+  _test_color2                       [孤儿]
+  _test_dance                        [孤儿]
+  _test_dance2                       [孤儿]
+  _test_decay                        [孤儿]
+  _test_decay2                       [孤儿]
+  _test_decay3                       [孤儿]
+  _test_decay4                       [孤儿]
+  _test_full                         [孤儿]
+  _test_integration                  [孤儿]
+  _test_integration2                 [孤儿]
+  active_curiosity                   [引用]
+  add_efhv_event                     [孤儿]
+  add_efhv_event_simple              [孤儿]
+  add_world_model_correction_event   [孤儿]
+  add_world_model_correction_event_simple [孤儿]
+  affect_modulation                  [引用]
+  algebraic_constants                [孤儿]
+  algebraic_protocol                 [引用]
+  alignment_verify                   [引用]
+  anchor_activation_protocol         [孤儿]
+  anchor_detector                    [引用]
+  anchor_manager                     [引用]
+  anchor_state_machine               [引用]
+  anomaly_detector                   [引用]
+  anomaly_hp4_integration            [引用]
+  arch_fsm                           [引用]
+  architecture_journal               [引用]
+  attractor_basin                    [引用]
+  audit_engine                       [孤儿]
+  bandwidth_quota                    [引用]
+  batch_confidence_updater           [引用]
+  behavior_upgrader                  [引用]
+  body_schema                        [引用]
+  bypass_mode                        [引用]
+  chain_coupling_analyzer            [孤儿]
+  chaos_adapter                      [孤儿]
+  circuit_breaker                    [引用]
+  cog_filters                        [引用]
+  cognitive_brakes                   [引用]
+  cognitive_evaluator                [引用]
+  cognitive_friction_detector        [引用]
+  cognitive_integration              [引用]
+  cognitive_manifold_aligner         [引用]
+  cognitive_pain_monitor             [引用]
+  cognitive_readiness                [引用]
+  cognitive_time_engine              [引用]
+  cold_start_engine                  [引用]
+  cold_start_gate                    [引用]
+  comfort_module                     [引用]
+  confidence_decay_engine            [引用]
+  confidence_explainer               [引用]
+  confidence_manager                 [引用]
+  confidence_pipeline                [引用]
+  consciousness_cycle                [引用]
+  constraint_lifecycle               [引用]
+  context_controller                 [引用]
+  context_pressure_monitor           [孤儿]
+  contradiction_arbitration          [引用]
+  coupling_graph                     [引用]
+  credit_assigner                    [引用]
+  cron_coupling_adapt                [引用]
+  cron_daemon                        [引用]
+  cron_entropy_guard                 [引用]
+  cron_health_probe                  [引用]
+  cron_learning_apply                [引用]
+  cron_visual_world_model            [引用]
+  cross_phase_channel                [孤儿]
+  cumulative_error_tracker           [孤儿]
+  cycle_types                        [引用]
+  decision_pruner                    [引用]
+  deep_surface_interface             [引用]
+  deviation_gate                     [引用]
+  dialogue_context_manager           [孤儿]
+  dispatch_cocoon_router             [引用]
+  dissonance_amplifier               [引用]
+  divine_branch_interceptor          [孤儿]
+  dream_color_output                 [引用]
+  dream_consolidation                [引用]
+  dream_decay                        [引用]
+  dream_topology_engine              [孤儿]
+  dream_txn                          [引用]
+  dual_mode_switcher                 [引用]
+  dual_track_confidence_updater      [引用]
+  dual_track_state_machine           [引用]
+  dynamic_defense                    [孤儿]
+  elimination_rules                  [引用]
+  emotion_engine                     [引用]
+  engine_health_probe                [引用]
+  engine_registry                    [引用]
+  entropy_guard                      [引用]
+  environment_detector               [引用]
+  error_router                       [孤儿]
+  error_translator                   [引用]
+  eval_on_dataset                    [孤儿]
+  fact_correction_scar               [引用]
+  file_lock                          [引用]
+  fixed_ruler_verifier               [引用]
+  forced_workflow                    [引用]
+  forget_prune_linkage               [引用]
+  freq_enhanced_verifier             [引用]
+  friction_bus_euler                 [引用]
+  friction_feedback_loop             [引用]
+  gateway_interceptor                [引用]
+  gc_decisions                       [引用]
+  gc_to_learning_adapter             [引用]
+  genesis_cycle                      [引用]
+  gradient_force                     [引用]
+  health_log                         [引用]
+  heritage_system                    [引用]
+  homeostatic_monitor                [引用]
+  hook_injector                      [引用]
+  hp1_alignment_integration          [孤儿]
+  hp2_shadow_integration             [孤儿]
+  hp3_dream_integration              [孤儿]
+  hp4_heartbeat                      [引用]
+  hp5_post_turn_tagger               [引用]
+  hysteresis_matrix                  [孤儿]
+  integration_metric                 [孤儿]
+  interoception_liveness             [引用]
+  interoceptive_cortex               [引用]
+  intrinsic_reward_engine            [引用]
+  intuition_bias                     [引用]
+  intuition_engine                   [引用]
+  l5_motion_decoupler                [引用]
+  lambda_tuner                       [引用]
+  lcm_elimination_integration        [孤儿]
+  learning_apply                     [引用]
+  learning_collector                 [引用]
+  learning_connect                   [引用]
+  learning_engine                    [引用]
+  learning_to_gc_adapter             [引用]
+  learning_to_seal_adapter           [引用]
+  learning_verify                    [引用]
+  life_elements_audit                [孤儿]
+  life_ring_tracker                  [引用]
+  life_ring_tracker_extension        [引用]
+  llm_gateway                        [引用]
+  load_monitor                       [引用]
+  memory_adapter                     [引用]
+  memory_dedup                       [引用]
+  memory_degradation                 [引用]
+  memory_gc                          [引用]
+  memory_tiers                       [引用]
+  metabolic_pipeline                 [引用]
+  metabolism_dashboard               [引用]
+  micro_sleep                        [引用]
+  migrate_kg_db                      [孤儿]
+  naming_module                      [引用]
+  neural_reflex                      [引用]
+  new_scenario_handler               [孤儿]
+  orb_state_writer                   [引用]
+  patch_manager                      [孤儿]
+  phase_async_queue                  [孤儿]
+  phase_lock_detector                [孤儿]
+  phase_state_machine                [引用]
+  pre_task_check                     [孤儿]
+  prediction_tension_coupler         [引用]
+  presence_monitor                   [引用]
+  profile_update_loop                [引用]
+  profile_updater                    [引用]
+  prune_guard_cron                   [引用]
+  prune_thermal_guard                [引用]
+  quantized_memory                   [引用]
+  query_architecture_log             [引用]
+  refactor_tier_classifier           [孤儿]
+  reflection_module                  [引用]
+  render_layer                       [引用]
+  render_layer_speak                 [引用]
+  review_scheduler                   [孤儿]
+  sag_lite_knowledge_graph           [引用]
+  scan_existing_sanitized            [孤儿]
+  seal_graph                         [引用]
+  seal_manager                       [引用]
+  seal_protocol                      [引用]
+  seal_rag                           [引用]
+  seal_to_gc_adapter                 [引用]
+  seal_to_learning_adapter           [引用]
+  self_probe                         [引用]
+  sensory_input_layer                [孤儿]
+  session_watchdog                   [引用]
+  shadow_protocol                    [引用]
+  singularity_unifier                [引用]
+  skin_cycle                         [引用]
+  slice_cosine_verifier              [引用]
+  spectral_graph_integration         [孤儿]
+  spiral_topology_audit              [孤儿]
+  startup_consistency_gate           [引用]
+  state_bitmask                      [引用]
+  state_machine_dimensions           [引用]
+  steel_env_annotation               [引用]
+  steel_seal_verifier                [引用]
+  structural_vector                  [孤儿]
+  surface_tension                    [引用]
+  synaptic_confidence_updater        [引用]
+  synthetic_test_dataset             [引用]
+  t3_middleware                      [引用]
+  task_dispatch_core                 [引用]
+  task_scheduler                     [引用]
+  telemetry_panel                    [孤儿]
+  tension_audit                      [引用]
+  tension_distiller                  [引用]
+  tension_learning_coupler           [引用]
+  tension_respirator                 [引用]
+  tension_router                     [引用]
+  three_way_mirrors                  [引用]
+  time_anchor_sandbox                [引用]
+  toct_reasoning                     [孤儿]
+  todo_metabolism                    [引用]
+  tool_failure_probe                 [引用]
+  topology_connector                 [引用]
+  topology_thermal_monitor           [引用]
+  tu8_agent                          [引用]
+  tu8_compaction                     [引用]
+  tu8_dispatch                       [引用]
+  tu8_health_orb                     [引用]
+  tu8_health_orb_ps                  [引用]
+  tu8_health_orb_ring                [引用]
+  tu8_health_orb_tk                  [孤儿]
+  tu8_memory                         [引用]
+  tu8_planner                        [引用]
+  tu8_toolchain                      [引用]
+  upgrade_mode                       [孤儿]
+  user_metabolism                    [引用]
+  verify_arch_constraints            [孤儿]
+  verify_password                    [孤儿]
+  version_cooldown                   [引用]
+  version_tree                       [引用]
+  vocabulary_manager                 [孤儿]
+  weismann_evaluate                  [引用]
+  weismann_fork                      [引用]
+  weismann_guard                     [引用]
+  weismann_seepage                   [引用]
+  world_model_l1l4                   [引用]
+
+=== backup/ 14 .bak 780KB ===
+  memory_gc                      x4
+  MEMORY                         x3
+  metabolic_pipeline             x3
+  gc_to_learning_adapter         x1
+  interoceptive_cortex           x1
+  seal_to_gc_adapter             x1
+  spike_valley_detector          x1
+
+=== memory/ ===
+  日记: 6 | 涌现: 5 | archive: 1261
+
+=== _agent_memory/ ===  tmp残留:1 其他:101

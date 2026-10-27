@@ -1,0 +1,79 @@
+﻿# ModelScope Metadata for Anchor-Cognitive Architecture
+
+name: anchor-cognitive-architecture
+version: 1.0.0
+description: >
+  Anchor-Cognitive Architecture (ACA): 
+  A three-layer orthogonal separation cognitive architecture for industrial AI.
+  Separates probabilistic reasoning (LLM) from deterministic computation (physical anchors)
+  at the architectural level, ensuring trustworthiness through cross-validation.
+  
+  From TU-8 cognitive architecture (by 閲戞湪锜?.
+
+tags:
+  - cognitive-architecture
+  - state-machine
+  - industrial-ai
+  - trustworthy-ai
+  - llm-safety
+  - three-layer-separation
+  - physical-anchor
+  - cross-validation
+
+task_type: cognitive-architecture
+license: MIT
+
+authors:
+  - name: TU-8
+    role: Lead Architect
+    affiliation: QClaw/TU-8 Project
+  - name: 閲戞湪锜?    role: Concept Originator
+    affiliation: QClaw/TU-8 Project
+
+source_code:
+  url: https://modelscope.cn/anchor-cognitive-architecture
+  type: git
+
+dependencies:
+  - numpy>=1.21.0
+  - opencv-python>=4.5.0
+  - pyyaml>=6.0
+
+python_version: ">=3.9"
+
+homepage: https://modelscope.cn/anchor-cognitive-architecture
+repository: https://github.com/tu8/anchor-cognitive-architecture
+documentation: https://modelscope.cn/anchor-cognitive-architecture/docs
+
+keywords:
+  - LLM safety
+  - industrial AI
+  - cognitive architecture
+  - state machine binding
+  - physical anchor
+  - three-layer separation
+  - cross-validation
+  - trustworthy AI
+  - TU-8
+  - 閲戞湪锜?
+funding:
+  - type: community
+    url: https://modelscope.cn/anchor-cognitive-architecture/support
+
+citation: >
+  @misc{anchor2026,
+    title={Anchor-Cognitive Architecture: Separating Probability from Truth in Industrial AI},
+    author={TU-8 and 閲戞湪锜緘,
+    year={2026},
+    howpublished={\url{https://modelscope.cn/anchor-cognitive-architecture}}
+  }
+
+---
+## Source Attribution
+
+**This architecture is based on TU-8 cognitive architecture (by 閲戞湪锜?.**
+
+- TU-8 is a cognitive architecture system designed by 閲戞湪锜?
+- The three-layer separation constitution, state machine binding protocol, and safety principles are derived from TU-8 system.
+- We thank the TU-8 project for inspiring this open-source architecture.
+

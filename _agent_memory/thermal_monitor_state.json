@@ -1,0 +1,358 @@
+{
+  "accumulated_tension": 0.31147314734676607,
+  "cooldown_until": null,
+  "last_check_time": 1793102612.499575,
+  "events": [
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792821421.068755,
+      "ts_iso": "2026-10-24T13:57:01+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792821732.1124015,
+      "ts_iso": "2026-10-24T14:02:12+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792822038.0333102,
+      "ts_iso": "2026-10-24T14:07:18+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792822348.6578166,
+      "ts_iso": "2026-10-24T14:12:28+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792822649.2854114,
+      "ts_iso": "2026-10-24T14:17:29+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792822964.5857956,
+      "ts_iso": "2026-10-24T14:22:44+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792823265.2033923,
+      "ts_iso": "2026-10-24T14:27:45+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792823576.5293481,
+      "ts_iso": "2026-10-24T14:32:56+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792823882.8659077,
+      "ts_iso": "2026-10-24T14:38:02+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792824193.749804,
+      "ts_iso": "2026-10-24T14:43:13+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792824494.384893,
+      "ts_iso": "2026-10-24T14:48:14+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792824809.8347323,
+      "ts_iso": "2026-10-24T14:53:29+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792825110.4756598,
+      "ts_iso": "2026-10-24T14:58:30+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792825421.4227993,
+      "ts_iso": "2026-10-24T15:03:41+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792825727.3337355,
+      "ts_iso": "2026-10-24T15:08:47+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792826037.842721,
+      "ts_iso": "2026-10-24T15:13:57+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792826338.4723072,
+      "ts_iso": "2026-10-24T15:18:58+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792826653.967327,
+      "ts_iso": "2026-10-24T15:24:13+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792826954.6126115,
+      "ts_iso": "2026-10-24T15:29:14+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792827265.946751,
+      "ts_iso": "2026-10-24T15:34:25+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792827572.306095,
+      "ts_iso": "2026-10-24T15:39:32+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792827899.6409068,
+      "ts_iso": "2026-10-24T15:44:59+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792894147.2214677,
+      "ts_iso": "2026-10-25T10:09:07+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792894453.2227259,
+      "ts_iso": "2026-10-25T10:14:13+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792894836.74605,
+      "ts_iso": "2026-10-25T10:20:36+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792976029.2354841,
+      "ts_iso": "2026-10-26T08:53:49+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792976333.4296284,
+      "ts_iso": "2026-10-26T08:58:53+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792976665.013346,
+      "ts_iso": "2026-10-26T09:04:25+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792976979.7031589,
+      "ts_iso": "2026-10-26T09:09:39+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792977307.6952333,
+      "ts_iso": "2026-10-26T09:15:07+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792977609.2807646,
+      "ts_iso": "2026-10-26T09:20:09+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792978190.5460277,
+      "ts_iso": "2026-10-26T09:29:50+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792978492.2465315,
+      "ts_iso": "2026-10-26T09:34:52+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792978876.0314286,
+      "ts_iso": "2026-10-26T09:41:16+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792980832.9294546,
+      "ts_iso": "2026-10-26T10:13:52+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792981135.244853,
+      "ts_iso": "2026-10-26T10:18:55+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792981462.9110246,
+      "ts_iso": "2026-10-26T10:24:22+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792981776.9365838,
+      "ts_iso": "2026-10-26T10:29:36+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792982102.8991168,
+      "ts_iso": "2026-10-26T10:35:02+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792982465.5100787,
+      "ts_iso": "2026-10-26T10:41:05+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792999580.6504412,
+      "ts_iso": "2026-10-26T15:26:20+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1792999891.3608549,
+      "ts_iso": "2026-10-26T15:31:31+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793000254.81768,
+      "ts_iso": "2026-10-26T15:37:34+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793068906.4028788,
+      "ts_iso": "2026-10-27T10:41:46+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793101042.240071,
+      "ts_iso": "2026-10-27T19:37:22+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793101344.0110445,
+      "ts_iso": "2026-10-27T19:42:24+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793101684.560952,
+      "ts_iso": "2026-10-27T19:48:04+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793101991.0394125,
+      "ts_iso": "2026-10-27T19:53:11+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793102311.534556,
+      "ts_iso": "2026-10-27T19:58:31+08:00"
+    },
+    {
+      "type": "somatic_oppression",
+      "value": 0.06,
+      "source": "auto_somatic_check",
+      "ts": 1793102612.4985294,
+      "ts_iso": "2026-10-27T20:03:32+08:00"
+    }
+  ],
+  "session_start": 1793102612.49656
+}

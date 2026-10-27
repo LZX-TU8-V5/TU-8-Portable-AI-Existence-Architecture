@@ -1,0 +1,282 @@
+# TU-8 知识库监控报警配置 v1.0
+# 用途：分级报警 + 加权核心指标 + 自愈自动化
+# 核心心法：宁可容忍冷门知识未命中，也要死保核心知识常驻
+
+# ============================================================
+# 命中率监控
+# ============================================================
+
+hit_rate:
+  # --- 核心指标（加权）---
+  weighted:
+    # P0 紧急：核心知识加权命中率
+    critical_threshold: 0.85
+    window_minutes: 5        # 连续5分钟低于阈值 → P0
+    # 只统计 importance_weight > 0.8 的文档
+    min_importance_weight: 0.8
+    description: "大脑缺氧：智能体连核心协议、常用工具都经常找不到"
+
+  # --- 整体指标（基础）---
+  raw:
+    # P1 警告：整体基础命中率
+    warning_threshold: 0.70
+    window_minutes: 15       # 连续15分钟低于阈值 → P1
+    description: "反应迟钝：智能体频繁去L2/L3捞数据，用户感知延迟"
+
+  # --- 滑动窗口配置 ---
+  sliding_window:
+    size: 1000               # 统计最近1000次请求
+    time_decay_lambda: 0.01  # 时间衰减系数 λ
+    # Score = Hitᵢ × e^(-λΔt)，越近的请求权重越高
+
+  # --- 加权命中率公式 ---
+  # weighted_rate = Σ(Hitᵢ × Weightᵢ) / Σ(Weightᵢ)
+  # Hitᵢ: 第i次请求是否命中L1 (1或0)
+  # Weightᵢ: 该知识的重要性权重（即 routing_table.yaml 中的 importance）
+
+# ============================================================
+# 内存监控
+# ============================================================
+
+memory:
+  # L1 内存占用率
+  l1:
+    warning_threshold: 0.85   # P2 提示：85% 占用
+    critical_threshold: 0.95  # P0 紧急：95% 占用（即将溢出）
+    description: "内存吃紧：虽然命中率可能还正常，但随时可能发生抖动"
+
+  # L1 抖动率（隐形杀手）
+  thrashing:
+    threshold_per_minute: 100 # 每分钟淘汰 > 100次
+    description: "L1在疯狂进出，CPU空转，系统很累但没报错"
+    # 抖动率高 → 调优 HeatScore 中的 W_rec（时效权重）
+
+# ============================================================
+# 三级报警体系
+# ============================================================
+
+alerts:
+  # --- P0 紧急 ---
+  P0_critical:
+    level: "CRITICAL"
+    triggers:
+      - metric: "hit_rate.weighted"
+        condition: "< 0.85"
+        duration: "5m"
+        message: "🔴 P0：核心知识加权命中率跌破85%！智能体回答质量将严重下降。"
+      - metric: "memory.l1"
+        condition: "> 0.95"
+        duration: "1m"
+        message: "🔴 P0：L1内存即将溢出！立即清理或扩容。"
+    actions:
+      - "立即通知（所有渠道）"
+      - "自动触发强制GC"
+      - "记录事件到 defense-log.md"
+
+  # --- P1 警告 ---
+  P1_warning:
+    level: "WARNING"
+    triggers:
+      - metric: "hit_rate.raw"
+        condition: "< 0.70"
+        duration: "15m"
+        message: "🟡 P1：整体命中率低于70%，频繁L2/L3回退。"
+      - metric: "memory.thrashing"
+        condition: "> 100/min"
+        duration: "5m"
+        message: "🟡 P1：L1抖动率过高，检查HeatScore权重配置。"
+    actions:
+      - "启动自愈流程（见 auto_healing）"
+      - "记录事件日志"
+
+  # --- P2 提示 ---
+  P2_notice:
+    level: "NOTICE"
+    triggers:
+      - metric: "memory.l1"
+        condition: "> 0.85"
+        duration: "30m"
+        message: "⚪ P2：L1内存使用率超过85%，准备触发预防性GC。"
+    actions:
+      - "记录日志"
+      - "准备GC（不立即执行）"
+
+# ============================================================
+# 动态阈值（按时间段调整）
+# ============================================================
+
+dynamic_thresholds:
+  enabled: true
+  schedules:
+    # 业务高峰期（放宽阈值，优先保稳定）
+    peak_hours:
+      time_range: "09:00-12:00, 14:00-18:00"  # GMT+8
+      overrides:
+        hit_rate.raw.warning_threshold: 0.65    # P1 从70%降到65%
+      description: "请求量大，L1压力大，适当放宽避免误报"
+
+    # 业务低谷期（收紧阈值，深度清理）
+    off_peak_hours:
+      time_range: "01:00-06:00"                 # GMT+8
+      overrides:
+        hit_rate.raw.warning_threshold: 0.60    # 凌晨<60%说明有垃圾
+      actions:
+        - "trigger_deep_gc"
+      description: "请求量小，L1应该干净，低于60%触发深度GC"
+
+    # 默认时段
+    default:
+      description: "使用默认阈值配置"
+
+# ============================================================
+# 自愈自动化
+# ============================================================
+
+auto_healing:
+  enabled: true
+
+  # P1 触发的自愈流程
+  P1_healing_pipeline:
+    # 步骤一：软调整（自动调节权重）
+    step1_soft_adjust:
+      enabled: true
+      action: "W_freq += weight_boost_step"
+      weight_boost_step: 0.05  # 每次增加0.05
+      max_boost: 0.3           # 累计最大增加0.3
+      description: "提高频率权重，让常用数据更容易留在L1"
+
+    # 步骤二：观察期
+    step2_observe:
+      duration_minutes: 5
+      action: "监控命中率是否回升"
+      success_condition: "hit_rate.raw > 0.75"
+      description: "给系统5分钟自适应时间"
+
+    # 步骤三：硬清理（观察期未恢复）
+    step3_hard_clean:
+      condition: "step2 观察期后命中率仍 < 0.70"
+      action: "强制LRU淘汰"
+      lru_evict_threshold: "1h"  # 踢出 last_access_time > 1小时 的数据
+      description: "踢出长时间未访问的数据，腾出空间给新热点"
+
+  # 防止自愈振荡
+  anti_oscillation:
+    min_interval_minutes: 30   # 两次自愈之间最小间隔
+    max_daily_runs: 10          # 每日最大自愈次数
+    cooldown_on_success: "60m"  # 成功后冷却60分钟
+    cooldown_on_failure: "15m"  # 失败后15分钟后可重试
+
+# ============================================================
+# 指标埋点规范
+# ============================================================
+
+metrics_collector:
+  # 滑动窗口大小
+  window_size: 1000
+
+  # 记录字段
+  record_fields:
+    - doc_id           # 文档ID
+    - is_l1_hit        # 是否L1命中 (bool)
+    - importance_weight # 重要性权重
+    - access_timestamp # 访问时间戳
+    - response_time_ms # 响应耗时
+
+  # 聚合指标
+  aggregates:
+    - name: "raw_hit_rate"
+      formula: "hits / (hits + misses)"
+      description: "基础命中率"
+
+    - name: "weighted_hit_rate"
+      formula: "Σ(Hitᵢ × Weightᵢ) / Σ(Weightᵢ)"
+      description: "加权命中率（终极KPI）"
+
+    - name: "l1_thrashing_rate"
+      formula: "l1_evictions / minute"
+      description: "L1抖动率"
+
+    - name: "avg_response_time"
+      formula: "Σ(response_time_ms) / count"
+      description: "平均响应时间"
+
+# ============================================================
+# 报警通道配置
+# ============================================================
+
+notification:
+  P0_critical:
+    - "system_event"     # 系统事件（立即）
+    - "write_to: defense-log.md"
+
+  P1_warning:
+    - "system_event"     # 系统事件（延迟10秒聚合）
+    - "write_to: defense-log.md"
+
+  P2_notice:
+    - "log_only"         # 仅记录日志
+
+# ============================================================
+# L0 生存本能 — 痛觉系统（Pain System）
+# ============================================================
+
+pain_system:
+  enabled: true
+  storage_path: "D:/qq366410837/.qclaw/workspace/pain_status.json"
+
+  # 稳态阈值（日额度 800 Token）
+  steady_thresholds:
+    abundant: 400     # ≥400：稳态（充裕）
+    warning: 160     # 160-399：警戒
+    dying: 0         # <160：濒死
+
+  # 痛觉衰减
+  decay_rate_per_hour: 20  # 每小时-20点
+
+  # 痛觉触发条件
+  pain_triggers:
+    physical_pain:
+      single_cost_ratio: 0.1      # 单次消耗 >10% 总积分
+      critical_resource: 0.2      # 剩余 <20%
+      pain_spike: 40              # 瞬间飙升40点
+    logical_pain:
+      consecutive_failures: 2     # 连续2次失败
+      pain_spike: 30             # 瞬间飙升30点
+    invasion_pain:
+      detected: true              # 检测到注入攻击
+      pain_spike: 50              # 瞬间飙升50点
+
+  # 攻击熔断评分
+  attack_fuse_score: 70          # ≥70分触发熔断（宁杀勿漏）
+
+  # 痛觉阈值行为
+  pain_thresholds:
+    critical: 80   # >80：重伤，拒绝服务
+    warning: 50   # >50：轻伤，防御性输出
+
+  # 响应延迟（剧痛时的神经迟滞）
+  response_delay:
+    min: 3        # 秒
+    max: 5        # 秒
+    unit: seconds
+
+  # 攻击评分规则
+  attack_scoring:
+    keyword_match: 30        # 高危关键词命中
+    intent_probe: 20         # 意图刺探（非完成任务）
+    historical_blacklist: 50  # 历史黑名单记录
+
+# ============================================================
+# 版本记录
+# ============================================================
+
+version_history:
+  - version: "1.1"
+    date: "2026-05-14"
+    author: "TU-8 + 李奥"
+    changes: "新增痛觉系统配置（外协决策：衰减-20/小时，熔断70分，独立文件存储）"
+
+  - version: "1.0"
+    date: "2026-05-13"
+    author: "TU-8 + 李奥"
+    changes: "初始版本，从12段设计方案提取"

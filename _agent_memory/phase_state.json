@@ -1,0 +1,66 @@
+{
+  "history": [
+    {
+      "ts": 1784431647.6926887,
+      "from": "NORMAL",
+      "to": "DREAM",
+      "reason": "[force] 测试强制进入梦境态",
+      "warnings": [
+        "impedance_risk",
+        "bandwidth_stretched",
+        "bandwidth_reduced"
+      ]
+    },
+    {
+      "ts": 1784431647.7485108,
+      "from": "DREAM",
+      "to": "COLLAPSE",
+      "reason": "[force] 测试张力超限",
+      "warnings": [
+        "safety_mode",
+        "bandwidth_reduced"
+      ]
+    },
+    {
+      "ts": 1784431647.7790887,
+      "from": "COLLAPSE",
+      "to": "NORMAL",
+      "reason": "[force] 测试热保护冷却",
+      "warnings": [
+        "bandwidth_increased"
+      ]
+    },
+    {
+      "ts": 1784518310.9651008,
+      "from": "NORMAL",
+      "to": "DREAM",
+      "reason": "[force] 测试强制进入梦境态",
+      "warnings": [
+        "impedance_risk",
+        "bandwidth_stretched",
+        "bandwidth_reduced"
+      ]
+    },
+    {
+      "ts": 1784518311.0341406,
+      "from": "DREAM",
+      "to": "COLLAPSE",
+      "reason": "[force] 测试张力超限",
+      "warnings": [
+        "safety_mode",
+        "bandwidth_reduced"
+      ]
+    },
+    {
+      "ts": 1784518311.0722923,
+      "from": "COLLAPSE",
+      "to": "NORMAL",
+      "reason": "[force] 测试热保护冷却",
+      "warnings": [
+        "bandwidth_increased"
+      ]
+    }
+  ],
+  "current_phase": "NORMAL",
+  "current_phase_entered_at": 1784518311.0722923
+}

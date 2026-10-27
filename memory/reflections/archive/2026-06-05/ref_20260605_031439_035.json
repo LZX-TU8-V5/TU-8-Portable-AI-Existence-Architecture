@@ -1,0 +1,37 @@
+{
+  "reflection_id": "ref_20260605_031439_035",
+  "reflection_type": "incremental",
+  "timestamp": "2026-06-05T03:14:39.035375+00:00",
+  "stats": {
+    "cycles": 0,
+    "micro_sleeps": 0,
+    "deep_sleeps": 0,
+    "hibernations": 0,
+    "notes_externalized": 0
+  },
+  "narrative": "会话运行平稳，未出现显著异常。当前无未解决事项。",
+  "highlights": [],
+  "unresolved": [],
+  "themes": [],
+  "health": "stable",
+  "memory_pressure": 0.0,
+  "cold_start_context": {
+    "session_id": "20260605_031439",
+    "hibernation_snapshot_path": null,
+    "last_seal_id": null,
+    "session_duration_minutes": 0.0,
+    "themes": [],
+    "unfinished_tasks": [],
+    "memory_pressure": 0.0,
+    "cognitive_load_peak": 0.0,
+    "destruction_ratio": 0.0,
+    "cold_start_readiness": 0.8,
+    "health": "stable",
+    "narrative_status": "",
+    "restoration_hints": [
+      "状态良好，可正常开展任务"
+    ],
+    "reflection_timestamp": "2026-06-05T03:14:39.035375+00:00",
+    "reflection_session_id": "ref_20260605_031439_035"
+  }
+}

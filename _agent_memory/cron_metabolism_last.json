@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 1.94,
+  "stdout": "=== 完整代谢循环 ===\n[OK] _learning_protected.json 标记 DEPRECATED（空壳，3个月后物理删）\n[GC] EVICT: ## 2026-07-09\n[GC] EVICT: ## 四、MotionBricks 安全本质与 L0 同构性\n[GC] EVICT: ## 2026-06-23 蒸馏（来自 memory/2026-06-23.md）\n[GC] EVICT: ﻿## 一、核心成果\n[GC] EVICT: ## 空间语言理论（v1.0）\n[GC] EVICT: ## 带刺球体拓扑模型（10:27重大突破）\n[GC] EVICT: ## WorkBuddy 审计修复（live bug）\n[GC] EVICT: ## 2026-07-03\n[T4→T5] GC反馈: 8条遗忘信号 (AGE=0 DENSITY=8 ACCESS=0 SCORE=0)\n健康度: 100.0%\n  ✅ confidence_decay\n  ✅ gc_to_learning\n  ✅ metabolic_pipeline\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:53:10.472907+00:00",
+  "script": "metabolism"
+}

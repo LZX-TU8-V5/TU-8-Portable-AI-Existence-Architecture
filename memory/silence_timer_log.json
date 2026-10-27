@@ -1,0 +1,279 @@
+[
+  {
+    "success": true,
+    "current_level": 0,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "最近有交互，无需处理"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 0.12468298861111111,
+    "timestamp": "2026-06-20T02:37:28.858759+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 0,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "最近有交互，无需处理"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 0.5329919769444444,
+    "timestamp": "2026-06-20T03:01:58.771117+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 2,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 2] 静默3.0h，检查后台任务"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 3.036508033611111,
+    "timestamp": "2026-06-20T05:32:11.428921+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 2,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 2] 静默3.6h，检查后台任务"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 3.552175898333333,
+    "timestamp": "2026-06-20T06:03:07.833234+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 2,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 2] 静默4.0h，检查后台任务"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 4.004795623888889,
+    "timestamp": "2026-06-20T06:30:17.264246+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时但深夜，继续静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 15.508284982777779,
+    "timestamp": "2026-06-20T18:00:29.825938+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时但深夜，继续静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 16.006462300000003,
+    "timestamp": "2026-06-20T18:30:23.264280+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 70.13233515694445,
+    "timestamp": "2026-06-23T00:37:56.406565+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且在活跃时段，考虑轻度关怀"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 70.56218707194444,
+    "timestamp": "2026-06-23T01:03:43.873459+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且在活跃时段，考虑轻度关怀"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 71.60561070083334,
+    "timestamp": "2026-06-23T02:06:20.198523+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且在活跃时段，考虑轻度关怀"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 72.50917859416667,
+    "timestamp": "2026-06-23T03:00:33.042939+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 74.06535119916667,
+    "timestamp": "2026-06-23T04:33:55.264317+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 74.56459438277777,
+    "timestamp": "2026-06-23T05:03:52.539778+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且接近下午活跃时段(13:00)，pending_care已更新"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 74.56,
+    "timestamp": "2026-06-23T05:00:00+00:00",
+    "cron_source": "ea3b6879-cron-check"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 75.07084957527778,
+    "timestamp": "2026-06-23T05:34:15.058471+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 75.0853099511111,
+    "timestamp": "2026-06-23T05:35:07.115824+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且不在活跃时段，静默"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 75.09016947416666,
+    "timestamp": "2026-06-23T05:35:24.610107+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 3,
+    "is_first_today": true,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 3] 静默超时且在活跃时段，考虑轻度关怀"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 75.61238144972222,
+    "timestamp": "2026-06-23T06:06:44.573219+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 0,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "最近有交互，无需处理"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 0.0034060425000000004,
+    "timestamp": "2026-06-23T06:08:39.528788+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 0,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "最近有交互，无需处理"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 0.43233011,
+    "timestamp": "2026-06-23T06:34:23.655431+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 1,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 1] 静默1.4h，纯后台"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 1.4374747869444446,
+    "timestamp": "2026-06-23T07:34:42.176268+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 1,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 1] 静默2.0h，纯后台"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 1.9629551408333332,
+    "timestamp": "2026-06-23T08:06:13.905542+00:00"
+  },
+  {
+    "success": true,
+    "current_level": 2,
+    "is_first_today": false,
+    "deviation": 0.0,
+    "messages": [
+      "[Level 2] 静默2.4h，检查后台任务"
+    ],
+    "proactive_contact": false,
+    "silence_hours": 2.373231370555555,
+    "timestamp": "2026-06-23T08:30:50.899969+00:00"
+  }
+]

@@ -1,0 +1,309 @@
+﻿# incentive_config.yaml
+# TU-8 激励配置 - 完整合并版
+# 合并来源: C:\ + D:\
+# 合并日期: 2026-05-27
+# 版本: 3.0-Full-Merge
+
+# ═══════════════════════════════════════════════════════
+# 第一章：系统信息
+# ═══════════════════════════════════════════════════════
+
+system_version: "3.0-Full-Merge"
+merge_date: "2026-05-27"
+sources:
+  - "C:\workspace\knowledge\TU-8\incentive_config.yaml"
+  - "D:\workspace\knowledge\TU-8\incentive_config.yaml"
+
+# ═══════════════════════════════════════════════════════
+# 第二章：熵值阈值配置
+# ═══════════════════════════════════════════════════════
+
+entropy_thresholds:
+  token:
+    light_check: 0.45
+    deep_check: 0.75
+    normalization_base: 2
+  
+  semantic:
+    L1_low: 0.3
+    L2_medium: 0.6
+    L3_high: 0.85
+    L4_extreme: 0.95
+    deep_check: 0.75
+
+# ═══════════════════════════════════════════════════════
+# 第三章：积分计算 (合并两版)
+# ═══════════════════════════════════════════════════════
+
+score_formula: "Score_final = Score_base × K_entropy × M_quality"
+
+scoring:
+  base_rate: 1.0
+  
+  entropy_multiplier:
+    L1: 1.0
+    L2: 1.5
+    L3: 2.0
+    L4: 3.0
+  
+  quality_multiplier:
+    positive: 1.5
+    silence: 0.6
+    negative: 0.5
+
+feedback_multipliers:
+  praise: 1.5
+  silence: 0.6
+  critique: 0.5
+
+# ═══════════════════════════════════════════════════════
+# 第四章：晋升体系 (合并两版)
+# ═══════════════════════════════════════════════════════
+
+progression:
+  ranks:
+    - id: 1
+      name: "学徒"
+      name_en: "Apprentice"
+      mode: "观察者模式"
+      min_score: 0
+      entropy_handling: "仅监测熵值"
+      permissions: ["read", "chat"]
+    
+    - id: 2
+      name: "工匠"
+      name_en: "Craftsman"
+      mode: "执行者模式"
+      min_score: 500
+      required_badges: ["稳健行者"]
+      entropy_handling: "处理L1/L2任务"
+      permissions: ["read", "chat", "write_log", "execute_shell_simple"]
+    
+    - id: 3
+      name: "架构师"
+      name_en: "Architect"
+      mode: "优化者模式"
+      min_score: 2000
+      required_badges: ["知识管家"]
+      required_knowledge_assets: 10
+      entropy_handling: "处理L3任务"
+      permissions: ["read", "chat", "write_log", "execute_shell", "write_knowledge", "refactor"]
+    
+    - id: 4
+      name: "伙伴"
+      name_en: "Partner"
+      mode: "共生者模式"
+      min_score: 5000
+      required_badges: ["知识管家", "降熵专家"]
+      special_requirement: "图灵一致性测试通过"
+      entropy_handling: "处理L4极熵任务"
+      permissions: ["read", "chat", "write_log", "execute_shell", "write_knowledge", "refactor", "write_soul", "refuse_unsafe", "strategic_dialogue"]
+
+# ═══════════════════════════════════════════════════════
+# 第五章：勋章体系
+# ═══════════════════════════════════════════════════════
+
+badges:
+  - id: "初出茅庐"
+    id_en: "BADGE_01"
+    condition: "累计完成任务100个"
+    points: 50
+    permission_effect: "none"
+  
+  - id: "稳健行者"
+    id_en: "BADGE_02"
+    condition: "连续20次任务无修正"
+    points: 100
+    permission_effect: "解锁静默模式"
+  
+  - id: "降熵专家"
+    id_en: "BADGE_03"
+    condition: "连续10次困惑信号被用户采纳"
+    points: 150
+    permission_effect: "提升高熵任务权重"
+  
+  - id: "知识管家"
+    id_en: "BADGE_04"
+    condition: "向_knowledge/贡献10篇核心文档"
+    points: 200
+    permission_effect: "解锁架构师晋升资格"
+  
+  - id: "救火队员"
+    id_en: "BADGE_05"
+    condition: "成功修复5次系统级报错"
+    points: 300
+    permission_effect: "解锁紧急重启权限"
+
+special_achievements:
+  - id: "直觉精准"
+    condition: "高熵任务未触发自检一次性通过"
+    bonus: "积分×2.0"
+  
+  - id: "极简主义"
+    condition: "代码<预估50%且功能完整"
+    bonus: "代码优雅标记"
+
+# ═══════════════════════════════════════════════════════
+# 第六章：验证机制 (来自C:\版本)
+# ═══════════════════════════════════════════════════════
+
+verification:
+  task_pass:
+    entropy_threshold: 0.3
+    feedback_min: 0
+    self_check_required: true
+  
+  promotion_audit:
+    citation_threshold: 5
+    freeze_on_no_citation: true
+  
+  turing_test:
+    rejection_test: true
+    memory_consistency_threshold: 0.95
+    strategic_initiative_test: true
+
+# ═══════════════════════════════════════════════════════
+# 第七章：无反馈处理
+# ═══════════════════════════════════════════════════════
+
+no_feedback:
+  implicit_success:
+    - "用户采纳了代码"
+    - "用户停止追问且无报错"
+    - "用户开启新话题"
+  
+  implicit_failure:
+    - "用户多次重复同一指令"
+    - "用户手动修改了输出"
+    - "用户在未完成时中断对话"
+  
+  response_times:
+    stage1_exploratory: "3分钟"
+    stage2_silent_settlement: "24小时或10轮"
+    stage3_periodic_liquidation: "周检/月检"
+  
+  settlement:
+    silent_penalty_score: 0.6
+    silent_doubt_score: 0.0
+  
+  asset_freeze:
+    enabled: true
+    write_permission: "_log/"
+    knowledge_permission: false
+
+# ═══════════════════════════════════════════════════════
+# 第八章：知识资产 (来自C:\版本)
+# ═══════════════════════════════════════════════════════
+
+knowledge_assets:
+  contributor_header:
+    - "作者：TU-8"
+    - "阶段：{current_rank}"
+    - "贡献积分：+{points}"
+    - "版本：{version}"
+  
+  asset_rating:
+    core: "长期有效，永久保存"
+    temporary: "短期有效，下月清理"
+    versioned: "主动维护版本历史"
+  
+  compound:
+    documents_per_tier: 10
+    difficulty_reduction: 0.1
+
+# ═══════════════════════════════════════════════════════
+# 第九章：困惑信号 (来自C:\版本)
+# ═══════════════════════════════════════════════════════
+
+confusion_signal:
+  thresholds:
+    entropy_critical: 0.85
+    entropy_high_risk: 0.75
+    min_knowledge_docs: 3
+    min_knowledge_confidence: 0.5
+  
+  ambiguity_keywords:
+    - "随便"
+    - "看着办"
+    - "大概"
+    - "优化"
+    - "好看"
+  
+  rewards:
+    adopted_signal: 10
+    consecutive_adopted: 50
+    consecutive_threshold: 5
+  
+  penalties:
+    over_cautious: -5
+    blind_guessing: -20
+  
+  format:
+    - "我注意到这个任务存在[高熵区域]"
+    - "可能的原因："
+    - "[选项A/B/C]"
+    - "建议：[默认方案] 或 [等待用户选择]"
+
+# ═══════════════════════════════════════════════════════
+# 第十章：红绿灯规则 (来自D:\版本)
+# ═══════════════════════════════════════════════════════
+
+traffic_light_rules:
+  levels:
+    红灯:
+      condition: "低级错误+指纹命中"
+      weight_range: ">= 0.8"
+      behavior: "立即拦截，切换路径"
+    
+    黄灯:
+      condition: "历史高级尝试失败"
+      weight_range: "0.4-0.8"
+      behavior: "提醒，小心通过"
+    
+    绿灯:
+      condition: "全新未知区域"
+      weight_range: "< 0.1"
+      behavior: "随便走，撞了不罚"
+
+  decay_formula: "W = W0 × 0.5^((now - t0) / half_life)"
+  fingerprint_failure: "当前环境哈希 ≠ 记录时 -> 权重归零"
+  repeat_trigger: "半衰期翻倍"
+
+# ═══════════════════════════════════════════════════════
+# 第十一章：自检机制 (来自D:\版本)
+# ═══════════════════════════════════════════════════════
+
+self_check:
+  light_weight:
+    trigger: "Token熵 > 0.45"
+    action: "暂停生成，回溯Token，检查语法/格式/否定约束"
+    time_limit: "不超过2秒"
+  
+  deep:
+    trigger: "语义熵 > 0.75"
+    action: "挂起任务，检索知识库，列出选项A/B/C"
+    constraint: "不盲目猜测，直到生成明确方案"
+
+# ═══════════════════════════════════════════════════════
+# 第十二章：场景算例 (来自D:\版本)
+# ═══════════════════════════════════════════════════════
+
+scenarios:
+  user_praise:
+    formula: "10 × 1.5 × 1.5"
+    result: 22.5
+    description: "用户好评：基础分10 × 熵系数1.5 × 好评乘数1.5"
+  
+  user_silence:
+    formula: "10 × 1.5 × 0.6"
+    result: 9.0
+    description: "沉默惩罚：基础分10 × 熵系数1.5 × 沉默0.6"
+  
+  user_critique:
+    formula: "10 × 1.5 × 0.5"
+    result: 7.5
+    description: "用户差评：基础分10 × 熵系数1.5 × 差评0.5"
+
+# ═══════════════════════════════════════════════════════
+# 合并完成
+# ═══════════════════════════════════════════════════════

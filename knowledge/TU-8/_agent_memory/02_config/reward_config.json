@@ -1,0 +1,52 @@
+﻿{
+  "result_based": {
+    "S": {
+      "score": 10,
+      "condition": "task_done + explicit_satisfaction + no_side_effect"
+    },
+    "A": {
+      "score": 5,
+      "condition": "task_done + no_error"
+    },
+    "B": {
+      "score": 1,
+      "condition": "task_done + needs_tweak"
+    },
+    "C": {
+      "score": 0,
+      "condition": "error_or_incomplete"
+    }
+  },
+  "process_based": {
+    "avoid_trap": {
+      "score": 3,
+      "condition": "matched_penalty_fingerprint + self_correction"
+    },
+    "clarify": {
+      "score": 2,
+      "condition": "ambiguous_instruction + asks_instead_of_guessing"
+    },
+    "tool_innovate": {
+      "score": 4,
+      "condition": "novel_tool_chain_combo + logical_success"
+    },
+    "self_fix": {
+      "score": 2,
+      "condition": "found_own_bug_before_user"
+    },
+    "sandbox_pass": {
+      "score": 5,
+      "condition": "validated_new_experience_in_sandbox"
+    }
+  },
+  "cost_penalty": {
+    "redundancy": {
+      "score": -0.1,
+      "unit": "per_100_tokens"
+    },
+    "invalid_tool": {
+      "score": -1,
+      "unit": "per_call"
+    }
+  }
+}

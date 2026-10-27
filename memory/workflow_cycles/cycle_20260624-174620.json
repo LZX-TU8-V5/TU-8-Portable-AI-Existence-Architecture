@@ -1,0 +1,29 @@
+{
+  "cycle_completed_at": "2026-06-24T17:46:20.835775",
+  "total_nodes": 3,
+  "fuse_count_in_cycle": 3,
+  "memory_cards": [],
+  "nodes": [
+    {
+      "node_name": "g1_n1",
+      "detail": "",
+      "memory_card": null,
+      "completed_at": "2026-06-24T17:46:20.829426",
+      "fuse_cycle": 0
+    },
+    {
+      "node_name": "g1_n2",
+      "detail": "",
+      "memory_card": null,
+      "completed_at": "2026-06-24T17:46:20.830341",
+      "fuse_cycle": 1
+    },
+    {
+      "node_name": "g1_n3",
+      "detail": "",
+      "memory_card": null,
+      "completed_at": "2026-06-24T17:46:20.831653",
+      "fuse_cycle": 2
+    }
+  ]
+}

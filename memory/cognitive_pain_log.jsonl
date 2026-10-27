@@ -1,0 +1,10 @@
+{"ts": 1783391161.1402981, "count": 3, "max_sev": 0.75, "avg_sev": 0.583, "types": {"prediction_error": 1, "uncertainty": 1, "conflict": 1}, "posture": "high_pain"}
+{"ts": 1783391178.798593, "count": 6, "max_sev": 0.75, "avg_sev": 0.583, "types": {"prediction_error": 2, "uncertainty": 2, "conflict": 2}, "posture": "high_pain"}
+{"ts": 1783391210.673374, "count": 9, "max_sev": 0.75, "avg_sev": 0.583, "types": {"prediction_error": 3, "uncertainty": 3, "conflict": 3}, "posture": "high_pain"}
+{"ts": 1783391238.474337, "count": 12, "max_sev": 0.75, "avg_sev": 0.583, "types": {"prediction_error": 4, "uncertainty": 4, "conflict": 4}, "posture": "high_pain"}
+{"ts": 1783864534.5086005, "count": 13, "max_sev": 0.75, "avg_sev": 0.588, "types": {"prediction_error": 5, "uncertainty": 4, "conflict": 4}, "posture": "high_pain"}
+{"ts": 1783864534.5401533, "count": 14, "max_sev": 0.75, "avg_sev": 0.564, "types": {"prediction_error": 5, "uncertainty": 5, "conflict": 4}, "posture": "high_pain"}
+{"ts": 1783864534.5640035, "count": 15, "max_sev": 0.8, "avg_sev": 0.58, "types": {"prediction_error": 5, "uncertainty": 5, "conflict": 5}, "posture": "high_pain"}
+{"ts": 1783864604.177232, "count": 1, "max_sev": 0.65, "avg_sev": 0.65, "types": {"prediction_error": 1}, "posture": "mild_pain"}
+{"ts": 1783864604.1952453, "count": 1, "max_sev": 0.25, "avg_sev": 0.25, "types": {"uncertainty": 1}, "posture": "nominal"}
+{"ts": 1783864604.2099237, "count": 1, "max_sev": 0.82, "avg_sev": 0.82, "types": {"conflict": 1}, "posture": "high_pain"}

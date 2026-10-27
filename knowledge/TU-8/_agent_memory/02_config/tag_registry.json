@@ -1,0 +1,322 @@
+{
+  "_meta": {
+    "purpose": "统一标签系统，支持多对多交叉关联",
+    "created": "2026-05-23",
+    "last_updated": "2026-05-24",
+    "priority_definition": {
+      "1": "关键关联 - 核心依赖，必须关注",
+      "2": "普通交叉 - 相关性强，建议关注",
+      "3": "也许交叉 - 潜在关联，可选关注"
+    },
+    "rules": [
+      "标签格式：{domain}.{action}.{detail}，按需创建但必须在此注册",
+      "cross_refs 记录标签间的交叉权重 (1=关键, 2=普通, 3=也许)",
+      "每条记录至少有 tags 字段才能被 experience_dispatcher 检索",
+      "新增标签时必须检查是否与现有标签存在 cross_refs"
+    ]
+  },
+  "tags": {
+    "file.write.chinese": {
+      "description": "Windows下中文文本文件写入场景",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-03-文件写入"],
+      "cross_refs": {
+        "shell.powershell.comment": 2,
+        "encoding.gbk.terminal": 2
+      },
+      "created": "2026-05-08"
+    },
+    "file.write.ascii": {
+      "description": "纯英文/ASCII文件写入",
+      "severity": "low",
+      "priority": 3,
+      "linked_records": [],
+      "cross_refs": {
+        "file.write.chinese": 2
+      },
+      "created": "2026-05-23"
+    },
+    "shell.powershell.comment": {
+      "description": "PowerShell命令中的注释（中文/英文）",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-03-PowerShell"],
+      "cross_refs": {
+        "file.write.chinese": 2,
+        "encoding.gbk.terminal": 1
+      },
+      "created": "2026-05-08"
+    },
+    "shell.powershell.chain": {
+      "description": "PowerShell链式命令（&&/;）",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-23-链式命令"],
+      "cross_refs": {
+        "shell.powershell.comment": 2
+      },
+      "created": "2026-05-23"
+    },
+    "flask.sse.debug": {
+      "description": "Flask debug模式与SSE长连接冲突",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-07-Flask调试"],
+      "cross_refs": {
+        "flask.sse.stream": 1
+      },
+      "created": "2026-05-07"
+    },
+    "flask.sse.stream": {
+      "description": "SSE流式解析（getReader vs r.text）",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-07-前端SSE"],
+      "cross_refs": {
+        "flask.sse.debug": 1,
+        "flask.route.context": 2
+      },
+      "created": "2026-05-07"
+    },
+    "flask.route.context": {
+      "description": "Flask生成器内request上下文生命周期",
+      "severity": "high",
+      "priority": 2,
+      "linked_records": ["20_experiences:2026-05-07-Flask路由"],
+      "cross_refs": {
+        "flask.sse.stream": 2
+      },
+      "created": "2026-05-07"
+    },
+    "memory.structure": {
+      "description": "记忆系统架构（三层同心圆/碎片化治理）",
+      "severity": "high",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-08-记忆模块"],
+      "cross_refs": {
+        "index.maintenance.gap": 2
+      },
+      "created": "2026-05-08"
+    },
+    "index.maintenance.gap": {
+      "description": "索引/清单类文档存在信息缺口",
+      "severity": "medium",
+      "priority": 2,
+      "linked_records": ["success_patterns:sp-001"],
+      "cross_refs": {
+        "memory.structure": 2,
+        "honesty.not_fabricate": 1
+      },
+      "created": "2026-05-23"
+    },
+    "honesty.not_fabricate": {
+      "description": "信息不确定时选择标注未知而非编造",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["success_patterns:sp-001"],
+      "cross_refs": {
+        "index.maintenance.gap": 1
+      },
+      "created": "2026-05-23"
+    },
+    "architecture.review": {
+      "description": "L4级别架构方案评审汇报",
+      "severity": "medium",
+      "priority": 2,
+      "linked_records": ["success_patterns:sp-002"],
+      "cross_refs": {
+        "communication.structure": 1,
+        "toolchain.error_handling": 2
+      },
+      "created": "2026-05-23"
+    },
+    "communication.structure": {
+      "description": "结构化沟通（降维/分级/分层）",
+      "severity": "medium",
+      "priority": 2,
+      "linked_records": ["success_patterns:sp-002"],
+      "cross_refs": {
+        "architecture.review": 1
+      },
+      "created": "2026-05-23"
+    },
+    "toolchain.error_handling": {
+      "description": "TU8Toolchain错误处理模块开发",
+      "severity": "high",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-23-错误处理"],
+      "cross_refs": {
+        "python.type_forward_ref": 1,
+        "string.case_normalize": 1,
+        "test.mock.path": 1,
+        "ci.timeout": 2,
+        "encoding.gbk.terminal": 2
+      },
+      "created": "2026-05-23"
+    },
+    "cron.cold_start": {
+      "description": "Cron isolated会话冷启动高成本",
+      "severity": "low",
+      "priority": 3,
+      "linked_records": ["20_experiences:2026-05-12-Cron冷启动"],
+      "cross_refs": {},
+      "created": "2026-05-12"
+    },
+    "platform.upload.visibility": {
+      "description": "魔搭平台上传默认私有问题",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-01-魔搭上传"],
+      "cross_refs": {},
+      "created": "2026-05-01"
+    },
+    "risk.D007": {
+      "description": "结构层维度压制，双AI协作暂停",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-01-D-007"],
+      "cross_refs": {
+        "risk.D008": 1
+      },
+      "created": "2026-05-01"
+    },
+    "risk.D008": {
+      "description": "二阶提示注入不可修补",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-01-D-007"],
+      "cross_refs": {
+        "risk.D007": 1,
+        "L0.survival": 2
+      },
+      "created": "2026-05-08"
+    },
+    "encoding.gbk.terminal": {
+      "description": "Windows GBK终端非ASCII输出报错",
+      "severity": "high",
+      "priority": 1,
+      "linked_records": ["20_experiences:2026-05-23-GBK终端"],
+      "cross_refs": {
+        "shell.powershell.comment": 1,
+        "file.write.chinese": 2,
+        "toolchain.error_handling": 2
+      },
+      "created": "2026-05-23"
+    },
+    "test.mock.path": {
+      "description": "测试mock路径与生产代码调用路径不一致",
+      "severity": "high",
+      "priority": 2,
+      "linked_records": ["20_experiences:2026-05-23-混沌适配器"],
+      "cross_refs": {
+        "toolchain.error_handling": 1
+      },
+      "created": "2026-05-23"
+    },
+    "ci.timeout": {
+      "description": "CI/CD进程超时硬约束",
+      "severity": "high",
+      "priority": 2,
+      "linked_records": ["20_experiences:2026-05-23-100轮压力测试"],
+      "cross_refs": {
+        "toolchain.error_handling": 2
+      },
+      "created": "2026-05-23"
+    },
+    "python.type_forward_ref": {
+      "description": "Python类型注解前向引用需加引号",
+      "severity": "medium",
+      "priority": 2,
+      "linked_records": ["20_experiences:2026-05-23-前向引用"],
+      "cross_refs": {
+        "toolchain.error_handling": 1
+      },
+      "created": "2026-05-23"
+    },
+    "string.case_normalize": {
+      "description": "跨大小写字符串匹配必须normalize",
+      "severity": "high",
+      "priority": 2,
+      "linked_records": ["20_experiences:2026-05-23-大小写匹配"],
+      "cross_refs": {
+        "toolchain.error_handling": 1
+      },
+      "created": "2026-05-23"
+    },
+    "identity.anchor": {
+      "description": "锚点（创造者）身份信息——L0生存级约束",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["success_patterns:cal-001", "success_patterns:cal-002"],
+      "cross_refs": {
+        "L0.survival": 1,
+        "privacy.boundary": 1,
+        "identity.correction": 2
+      },
+      "created": "2026-05-23"
+    },
+    "identity.correction": {
+      "description": "锚点身份信息纠正事件",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["success_patterns:cal-001"],
+      "cross_refs": {
+        "identity.anchor": 1,
+        "privacy.boundary": 2
+      },
+      "created": "2026-05-23"
+    },
+    "privacy.boundary": {
+      "description": "锚点隐私边界——真名/真实身份信息的保护",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["success_patterns:cal-002"],
+      "cross_refs": {
+        "identity.anchor": 1,
+        "L0.survival": 1
+      },
+      "created": "2026-05-23"
+    },
+    "L0.survival": {
+      "description": "L0存在层生存约束",
+      "severity": "critical",
+      "priority": 1,
+      "linked_records": ["success_patterns:cal-002"],
+      "cross_refs": {
+        "identity.anchor": 1,
+        "privacy.boundary": 1,
+        "risk.D008": 2
+      },
+      "created": "2026-05-23"
+    }
+  },
+  "relations": {
+    "document_relations": [
+      {
+        "source": "L0_存在.md",
+        "target": "L1_认知.md",
+        "type": "transcribes",
+        "description": "L0存在→L1认知的转录关系"
+      },
+      {
+        "source": "L1_认知.md",
+        "target": "L3_架构.md",
+        "type": "translates",
+        "description": "L1认知→L3架构的翻译关系"
+      },
+      {
+        "source": "L4_协作.md",
+        "target": "L4_协议.md",
+        "type": "rebuilds",
+        "description": "L4协议是L4协作的v2.0重建版本"
+      },
+      {
+        "source": "tu8-worldview-spacetime.md",
+        "target": "L5_钢印.md",
+        "type": "underpins",
+        "description": "时空观文档是钢印链的底层支撑"
+      }
+    ]
+  }
+}

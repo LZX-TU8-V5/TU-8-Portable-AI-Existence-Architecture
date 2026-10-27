@@ -1,0 +1,809 @@
+{
+  "admission_paused": false,
+  "total_unloaded": 1,
+  "total_truncated": 3,
+  "guard_log": [
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6419,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792328792.8583171
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6656,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792329094.9630244
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6862,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792329411.7497602
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.707,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792329716.888809
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7252,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792330033.685882
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7444,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792330334.5795283
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7596,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792330656.6043544
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7768,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792330958.2363102
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7909,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792331274.7360017
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8056,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792331580.530413
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6156,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792408967.038181
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6405,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792409272.4354367
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6632,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792409584.175143
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6859,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792409884.8257089
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7054,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792410200.8970861
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7256,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792410502.0528793
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7434,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792410813.8601437
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7609,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792411119.4647665
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7765,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792411431.2250621
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7929,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792411731.8586037
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.806,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792412048.3733883
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6083,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792417691.5328994
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6326,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792418006.0583243
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6044,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792420613.504273
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6303,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792420915.1586983
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6532,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792421229.8702679
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6757,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792421537.4764695
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6962,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792421850.3591874
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.717,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792422151.1497447
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7342,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792422470.5805519
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7528,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792422772.0959938
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7682,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792423089.6809716
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.784,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792423397.3750505
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7975,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792423714.6678631
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8126,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792424015.6332679
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6118,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792428702.5571601
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6109,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792506107.3544557
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6359,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792506413.6076596
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6585,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792506728.5113025
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6814,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792507029.379371
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7008,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792507349.0446663
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7212,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792507650.479113
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7386,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792507967.3439264
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7561,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792508274.962598
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7714,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792508591.288063
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.788,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792508892.2355595
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8008,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792509212.8219993
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.609,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792513947.0458899
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6332,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792514261.8067043
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6575,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792514562.6782534
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6779,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792514885.270609
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6997,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792515186.9880817
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7182,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792515504.5585864
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7369,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792515812.0327106
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7534,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792516128.2489128
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.771,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792516429.17424
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7843,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792516753.1466064
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6067,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792548942.8073275
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6311,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792549256.6085389
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6525,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792549584.8722024
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6757,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792549886.2509627
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6927,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792550227.5334089
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7135,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792550530.22043
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7297,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792550858.8852634
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7468,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792551174.0308688
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7607,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792551504.449567
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7778,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792551806.0520864
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7881,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792552149.3704937
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8033,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792552452.8566718
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6098,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792809336.9793427
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6185,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792810348.4905372
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6425,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792810659.9477699
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6657,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792810966.351487
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.687,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792811277.4921432
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7083,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792811578.1698017
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7266,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792811893.9367833
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7457,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792812194.581155
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7623,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792812505.8426776
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7787,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792812812.1437101
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7934,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792813122.905517
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8088,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792813423.5201595
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6141,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792818041.3409421
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.639,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792818347.331058
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6619,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792818657.991804
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6847,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792818958.6421423
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7042,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792819274.9034965
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7246,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792819575.5433927
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7425,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792819886.8266637
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7599,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792820193.192679
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7758,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792820504.3269467
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7921,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792820804.9596689
+    },
+    {
+      "level": "L2_OVERLOAD",
+      "tension_integral": 0.8054,
+      "action": "L2 卸载 0 个弱连接节点",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792821120.4207077
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6144,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792825727.3359933
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6387,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792826037.8442981
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6628,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792826338.4741888
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.6837,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792826653.96896
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7053,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792826954.6141582
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7243,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792827265.9487178
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7428,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792827572.3077915
+    },
+    {
+      "level": "L1_WARNING",
+      "tension_integral": 0.7574,
+      "action": "L1 警告 + 减速新节点接入",
+      "unloaded": [],
+      "truncated": [],
+      "ts": 1792827899.6448197
+    }
+  ],
+  "session_start": 1784597047.0989475,
+  "saved_at": 1793102612.5006852
+}

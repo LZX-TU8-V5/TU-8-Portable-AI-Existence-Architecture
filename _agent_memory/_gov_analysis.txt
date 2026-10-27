@@ -1,0 +1,101 @@
+===== ① 备份保留约束搜索（跨 md/py/config 搜关键词）=====
+  命中 13202 行，前 40：
+  AGENTS.md : ### 铁律二：迭代前必备份
+  AGENTS.md : 1. 涉及多轮迭代的重要代码文件 → 每次重大修改前备份到 `backup/`
+  AGENTS.md : 2. 备份命名：`原文件名.v{n}.bak`（v{n} = 当日版本号）
+  AGENTS.md : 3. **禁止**：在核心文件上直接覆盖写而不留备份
+  AGENTS.md : 1. 备份：`cp USER.md backup/USER.md.before_metabolism.md`
+  architecture_journal_impl_2026-08-26.md : - 铁律二（迭代前备份）：`backup/memory_gc.py.20260826.impl.bak` / `metabolic_pipeline.py.20260826.impl.bak` / `seal_to_gc_adapter.py.20260826.impl.bak` + `backup/MEMORY.md.20260826.journal_inject.bak`
+  architecture_journal_impl_2026-08-26.md : - distill 干跑提取 1 段（journal 上游）；真实跑注入 MEMORY.md（备份 145133 字节可回滚），GC 验证 80 段全量、49 KEEP、7 段珍贵基底零破坏（EVICT 仍 no-op）。
+  B4情感回边闭环_2026-08-02.md : | 文件 | 操作 | 备份 |
+  B4情感回边闭环_2026-08-02.md : | `src/tu8_agent.py` | 修改：L1026-1046 新增情感反馈环注入点 | `backup/tu8_agent.v2.py` |
+  B4情感回边闭环_2026-08-02.md : | `surface_tension.py` | 仅读取（未修改） | `backup/surface_tension.v2.py`（此前备份）|
+  B7情感回环闭环_2026-08-02.md : | 文件 | 操作 | 备份 |
+  B7情感回环闭环_2026-08-02.md : | `src/tu8_agent.py` | 修改：L877-902 新增 B7 回环 | `backup/tu8_agent.v2.py` |
+  B9静默失败治理_2026-08-02.md : | 文件 | 操作 | 备份 |
+  B9静默失败治理_2026-08-02.md : | `src/orb_state_writer.py` | 修改：L87-106 新增 B9 探针 + STALE/DEAD 降级逻辑 | `backup/orb_state_writer.v2.py` |
+  BOOT.md : ### [ ] 3. 备份机制
+  BOOT.md : - backup/ 目录存在
+  BOOT.md : - 最近备份时间 ≤ 7 天
+  BOOT.md : ### [ ] 4. 冬眠快照
+  BOOT.md : - 最新快照可读取
+  BOOT.md : 3. 尝试从 backup/ 恢复
+  BOOT.node.md : - what: "Gateway重启后执行的文件完整性、服务状态、备份机制、冬眠快照检查"
+  BOOT.node.md : - **核心标签**：`启动检查` `系统完整性` `Gateway` `备份` `冬眠快照`
+  BOOT.node.md : ### [ ] 3. 备份机制
+  BOOT.node.md : - backup/ 目录存在
+  BOOT.node.md : - 最近备份时间 ≤ 7 天
+  BOOT.node.md : ### [ ] 4. 冬眠快照
+  BOOT.node.md : - 最新快照可读取
+  BOOT.node.md : 3. 尝试从 backup/ 恢复
+  CHECKLIST_梦境复盘修复.md : - [x] **工作区恢复** - 从桌面备份恢复 46 个文件
+  CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md : context_text = json.dumps(context_snapshot, ensure_ascii=False)
+  CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md : # 例如：将 context_snapshot 压缩为摘要，存入长期记忆
+  CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md : ### 方案 2：恢复备份文件
+  CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md : Copy-Item "consciousness_cycle.py.backup_YYYYMMDD_HHMMSS" "consciousness_cycle.py"
+  CORE_MEMORY.md : 三层文件：00_state=状态快照（覆盖）| 10_preferences=偏好（追加）| 20_longterm=MEMORY.md（蒸馏）
+  GOVERNANCE.md : 触发：workspace 根目录 ~130+ 散落 md、src 50+ 孤儿诊断脚本、5 套并行备份机制、4 组平行重叠目录、多源待办 —— 确认混乱，需治理
+  GOVERNANCE.md : 原则：先规范后执行；所有移动走 trash 不 rm；批量操作前整目录时间戳总备份；每阶段可独立回滚
+  GOVERNANCE.md : 2. **动前总备份**：任何阶段执行前，先整 workspace 打时间戳总备份（`.archive_YYYYMMDD/` 或压缩包），阶段失败可整体回滚。
+  GOVERNANCE.md : ├─ backup/                     ← 唯一手动备份通道（带日期 .bak）
+  GOVERNANCE.md : | ③ | 5 套并行备份（backup/backups/.arch_backups/.arch_recycle_bin/_snapshots） | 归一 `backup/`，其余清空或并入（先查 1204 自动快照来源） | P3 |
+  GOVERNANCE.md : ### P0 · 安全总备份（必先做）
+
+===== ② knowledge/ knowledge_base/ 知识库/ 对比 =====
+  knowledge: 199 files
+  knowledge_base: 152 files
+  知识库: 7 files
+  跨目录同名文件: 4 个
+    _log_conv1_observation.md -> ['knowledge', 'knowledge_base']
+    Streak_Rules.md -> ['knowledge', '知识库']
+    tu8_memory.py.backup_20260529_103930 -> ['knowledge', 'knowledge_base']
+    index_old_backup_20260527_0416.md -> ['knowledge', 'knowledge_base']
+  —— 内容级重复需后续逐对 hash，先报同名 ——
+
+===== ③ .node.md 变体清单 + 是否被引用 =====
+  共 25 个 .node.md
+  AGENTS.node.md               size=  4406 被代码/AGENTS引用=True
+  BOOT.node.md                 size=  3573 被代码/AGENTS引用=True
+  BOOTSTRAP.node.md            size=  3615 被代码/AGENTS引用=True
+  HEARTBEAT.node.md            size=  5174 被代码/AGENTS引用=True
+  IDENTITY.node.md             size=  3340 被代码/AGENTS引用=True
+  MEMORY_NODE_TASK_STATUS.node.md size=  6477 被代码/AGENTS引用=False
+  MODIFICATION_PLAN.node.md    size=  8595 被代码/AGENTS引用=False
+  START_HERE.node.md           size=  4286 被代码/AGENTS引用=False
+  TASKS.node.md                size=  6420 被代码/AGENTS引用=False
+  temp_test_node.node.md       size=  3156 被代码/AGENTS引用=False
+  TOOLS.node.md                size=  4131 被代码/AGENTS引用=True
+  USER.node.md                 size=  4337 被代码/AGENTS引用=True
+  AGENTS.node.md               size=  4406 被代码/AGENTS引用=True
+  TODO.node.md                 size=  4345 被代码/AGENTS引用=True
+  BOOT.node.md                 size=  3573 被代码/AGENTS引用=True
+  BOOTSTRAP.node.md            size=  3615 被代码/AGENTS引用=True
+  HEARTBEAT.node.md            size=  5174 被代码/AGENTS引用=True
+  IDENTITY.node.md             size=  3340 被代码/AGENTS引用=True
+  MEMORY_NODE_TASK_STATUS.node.md size=  6477 被代码/AGENTS引用=False
+  MODIFICATION_PLAN.node.md    size=  8595 被代码/AGENTS引用=False
+  START_HERE.node.md           size=  4286 被代码/AGENTS引用=False
+  TASKS.node.md                size=  6420 被代码/AGENTS引用=False
+  temp_test_node.node.md       size=  3156 被代码/AGENTS引用=False
+  TOOLS.node.md                size=  4131 被代码/AGENTS引用=True
+  USER.node.md                 size=  4337 被代码/AGENTS引用=True
+
+===== ④ 用户/ 目录内容 vs USER.md =====
+  用户/ 含 4 文件：
+    silence_timer_state.json (199 B)
+        > {
+        >   "silence_counter": 2,
+        >   "last_check": "2026-06-23T08:30:50.899969+00:00",
+    system_activity_state.json (235 B)
+        > {
+        >   "timestamp_utc": "2026-06-23T08:30:21.799365+00:00",
+        >   "timestamp_local": "2026-06-23T16:30:21.799365+08:00",
+    USER_PROFILE.json (3453 B)
+        > {
+        >   "schema_version": "1.0",
+        >   "last_updated": "2026-06-20T10:30:00+08:00",
+    USER_PROFILE.json_README.md (2101 B)
+        > # USER_PROFILE.json 使用指南
+        > 
+        > > 版本: 1.0 | 日期: 2026-06-20 | 状态: 活跃
+  USER.md 大小 3309 B，首行: # USER.md - About Your Human

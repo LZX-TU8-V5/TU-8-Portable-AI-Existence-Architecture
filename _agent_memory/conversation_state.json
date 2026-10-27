@@ -1,0 +1,23 @@
+{
+  "topic": "安全",
+  "angle": "认知",
+  "safety": "low",
+  "confidence": "low",
+  "prev_topic": "其他",
+  "prev_angle": "认知",
+  "trajectory": [
+    {
+      "topic": "其他",
+      "angle": "认知",
+      "timestamp": "2026-08-16T02:48:47"
+    },
+    {
+      "topic": "安全",
+      "angle": "认知",
+      "timestamp": "2026-08-16T02:49:30"
+    }
+  ],
+  "last_tag_miss": 0,
+  "consecutive_miss": 2,
+  "updated_at": "2026-08-16T02:49:30"
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": 1781161120.1720777,
+  "spatial_location": "office",
+  "spatial_zone": "office",
+  "pending_tasks": [],
+  "cumulative_subjective_hours": 2.5,
+  "drift_hours": 1.8,
+  "drift_ratio": 0.42
+}

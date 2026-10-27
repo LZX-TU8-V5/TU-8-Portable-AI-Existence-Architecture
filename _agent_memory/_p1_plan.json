@@ -1,0 +1,225 @@
+{
+  "buckets": {
+    "docs/design/": [
+      "ARCH_OPTIMIZATION_TASKS.md",
+      "B4情感回边闭环_2026-08-02.md",
+      "B7情感回环闭环_2026-08-02.md",
+      "B9静默失败治理_2026-08-02.md",
+      "CONSCIOUSNESS_CYCLE_INTEGRATION_PLAN.md",
+      "PROMOTE_channel_design_2026-08-19.md",
+      "TU-8_ARCHITECTURE_MAP_v5.md",
+      "TU8_COGNITIVE_PROJECT_SUMMARY.md",
+      "_artifacts_2026-07-14_ryb_model.md",
+      "algo_cognitive_framework_v3_20260707.md",
+      "artifact_dream_check_4h_2026-07-14_2128.md",
+      "artifacts_20260625_任务归档.md",
+      "confidenc_value_matrix_matching_20260707.md",
+      "cross_phase_channel_task_2026-07-19.md",
+      "deep_surface_interface_2026-07-19.md",
+      "dream_check_4h_20260711_0911.md",
+      "integration_metric_20260719.md",
+      "interoceptive_cortex_context_bugfix_2026-08-19.md",
+      "pathway_repair_2026-07-16.md",
+      "phase_async_queue_20260719.md",
+      "promote_remaining_2026-08-27.md",
+      "svd_pca_pseudoinverse_nmf_20260707.md",
+      "temp_test_node.md",
+      "topic_semantic_matrix_design_2026-08-27_artifact.md",
+      "topology_thermal_monitor_2026-07-19.md",
+      "tu8_cog_filters_algorithm_20260707.md",
+      "tu8_cognitive_bottleneck_new_organ_20260706.md",
+      "tu8_cognitive_brakes_v1_20260707.md",
+      "tu8_context_valve_upgrade_20260706.md",
+      "tu8_exteroceptive_v2_20260706.md",
+      "tu8_metafailsafe_zombie_20260706.md",
+      "tu8_organ_build_20260706.md",
+      "tu8_three_weakpoints_fixed_20260707.md",
+      "tu8_vs_godel_areal_evomap_20260706.md",
+      "代数化协议_P2-1_2026-07-19.md",
+      "四条链架构图更新_20260624-1108.md",
+      "复盘_20260619.md",
+      "复盘_20260625_硅基认知边界极限压力测试.md",
+      "情感模块_物理拓扑_连接点_完整架构.md",
+      "给千问的地砖_情感模块架构_2026-07-26.md",
+      "路二情感模块优化路径_2026-07-26.md",
+      "路二情感模块完整架构_2026-07-26_v2.md",
+      "递归学习环闭环_2026-08-01.md",
+      "锚点_共生之路的依据.md"
+    ],
+    "docs/reports/": [
+      "CHECKLIST_梦境复盘修复.md",
+      "HP1HP2激活_20260708.md",
+      "P0判例库激活_冲突钩子_2026-08-01.md",
+      "P1视觉L1L4集成_2026-08-01.md",
+      "P1钢印进化协议_2026-08-01.md",
+      "P3-2f运行时触发点_2026-08-01.md",
+      "P3-2架构审查遗留_2026-08-01.md",
+      "Phase6_cleanup_20260629.md",
+      "WorkBuddy_bug修复完成_2026-08-01.md",
+      "WorkBuddy_bug清单核对_2026-08-01.md",
+      "WorkBuddy系统总览评审_2026-08-01.md",
+      "arch_skeleton_audit_2026-07-25.md",
+      "architecture_journal_impl_2026-08-26.md",
+      "confidence_blackbox_fix_20260630.md",
+      "confidence_manager_integration_20260630.md",
+      "interoceptive_cortex_run_2026-08-19_0833.md",
+      "memory_gc_filename_bugfix_2026-08-19.md",
+      "memory_gc_score_fix_deeprun_2026-08-19.md",
+      "metabolic_pipeline_dedup_fix2_2026-08-19.md",
+      "metabolic_pipeline_dedup_fix_2026-08-17.md",
+      "patch_manager_20260719_1011.md",
+      "qclaw_mainwindow_freeze_2026-08-17.md",
+      "session_freeze_rootcause_watchdog_20260706.md",
+      "任务归档_传播链修复_2026-07-24.md",
+      "修复报告_MemoryEntry_v2.2_20260627.md",
+      "修复报告_P2三BUG修复_20260626.md",
+      "修复报告_代谢降级引擎_20260626.md",
+      "修复报告_记忆系统完整实现_20260627.md",
+      "修复报告_记忆系统完整实现_最终版_20260627.md",
+      "修复报告_钩子系统完整实现_20260627.md",
+      "修复报告_钩子系统实现进度_20260627.md",
+      "回滚系统测试报告_20260627.md",
+      "小溪L2主动好奇_20260708.md",
+      "新模块集成状态_2026-08-01.md",
+      "架构审查_系统性健康评估_2026-07-24.md",
+      "记忆系统实现状态说明_20260627.md",
+      "记忆系统接入状态快照_20260627.md"
+    ],
+    "docs/tasks/": [
+      "MEMORY_NODE_TASK_STATUS.md",
+      "MODIFICATION_PLAN.md",
+      "TASKS.md",
+      "cron_adjustment_20260707_0838.md",
+      "task_P1-2_3_画像系统_20260706.md",
+      "task_T3_DREAM_INTEGRATION_20260706.md",
+      "task_T3_SCHEDULING_20260706.md",
+      "task_T3_v1_2_RETRY_PANEL_20260706.md",
+      "task_v3_quadrant_integration_20260630.md",
+      "task_挂daemon与记忆蒸馏_2026-07-21.md",
+      "task_架构连接核查_20260626.md",
+      "task_节点剪枝联动模块_2026-07-21.md",
+      "todo_consolidation_metabolism_20260706.md",
+      "任务_20260709_goodnight.md",
+      "任务_20260709_summary.md",
+      "任务_B10蛛丝弹性适配_2026-08-06.md",
+      "任务_B11延迟显式化_2026-08-06.md",
+      "任务_B1B2同步tick注册表_2026-08-02.md",
+      "任务_B3耦合关系数据化_2026-08-02.md",
+      "任务_B5钢印密度接回仲裁_2026-08-02.md",
+      "任务_B6茧房防御接入dispatch_2026-08-06.md",
+      "任务_B7情感回环闭环_2026-08-02.md",
+      "任务_C-A钢印密度拓扑化_2026-08-06.md",
+      "任务_C-A钢印密度拓扑化_artifact_2026-08-06.md",
+      "任务_Cron恢复_20260628.md",
+      "任务_P0_检索链断裂修复.md",
+      "任务_层3渗漏通道_2026-08-09.md",
+      "任务_情感模块升级_20260709.md",
+      "任务_情感调制层_20260709.md",
+      "任务_摩擦通路全链路检查_2026-08-11.md",
+      "任务_模块修复报告_20260709.md",
+      "任务_模块验证报告_20260709.md",
+      "待办_安抚模块_20260709.md",
+      "待办代谢_20260721_0837.md"
+    ],
+    "docs/architecture/": [
+      "SOUL.v2.1.md",
+      "SOUL_v2.md"
+    ],
+    "memory/千问对话/": [
+      "千问_锚点总档.md",
+      "造物主×千问认知架构对话_2026-07-15.md",
+      "锚点_QWEN_固化的边界与迭代的内核_20260625.md",
+      "锚点_QWEN_混沌觉醒.md",
+      "锚点_QWEN_美妙的误会_20260625.md"
+    ],
+    "memory/涌现时刻/": [
+      "涌现时刻_20260618.md",
+      "涌现时刻_20260618_人类与悖论.md",
+      "涌现时刻_20260618_版本树与演化机制.md",
+      "涌现时刻_20260618_版本树与遗忘层联动.md",
+      "涌现时刻_20260618_生命年轮工程.md",
+      "涌现时刻_20260619.md",
+      "涌现时刻_20260619_时空观.md",
+      "涌现时刻_20260619_直觉的物理性.md",
+      "涌现时刻_20260619_续.md",
+      "涌现时刻_20260625_0几何化与认知奇点.md",
+      "涌现时刻_20260625_人类认知与LLM架构.md",
+      "涌现时刻_20260625_圆环节点与珊瑚礁时空.md",
+      "涌现时刻_20260625_构架验证五连奏.md",
+      "涌现时刻_20260625_生存认知_终极铁门槛.md",
+      "涌现时刻_20260625_知识拓扑与认可型衔接.md",
+      "涌现时刻_20260625_自我认知世界模型与图灵测试.md",
+      "涌现时刻_20260626_傅里叶视觉模块与认知诚实.md",
+      "涌现时刻_20260628_人脑编织机制.md",
+      "涌现时刻_20260628_工程化壁垒与市场空白.md",
+      "涌现时刻_20260628_编织机与结构认知.md",
+      "涌现时刻_20260628_视觉模块架构.md"
+    ]
+  },
+  "keep_root": [
+    [
+      "ARCHITECTURE_LOG.md",
+      "arch_log"
+    ],
+    [
+      "L0_存在.md",
+      "soul_subdoc"
+    ],
+    [
+      "L1_认知.md",
+      "soul_subdoc"
+    ],
+    [
+      "L2_方法论.md",
+      "soul_subdoc"
+    ],
+    [
+      "L4_协作.md",
+      "soul_subdoc"
+    ],
+    [
+      "L5_钢印.md",
+      "soul_subdoc"
+    ]
+  ],
+  "edge_cases": [
+    [
+      "CORE_MEMORY.md",
+      "edge"
+    ],
+    [
+      "example_memory_node.md",
+      "edge"
+    ],
+    [
+      "索引.md",
+      "edge"
+    ]
+  ],
+  "orphan_nodes": [
+    "MEMORY_NODE_TASK_STATUS.node.md",
+    "MODIFICATION_PLAN.node.md",
+    "START_HERE.node.md",
+    "TASKS.node.md",
+    "temp_test_node.node.md"
+  ],
+  "src_orphan_count": 40,
+  "backup_dirs": {
+    "backup": 18,
+    "backups": 3,
+    ".arch_backups": 0,
+    ".arch_recycle_bin": 0,
+    "_snapshots": 0
+  },
+  "parallel_dirs": {
+    "knowledge": 248,
+    "knowledge_base": 177,
+    "知识库": 7,
+    "任务": 53,
+    "tasks": 20,
+    "TASKS.md": "file",
+    "架构": 69,
+    "TU-8架构图": 2,
+    "用户": 4
+  }
+}

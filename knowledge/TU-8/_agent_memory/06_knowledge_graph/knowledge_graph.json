@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "k1",
+      "content": "Python错误处理最佳实践",
+      "tags": [
+        "python",
+        "toolchain",
+        "error_handling"
+      ],
+      "category": "工作技术动态",
+      "created_at": 1779614164.7663333,
+      "last_accessed": 1779614164.7663333,
+      "citation_count": 1,
+      "tone_risk": 0.85,
+      "emotion": 0.8
+    },
+    {
+      "id": "k5",
+      "content": "REM Dream梦境系统设计",
+      "tags": [
+        "dream",
+        "architecture",
+        "inspiration"
+      ],
+      "category": "生活审美与兴趣",
+      "created_at": 1779614164.7663333,
+      "last_accessed": 1779614164.7663333,
+      "citation_count": 1,
+      "tone_risk": 0.85,
+      "emotion": 0.9
+    },
+    {
+      "id": "k4",
+      "content": "零宽钢印防御机制",
+      "tags": [
+        "security",
+        "honeypot"
+      ],
+      "category": "重要原则与约定",
+      "created_at": 1779614164.7663333,
+      "last_accessed": 1779614164.7663333,
+      "citation_count": 1,
+      "tone_risk": 0.85,
+      "emotion": 0.85
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1779614164766",
+      "source": "k1",
+      "target": "k5",
+      "relation_type": "inspired_by",
+      "cross_weight": 0.0,
+      "intuition_weight": 0.625,
+      "problem": "如何让知识图谱自动连线？"
+    },
+    {
+      "id": "edge_1779614164766",
+      "source": "k4",
+      "target": "k1",
+      "relation_type": "inspired_by",
+      "cross_weight": 0.0,
+      "intuition_weight": 0.6125,
+      "problem": "如何让知识图谱自动连线？"
+    }
+  ],
+  "evidence_log": [
+    {
+      "timestamp": "2026-05-24T17:16:04.766333",
+      "edge_id": "edge_1779614164766",
+      "confidence": 0.4375,
+      "origin": "REM_Dream_v2.1",
+      "problem": "如何让知识图谱自动连线？"
+    },
+    {
+      "timestamp": "2026-05-24T17:16:04.766333",
+      "edge_id": "edge_1779614164766",
+      "confidence": 0.42875,
+      "origin": "REM_Dream_v2.1",
+      "problem": "如何让知识图谱自动连线？"
+    }
+  ]
+}

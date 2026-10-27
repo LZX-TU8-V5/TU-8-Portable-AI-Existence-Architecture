@@ -1,0 +1,16 @@
+{
+  "snapshots": {
+    "dream_snapshot_001": {
+      "type": "dream_fragment",
+      "tension": 0.8,
+      "energy": 0.0,
+      "created_at": 1784518310.9936528,
+      "updated_at": 1793102612.4887464,
+      "consolidated_at": null,
+      "prune_ready": true,
+      "metadata": {}
+    }
+  },
+  "version": 2,
+  "last_decay_at": 1793102612.4894602
+}

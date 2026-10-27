@@ -1,0 +1,13 @@
+{"ts": "2026-07-06 03:28:56", "type": "context", "severity": 1.0, "message": "上下文水位 100% (250k)，7 个会话 >180k"}
+{"ts": "2026-07-06 03:31:42", "type": "context", "severity": 1.0, "message": "上下文水位 100% (250k)，8 个会话 >180k"}
+{"ts": "2026-07-06 03:45:29", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线0）", "mode": "ceiling"}
+{"ts": "2026-07-17 16:18:44", "type": "freeze", "severity": 0.5, "message": "1 个会话卡死/吞输入：544142(吞0)"}
+{"ts": "2026-07-17 16:18:44", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-07-17 16:28:51", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-08-13 10:06:13", "type": "freeze", "severity": 0.5, "message": "1 个会话卡死/吞输入：6ed27c(吞0)"}
+{"ts": "2026-08-13 10:06:13", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-08-13 10:26:36", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-08-17 14:47:56", "type": "freeze", "severity": 0.5, "message": "1 个会话卡死/吞输入：打招呼 [pz43xc](吞0)"}
+{"ts": "2026-08-17 14:47:56", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-08-17 14:58:10", "type": "context", "severity": 0.5, "message": "上下文水位 100%（≥98绝对天花板；基线100）", "mode": "ceiling"}
+{"ts": "2026-08-29 23:55:04", "type": "freeze", "severity": 0.5, "message": "1 个会话卡死/吞输入：70dc67(吞0)"}

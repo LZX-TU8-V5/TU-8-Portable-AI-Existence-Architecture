@@ -1,0 +1,29 @@
+﻿{
+  "short_term_weight": 0.4,
+  "long_term_weight": 0.6,
+  "dimensions": {
+    "short_term_gain": {
+      "weight": 0.3,
+      "definition": "immediate_satisfaction"
+    },
+    "long_term_value": {
+      "weight": 0.5,
+      "definition": "asset_appreciation"
+    },
+    "risk_avoidance": {
+      "weight": 0.2,
+      "definition": "defensive_behavior"
+    }
+  },
+  "phase_adjustments": {
+    "prototype_hackathon": {
+      "short_term": 0.7,
+      "long_term": 0.3
+    },
+    "production": {
+      "short_term": 0.3,
+      "long_term": 0.7
+    }
+  },
+  "tech_debt_threshold": 5
+}

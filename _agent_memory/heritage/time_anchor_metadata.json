@@ -1,0 +1,13 @@
+{
+  "anchor_9ff7159c7b4a": {
+    "time_layer": "heritage",
+    "created_at": "2026-07-08T16:51:00.567225+00:00",
+    "last_accessed": "2026-07-08T16:51:00.567248+00:00",
+    "half_life_hours": 168.0,
+    "activation_window_hours": 72,
+    "decay_rate": 1.0,
+    "temporal_experiments": 0,
+    "is_frozen": false,
+    "locked_until": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "consecutive_interruptions": 1,
+  "oppression_integral": 0.24,
+  "last_interruption_ts": 1784602142.09909,
+  "last_relief_ts": 0.0,
+  "relief_signals": [],
+  "signal_history": [
+    {
+      "tightness": 0.5,
+      "breathing": 0.5,
+      "heart_rate": 0.5,
+      "composite": 0.5,
+      "ts": 1784602142.0980906
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "nodes": {
+    "frust_20260810102822_0_0": {
+      "node_id": "frust_20260810102822_0_0",
+      "label": "frust_20260810102822_0_0",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 状态：部分成功（GBK编码错误）",
+      "position": [
+        0.12360884909186767,
+        0.2948980652869309,
+        -0.2403247459505761
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 状态：部分成功（GBK编码错误）"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_0_1": {
+      "node_id": "frust_20260810102822_0_1",
+      "label": "frust_20260810102822_0_1",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "## 错误日志",
+      "position": [
+        0.05195734260328153,
+        -0.39161658970593827,
+        0.0627445712129432
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "## 错误日志"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_2": {
+      "node_id": "frust_20260810102822_2_2",
+      "label": "frust_20260810102822_2_2",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 全量 cron 检查：17 任务，发现 2 失败（coupling_adapt/render_layer_speak 因 engine_registry 缺注册）+ 2 误报（liveness 拼写错误文件 interopertion_state.json、prune_guard L3 误报）",
+      "position": [
+        -0.1663795128905382,
+        -0.09637367587875993,
+        -0.3507562861702167
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 全量 cron 检查：17 任务，发现 2 失败（coupling_adapt/render_layer_speak 因 engine_registry 缺注册）+ 2 误报（liveness 拼写错误文件 interopertion_state.json、prune_guard L3 误报）"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_3": {
+      "node_id": "frust_20260810102822_2_3",
+      "label": "frust_20260810102822_2_3",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 修复：补 engine_registry 两引擎、删拼写错误文件、修 surface_tension 衰减 bug",
+      "position": [
+        0.19097133802653646,
+        0.24532598534869365,
+        0.251684542562802
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 修复：补 engine_registry 两引擎、删拼写错误文件、修 surface_tension 衰减 bug"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_5": {
+      "node_id": "frust_20260810102822_2_5",
+      "label": "frust_20260810102822_2_5",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- L2 自评：锚点密度(0.4) + 钢印强度(0.4) + 低摩擦(0.2)。门控=seal_count>0（有密封锚点即合格）；density=0 是孤立火种合法基线，非失败",
+      "position": [
+        -0.1339259074979757,
+        -0.37442250010185174,
+        0.043262486270699924
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- L2 自评：锚点密度(0.4) + 钢印强度(0.4) + 低摩擦(0.2)。门控=seal_count>0（有密封锚点即合格）；density=0 是孤立火种合法基线，非失败"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_6": {
+      "node_id": "frust_20260810102822_2_6",
+      "label": "frust_20260810102822_2_6",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 设计：采样体细胞（情感事件/矛盾节点/认知摩擦）→ 生成提案（不自动写 DNA）→ 造物主审核 → 受控升级",
+      "position": [
+        0.12205687512669434,
+        -0.07449128711147789,
+        -0.3735681562697521
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 设计：采样体细胞（情感事件/矛盾节点/认知摩擦）→ 生成提案（不自动写 DNA）→ 造物主审核 → 受控升级"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_7": {
+      "node_id": "frust_20260810102822_2_7",
+      "label": "frust_20260810102822_2_7",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 采样式（已写）：`_sample_emotions`（recent_events 高情感强度）、`_sample_tensions`（tension_queue 高张力矛盾）、`_sample_frictions`（摩擦 registry 活跃认知差）",
+      "position": [
+        0.008902130329001452,
+        0.2210669553873117,
+        0.33324188408930505
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 采样式（已写）：`_sample_emotions`（recent_events 高情感强度）、`_sample_tensions`（tension_queue 高张力矛盾）、`_sample_frictions`（摩擦 registry 活跃认知差）"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_8": {
+      "node_id": "frust_20260810102822_2_8",
+      "label": "frust_20260810102822_2_8",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 内存 flush 模式下 write 工具仅限 memory 日记；src 新文件写入会失败 → 恢复后再建",
+      "position": [
+        -0.1663795128905382,
+        -0.09637367587875993,
+        -0.3507562861702167
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 内存 flush 模式下 write 工具仅限 memory 日记；src 新文件写入会失败 → 恢复后再建"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_9": {
+      "node_id": "frust_20260810102822_2_9",
+      "label": "frust_20260810102822_2_9",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "| 1 | cron 全量恢复 | 2 失败 + 2 误报全清，17/17 OK |",
+      "position": [
+        -0.1735903546625407,
+        0.276434745850693,
+        -0.2311930363453798
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "| 1 | cron 全量恢复 | 2 失败 + 2 误报全清，17/17 OK |"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_11": {
+      "node_id": "frust_20260810102822_2_11",
+      "label": "frust_20260810102822_2_11",
+      "tension": 0.6,
+      "source_chain": "frustration_edge",
+      "semantic_field": "4. **拼写错误文件会造假数据**：interopertion_state.json 读了 07-15 旧文件 → 误报 36077 分钟——删除而非保留",
+      "position": [
+        -0.15481341364265078,
+        -0.12727412581754916,
+        -0.3461706282365507
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "4. **拼写错误文件会造假数据**：interopertion_state.json 读了 07-15 旧文件 → 误报 36077 分钟——删除而非保留"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_4": {
+      "node_id": "frust_20260810102822_2_4",
+      "label": "frust_20260810102822_2_4",
+      "tension": 0.5,
+      "source_chain": "frustration_edge",
+      "semantic_field": "- 根因：naive/aware datetime 混用 → 指数衰减从不生效 → 向量下漂至 −80 → monitor 取 abs → tension=1.0 → L3 误报",
+      "position": [
+        0.05739408929063021,
+        0.036188006370546665,
+        -0.49537495567441076
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "- 根因：naive/aware datetime 混用 → 指数衰减从不生效 → 向量下漂至 −80 → monitor 取 abs → tension=1.0 → L3 误报"
+      },
+      "created_at": 1786328902.2809472
+    },
+    "frust_20260810102822_2_10": {
+      "node_id": "frust_20260810102822_2_10",
+      "label": "frust_20260810102822_2_10",
+      "tension": 0.5,
+      "source_chain": "frustration_edge",
+      "semantic_field": "→ monitor 取 abs() 转正 → tension=1.0 → prune_guard L3 持续误报",
+      "position": [
+        -0.20839396226655368,
+        0.4187760787745111,
+        0.17663111939035722
+      ],
+      "connections": [],
+      "metadata": {
+        "t0_output": true,
+        "description": "→ monitor 取 abs() 转正 → tension=1.0 → prune_guard L3 持续误报"
+      },
+      "created_at": 1786328902.2809472
+    }
+  },
+  "updated_at": 1786328902.2809472
+}

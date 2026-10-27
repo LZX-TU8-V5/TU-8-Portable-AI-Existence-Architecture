@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 3.67,
+  "stdout": "[dream_check] Phase before: AWAKE\n[dream_check] Phase after: AWAKE\n  SEAL_CONSOLIDATION: {'status': 'ok', 'consolidated': 0, 'cold_stored': 0}\n  CROSS_CHAIN_ALIGN: {'status': 'ok', 'links_found': 0, 'coherence': 0.0}\n  MEMORY_REORGANIZE: {'status': 'ok', 'promoted': 0, 'demoted': 0}\n  [OK] No errors\n[dream_check] Done. Report saved to C:\\Users\\qq366410837\\.qclaw\\workspace\\memory\\.dream_check_last_run.json\n[OK] _learning_protected.json 标记 DEPRECATED（空壳，3个月后物理删）\n[GC] EVICT: ## 2026-07-09\n[GC] EVIC",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:53:08.533466+00:00",
+  "script": "dream_check"
+}

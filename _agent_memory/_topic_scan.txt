@@ -1,0 +1,102 @@
+=== 找前期设计稿（2026-07-07/装配图/六维/四象限/矩阵/话题）===
+  [**/*2026-07-07*] ['memory\\archive\\2026-07-07.md', 'memory\\archive\\2026-07-07_##_2026-07-07.md', 'memory\\archive\\2026-07-07_##_Era_2：置信度矩阵_—_输出静默（2026-07-.md', 'memory\\archive\\2026-07-07_##_Era_3：学习链_—_进化端口（2026-07-05.md', 'memory\\archive\\2026-07-07_##_一、三层耦合架构定义.md', 'memory\\archive\\2026-07-07_##_一、今日架构新增.md']
+  [**/*矩阵*] ['TU-8_agent_memory\\00_core\\TU-8完整架构目录_依赖关系_启动顺序_引用矩阵_全图谱.md', 'memory\\archive\\2026-07-05_##_Era_2：置信度矩阵_—_输出静默（2026-07-.md', 'memory\\archive\\2026-07-05_##_第一部分：置信度_×_拟人化_四象限矩阵.md', 'memory\\archive\\2026-07-06_##_Era_2：置信度矩阵_—_输出静默（2026-07-.md', 'memory\\archive\\2026-07-06_##_第一部分：置信度_×_拟人化_四象限矩阵.md', 'memory\\archive\\2026-07-07_##_Era_2：置信度矩阵_—_输出静默（2026-07-.md']
+  [**/*四象限*] ['memory\\archive\\2026-07-05_##_第一部分：置信度_×_拟人化_四象限矩阵.md', 'memory\\archive\\2026-07-06_##_第一部分：置信度_×_拟人化_四象限矩阵.md', 'memory\\archive\\2026-07-07_##_第一部分：置信度_×_拟人化_四象限矩阵.md']
+  [**/*语义*] ['memory\\archive\\2026-07-05_##_三、频域解耦：语义与噪声的分离.md', 'memory\\archive\\2026-07-06_##_三、频域解耦：语义与噪声的分离.md', 'memory\\archive\\2026-07-07_##_三、频域解耦：语义与噪声的分离.md', 'memory\\千问对话\\千问对话_三维奇点异源_注意力奇点统一_场景语义空间锚定_2026-07-20.md', 'memory\\千问对话\\千问对话_占位符_零梯度_语义标签_2026-07-19.md', 'memory\\千问对话\\千问对话_尺度即语义_L负1超快通路_物理上下文锚点_2026-07-20.md']
+
+=== 六维评分/四象限 代码引用 ===
+  affect_modulation.py: ['frequency_penalty: float = 0.0', '"frequency_penalty": round(self.frequency_penalty, 3),', 'emotion_vector: Dict[str, float]']
+  alignment_verify.py: ['importlib.reload(hook_injector)', 'importlib.reload(hook_injector)', 'def _check_context_consistency(content: str, ctx: dict) -> tuple:']
+  bypass_mode.py: ['controller.record_failure("consciousness")', 'consecutive_failures: int = 0', 'consecutive_successes: int = 0']
+  cognitive_brakes.py: ['r"startup_consistency_gate",', 'r"^startup_consistency_gate",', 'r"startup_consistency_gate",']
+  cog_filters.py: ['"freq": 0.15,', '"rel": 0.15,', '"div": 0.15,']
+  cold_start_gate.py: ['import startup_consistency_gate as scg', 'result["interoception_consistency"] = scg.run()', 'result["interoception_consistency"] = {"status": "error", "reasons": [str(e']
+  confidence_manager.py: ['confidence_manager.py - TU-8 四象限认知引擎', '1. 四象限交叉计算 (Confidence × Value)', '2. 象限迁移动态演化 (Q3→Q1顿悟 / Q1→Q2遗忘)']
+  consciousness_cycle.py: ['consciousness_cycle.py - TU-8 意识循环引擎 v2.0 - 四阶段睡眠框架', '→ consciousness_cycle → tick() 时输出代谢摘要', 'logger = logging.getLogger("tu8.consciousness_cycle")']
+  coupling_graph.py: ['"emotion_engine": {', '"state_file": "_agent_memory/emotion_engine_state.json",', '"fn_expr": "anxiety_freq * 0.7 + anxiety_mag * 0.3 + pain_ext * 0.3",']
+  cron_coupling_adapt.py: ['def anxiety_freq_and_mag(recent_events):', 'freq = min(n / max(len(recent_events), 1) / 0.5, 1.0)', 'return freq, mag']
+  decision_pruner.py: ['emotion_engine=None,', 'emotion_engine: AffectEngine 实例（可选，用于获取痛觉）', 'self._engine = emotion_engine']
+  dream_color_output.py: ['- dream_consolidation_state.json（梦境期报告）', 'DREAM_F = AGENT / "dream_consolidation_state.json"', 'emotion_snapshot: Dict       # 原始情感向量快照']
+  dream_consolidation.py: ['dream_consolidation.py — 梦境期离线压缩 v1.0', 'STATE_PATH = AGENT_DIR / "dream_consolidation_state.json"', 'h.get("emotion_resonance", 0.5),']
+  dual_mode_switcher.py: ['from freq_enhanced_verifier import FrequencyEnhancedVerifier', 'self.freq_verifier = FrequencyEnhancedVerifier() if _HAS_FREQ else None', 'def _run_freq_mode(self, img: np.ndarray) -> dict:']
+  dynamic_defense.py: ['"emotion": 0.5,       # 情绪问题 — 低', '"consciousness": 1.5, # 意识循环 — 中', '"emotion": True,']
+  emotion_engine.py: ['# L2 方法论 ─── process_update()、to_category()、log_affect_divergence()', '# L4 协作   ─── 与 consciousness_cycle 桥接（AffectSignal）', '- 新增 relation_tier（关系分层：anchor/intimate/acquaintance/stranger）']
+  entropy_guard.py: ['chains_sorted: list               # [(chain_id, freq), ...] 升序（低频在前）', 'freqs = [(cid, c.activation_count / total) for cid, c in chains.items()]', 'freqs_sorted = sorted(freqs, key=lambda x: x[1])  # 升序（低频在前）']
+  environment_detector.py: ['"timeline_consistent": bool,', 'result["timeline_consistent"] = self._check_timeline_consistency(timeline)', 'frequency = event_types.count(most_common)']
+  error_router.py: ['def calculate_weight(self, error_level: str, frequency: int = 1) -> float:', 'freq_mult = min(1.0 + frequency * 0.1, 2.0)  # 频��加成，上限2倍', 'weight = base * freq_mult']
+  fact_correction_scar.py: ['存储路径: memory/reconstruction/fact_correction_log.json', 'CORRECTION_LOG_PATH = WORKSPACE / "memory" / "reconstruction" / "fact_corre', 'RECONSTRUCTION_INDEX = WORKSPACE / "memory" / "reconstruction" / "reconstru']
+  freq_enhanced_verifier.py: ['freq_enhanced_verifier.py  —  频域增强校验（纹理伪装检测）', 'dominant_freq_ratio: float   # 主峰频率 / 次峰频率比（>阈值=结构主导）', 'dominant_freq_hz: float      # 主峰频率（归一化，单位=cycles/width）']
+  genesis_cycle.py: ['# L4 协作   ─── 与 consciousness_cycle 冷启动接口', 'status: str = "active"      # active / consumed / archived', 'is_logic_consistent: bool = True']
+  gradient_force.py: ['def on_external_signal(message: str, emotion_weights: Optional[Dict[str, fl', 'emotion_weights: 可选，情感权重字典', 'if emotion_weights is None:']
+  hysteresis_matrix.py: ['emotion: str', 'for emotion, delta in anchor.tension_vector.items():', 'decay_vector[emotion] += delta * decay * anchor.magnitude']
+  interoceptive_cortex.py: ['# reliability（自适应）', 'pains.append(dict(type="reliability", severity=0.5, message=msg, mode="ceil', 'pains.append(dict(type="reliability", severity=round(sev, 2),']
+  life_ring_tracker.py: ['VERSION_TREE_INDEX = WORKSPACE / "memory" / "reconstruction" / "reconstruct', 'emotion = prev.spiral_vector[2] + 0.05 * (gestalt - 0.5)', 'complexity, confidence, emotion = 0.1, 0.5, 0.0']
+  memory_adapter.py: ['来源：consciousness_cycle.py 重构 Phase 4', 'self._memory_consumer_running = False', 'self._memory_consumer_thread = None']
+  memory_degradation.py: ['def _compute_recency(created_at: float, emotion: float = 0.0,', 'adjusted_half_life *= (1 + emotion * EMOTION_BOOST)', 'emotion=0.0,  # MEMORY.md条目默认无情绪数据']
+  memory_gc.py: ['if section_title in aj.load_active_constraints():', 'frequency = (effective_count + 1) ** 0.3  # 用 effective_count 替代 access_cou', 'score = recency * frequency - cost_penalty']
+  orb_state_writer.py: ['anxiety_spike_freq: [0,1]  焦虑事件频率', 'return {"anxiety_spike_freq": 0.0, "anxiety_avg_mag": 0.0}', 'return {"anxiety_spike_freq": 0.0, "anxiety_avg_mag": 0.0}']
+  phase_lock_detector.py: ['emotion_vector: Dict[str, float]  # 情绪向量（7D）', '"emotion_vector": self.emotion_vector,', 'emotion_resonance: float   # 情绪共鸣度 [0, 1]']
+  prediction_tension_coupler.py: ['# (confidence_level, error_magnitude) → (emotion, spike_intensity)', 'emotion: str               # 触发的情绪', 'emotion, spike_intensity = PREDICTION_ERROR_MAP.get(']
+  quantized_memory.py: ['freq: float = 0.0', 'rel: float = 0.0', 'div: float = 0.0']
+  reflection_module.py: ['与 consciousness_cycle.py 的接口:', '- consume_light_sleep(report)      — 每次微睡眠后调用', '- consume_deep_sleep(report)        — 每次深睡后调用']
+  sag_lite_knowledge_graph.py: ['dream_logs ← TU-8 特有（梦境日志，emotion_type, emotion_score）', 'emotion_type    TEXT,', 'emotion_score   REAL NOT NULL DEFAULT 0.5,']
+  spectral_graph_integration.py: ['def build_adjacency_matrix(self, emotion_vector: Dict[str, float]) -> List[', 'values = [emotion_vector.get(d, 0.0) for d in EMOTION_DIMS]', 'max_emotion = EMOTION_DIMS[max_idx]']
+  startup_consistency_gate.py: ['startup_consistency_gate.py — TU-8 启动一致性门（防"身首异处" / Zombie）', '（monitor_error / zombie / inconsistent）→ 状态不可信', 'python src/startup_consistency_gate.py            # 运行并修复']
+  structural_vector.py: ["emotion_count = sum(1 for c in text if c in '！？哎哇哦呀哈')", 'emotion_score = min(emotion_count / 3.0, 1.5)', 'energy = (base * 0.4 + punct_score * 0.3 + emotion_score * 0.3)']
+  surface_tension.py: ['for emotion, delta_base in delta_map.items():', 'new_vector[emotion] = current_vector.get(emotion, 0.0) + delta_base * magni', 'for emotion, value in current_vector.items():']
+  telemetry_panel.py: ['- dream_consolidation_state.json   → 梦境期统计（压缩比/矛盾节点）', 'DREAM_F    = AGENT / "dream_consolidation_state.json"', 'CONF_F     = WORKSPACE / "memory" / "reconstruction" / "confidence_decay_lo']
+  tension_audit.py: ['"value_reconstruction":  0.75,', 'for emotion, threshold in SPIKE_THRESHOLDS.items():', 'val = sv.get(emotion, 0.0)']
+  tension_distiller.py: ['DREAM_CONSOLIDATION = SRC_DIR / "dream_consolidation.py"', '"temporal_inconsistency", # 时序矛盾（置信度漂移/反转）', '"temporal_inconsistency": "yellow",']
+  tension_learning_coupler.py: ['emotion: str              # 触发情绪', 'for emotion, threshold in SPIKE_THRESHOLDS.items():', 'value = vector.get(emotion, 0.0)']
+  topology_connector.py: ['"detector": "temporal_inconsistency",']
+  tu8_agent.py: ['from consciousness_cycle import ConsciousnessCycle, CycleConfig, Phase', 'def get_memory_queue_status(self): return {"queue_size": 0, "write_success"', 'logger.info("[FOUR_CHAIN] ConsciousnessCycle not available, running without']
+  tu8_compaction.py: ['constraints = []', 'constraints.append(content[:100])', 'lines.extend(f"- {c}" for c in constraints[:5])']
+  tu8_dispatch.py: ['"emotion": "latest",      # 情感标签：最新的胜出', '"safety": "conservative", # 安全标签：保守优先（保护等级高的胜出）', 'UPDATE_CONSTRAINT = "update_constraint"']
+  tu8_memory.py: ['# L4 协作   ─── MemoryAdapter（与 consciousness_cycle 桥接）', '"freq": 0.20,      # 召回频率', '"rel": 0.25,      # 相关性']
+  user_metabolism.py: ['tags: List[str] = None, emotion: float = 0.3,', 'meaning: float = 0.5) -> Optional[str]:', 'emotion=emotion,']
+  verify_arch_constraints.py: ['用法：python verify_arch_constraints.py [模块名]', '示例：python verify_arch_constraints.py surface_tension', 'required = ["spike_id", "ts_unix", "emotion", "magnitude", "is_valley"]']
+  weismann_seepage.py: ['def _sample_emotions(limit=5):', 'for ev in _sample_emotions():', '"source": "emotion_flow",']
+  _add_decay.py: ["print('P0-5 added: decay_tick event type (all emotions gently decrease)')"]
+  _fix_lambda.py: ['# Find the lambda_state dict construction and add P/D/F fields', "new = '''    # Compute P/D/F for orb from 7D emotions (docstring formulas)"]
+
+=== query_architecture_log 存在: True ===
+  query('矩阵') -> [NOT FOUND] 关键词 '矩阵' 未在架构日志中找到
+  query('语义') -> === query_architecture_log('语义') ===
+
+--- 匹配 #1 (行 604-610) ---
+=== 7. 涌现耦合（第三层架构）===
+
+> 来源：造物主 × 千问对话（2026-07-03）
+> 核心洞见：人体 = 语法（直接） + 语义（隐性） + 诗性（涌现）
+
+=== 7.1 三层耦合架构
+
+---
+请输出：
+1.
+  query('话题') -> [NOT FOUND] 关键词 '话题' 未在架构日志中找到
+  query('记忆组织') -> [NOT FOUND] 关键词 '记忆组织' 未在架构日志中找到
+  query('六维') -> [NOT FOUND] 关键词 '六维' 未在架构日志中找到
+  query('分类') -> === query_architecture_log('分类') ===
+
+--- 匹配 #1 (行 53-59) ---
+### 工具链
+
+- **分类器**：`src/refactor_tier_classifier.py`
+- **用法**：`python src/refactor_tier_classifier.py classify "<描述>" 
+  query('轴') -> === query_architecture_log('轴') ===
+
+--- 匹配 #1 (行 577-583) ---
+|---------|-------------|----------|
+| 肌腱-骨骼 | exec/read/write | 直接 |
+| 神经-肌肉接头 | consciousness_cycle.py tick() | 直接 
+  query('涌现') -> === query_architecture_log('涌现') ===
+
+--- 匹配 #1 (行 299-305) ---
+| 2026-06-18 10:53 | 固化补丁#1：重构分级制 | 引入L/M/H三级重构流程，降低轻量级修改的Token税 |
+| 2026-06-18 11:13 | 固化补丁#2：安全模式 | 新增L0.5安全模式，防核心
+  query('蒸馏') -> [NOT FOUND] 关键词 '蒸馏' 未在架构日志中找到
+
+=== memory/ 话题粗略扫描 ===
+  memory md 文件: 1492，一级标题 855 / 二级标题 4129
+  secure_vault index 类型: dict，顶层键: ['version', 'design_note', 'created', 'updated', 'entries', 'anchors']

@@ -1,0 +1,253 @@
+{
+  "_check_veto": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "tu8_planner": {
+    "imports": [
+      "tu8_toolchain"
+    ],
+    "imported_by": [
+      "test_planner_toolchain",
+      "tu8_agent",
+      "tu8_toolchain"
+    ]
+  },
+  "_tmp_vec_src": {
+    "imports": [],
+    "imported_by": []
+  },
+  "consciousness_cycle": {
+    "imports": [
+      "cognitive_evaluator",
+      "cognitive_integration",
+      "cognitive_manifold_aligner",
+      "cognitive_time_engine"
+    ],
+    "imported_by": [
+      "consciousness_cycle_with_cognition",
+      "test_idle_forgetting",
+      "test_lossy_affect"
+    ]
+  },
+  "tu8_agent": {
+    "imports": [
+      "_tw_session_lifecycle",
+      "cold_start_engine",
+      "neural_reflex",
+      "tu8_agent",
+      "tu8_compaction",
+      "tu8_memory",
+      "tu8_planner"
+    ],
+    "imported_by": [
+      "neural_reflex",
+      "tu8_agent"
+    ]
+  },
+  "test_toolchain": {
+    "imports": [
+      "tu8_toolchain"
+    ],
+    "imported_by": []
+  },
+  "_tw_session_lifecycle": {
+    "imports": [],
+    "imported_by": [
+      "tu8_agent"
+    ]
+  },
+  "test_idle_forgetting": {
+    "imports": [
+      "consciousness_cycle"
+    ],
+    "imported_by": []
+  },
+  "cognitive_manifold_aligner": {
+    "imports": [],
+    "imported_by": [
+      "cognitive_integration",
+      "consciousness_cycle"
+    ]
+  },
+  "test_error_handling": {
+    "imports": [
+      "chaos_adapter",
+      "tu8_toolchain"
+    ],
+    "imported_by": []
+  },
+  "tu8_toolchain": {
+    "imports": [
+      "tu8_planner"
+    ],
+    "imported_by": [
+      "chaos_adapter",
+      "test_error_handling",
+      "test_planner_toolchain",
+      "test_toolchain",
+      "tu8_planner"
+    ]
+  },
+  "emotion_engine": {
+    "imports": [],
+    "imported_by": [
+      "_check_veto",
+      "_diag",
+      "_step_test",
+      "_test_rep",
+      "test_emotion_engine",
+      "test_v2"
+    ]
+  },
+  "cognitive_integration": {
+    "imports": [
+      "cognitive_evaluator",
+      "cognitive_manifold_aligner",
+      "cognitive_time_engine"
+    ],
+    "imported_by": [
+      "consciousness_cycle",
+      "consciousness_cycle_with_cognition"
+    ]
+  },
+  "environment_detector": {
+    "imports": [
+      "cold_start_engine",
+      "steel_seal_verifier"
+    ],
+    "imported_by": []
+  },
+  "error_router": {
+    "imports": [],
+    "imported_by": []
+  },
+  "test_lossy_affect": {
+    "imports": [
+      "consciousness_cycle"
+    ],
+    "imported_by": []
+  },
+  "chaos_adapter": {
+    "imports": [
+      "chaos_adapter",
+      "tu8_toolchain"
+    ],
+    "imported_by": [
+      "chaos_adapter",
+      "test_error_handling"
+    ]
+  },
+  "cognitive_evaluator": {
+    "imports": [],
+    "imported_by": [
+      "cognitive_integration",
+      "consciousness_cycle"
+    ]
+  },
+  "test_cold_start": {
+    "imports": [
+      "cold_start_engine"
+    ],
+    "imported_by": []
+  },
+  "test_v2": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "steel_seal_verifier": {
+    "imports": [],
+    "imported_by": [
+      "cold_start_engine",
+      "environment_detector"
+    ]
+  },
+  "_diag": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "_test_rep": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "cold_start_engine": {
+    "imports": [
+      "steel_seal_verifier"
+    ],
+    "imported_by": [
+      "environment_detector",
+      "test_cold_start",
+      "tu8_agent"
+    ]
+  },
+  "test_emotion_engine": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "consciousness_cycle_with_cognition": {
+    "imports": [
+      "cognitive_integration",
+      "consciousness_cycle"
+    ],
+    "imported_by": []
+  },
+  "scan_existing_sanitized": {
+    "imports": [
+      "tu8_memory"
+    ],
+    "imported_by": []
+  },
+  "test_planner_toolchain": {
+    "imports": [
+      "tu8_planner",
+      "tu8_toolchain"
+    ],
+    "imported_by": []
+  },
+  "_step_test": {
+    "imports": [
+      "emotion_engine"
+    ],
+    "imported_by": []
+  },
+  "cognitive_time_engine": {
+    "imports": [],
+    "imported_by": [
+      "cognitive_integration",
+      "consciousness_cycle"
+    ]
+  },
+  "tu8_compaction": {
+    "imports": [],
+    "imported_by": [
+      "tu8_agent"
+    ]
+  },
+  "tu8_memory": {
+    "imports": [],
+    "imported_by": [
+      "neural_reflex",
+      "scan_existing_sanitized",
+      "tu8_agent"
+    ]
+  },
+  "neural_reflex": {
+    "imports": [
+      "tu8_agent",
+      "tu8_memory"
+    ],
+    "imported_by": [
+      "tu8_agent"
+    ]
+  }
+}

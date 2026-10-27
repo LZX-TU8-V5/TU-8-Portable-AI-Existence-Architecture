@@ -1,0 +1,101 @@
+=== tu8_memory.py 六维相关 (freq/rel/div/cons/meaning/emotion) ===
+  L70: "freq": 0.20,      # 召回频率
+  L71: "rel": 0.25,      # 相关性
+  L72: "div": 0.12,      # 独特性
+  L74: "cons": 0.08,     # 巩固度
+  L76: "meaning": 0.10,  # 意义锚定（TU-8新增）
+  L77: "emotion": 0.08   # 情感灼刻（TU-8新增）
+  L264: freq: float = 0.0       # 召回次数
+  L265: rel: float = 0.0        # 语义相关度
+  L266: div: float = 0.0        # 信息独特性
+  L301: weights["freq"] * self.freq +
+  L302: weights["rel"] * self.rel +
+  L303: weights["div"] * self.div +
+  L305: weights["cons"] * self.cons +
+  L307: weights["meaning"] * self.meaning +
+  L308: weights["emotion"] * self.emotion
+  L637: [("freq", entry.freq), ("rel", entry.rel), ("emotion", entry.emotion),
+  L638: ("meaning", entry.meaning)],
+  L1531: for dim in ["freq", "rel", "div", "conc"]:
+  L1858: scores = f"freq={entry.freq:.2f} rel={entry.rel:.2f} div={entry.div:.2f} cons={entry.cons:.2f} conc=
+
+=== memory_gc.py 评分相关 (score/_recommend_action/adjusted) ===
+  L15: - last_accessed: 最后访问时间
+  L16: - access_count: 累计访问次数（带90天时间折扣）
+  L21: - access_count 时间折扣（90天半衰）
+  L22: - last_accessed 自动刷新（根据上下文关键词匹配）
+  L57: ACCESS_TIMEOUT_NS = 30 * 24 * 3600   # 30天未访问 → 候选淘汰
+  L58: ACCESS_TIMEOUT_S  = 7  * 24 * 3600   # 7天未访问  → 候选降级
+  L118: - 如果传入 context_keywords，自动刷新匹配段落的 last_accessed
+  L131: # 改进 v2：根据上下文自动刷新 last_accessed
+  L135: meta["last_accessed"] = self.now
+  L137: self._write_meta(sec, last_accessed=self.now)
+  L139: age = self.now - meta["last_accessed"]
+  L140: age_unknown = meta.get("age_unknown", False)
+  L141: score = self._metabolic_score(
+  L142: age=age,
+  L143: access_count=meta["access_count"],
+  L152: score = score + seal_bonus
+  L154: action = self._recommend_action(score, age, age_unknown=age_unknown)
+  L174: "last_accessed": meta["last_accessed"],
+  L175: "access_count": meta["access_count"],
+  L203: 从段落提取元数据。修复 (2026-08-19)：age/access 真实化。
+  L205: 旧逻辑：last_accessed 对所有段 fallback 到 MEMORY.md 整个文件 mtime
+  L206: → 刚 distill 后所有段 age≈0 → 频率地板把 179 段全推入 DEGRADE（退化）。
+  L207: access_count 纯靠关键词密度硬算，无真实访问计数。
+  L210: last_accessed 优先级：
+  L211: 1) 段内 <!-- meta: last_accessed=epoch -->（distill 写入的真实时间戳）
+  L212: 2) 段标题/首行 YYYY-MM-DD 日期（真实提炼日，age 真实）
+  L213: 3) 都不在 → age_unknown=True（保护，交 _recommend_action 走 WATCH，不盲降）
+  L214: access_count：meta 标签 count > 信息密度估算(保底) > 1
+  L218: last_accessed = None
+  L219: age_unknown = False
+  L221: info_density = sum(kw in section for kw in info_keywords)
+  L222: access_count = max(1, info_density * 3)  # 每个关键词加3分，保底1
+  L232: if k.strip() == "last_accessed":
+  L233: last_accessed = float(v.strip())
+  L235: access_count = int(v.strip())
+  L239: # 2) 无 meta 标签 → 用段标题/首行真实日期（YYYY-MM-DD）；找不到则 age_unknown
+  L240: if last_accessed is None:
+  L245: last_accessed = datetime(y, mo, d).timestamp()
+  L247: age_unknown = True
+  L249: age_unknown = True
+  L251: # 兜底：仍无有效信号（无 meta 标签、无标题/首行日期）→ 标记 age_unknown，
+  L252: # 交 _recommend_action 走 WATCH 保护，绝不 fallback 文件 mtime（会让 legacy 段 age 虚高→误判 EVICT）。
+  L253: # 修复 (2026-08-27)：08-19 修复遗漏——文件 mtime fallback 使无日期段 age 巨大，
+  L254: # 绕过 age_unknown 保护被误判 EVICT（虽 _evict_section 是 no-op 零破坏，但属误标）。
+  L255: if last_accessed is None:
+  L256: age_unknown = True
+  L257: last_accessed = self.now  # 占位，age_unknown=True 后不用于阈值
+  L261: "last_accessed": last_accessed,
+  L262: "age_unknown": age_unknown,
+  L263: "access_count": access_count,
+  L279: kwargs: last_accessed=float, count=int
+  L295: new_meta = "<!-- meta: last_accessed=%.0f" % kwargs.get("last_accessed", self.now)
+  L305: new_meta = "<!-- meta: last_accessed=%.0f" % kwargs.get("last_accessed", self.now)
+  L317: new_meta = "<!-- meta: last_accessed=%.0f" % kwargs.get("last_accessed", self.now)
+  L328: def _metabolic_score(self, age: float, access_count: int,
+  L334: - access_count 加入90天时间折扣（防止历史高频垄断）
+  L335: - effective_count = access_count * exp(-age / decay_half_life)
+  L339: effective_count = access_count * (2.718 ** (-age / decay_half_life))
+  L343: recency = 2.718 ** (-age / half_life)
+  L344: frequency = (effective_count + 1) ** 0.3  # 用 effective_count 替代 access_count
+  L347: score = recency * frequency - cost_penalty
+  L354: def _recommend_action(self, score: float, age: float,
+  L355: age_unknown: bool = False) -> str:
+  L357: - age_unknown=True（无 meta 也无日期的 legacy 段）：走 WATCH，不盲降/淘汰
+  L358: - age < 7天（刚 distill/访问的新鲜内容）：KEEP，不该立刻归档
+  L360: if age_unknown:
+  L362: if age < 7 * 24 * 3600:
+  L368: elif age > ACCESS_TIMEOUT_NS:
+  L418: f"score={item['score']:.3f} 低于保留阈值"
+  L421: evidence = f"access_count={item.get('access_count','?')}，无显式引用事件"
+  L501: def _load_scores(self) -> dict:
+  L543: score  = item['score']
+  L545: count  = item['access_count']
+  L546: print("  [%s] %-40s score=%.3f  count=%d" % (action, title[:40], score, count))
+
+=== design 稿 §4/§6/§8 行号 ===
+  L173: ## §4 四算子实现规格（matrix_operators.py）
+  L215: ## §6 密文库实现（codebook.py）
+  L247: ## §8 分批实现计划

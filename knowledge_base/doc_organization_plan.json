@@ -1,0 +1,102 @@
+{
+  "docs_to_move": [
+    {
+      "file": "ARCHITECTURE_FULL_SPECTRUM.md",
+      "from": "docs/",
+      "to": "knowledge/01_DESIGN/",
+      "reason": "归类到 ARCHITECTURE"
+    },
+    {
+      "file": "ARCHITECTURE_GAP_ANALYSIS.md",
+      "from": "docs/",
+      "to": "knowledge/01_DESIGN/",
+      "reason": "归类到 ARCHITECTURE"
+    },
+    {
+      "file": "four_chain_coupling_architecture.md",
+      "from": "docs/",
+      "to": "knowledge/01_DESIGN/",
+      "reason": "归类到 ARCHITECTURE"
+    },
+    {
+      "file": "BRAIN_VS_TU8_COMPARISON.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "EXTERNAL_ADVICE_SPACETIME_MEMORY.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "module_references.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "P0_强类型契约_手术报告.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "P1_Token经济学_手术报告.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "SPACETIME_SENSE_HUMAN_VS_AI.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "STARTUP_PIPELINE_DESIGN.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "四链条架构_结构分析.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "钢印三维张量定义_修改预研.md",
+      "from": "docs/",
+      "to": "knowledge/02_IMPLEMENTATION/",
+      "reason": "归类到 IMPLEMENTATION"
+    },
+    {
+      "file": "EXTERNAL_SURGERY_REVIEW.md",
+      "from": "docs/",
+      "to": "knowledge/03_REVIEW/",
+      "reason": "归类到 REVIEW"
+    },
+    {
+      "file": "REVIEW_2026-05-28.md",
+      "from": "docs/",
+      "to": "knowledge/03_REVIEW/",
+      "reason": "归类到 REVIEW"
+    },
+    {
+      "file": "OPEN_SOURCE_GUIDANCE.md",
+      "from": "docs/",
+      "to": "knowledge/04_GUIDE/",
+      "reason": "归类到 GUIDE"
+    },
+    {
+      "file": "workspace_file_audit_report.md",
+      "from": "docs/",
+      "to": "knowledge/05_ARCHIVE/",
+      "reason": "归类到 TEMP"
+    }
+  ],
+  "knowledge_to_reorganize": [],
+  "duplicates_to_check": []
+}

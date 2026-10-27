@@ -1,0 +1,40 @@
+{
+  "version_id": "v1",
+  "status": "ROOT",
+  "branch_type": "SEED",
+  "parent_id": null,
+  "children_ids": [],
+  "confidence": 1.0,
+  "emotional_weight": 0.9,
+  "created_at": "2026-06-18T16:34:49+08:00",
+  "pruned_at": null,
+  "last_accessed": "2026-06-18T16:34:49+08:00",
+  "access_count": 0,
+  "triggers": [],
+  "cooldown_until": null,
+  "fact_nodes": [
+    {
+      "entry": "2026-05-09 记忆系统启用",
+      "type": "FACT",
+      "confidence": 0.99
+    },
+    {
+      "entry": "2026-06-07 架构宪法",
+      "type": "FACT",
+      "confidence": 0.99
+    }
+  ],
+  "insight_nodes": [
+    {
+      "entry": "第一次涌现记录",
+      "type": "INSIGHT",
+      "confidence": 0.97
+    },
+    {
+      "entry": "记忆哲学v1.1",
+      "type": "INSIGHT",
+      "confidence": 0.93
+    }
+  ],
+  "notes": "Seed node - root of all version trees. Never pruned."
+}

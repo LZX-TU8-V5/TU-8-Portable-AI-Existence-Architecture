@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.1,
+  "stdout": "[visual_wm] PARKED: missing dependency: No module named 'numpy' (L5 stage requires numpy+cv2)\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:22.496632+00:00",
+  "script": "visual_world_model"
+}

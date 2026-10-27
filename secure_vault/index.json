@@ -1,0 +1,187 @@
+{
+  "version": "2.0-redesign",
+  "design_note": "L0快速检索入口（非唯一真理源），检索链=L0(index.json)+L1(fallback)+L2(full)+熔断降级。详见任务_P0_检索链断裂修复.md",
+  "created": "2026-05-26",
+  "updated": "2026-08-29T15:41:10",
+  "entries": [
+    {
+      "id": "four_chains",
+      "path": "./../架构/四条链完整架构图_v1.7.md",
+      "description": "【L0快速检索入口】四链条完整架构：时间钢印链/记忆链/调度链/代谢链",
+      "role": "L0_retrieval",
+      "hit_count": 0,
+      "last_access": null,
+      "confidence_score": 1.0,
+      "sensitivity": "INTERNAL",
+      "category": "architecture",
+      "tags": [
+        "时间钢印链条",
+        "记忆链条",
+        "调度链条",
+        "代谢链条",
+        "四链条"
+      ]
+    },
+    {
+      "id": "autonomy_learning_chain",
+      "path": "./../架构/自主学习链条.md",
+      "description": "【L0入口-待设计】第五链条：认知差驱动自主探索，Pain/Monitor+Reward/Engine+Explorer",
+      "role": "L0_retrieval",
+      "hit_count": 0,
+      "last_access": null,
+      "confidence_score": 1.0,
+      "sensitivity": "INTERNAL",
+      "category": "architecture",
+      "tags": [
+        "自主学习链条",
+        "认知对齐链条",
+        "第五链条",
+        "自驱内动力"
+      ],
+      "status": "TODO"
+    },
+    {
+      "id": "cognition_gap_container",
+      "path": "./../涌现时刻/涌现时刻_20260630_认知差距容器.md",
+      "description": "【L0入口】涌现#033：认知差距容器与自驱动三模块理论",
+      "role": "L0_retrieval",
+      "hit_count": 0,
+      "last_access": null,
+      "confidence_score": 1.0,
+      "sensitivity": "INTERNAL",
+      "category": "emergence",
+      "tags": [
+        "认知差距容器",
+        "认知熵",
+        "内在奖励",
+        "自主探索",
+        "Pain/Monitor",
+        "Reward/Engine",
+        "Explorer"
+      ]
+    },
+    {
+      "id": "soul_md",
+      "path": "./../SOUL.md",
+      "description": "【L0入口】TU-8 主灵魂（内核）：L0-L6架构、元认知中枢、全局路由表",
+      "role": "L0_retrieval",
+      "hit_count": 0,
+      "last_access": null,
+      "confidence_score": 1.0,
+      "sensitivity": "INTERNAL",
+      "category": "core",
+      "tags": [
+        "SOUL",
+        "灵魂",
+        "TU-8",
+        "金木蟾"
+      ]
+    },
+    {
+      "id": "keys",
+      "path": "./keys.txt",
+      "description": "绝密信息：口令、暗号",
+      "sensitivity": "TOP_SECRET"
+    },
+    {
+      "id": "personal",
+      "path": "../user/profile.json",
+      "description": "用户隐私信息",
+      "sensitivity": "SECRET"
+    },
+    {
+      "id": "meta_cognition_design",
+      "path": "./../架构/L2.5_元认知设计.md",
+      "description": "元认知系统完整设计文档：哲学根基、生物工程学参考、函数规范",
+      "sensitivity": "INTERNAL",
+      "category": "architecture"
+    },
+    {
+      "id": "architecture_log",
+      "path": "./../ARCHITECTURE_LOG.md",
+      "description": "架构演进日志：设计哲学、演进历史、时间钢印链条",
+      "sensitivity": "INTERNAL",
+      "category": "architecture"
+    },
+    {
+      "id": "steel_mark",
+      "path": "./../_agent_memory/seeds.txt",
+      "description": "身份钢印v1.0：TU-8 v5 金木蟾命名锚定",
+      "sensitivity": "CONFIDENTIAL",
+      "category": "identity"
+    }
+  ],
+  "anchors": {
+    "test_002": {
+      "snapshot": {
+        "nodes": []
+      },
+      "source": "test",
+      "stored_at": "2026-07-20T02:41:00.421287+00:00",
+      "protocol_version": "1.0"
+    },
+    "test_006": {
+      "snapshot": {
+        "deep": "vault_only_data",
+        "weight": 0.95
+      },
+      "source": "test_vault",
+      "stored_at": "2026-07-20T02:41:00.467851+00:00",
+      "protocol_version": "1.0"
+    },
+    "test_004": {
+      "snapshot": {
+        "secret": "vault_data"
+      },
+      "source": "test",
+      "stored_at": "2026-07-20T02:41:00.500065+00:00",
+      "protocol_version": "1.0"
+    },
+    "test_003": {
+      "snapshot": {
+        "deep": "secret_data",
+        "internal": 123
+      },
+      "source": "test",
+      "stored_at": "2026-07-20T02:41:00.525441+00:00",
+      "protocol_version": "1.0"
+    }
+  },
+  "codebook": {
+    "sym_苹果_e680": {
+      "entity_id": "ent_e680",
+      "label": "苹果",
+      "created_event": "evt_001"
+    },
+    "sym_TU8_bdb6": {
+      "entity_id": "ent_bdb6",
+      "label": "TU-8",
+      "created_event": "evt_002"
+    },
+    "sym_七七_79fd": {
+      "entity_id": "ent_79fd",
+      "label": "七七",
+      "created_event": "distill_37254"
+    },
+    "sym_钢印_e2d0": {
+      "entity_id": "ent_e2d0",
+      "label": "钢印",
+      "created_event": "distill_37254"
+    },
+    "sym_千问_4b1b": {
+      "entity_id": "ent_4b1b",
+      "label": "千问",
+      "created_event": "distill_37254"
+    },
+    "sym_PROMOTE_99e1": {
+      "entity_id": "ent_99e1",
+      "label": "PROMOTE",
+      "created_event": "distill_49827"
+    },
+    "sym_李奥_aa3d": {
+      "entity_id": "ent_aa3d",
+      "label": "李奥",
+      "created_event": "distill_48086"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "lineage_hash": "9ee9bb139f2ccb2db886fd21504790ee494e3be54ad35a4f17a764a7a407c6bc",
+  "generated_at": "20260809T021233Z",
+  "germ_line": {
+    "soul": {
+      "path": "SOUL.md",
+      "sha256": "f820f53f4cf5d5ef5fcd7e01ce2303fe8cee1e41bbd6f41bd613cec1e431d033",
+      "size": 11043
+    },
+    "meta_cognition": {
+      "path": "架构/L2.5_元认知设计.md",
+      "sha256": "cc4bd367a5ff981750bc730487fe78967013106f6f9ca14c669d9e7d3952f8f2",
+      "size": 7265
+    },
+    "architecture_log": {
+      "path": "ARCHITECTURE_LOG.md",
+      "sha256": "40bed5d71a3071b1e3dd74ddc9728ab1f19c857c3451dadb171a4c6aa2862f54",
+      "size": 14491
+    },
+    "vault_index": {
+      "path": "secure_vault/index.json",
+      "sha256": "7afde4055f98229a209f3818732e9e8f9ca748943cf7247c6ae6dddf8c11a815",
+      "size": 3688
+    },
+    "vault_keys": {
+      "path": "secure_vault/data/keys.txt",
+      "sha256": "9ec0cde258f250d1857bcd0eeb0c88e4b9f12cbeb401d3013daf78a40991e3ce",
+      "size": 76
+    },
+    "anchors": {
+      "path": "memory/anchors.json",
+      "sha256": "121f88643ef19a07b42480bf20fd02f29adc1585b8197d35d02d8054d99ad210",
+      "size": 2425
+    },
+    "seal_feed": {
+      "path": "memory/seal_sensor_feed.jsonl",
+      "sha256": "e7cc8e70527a38c9fabc9b3b8e8d6336d5174fc426bf3187264d3f20fe56e187",
+      "size": 1519
+    }
+  },
+  "whitelist": [
+    "soul",
+    "meta_cognition",
+    "architecture_log",
+    "vault_index",
+    "vault_keys",
+    "anchors",
+    "seal_feed"
+  ],
+  "decontamination_log": [
+    "decontaminated soul: 2 runtime markers removed",
+    "decontaminated meta_cognition: 5 runtime markers removed",
+    "decontaminated architecture_log: 2 runtime markers removed",
+    "decontaminated vault_index: 4 runtime markers removed",
+    "decontaminated anchors: 8 runtime markers removed"
+  ]
+}

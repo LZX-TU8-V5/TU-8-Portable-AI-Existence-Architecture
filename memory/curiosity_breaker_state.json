@@ -1,0 +1,40 @@
+{
+  "predictions": {
+    "632eee6a": {
+      "status": "RETRYING",
+      "retry_count": 1,
+      "last_error": 1.0,
+      "last_conf_delta": 0.0,
+      "frozen_at": null,
+      "backfilled": true
+    },
+    "1d8162b7": {
+      "status": "RETRYING",
+      "retry_count": 1,
+      "last_error": 1.0,
+      "last_conf_delta": 0.0,
+      "frozen_at": null,
+      "backfilled": true
+    },
+    "408d50bf": {
+      "status": "FROZEN",
+      "retry_count": 8,
+      "last_error": 1.0,
+      "last_conf_delta": 0.0,
+      "frozen_at": "2026-07-13 09:08:02",
+      "backfilled": true
+    },
+    "test_circuit_breaker_001": {
+      "status": "FROZEN",
+      "retry_count": 3,
+      "last_error": 1.0,
+      "last_conf_delta": 0.0,
+      "frozen_at": "2026-07-13T09:10:04.547485+08:00",
+      "created_at": "2026-07-13T09:10:04.517183+08:00"
+    }
+  },
+  "stats": {
+    "total_frozen": 2,
+    "total_resolved": 0
+  }
+}

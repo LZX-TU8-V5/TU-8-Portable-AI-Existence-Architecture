@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-27 19:58:30",
+  "epoch": "2026-10-27 19:58:30",
+  "posture": "nominal",
+  "mode": "explore",
+  "temperature_hint": 0.7,
+  "spawn_subagent": true,
+  "prefer_compact": false,
+  "confidence_damp": 1.0,
+  "signals": [],
+  "note": "直觉引擎先验：痛觉越高→越保守（低temp/不派生子agent/优先compact/降置信）。"
+}

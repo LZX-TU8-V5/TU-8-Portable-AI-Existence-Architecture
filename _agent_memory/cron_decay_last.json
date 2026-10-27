@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.21,
+  "stdout": "event_id:  evt_004892\ntotal:     4892\ndelta:      {'anxiety': 0.0, 'anger': 0.0, 'fear': 0.0, 'joy': 0.0, 'sadness': 0.0, 'love': 0.0, 'curiosity': 0.0}\npatterns:  []\n\ncurrent topology:\n  anxiety   : [-] +0.000\n  anger     : [-] +0.000\n  fear      : [-] +0.000\n  joy       : [-] +0.000\n  sadness   : [-] +0.000\n  love      : [-] +0.000\n  curiosity : [-] +0.000\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T12:03:32.310511+00:00",
+  "script": "surface_tension_decay"
+}

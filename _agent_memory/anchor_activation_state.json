@@ -1,0 +1,15 @@
+{
+  "activations": [
+    {
+      "anchor_id": "test_003",
+      "ts": 1784515260.537984,
+      "tension_integral": 0.6,
+      "confidence": 0.7,
+      "source": "test",
+      "new_state": "ACTIVATED"
+    }
+  ],
+  "rejections": [],
+  "reinforcements": [],
+  "reinforcement_counts": {}
+}

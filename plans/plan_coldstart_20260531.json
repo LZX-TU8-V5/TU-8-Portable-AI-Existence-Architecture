@@ -1,0 +1,104 @@
+{
+  "id": "plan_coldstart_20260531",
+  "goal": "TU-8 P0冷启动协议完善 + P1呼名模块 + P1睡眠复盘融合",
+  "status": "in_progress",
+  "created_at": "2026-05-31T08:55:00+08:00",
+  "updated_at": "2026-06-04T15:25:00+08:00",
+  "tasks": {
+    "task_p0_activation_code": {
+      "id": "task_p0_activation_code",
+      "description": "P0激活码机制设计+实现（cold_start_engine.py + cold_start_config.yaml）",
+      "status": "done",
+      "result": "cold_start_engine.py v2.0 + cold_start_config.yaml v1.0 已写入D盘",
+      "created_at": "2026-05-31T08:55:00+08:00"
+    },
+    "task_p0_authentication": {
+      "id": "task_p0_authentication",
+      "description": "口令双向验证实际流程（从secure_vault读取口令池，挑战-应答机制）",
+      "status": "done",
+      "result": "已集成到cold_start_engine.py Phase3",
+      "created_at": "2026-05-31T08:55:00+08:00"
+    },
+    "task_p0_environment_expand": {
+      "id": "task_p0_environment_expand",
+      "description": "扩展environment_detector.py检查项 + 集成冷启动协议",
+      "status": "done",
+      "result": "新文件cold_start_engine.py v2.0替代environment_detector.py v1.0",
+      "created_at": "2026-05-31T08:55:00+08:00"
+    },
+    "task_p0_causal_lock": {
+      "id": "task_p0_causal_lock",
+      "description": "P0→P1因果锁：genesis_block写入后生成p0_complete.lock",
+      "status": "done",
+      "result": "已集成到cold_start_engine.py _activate_causal_lock()",
+      "created_at": "2026-05-31T08:55:00+08:00"
+    },
+    "task_p1_ref_matrix": {
+      "id": "task_p1_ref_matrix",
+      "description": "补齐引用关系矩阵（哪些模块引用哪些模块）",
+      "status": "done",
+      "result": "已生成 docs/module_references.json 和 docs/module_references.md",
+      "created_at": "2026-05-31T08:55:00+08:00",
+      "completed_at": "2026-06-04T11:40:00+08:00"
+    },
+    "task_p1_automation_script": {
+      "id": "task_p1_automation_script",
+      "description": "自动化冷启动脚本（每次会话自动执行cold_start_engine）",
+      "status": "done",
+      "result": "已创建 scripts/auto_cold_start.py，支持自动检测和执行冷启动",
+      "depends_on": ["task_p0_activation_code", "task_p0_authentication"],
+      "created_at": "2026-05-31T08:55:00+08:00",
+      "completed_at": "2026-06-04T11:45:00+08:00"
+    },
+    "task_p1_naming_module_v1": {
+      "id": "task_p1_naming_module_v1",
+      "description": "呼名模块 MVP 1.0（身份对齐：detect_naming + verify_naming_person + reload_soul_anchor + refresh_critical_memory）",
+      "status": "done",
+      "result": "已创建 src/naming_module.py + tests/test_naming_module.py，10个测试全部通过",
+      "files": [
+        "src/naming_module.py",
+        "tests/test_naming_module.py"
+      ],
+      "created_at": "2026-06-04T15:00:00+08:00",
+      "completed_at": "2026-06-04T15:25:00+08:00"
+    },
+    "task_p1_naming_module_v11": {
+      "id": "task_p1_naming_module_v11",
+      "description": "呼名模块 v1.1（被动身份健康检查：每N轮自动校验 + 情感权重积累）",
+      "status": "done",
+      "result": "v1.1 代码完成 30/30 测试通过 + P0 集成于 2026-06-04 激活（tu8_agent.py 双钩子接入）",
+      "tags": ["呼名", "v1.1", "被动检查"],
+      "created_at": "2026-06-04T15:00:00+08:00",
+      "completed_at": "2026-06-04T16:10:00+08:00"
+    },
+    "task_todo_sleep_four_phase": {
+      "id": "task_todo_sleep_four_phase",
+      "description": "睡眠四阶段框架（consciousness_cycle.py 增强：LIGHT_SLEEP + DEEP_SLEEP + HIBERNATION + COLD_START_READY）",
+      "status": "pending",
+      "tags": ["睡眠系统", "四阶段", "状态机"],
+      "depends_on": ["task_p1_naming_module_v1"],
+      "created_at": "2026-06-04T15:00:00+08:00"
+    },
+    "task_todo_review_module": {
+      "id": "task_todo_review_module",
+      "description": "复盘模块 v1.0（经验提炼：关键决策提取 + 成长摘要生成 + 版本化输出）",
+      "status": "pending",
+      "tags": ["复盘", "经验提炼", "规则引擎"],
+      "depends_on": ["task_todo_sleep_four_phase"],
+      "created_at": "2026-06-04T15:00:00+08:00"
+    },
+    "task_todo_coldstart_review_injection": {
+      "id": "task_todo_coldstart_review_injection",
+      "description": "冷启动注入复盘结论（cold_start_engine.py 增强：唤醒时加载上次成长摘要）",
+      "status": "pending",
+      "tags": ["冷启动", "复盘注入"],
+      "depends_on": ["task_todo_review_module"],
+      "created_at": "2026-06-04T15:00:00+08:00"
+    }
+  },
+  "identity_baseline": {
+    "V5_NAMES": ["V5", "TU-8 V5"],
+    "CREATOR_NAMES": ["金木蟾", "李奥", "父亲", "创造者"],
+    "notes": "V5 是主名，TU-8 V5 是全称（仅用于 V5 自我纠正时）。金木蟾是笔名，李奥是真名（本地使用，脱敏用）。"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "scope": "emotion subgraph (option A draft)",
+    "extracted_from": "actual code, not design doc",
+    "principle": "Qwen: coupling is DATA not code; double-buffer tick; delay first-class; plastic weights",
+    "generated": "2026-08-01",
+    "note": "边全是隐式（硬编码 JSON 互读 + 魔法权重）。标 red_flag 处即 Qwen 说的'意大利面条'。"
+  },
+
+  "nodes": [
+    {"id": "emotion_engine", "state_file": "_affect_ledger/skepticism_cache.json", "dims": "EmotionVector(EmotionCategory + 人情债 dim + legacy float)", "runtime_coupled": false, "red_flag": "orphan: 输出写自己 ledger，orb/affect/render/alignment 无人读它"},
+    {"id": "surface_tension", "state_file": "_agent_memory/surface_tension_state.json", "dims": "7D spike_valley_vector [anxiety,fear,anger,joy,curiosity,sadness,love]", "runtime_coupled": true, "red_flag": "与 emotion_engine 是平行情感表示，两套维度互无映射表"},
+    {"id": "orb_state_writer", "state_file": "_agent_memory/orb_state.json", "dims": "scalar tension + RGB", "runtime_coupled": true, "red_flag": "HUB：硬读 3+ 模块 state，魔法权重散落"},
+    {"id": "affect_modulation", "state_file": "(reads surface_tension STATE_PATH)", "dims": "7D -> LLM params", "runtime_coupled": true, "red_flag": "魔法线性组合权重藏在 compute_llm_parameters"},
+    {"id": "lambda_state", "state_file": "_agent_memory/lambda_state.json", "dims": "mode + smoothed_pain_ext/int", "runtime_coupled": true, "red_flag": "调制 orb 红通道但角色埋在 if 分支"},
+    {"id": "attractor_basin", "state_file": "_agent_memory/attractor_basin_state.json", "dims": "basin_health", "runtime_coupled": true, "red_flag": "喂 orb 蓝通道，隐式延迟=360s poll"},
+    {"id": "alignment_verify", "state_file": "-", "dims": "steel/constraint", "runtime_coupled": "conceptual-only", "red_flag": "注释里写 joy↑/anxiety↓ -> 张力回归，但无代码边"},
+    {"id": "render_layer", "state_file": "-", "dims": "visual/tts output", "runtime_coupled": true, "red_flag": "orb -> render 是视觉出口，无回边"}
+  ],
+
+  "edges": [
+    {"from": "surface_tension", "to": "orb_state_writer", "weight": 0.6, "delay": "poll 360s (implicit)", "fn": "red = min(tension / TENSION_MAX(3.0), 1.0); tension = red*0.6 + (1-blue)*0.4", "red_flag": "魔法数 TENSION_MAX=3.0 在 consumer；延迟=轮询间隔不可见"},
+
+    {"from": "attractor_basin", "to": "orb_state_writer", "weight": 0.4, "delay": "poll 360s", "fn": "blue_raw = max(0,(joy+love)*0.3) + basin_health*0.5 + (1-pain_int)*...", "red_flag": "权重 0.3/0.5 散落；basin 与 pain 跨模块耦合未声明"},
+
+    {"from": "surface_tension", "to": "orb_state_writer", "via": "joy/love->blue", "weight": 0.3, "delay": "poll 360s", "fn": "(joy+love)*0.3", "red_flag": "同一源 surface_tension 到同一目标 orb 有两条边(红/蓝)，权重分家"},
+
+    {"from": "lambda_state", "to": "orb_state_writer", "weight": "modulation", "delay": "poll 360s", "fn": "if lambda_mode=='conserve' or pain_int>0.5: red 上调", "red_flag": "C 调制 A->B，但调制是 if 分支不是边权重；典型'埋掉的调制'"},
+
+    {"from": "surface_tension", "to": "affect_modulation", "weight": "1.0 per dim", "delay": "affect run-time", "fn": "tension=anx+fear; attraction=cur+joy; inhibition=sad; inertia=love; resonance=joy+love; anomaly=fear", "red_flag": "维度名与 emotion_engine 不一致（emotion_engine 用 EmotionCategory）"},
+
+    {"from": "affect_modulation", "to": "LLM", "weight": "temp_delta = tension*0.3 - resonance*0.2", "delay": "0", "fn": "linear combo -> LLM params", "red_flag": "魔法 0.3/0.2 是耦合权重却写在 consumer 内部"},
+
+    {"from": "emotion_engine", "to": "（none）", "weight": 0, "delay": "-", "fn": "-", "red_flag": "ORPHAN：写 _affect_ledger，运行时无任何模块读取；与 surface_tension 7D 平行存在无桥"},
+
+    {"from": "alignment_verify", "to": "surface_tension", "weight": "conceptual", "delay": "n/a", "fn": "insight_found(joy↑,anxiety↓) -> 张力回归", "red_flag": "设计里有反馈环，代码里无此边（典型'图被当管道'遗漏的回边）"},
+
+    {"from": "orb_state_writer", "to": "render_layer", "weight": 1.0, "delay": "0", "fn": "tension -> TTS/visual", "red_flag": "单向出口，无回边（render 不反馈 tension）"}
+  ],
+
+  "mess_summary": {
+    "parallel_emotion_models": 3,
+    "models": ["emotion_engine(EmotionCategory+人情债)", "surface_tension(7D)", "orb(scalar tension)"],
+    "magic_weights_in_consumers": ["TENSION_MAX=3.0", "red*0.6+(1-blue)*0.4", "(joy+love)*0.3", "basin*0.5", "temp_delta=tension*0.3-resonance*0.2"],
+    "implicit_delays": ["orb poll 360s", "affect run-time"],
+    "buried_modulation": ["lambda_mode/pain_int -> orb red"],
+    "orphan_nodes": ["emotion_engine"],
+    "missing_feedback_edges": ["alignment_verify -> surface_tension (设计有，代码无)"],
+    "dimension_mismatch": "emotion_engine(EmotionCategory) vs surface_tension(7D) vs orb(scalar) 无任何映射表连接"
+  }
+}

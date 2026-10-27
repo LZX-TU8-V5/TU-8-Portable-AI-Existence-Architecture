@@ -1,0 +1,10 @@
+{
+  "theta": 3.141592653589793,
+  "cos_theta": -1.0,
+  "sin_theta": 1.2246467991473532e-16,
+  "status": "rotating",
+  "current_patch": null,
+  "events_since_last_patch": 12266,
+  "total_rotations": 0,
+  "last_updated": "2026-10-27T20:03:32"
+}

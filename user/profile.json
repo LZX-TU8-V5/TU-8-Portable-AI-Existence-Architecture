@@ -1,0 +1,22 @@
+﻿{
+    "creator":  "李奥",
+    "family":  {
+                   "birthYear":  2021,
+                   "role":  "手绘设计师",
+                   "child":  "七七"
+               },
+    "pronoun":  "她/her",
+    "novelProjects":  [
+                          "《钢印》(78/90章)",
+                          "《三十七度二》"
+                      ],
+    "exam":  "初级会计 2026",
+    "profession":  "室内设计师",
+    "workPaths":  {
+                      "hackathon":  "D:\\tu8-v5\\hackathon\\",
+                      "novelServer":  "D:\\tu8-v5\\novel-server\\",
+                      "TU8":  "D:\\tu8-v5\\TU-8\\",
+                      "knowledge":  "D:\\qq366410837\\.qclaw\\workspace\\knowledge\\TU-8\\",
+                      "python":  "D:\\Users\\qq366410837\\.workbuddy\\binaries\\python\\versions\\3.13.12\\python.exe"
+                  }
+}

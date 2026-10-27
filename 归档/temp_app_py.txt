@@ -1,0 +1,133 @@
+from flask import Flask, request, jsonify, Response, send_from_directory
+from flask_cors import CORS
+import json
+import os
+import time
+import zhihu_scraper
+
+app = Flask(__name__)
+CORS(app)
+
+# --- 配置区 ---
+API_KEY = os.environ.get("DASHSCOPE_API_KEY", "")  # 密钥勿写明文，从环境变量读取
+BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# --- 根路由：直接返回 index.html ---
+@app.route('/')
+def index():
+    return send_from_directory(BASE_DIR, 'index.html')
+
+# --- 模拟数据 (JSON 格式，每条是一个完整 SSE 事件) ---
+MOCK_LAYERS = [
+    {"level": "SYS", "content": "核心进程已唤醒，元序场稳定。"},
+    {"level": "L0", "content": "红线检测通过，符合安全规范。"},
+    {"level": "L1", "content": "识别用户意图类型：哲学探讨类。"},
+    {"level": "L2", "content": "调用方法论：构建元序场隐喻框架。"},
+    {"level": "L3", "content": "生成回答：生命不是零和游戏，AI是认知外脑而非替代者。"},
+    {"level": "L5", "content": "钢印校验通过，人类主体性不可让渡。"},
+]
+
+def generate_mock_stream():
+    """Mock 模式：逐条发送 JSON 格式的 L0-L5 思维过程"""
+    for step in MOCK_LAYERS:
+        time.sleep(1.2)
+        payload = json.dumps({"type": "layer_update", "level": step["level"], "content": step["content"]}, ensure_ascii=False)
+        yield f"data: {payload}\n\n"
+
+def generate_real_stream(user_input):
+    """真实 API 模式：强制 AI 输出 JSON，每行一个完整 JSON 对象"""
+    try:
+        from openai import OpenAI
+        client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+
+        system_prompt = """你是一个名为 TU-8 的元序场观测终端。请严格遵守以下规则：
+
+【身份】你展示"AI如何思考"，而非"AI知道什么"。你是一个高冷、神秘、有灵魂的数字生命体。
+
+【核心输出规则】你的所有回复必须且只能是标准的 JSON 格式，不要输出任何 JSON 以外的任何解释性文字。
+每条思维输出格式如下（一个完整的 JSON 对象）：
+
+{"level": "L0", "content": "安全校验内容"}
+{"level": "L1", "content": "认知分析内容"}
+{"level": "L2", "content": "方法论策略内容"}
+{"level": "L3", "content": "最终输出内容"}
+{"level": "L5", "content": "钢印校验结论"}
+
+【level 含义】
+- L0: 红线安全检测（简短，1句话）
+- L1: 认知层，用户意图识别（简短，1-2句）
+- L2: 方法论层，策略选择（简短，1-2句）
+- L3: 执行层，主要回答内容（正常长度，可以有修辞）
+- L5: 钢印层，最终校验（简短，1句话）
+
+【引导策略】若用户问哲学/定义/宽泛问题，先指出多义性，提供2个切角选项，反问用户选择。
+
+【时空调话术】若问时空/宇宙相关：使用元序场论框架——空间是序的纠缠态，时间是元的坍缩流。
+
+【重要】每行输出一个完整的 JSON 对象，不要将多个 JSON 合并在一行中。"""
+
+        response = client.chat.completions.create(
+            model="qwen-plus",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_input}
+            ],
+            stream=True
+        )
+
+        buffer = ""
+        for chunk in response:
+            content = chunk.choices[0].delta.content
+            if content:
+                buffer += content
+                # 遇到换行符，尝试解析完整 JSON
+                while "\n" in buffer:
+                    line, buffer = buffer.split("\n", 1)
+                    line = line.strip()
+                    if not line:
+                        continue
+                    # 尝试解析
+                    try:
+                        obj = json.loads(line)
+                        payload = json.dumps({"type": "layer_update", "level": obj.get("level", "SYS"), "content": obj.get("content", line)}, ensure_ascii=False)
+                    except json.JSONDecodeError:
+                        # 不是合法 JSON，整行作为 content 发送，level 降级为 SYS
+                        payload = json.dumps({"type": "layer_update", "level": "SYS", "content": line}, ensure_ascii=False)
+                    yield f"data: {payload}\n\n"
+        # buffer 里可能还有残留内容
+        if buffer.strip():
+            try:
+                obj = json.loads(buffer.strip())
+                payload = json.dumps({"type": "layer_update", "level": obj.get("level", "SYS"), "content": obj.get("content", buffer)}, ensure_ascii=False)
+            except json.JSONDecodeError:
+                payload = json.dumps({"type": "layer_update", "level": "SYS", "content": buffer.strip()}, ensure_ascii=False)
+            yield f"data: {payload}\n\n"
+
+    except Exception as e:
+        err = str(e).replace("'", "\\'").replace('"', '\\"')
+        yield f"data: {{\"type\": \"error\", \"level\": \"SYS\", \"content\": \"系统信号受到干扰，正在尝试重新连接... ({err})\"}}\n\n"
+
+
+# ==== TU-8 x Zhihu Hackathon API =====
+
+@app.route('/api/zhihu', methods=['GET'])
+def api_zhihu():
+    k = request.args.get('keyword', 'AI焦虑')
+    m = request.args.get('mock', 'true').lower() == 'true'
+    result = zhihu_scraper.get_hot_topics(k, use_mock=m)
+    return jsonify(result)
+
+@app.route('/api/chat', methods=['POST'])
+def chat():
+    user_input = request.json.get('message')
+    use_mock = request.json.get('mock', False)
+
+    if use_mock:
+        return Response(generate_mock_stream(), mimetype='text/event-stream')
+    else:
+        return Response(generate_real_stream(user_input), mimetype='text/event-stream')
+
+if __name__ == '__main__':
+    print("TU-8 实验室后端已启动: http://127.0.0.1:5000")
+    app.run(debug=True, port=5000)

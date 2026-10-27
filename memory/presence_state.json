@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-09-11T12:01:18.125578+00:00",
+  "local_time": "2026-09-11 20:01",
+  "state": "gap_pending",
+  "reply_gap_min": 0.7,
+  "prev_user_msg": "2026-09-11T20:00:27.175000+08:00",
+  "last_user_msg": "2026-09-11T20:01:07.272000+08:00",
+  "prev_hour": 20,
+  "last_hour": 20,
+  "activity": {
+    "activity": "在旁边",
+    "confidence": 0.9,
+    "period": "晚间",
+    "period_key": "evening",
+    "is_workday": true
+  },
+  "weekday": 4,
+  "transcript": "C:\\Users\\qq366410837\\.qclaw\\agents\\main\\sessions\\66c315a7-9642-4faf-8f1c-a5846ebb0c30.jsonl"
+}

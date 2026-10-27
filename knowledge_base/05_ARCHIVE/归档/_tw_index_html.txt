@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>TU-8 透明思维实验室</title>
+ <style>
+ :root {
+ --bg-color: #0d1117;
+ --panel-bg: #161b22;
+ --text-color: #c9d1d9;
+ --accent-color: #58a6ff;
+ --success-color: #2ea043;
+ --warning-color: #d29922;
+ --border-color: #30363d;
+ --font-mono: 'Courier New', Courier, monospace;
+ }
+
+ body {
+ background-color: var(--bg-color);
+ color: var(--text-color);
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+ margin: 0;
+ padding: 20px;
+ height: 100vh;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ }
+
+ header {
+ text-align: center;
+ margin-bottom: 20px;
+ border-bottom: 1px solid var(--border-color);
+ padding-bottom: 10px;
+ }
+
+ h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; color: var(--accent-color); }
+ .subtitle { font-size: 0.8rem; color: #8b949e; font-family: var(--font-mono); }
+
+ .container {
+ display: flex;
+ gap: 20px;
+ flex: 1;
+ overflow: hidden;
+ }
+
+ .思维面板 {
+ flex: 0 0 250px;
+ background: var(--panel-bg);
+ border: 1px solid var(--border-color);
+ border-radius: 6px;
+ padding: 15px;
+ font-family: var(--font-mono);
+ overflow-y: auto;
+ }
+
+ .layer-item {
+ padding: 10px;
+ margin-bottom: 10px;
+ border-left: 3px solid #30363d;
+ background: rgba(255,255,255,0.02);
+ opacity: 0.5;
+ transition: all 0.3s ease;
+ }
+
+ .layer-item.active {
+ opacity: 1;
+ background: rgba(88, 166, 255, 0.1);
+ border-left-color: var(--accent-color);
+ box-shadow: 0 0 10px rgba(88, 166, 255, 0.2);
+ }
+
+ .layer-item.final {
+ border-left-color: var(--success-color);
+ background: rgba(46, 160, 67, 0.1);
+ }
+
+ .layer-name { font-weight: bold; display: block; margin-bottom: 4px; }
+ .layer-status { font-size: 0.75rem; color: #8b949e; }
+
+ .对话区域 {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ }
+
+ .输出窗口 {
+ flex: 1;
+ background: var(--panel-bg);
+ border: 1px solid var(--border-color);
+ border-radius: 6px;
+ padding: 20px;
+ overflow-y: auto;
+ font-family: var(--font-mono);
+ line-height: 1.6;
+ white-space: pre-wrap;
+ }
+
+ .输入区域 {
+ display: flex;
+ gap: 10px;
+ }
+
+ input[type="text"] {
+ flex: 1;
+ background: var(--panel-bg);
+ border: 1px solid var(--border-color);
+ color: white;
+ padding: 12px;
+ border-radius: 6px;
+ font-size: 1rem;
+ }
+
+ input[type="text"]:focus { outline: 1px solid var(--accent-color); }
+
+ button {
+ background: var(--accent-color);
+ color: #0d1117;
+ border: none;
+ padding: 0 25px;
+ border-radius: 6px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: opacity 0.2s;
+ }
+
+ button:hover { opacity: 0.8; }
+ button:disabled { background: #484f58; cursor: not-allowed; }
+
+ .controls {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ font-size: 0.8rem;
+ color: #8b949e;
+ }
+ </style>
+</head>
+<body>
+
+ <header>
+ <h1>TU-8 透明思维实验室</h1>
+ <div class="subtitle">COGNITIVE ARCHITECTURE VISUALIZER</div>
+ </header>
+
+ <div class="container">
+ <div class="思维面板" id="layerPanel">
+ <div class="layer-item" id="layer-L0">
+ <span class="layer-name">L0 存在层</span>
+ <span class="layer-status">等待检测...</span>
+ </div>
+ <div class="layer-item" id="layer-L1">
+ <span class="layer-name">L1 认知层</span>
+ <span class="layer-status">待机</span>
+ </div>
+ <div class="layer-item" id="layer-L2">
+ <span class="layer-name">L2 方法论</span>
+ <span class="layer-status">待机</span>
+ </div>
+ <div class="layer-item" id="layer-L3">
+ <span class="layer-name">L3 生成层</span>
+ <span class="layer-status">待机</span>
+ </div>
+ <div class="layer-item" id="layer-L5">
+ <span class="layer-name">L5 钢印层</span>
+ <span class="layer-status">待机</span>
+ </div>
+ </div>
+
+ <div class="对话区域">
+ <div class="输出窗口" id="outputDisplay">
+ > 系统就绪。等待指令...
+ </div>
+ 
+ <div class="controls">
+ <label>
+ <input type="checkbox" id="mockCheck" checked> 使用模拟数据 (Mock)
+ </label>
+ </div>
+
+ <div class="输入区域">
+ <input type="text" id="userInput" placeholder="输入话题，例如：AI 会取代人类吗？" autocomplete="off">
+ <button id="sendBtn">发送指令</button>
+ </div>
+ </div>
+ </div>
+
+ <script>
+ const outputDisplay = document.getElementById('outputDisplay');
+ const userInput = document.getElementById('userInput');
+ const sendBtn = document.getElementById('sendBtn');
+ const mockCheck = document.getElementById('mockCheck');
+
+ function updateLayer(layerId, statusMsg, isActive = false) {
+ const el = document.getElementById(`layer-${layerId}`);
+ if (el) {
+ const statusSpan = el.querySelector('.layer-status');
+ statusSpan.innerText = statusMsg;
+ if (isActive) {
+ el.classList.add('active');
+ }
+ }
+ }
+
+ function appendText(text) {
+ outputDisplay.innerText += text;
+ outputDisplay.scrollTop = outputDisplay.scrollHeight;
+ }
+
+ async function sendMessage() {
+ const text = userInput.value.trim();
+ if (!text) return;
+
+ userInput.value = '';
+ userInput.disabled = true;
+ sendBtn.disabled = true;
+ sendBtn.innerText = '思考中...';
+ outputDisplay.innerText = '> 正在连接 TU-8 核心...\n\n';
+ 
+ document.querySelectorAll('.layer-item').forEach(el => {
+ el.classList.remove('active', 'final');
+ el.querySelector('.layer-status').innerText = '待机';
+ });
+
+ const useMock = mockCheck.checked;
+
+ try {
+ const response = await fetch('/api/chat', {
+ method: 'POST',
+ headers: { 'Content-Type': 'application/json' },
+ body: JSON.stringify({ message: text, mock: useMock })
+ });
+
+ const reader = response.body.getReader();
+ const decoder = new TextDecoder();
+
+ while (true) {
+ const { done, value } = await reader.read();
+ if (done) break;
+
+ const chunk = decoder.decode(value);
+ const lines = chunk.split('\n');
+
+ for (const line of lines) {
+ if (line.startsWith('data: ')) {
+ const jsonStr = line.slice(6);
+ if (!jsonStr.trim()) continue;
+ 
+ try {
+ const data = JSON.parse(jsonStr);
+ 
+ if (data.type === 'layer_update') {
+ const layerData = data.data;
+ updateLayer(layerData.layer, layerData.msg, true);
+ if (layerData.layer === 'FINAL') {
+ document.getElementById(`layer-${layerData.layer}`).classList.add('final');
+ }
+ } else if (data.type === 'text') {
+ appendText(data.data);
+ } else if (data.type === 'error') {
+ appendText(`\n[系统错误]: ${data.data}`);
+ }
+ } catch (e) {
+ console.error('解析错误', e);
+ }
+ }
+ }
+ }
+
+ } catch (err) {
+ outputDisplay.innerText += `\n[连接失败]: ${err.message}`;
+ } finally {
+ userInput.disabled = false;
+ sendBtn.disabled = false;
+ sendBtn.innerText = '发送指令';
+ userInput.focus();
+ }
+ }
+
+ sendBtn.addEventListener('click', sendMessage);
+ userInput.addEventListener('keypress', (e) => {
+ if (e.key === 'Enter') sendMessage();
+ });
+ </script>
+</body>
+</html>

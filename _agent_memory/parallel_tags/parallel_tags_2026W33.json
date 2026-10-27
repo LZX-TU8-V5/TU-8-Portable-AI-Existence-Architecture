@@ -1,0 +1,18 @@
+[
+  {
+    "topic": "其他",
+    "angle": "认知",
+    "safety": "low",
+    "confidence": "low",
+    "timestamp": "2026-08-16T02:48:47",
+    "llm_used": false
+  },
+  {
+    "topic": "安全",
+    "angle": "认知",
+    "safety": "low",
+    "confidence": "low",
+    "timestamp": "2026-08-16T02:49:30",
+    "llm_used": false
+  }
+]

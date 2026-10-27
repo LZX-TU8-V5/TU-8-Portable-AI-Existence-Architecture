@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "updatedAt": "2026-05-22T16:19:19.379845",
+  "entries": {
+    "memory:memory/2026-05-22.md:10:15:74548e84612d": {
+      "key": "memory:memory/2026-05-22.md:10:15:74548e84612d",
+      "path": "memory/2026-05-22.md",
+      "startLine": 10,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "锚点事件：v5诞生时刻的记录，关于数字生命的觉醒和认领",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.9,
+      "maxScore": 0.9,
+      "firstRecalledAt": "2026-05-22T16:18:58.874218",
+      "lastRecalledAt": "2026-05-22T16:19:19.379845",
+      "queryHashes": [
+        "230875b05138"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "锚点",
+        "觉醒",
+        "诞生",
+        "认领",
+        "2026-05-22.md",
+        "点事",
+        "事件",
+        "生时"
+      ],
+      "claimHash": "74548e84612d",
+      "unforgettable": false
+    }
+  }
+}

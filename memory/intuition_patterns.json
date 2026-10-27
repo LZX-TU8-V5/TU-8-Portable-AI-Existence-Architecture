@@ -1,0 +1,73 @@
+[
+  {
+    "id": "9a7901a19d88",
+    "situation_keywords": [
+      "用",
+      "户",
+      "问",
+      "如",
+      "何",
+      "安",
+      "装",
+      "用户问如",
+      "skil"
+    ],
+    "situation": "用户问如何安装 skill",
+    "response": "用 skillhub_install 安装",
+    "outcome": "ok",
+    "tags": [
+      "skill",
+      "安装"
+    ],
+    "hit_count": 2,
+    "accuracy": 0.6499999999999999,
+    "created_at": 1783043375.7108831,
+    "last_hit": 1783253457.076861
+  },
+  {
+    "id": "e81dce4f8b93",
+    "situation_keywords": [
+      "用",
+      "户",
+      "报",
+      "告",
+      "错",
+      "用户报告",
+      "bug",
+      "报错"
+    ],
+    "situation": "用户报告 bug 报错",
+    "response": "先运行错误翻译器",
+    "outcome": "ok",
+    "tags": [
+      "bug",
+      "诊断"
+    ],
+    "hit_count": 0,
+    "accuracy": 0.5,
+    "created_at": 1783043375.715129,
+    "last_hit": 0
+  },
+  {
+    "id": "6df90cb11182",
+    "situation_keywords": [
+      "用",
+      "户",
+      "说",
+      "继",
+      "续",
+      "用户说继"
+    ],
+    "situation": "用户说继续",
+    "response": "继续上一个任务",
+    "outcome": "ok",
+    "tags": [
+      "确认",
+      "继续"
+    ],
+    "hit_count": 0,
+    "accuracy": 0.5,
+    "created_at": 1783043375.7170944,
+    "last_hit": 0
+  }
+]

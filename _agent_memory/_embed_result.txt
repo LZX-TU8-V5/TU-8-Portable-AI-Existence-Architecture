@@ -1,0 +1,65 @@
+scan files: 1512
+
+### embed: 749 hits
+  src\cognitive_evaluator.py:6 | 2. TFIDFEmbedder: 基于 TF-IDF 的轻量级嵌入向量生成器（替代 heavy embedding model）
+  src\cognitive_evaluator.py:176 | class TFIDFEmbedder:
+  src\cognitive_evaluator.py:343 | embedder = TFIDFEmbedder(dimension=128)
+  src\cognitive_evaluator.py:346 | vec = embedder.encode("你好世界")
+  src\cognitive_evaluator.py:351 | sim_1 = embedder.compute_similarity("人工智能", "机器学习")
+  src\cognitive_evaluator.py:352 | sim_2 = embedder.compute_similarity("人工智能", "西红柿炒蛋")
+  src\cognitive_integration.py:32 | from cognitive_evaluator import CognitiveLoadEvaluator, TFIDFEmbedder
+  src\cognitive_integration.py:54 | self.embedder = TFIDFEmbedder(dimension=128)
+  src\cognitive_integration.py:174 | embedding = self.embedder.encode(para)
+  src\cognitive_integration.py:179 | embedding=embedding.tolist() if hasattr(embedding, 'tolist') else list(embedding),
+
+### sentence_transform: 4 hits
+  scripts\capacitive_retrieval.py:152 | from sentence_transformers import SentenceTransformer
+  scripts\capacitive_retrieval.py:312 | from sentence_transformers import util
+  _GOV_ARCHIVE_20260827_170629\scripts\capacitive_retrieval.py:152 | from sentence_transformers import SentenceTransformer
+  _GOV_ARCHIVE_20260827_170629\scripts\capacitive_retrieval.py:312 | from sentence_transformers import util
+
+### transformers: 21 hits
+  src\cognitive_evaluator.py:9 | - 不依赖任何重型 NLP 模型（如 sentence-transformers）
+  src\cognitive_evaluator.py:183 | - 适合轻量级场景（替代 sentence-transformers）
+  src\tu8_memory.py:9 | #   P1: PI>RI 差异化冲突阈值（Chattaraj & Raj 2026 “Transformers Remember First”）—— PI使用更低的冲突阈值
+  tu8_memory.py:9 | #   P1: PI>RI 差异化冲突阈值（Chattaraj & Raj 2026 “Transformers Remember First”）—— PI使用更低的冲突阈值
+  scripts\capacitive_retrieval.py:144 | # 延迟加载 sentence-transformers（避免启动时依赖检查失败）
+  scripts\capacitive_retrieval.py:154 | print("[OK] sentence-transformers 模型加载成功")
+  scripts\capacitive_retrieval.py:156 | print("[WARN] sentence-transformers 未安装，降级为关键词匹配")
+  scripts\capacitive_retrieval.py:159 | print(f"[WARN] sentence-transformers 加载失败: {e}，降级为关键词匹配")
+  scripts\capacitive_retrieval.py:301 | ✅ 升级：使用语义相似度（sentence-transformers）
+  src\cognitive_evaluator.py:9 | - 不依赖任何重型 NLP 模型（如 sentence-transformers）
+
+### chroma: 0 hits
+
+### faiss: 20 hits
+  src\quantized_memory.py:175 | # 冷记忆索引（FAISS ID，对应外部向量索引）
+  src\quantized_memory.py:438 | """冷记忆层 — 只存文本摘要 + FAISS 索引 ID，不存原始向量
+  src\quantized_memory.py:668 | # 冷记忆召回（只有文本，需要外部 FAISS 做向量检索，这里只返回索引条目）
+  src\quantized_memory.py:670 | # 冷记忆不支持直接向量召回（无本地向量），由调用方通过 FAISS 索引召回
+  backup\quantized_memory.v1.py:175 | # 冷记忆索引（FAISS ID，对应外部向量索引）
+  backup\quantized_memory.v1.py:438 | """冷记忆层 — 只存文本摘要 + FAISS 索引 ID，不存原始向量
+  backup\quantized_memory.v1.py:668 | # 冷记忆召回（只有文本，需要外部 FAISS 做向量检索，这里只返回索引条目）
+  backup\quantized_memory.v1.py:670 | # 冷记忆不支持直接向量召回（无本地向量），由调用方通过 FAISS 索引召回
+  src\quantized_memory.py:175 | # 冷记忆索引（FAISS ID，对应外部向量索引）
+  src\quantized_memory.py:438 | """冷记忆层 — 只存文本摘要 + FAISS 索引 ID，不存原始向量
+
+### milvus: 0 hits
+
+### qdrant: 0 hits
+
+### api/embed: 0 hits
+
+### sentence-transformer: 0 hits
+
+### encode(: 447 hits
+  src\architecture_journal.py:47 | return "j_" + hashlib.md5(title.encode("utf-8")).hexdigest()[:10]
+  src\arch_fsm.py:123 | event_hash = hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
+  src\arch_fsm.py:173 | payload.encode("utf-8")
+  src\cognitive_brakes.py:386 | base_id = card_id if card_id != "unknown" else hashlib.md5(content[:50].encode()).hexdigest()[:8]
+  src\cognitive_evaluator.py:234 | hash_obj = hashlib.md5(token.encode('utf-8'))
+  src\cognitive_evaluator.py:248 | def encode(self, text: str) -> List[float]:
+  src\cognitive_pain_monitor.py:308 | pain_id=f"cpain_{int(time.time()*1000)}_{hashlib.md5(context[:20].encode()).hexdigest()[:6]}",
+  src\cognitive_readiness.py:146 | snapshot_hash = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+  src\cold_start_engine.py:583 | expected_hash = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+  src\cold_start_engine.py:587 | user_hash = hashlib.sha256(user_activation_code.encode("utf-8")).hexdigest()

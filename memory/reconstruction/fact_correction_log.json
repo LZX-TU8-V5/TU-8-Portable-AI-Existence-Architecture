@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-19T11:01:14.844886+08:00",
+  "updated_at": "2026-06-19T12:49:40.077105+08:00",
+  "total_corrections": 4,
+  "pending_confirmations": 0,
+  "scars": [
+    {
+      "scar_id": "scar_1781838074848",
+      "entry_title": "项目与背景",
+      "entry_type": "FACT",
+      "scar_level": "SL3",
+      "old_hash": "86e811522894ff6a",
+      "new_hash": "494ef43ca89dbb23",
+      "old_snapshot": "用户：QQ号 366410837，中文用户\n工作目录：D:\\old\\path",
+      "new_snapshot": "用户：QQ号 366410837，中文用户\n工作目录：D:\\qq366410837\\.qclaw\\workspace",
+      "reason": "工作目录路径修正",
+      "corrector": "TU-8",
+      "creator_approved": true,
+      "approved_at": "2026-06-19T11:01:14.852895+08:00",
+      "created_at": "2026-06-19T11:01:14.848896+08:00",
+      "amnestied": false,
+      "metadata": {
+        "approver": "造物主"
+      }
+    },
+    {
+      "scar_id": "scar_1781838074851",
+      "entry_title": "记忆哲学",
+      "entry_type": "INSIGHT",
+      "scar_level": "SL3",
+      "old_hash": "e7b4a6931a811c63",
+      "new_hash": "8ec743cb1591424d",
+      "old_snapshot": "AI记忆 = 绝对还原",
+      "new_snapshot": "AI记忆 = 绝对还原（但可通过遗忘层降级）",
+      "reason": "补充遗忘层降级说明",
+      "corrector": "TU-8",
+      "creator_approved": true,
+      "approved_at": "2026-06-19T11:01:14.851898+08:00",
+      "created_at": "2026-06-19T11:01:14.851898+08:00",
+      "amnestied": true,
+      "metadata": {
+        "amnestied_at": "2026-06-19T11:01:14.855025+08:00"
+      }
+    },
+    {
+      "scar_id": "scar_1781838074854",
+      "entry_title": "项目与背景",
+      "entry_type": "FACT",
+      "scar_level": "SL2",
+      "old_hash": "494ef43ca89dbb23",
+      "new_hash": "6ea2146f8b31a398",
+      "old_snapshot": "用户：QQ号 366410837，中文用户\n工作目录：D:\\qq366410837\\.qclaw\\workspace",
+      "new_snapshot": "用户：QQ号 366410837，中文用户\n工作目录：D:\\qq366410837\\.qclaw\\workspace\n操作系统：Windows 11",
+      "reason": "补充操作系统信息",
+      "corrector": "造物主",
+      "creator_approved": true,
+      "approved_at": "2026-06-19T11:01:14.854026+08:00",
+      "created_at": "2026-06-19T11:01:14.854026+08:00",
+      "amnestied": false,
+      "metadata": {}
+    },
+    {
+      "scar_id": "scar_1781844580077",
+      "entry_title": "TEST_INTEGRATION_ENTRY",
+      "entry_type": "FACT",
+      "scar_level": "SL2",
+      "old_hash": "64bb6cef6152b107",
+      "new_hash": "9a57d29f3c475058",
+      "old_snapshot": "旧内容: 版本树节点 v1 的测试数据。",
+      "new_snapshot": "新内容: 版本树节点 v1 的测试数据已更新。",
+      "reason": "集成测试: P1.3 修正触发 P1.4 冲击",
+      "corrector": "集成测试",
+      "creator_approved": true,
+      "approved_at": "2026-06-19T12:49:40.077105+08:00",
+      "created_at": "2026-06-19T12:49:40.077105+08:00",
+      "amnestied": false,
+      "metadata": {}
+    }
+  ],
+  "scar_chains": {
+    "项目与背景": [
+      "scar_1781838074848",
+      "scar_1781838074854"
+    ],
+    "记忆哲学": [
+      "scar_1781838074851"
+    ],
+    "TEST_INTEGRATION_ENTRY": [
+      "scar_1781844580077"
+    ]
+  }
+}

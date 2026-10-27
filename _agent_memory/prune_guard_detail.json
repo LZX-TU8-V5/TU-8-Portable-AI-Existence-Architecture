@@ -1,0 +1,28 @@
+{
+  "ts": "2026-10-27T12:03:32.470628+00:00",
+  "ok": true,
+  "forget_prune": {
+    "checked_snapshots": 1,
+    "auto_pruned": [],
+    "crash_triggered": false,
+    "crash_pruned": [],
+    "skipped": [
+      {
+        "snapshot": "dream_snapshot_001",
+        "node": "dream_snapshot_001",
+        "energy": 0.0,
+        "has_connections": true
+      }
+    ],
+    "tension_value": 0.0
+  },
+  "prune_thermal": {
+    "level": "NORMAL",
+    "tension_integral": 0.3115,
+    "action_taken": "正常通行",
+    "admission_paused": false,
+    "unloaded": [],
+    "truncated": []
+  },
+  "errors": []
+}

@@ -1,0 +1,1447 @@
+{
+  "cycles": [
+    {
+      "cycle_id": "RESP-0001",
+      "anchor_a": "frust_20260810102350_0_0",
+      "anchor_b": "frust_20260810102350_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.5946984
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.595704
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0002",
+      "anchor_a": "frust_20260810102350_0_1",
+      "anchor_b": "frust_20260810102350_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.597715
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6007822
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0003",
+      "anchor_a": "frust_20260810102350_2_2",
+      "anchor_b": "frust_20260810102350_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6007822
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6027935
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0004",
+      "anchor_a": "frust_20260810102350_2_3",
+      "anchor_b": "frust_20260810102350_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6058567
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6058567
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0005",
+      "anchor_a": "frust_20260810102350_2_5",
+      "anchor_b": "frust_20260810102350_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6058567
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6111548
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0006",
+      "anchor_a": "frust_20260810102350_2_6",
+      "anchor_b": "frust_20260810102350_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6131666
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6131666
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0007",
+      "anchor_a": "frust_20260810102350_2_7",
+      "anchor_b": "frust_20260810102350_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6165123
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6165123
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0008",
+      "anchor_a": "frust_20260810102350_2_8",
+      "anchor_b": "frust_20260810102350_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6165123
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6217515
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0009",
+      "anchor_a": "frust_20260810102350_2_9",
+      "anchor_b": "frust_20260810102350_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6237688
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6268632
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0010",
+      "anchor_a": "frust_20260810102350_2_11",
+      "anchor_b": "frust_20260810102350_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328630.6268632
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328630.6268632
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0011",
+      "anchor_a": "frust_20260810102501_0_0",
+      "anchor_b": "frust_20260810102501_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.585298
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.585298
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0012",
+      "anchor_a": "frust_20260810102501_0_1",
+      "anchor_b": "frust_20260810102501_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.585298
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.5903301
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0013",
+      "anchor_a": "frust_20260810102501_2_2",
+      "anchor_b": "frust_20260810102501_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.5903301
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.5953574
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0014",
+      "anchor_a": "frust_20260810102501_2_3",
+      "anchor_b": "frust_20260810102501_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.5953574
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.5953574
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0015",
+      "anchor_a": "frust_20260810102501_2_5",
+      "anchor_b": "frust_20260810102501_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.6008615
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.6008615
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0016",
+      "anchor_a": "frust_20260810102501_2_6",
+      "anchor_b": "frust_20260810102501_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.6008615
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.6059136
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0017",
+      "anchor_a": "frust_20260810102501_2_7",
+      "anchor_b": "frust_20260810102501_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.6059136
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.6059136
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0018",
+      "anchor_a": "frust_20260810102501_2_8",
+      "anchor_b": "frust_20260810102501_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.611076
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.611076
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0019",
+      "anchor_a": "frust_20260810102501_2_9",
+      "anchor_b": "frust_20260810102501_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.616271
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.616271
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0020",
+      "anchor_a": "frust_20260810102501_2_11",
+      "anchor_b": "frust_20260810102501_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328701.616271
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328701.616271
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0021",
+      "anchor_a": "frust_20260810102511_0_0",
+      "anchor_b": "frust_20260810102511_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6092668
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6120648
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0022",
+      "anchor_a": "frust_20260810102511_0_1",
+      "anchor_b": "frust_20260810102511_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6120648
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6120648
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0023",
+      "anchor_a": "frust_20260810102511_2_2",
+      "anchor_b": "frust_20260810102511_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6171374
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6171374
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0024",
+      "anchor_a": "frust_20260810102511_2_3",
+      "anchor_b": "frust_20260810102511_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6223488
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6223488
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0025",
+      "anchor_a": "frust_20260810102511_2_5",
+      "anchor_b": "frust_20260810102511_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6270084
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6270084
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0026",
+      "anchor_a": "frust_20260810102511_2_6",
+      "anchor_b": "frust_20260810102511_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.629022
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6320577
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0027",
+      "anchor_a": "frust_20260810102511_2_7",
+      "anchor_b": "frust_20260810102511_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6320577
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6320577
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0028",
+      "anchor_a": "frust_20260810102511_2_8",
+      "anchor_b": "frust_20260810102511_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.637127
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.637127
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0029",
+      "anchor_a": "frust_20260810102511_2_9",
+      "anchor_b": "frust_20260810102511_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6426294
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.644646
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0030",
+      "anchor_a": "frust_20260810102511_2_11",
+      "anchor_b": "frust_20260810102511_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328711.6466596
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328711.6476705
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0031",
+      "anchor_a": "frust_20260810102520_0_0",
+      "anchor_b": "frust_20260810102520_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.139605
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.145087
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0032",
+      "anchor_a": "frust_20260810102520_0_1",
+      "anchor_b": "frust_20260810102520_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.145087
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1501813
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0033",
+      "anchor_a": "frust_20260810102520_2_2",
+      "anchor_b": "frust_20260810102520_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.155271
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.155271
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0034",
+      "anchor_a": "frust_20260810102520_2_3",
+      "anchor_b": "frust_20260810102520_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.1603055
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1603055
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0035",
+      "anchor_a": "frust_20260810102520_2_5",
+      "anchor_b": "frust_20260810102520_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.1657984
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1657984
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0036",
+      "anchor_a": "frust_20260810102520_2_6",
+      "anchor_b": "frust_20260810102520_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.1709642
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1724727
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0037",
+      "anchor_a": "frust_20260810102520_2_7",
+      "anchor_b": "frust_20260810102520_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.1759992
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1759992
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0038",
+      "anchor_a": "frust_20260810102520_2_8",
+      "anchor_b": "frust_20260810102520_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.181409
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.181409
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0039",
+      "anchor_a": "frust_20260810102520_2_9",
+      "anchor_b": "frust_20260810102520_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.1868474
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.1868474
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0040",
+      "anchor_a": "frust_20260810102520_2_11",
+      "anchor_b": "frust_20260810102520_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328721.192011
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328721.192011
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0041",
+      "anchor_a": "frust_20260810102531_0_0",
+      "anchor_b": "frust_20260810102531_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.3972664
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.3972664
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0042",
+      "anchor_a": "frust_20260810102531_0_1",
+      "anchor_b": "frust_20260810102531_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4025748
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4025748
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0043",
+      "anchor_a": "frust_20260810102531_2_2",
+      "anchor_b": "frust_20260810102531_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4077265
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4077265
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0044",
+      "anchor_a": "frust_20260810102531_2_3",
+      "anchor_b": "frust_20260810102531_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4131255
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4131255
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0045",
+      "anchor_a": "frust_20260810102531_2_5",
+      "anchor_b": "frust_20260810102531_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4186022
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4186022
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0046",
+      "anchor_a": "frust_20260810102531_2_6",
+      "anchor_b": "frust_20260810102531_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4238803
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4289675
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0047",
+      "anchor_a": "frust_20260810102531_2_7",
+      "anchor_b": "frust_20260810102531_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4309783
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4339888
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0048",
+      "anchor_a": "frust_20260810102531_2_8",
+      "anchor_b": "frust_20260810102531_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4339888
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4392078
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0049",
+      "anchor_a": "frust_20260810102531_2_9",
+      "anchor_b": "frust_20260810102531_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4392078
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4446325
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0050",
+      "anchor_a": "frust_20260810102531_2_11",
+      "anchor_b": "frust_20260810102531_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328731.4446325
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328731.4498682
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0051",
+      "anchor_a": "frust_20260810102822_0_0",
+      "anchor_b": "frust_20260810102822_0_0_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3485353
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3485353
+        }
+      ],
+      "created_at": 1786328902.3485353,
+      "last_updated": 1786328902.3485353,
+      "completed_at": null,
+      "age_seconds": 0.06237936019897461
+    },
+    {
+      "cycle_id": "RESP-0052",
+      "anchor_a": "frust_20260810102822_0_1",
+      "anchor_b": "frust_20260810102822_0_1_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3540492
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3591607
+        }
+      ],
+      "created_at": 1786328902.3540492,
+      "last_updated": 1786328902.3591607,
+      "completed_at": null,
+      "age_seconds": 0.05686545372009277
+    },
+    {
+      "cycle_id": "RESP-0053",
+      "anchor_a": "frust_20260810102822_2_2",
+      "anchor_b": "frust_20260810102822_2_2_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3591607
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3644323
+        }
+      ],
+      "created_at": 1786328902.3591607,
+      "last_updated": 1786328902.3644323,
+      "completed_at": null,
+      "age_seconds": 0.051753997802734375
+    },
+    {
+      "cycle_id": "RESP-0054",
+      "anchor_a": "frust_20260810102822_2_3",
+      "anchor_b": "frust_20260810102822_2_3_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3644323
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3711193
+        }
+      ],
+      "created_at": 1786328902.3644323,
+      "last_updated": 1786328902.3711193,
+      "completed_at": null,
+      "age_seconds": 0.04648232460021973
+    },
+    {
+      "cycle_id": "RESP-0055",
+      "anchor_a": "frust_20260810102822_2_5",
+      "anchor_b": "frust_20260810102822_2_5_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3746748
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3746748
+        }
+      ],
+      "created_at": 1786328902.3746748,
+      "last_updated": 1786328902.3746748,
+      "completed_at": null,
+      "age_seconds": 0.0362398624420166
+    },
+    {
+      "cycle_id": "RESP-0056",
+      "anchor_a": "frust_20260810102822_2_6",
+      "anchor_b": "frust_20260810102822_2_6_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3817363
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3817363
+        }
+      ],
+      "created_at": 1786328902.3817363,
+      "last_updated": 1786328902.3817363,
+      "completed_at": null,
+      "age_seconds": 0.029178380966186523
+    },
+    {
+      "cycle_id": "RESP-0057",
+      "anchor_a": "frust_20260810102822_2_7",
+      "anchor_b": "frust_20260810102822_2_7_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3851025
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3902905
+        }
+      ],
+      "created_at": 1786328902.3851025,
+      "last_updated": 1786328902.3902905,
+      "completed_at": null,
+      "age_seconds": 0.025812149047851562
+    },
+    {
+      "cycle_id": "RESP-0058",
+      "anchor_a": "frust_20260810102822_2_8",
+      "anchor_b": "frust_20260810102822_2_8_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.3954892
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.3954892
+        }
+      ],
+      "created_at": 1786328902.3954892,
+      "last_updated": 1786328902.3954892,
+      "completed_at": null,
+      "age_seconds": 0.015425443649291992
+    },
+    {
+      "cycle_id": "RESP-0059",
+      "anchor_a": "frust_20260810102822_2_9",
+      "anchor_b": "frust_20260810102822_2_9_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.400532
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.4043653
+        }
+      ],
+      "created_at": 1786328902.400532,
+      "last_updated": 1786328902.4043653,
+      "completed_at": null,
+      "age_seconds": 0.010382652282714844
+    },
+    {
+      "cycle_id": "RESP-0060",
+      "anchor_a": "frust_20260810102822_2_11",
+      "anchor_b": "frust_20260810102822_2_11_shadow",
+      "tension": 0.6,
+      "hang_id": null,
+      "stage": "suspension",
+      "stage_label": "梦境悬挂",
+      "evolution_cycles": 0,
+      "stage_history": [
+        {
+          "stage": "activation",
+          "ts": 1786328902.4078908
+        },
+        {
+          "stage": "suspension",
+          "ts": 1786328902.4109147
+        }
+      ],
+      "created_at": 1786328902.4078908,
+      "last_updated": 1786328902.4109147,
+      "completed_at": null,
+      "age_seconds": 0.003023862838745117
+    }
+  ],
+  "_counter": 60,
+  "valve_state": "green",
+  "updated_at": 1786328902.4109147
+}

@@ -1,0 +1,32 @@
+{
+  "consecutive_clean": 970,
+  "consecutive_clean_milestone": 10,
+  "last_steel_density": 1.0,
+  "last_anchor_count": 7,
+  "last_dead_zones": [],
+  "last_reward": 0,
+  "last_updated": "2026-10-27T19:37:21+08:00",
+  "milestone_reached": true,
+  "reward_log": [
+    {
+      "ts": "2026-07-20T10:35:13+08:00",
+      "event": "steel_density_increased",
+      "delta": 20,
+      "total": 20
+    },
+    {
+      "ts": "2026-07-21T09:42:16+08:00",
+      "event": "clean_streak_5",
+      "delta": 10,
+      "total": 30
+    },
+    {
+      "ts": "2026-07-24T08:44:31+08:00",
+      "event": "milestone_10_clean",
+      "delta": 200,
+      "total": 230
+    }
+  ],
+  "total_reward": 230,
+  "lambda_int_influence": 0.5
+}

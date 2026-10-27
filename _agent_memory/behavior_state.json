@@ -1,0 +1,57 @@
+{
+  "pending_intent": null,
+  "last_review_ts": null,
+  "last_review_result": null,
+  "rules": {},
+  "decay_log": [],
+  "conflict_log": [
+    {
+      "ts": "2026-08-13T09:28:51.545132",
+      "case_id": "case_1786584531507",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    },
+    {
+      "ts": "2026-08-13T09:28:51.613782",
+      "case_id": "case_1786584531579",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    },
+    {
+      "ts": "2026-08-13T09:33:17.432475",
+      "case_id": "case_1786584797412",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    },
+    {
+      "ts": "2026-08-13T09:36:10.740518",
+      "case_id": "case_1786584970720",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    },
+    {
+      "ts": "2026-08-13T09:36:47.088957",
+      "case_id": "case_1786585007054",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    },
+    {
+      "ts": "2026-08-13T09:37:58.912155",
+      "case_id": "case_1786585078875",
+      "conflict_type": "steel_vs_creator",
+      "priority": 60,
+      "outcome": "arbitrate",
+      "topic": "unknown"
+    }
+  ]
+}

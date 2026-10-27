@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.13,
+  "stdout": "[weismann_eval] PASS: composite=0.74\n  L1 hardcheck: PASS (score=1.0)\n  L2 selfeval:  PASS (score=0.6, density=0.0)\n  L3 environment: neutral (0.5)\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:23.437471+00:00",
+  "script": "weismann_evaluate"
+}

@@ -1,0 +1,24 @@
+===== backup/ 来源诊断 =====
+  backup/ 下总条目 1311，.bak 15
+  最小 5536B 中位 16797B 最大 313384B
+  命名模式: {'带日期.impl/纯日期': 10, '其他': 5}
+  搜索自动快照生成点:
+    arch_fsm.py: shutil.copy2(source, backup_path)
+    consciousness_cycle.py: snapshot_dir = Path(self.config.MEMORY_ROOT) / "hibernation" if hasattr(self.con
+    divine_branch_interceptor.py: 'original_path': str(Path(bpath).relative_to(WORKSPACE / "backup" / "20260618-10
+    fact_correction_scar.py: shutil.copy2(MEMORY_MD, backup_path)
+    forced_workflow.py: shutil.copy2(self.backup_path, dest_path)
+    genesis_cycle.py: self.snapshot_dir = Path(snapshot_dir) if snapshot_dir else self.workspace_root 
+    memory_degradation.py: shutil.copy(MEMORY_MD, backup_path)
+    micro_sleep.py: "context": context_snapshot.copy() if context_snapshot else {},
+    time_anchor_sandbox.py: anchors_snapshot=copy.deepcopy(
+    user_metabolism.py: shutil.copy(USER_MD, backup_path)
+  backups: 8 files, sample=['consciousness_cycle.py.20260625-011858.bak', 'consciousness_cycle.py.20260625-014329.bak', 'SOUL.md.20260624-173442.bak']
+  .arch_backups: 7 files, sample=['core.py__backup_20260623_095024', 'module_a.py__backup_20260623_084941', 'module_a.py__backup_20260623_085010']
+  .arch_recycle_bin: 2 files, sample=['test_temp.txt__2026-06-18T02-19-00', 'test_temp.txt__2026-06-18T02-19-00.meta.json']
+  _snapshots: 1 files, sample=['pain_status_20260516_084904.json']
+
+===== USER_PROFILE.json vs USER.md =====
+  USER_PROFILE.json keys(相关): ['"name":', '"timezone":', '"state":', '"state":', '"state":', '"projects":', '"status":', '"status":', '"status":', '"status":']
+  USER_PROFILE.json 末行: }
+  USER.md 含 李奥/七七/设计师? True/True/True

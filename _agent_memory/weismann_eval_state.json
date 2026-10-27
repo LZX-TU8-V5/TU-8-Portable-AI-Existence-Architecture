@@ -1,0 +1,33 @@
+{
+  "ts": "2026-10-27T11:37:23Z",
+  "overall_pass": true,
+  "composite_score": 0.74,
+  "layers": {
+    "L1_hardcheck": {
+      "pass": true,
+      "score": 1.0,
+      "details": {
+        "l0_present": true,
+        "steel_symbol_present": true
+      }
+    },
+    "L2_selfeval": {
+      "pass": true,
+      "score": 0.6,
+      "details": {
+        "anchor_density": 0.0,
+        "steel_seal_count": 1,
+        "active_friction": 0,
+        "friction_score": 1.0
+      }
+    },
+    "L3_environment": {
+      "pass": true,
+      "score": 0.5,
+      "details": {
+        "source": "neutral_placeholder",
+        "note": "外部适应度信号未接入"
+      }
+    }
+  }
+}

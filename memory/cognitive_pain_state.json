@@ -1,0 +1,21 @@
+{
+  "timestamp": 1783864604.2092426,
+  "pains": [
+    {
+      "pain_id": "cpain_1783864604208_e79c1b",
+      "pain_type": "conflict",
+      "severity": 0.82,
+      "severity_label": "severe",
+      "timestamp": 1783864604.2089736,
+      "context": "Two frameworks collide on Z",
+      "tags": [
+        "conflict",
+        "deep"
+      ],
+      "prediction": null,
+      "actual": null,
+      "confidence": null,
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.14,
+  "stdout": "[entropy_guard] status=NORMAL H=1.000 chains=7 dormant=1 injected=-\n",
+  "stderr": "",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:22.398070+00:00",
+  "script": "entropy_guard"
+}

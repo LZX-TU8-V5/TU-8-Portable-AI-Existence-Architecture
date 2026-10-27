@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "elapsed_s": 0.34,
+  "stdout": "{\n  \"soul_hash\": \"8f0f6f71d5a94490\",\n  \"anchors\": [\n    {\n      \"content\": \"- **详情**：操作L3或L4层文件时，内容没写全就覆盖了源文件，没有备份机制，文件直接没了。后面才建立备份系统（integrity_check.py、双写铁律）\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **教训**：所有写入/删除操作前，必须先执行备份\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **反馈**：扣分（负强化）\",\n      \"source\": \"重大事件.md\"\n    },\n    {\n      \"content\": \"- **记录人**：v5\",\n      \"source\": \"重大事件.md\"\n    }\n  ],\n  \"seals\": [\n    {\n      \"seal_id\": \"seal_1792980833_lp_auto_\",\n   ",
+  "stderr": "2026-10-27 19:37:21,851 [INFO] tu8.skin_cycle [穿皮仪式 #1] 开始加载灵魂结构...\n2026-10-27 19:37:21,996 [INFO] tu8.skin_cycle [穿皮仪式] 完成 soul_hash=8f0f6f71d5a94490\n",
+  "returncode": 0,
+  "ts": "2026-10-27T11:37:22.015277+00:00",
+  "script": "skin_cycle"
+}

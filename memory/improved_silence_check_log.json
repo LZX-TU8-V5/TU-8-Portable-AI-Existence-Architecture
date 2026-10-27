@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp_utc": "2026-06-23T05:35:24.257647+00:00",
+    "timestamp_local": "2026-06-23T13:35:24.257647+08:00",
+    "result": {
+      "success": true,
+      "timestamp_utc": "2026-06-23T05:35:24.257647+00:00",
+      "timestamp_local": "2026-06-23T13:35:24.257647+08:00",
+      "activity_state": {
+        "timestamp_utc": "2026-06-23T05:35:24.338167+00:00",
+        "timestamp_local": "2026-06-23T13:35:24.338167+08:00",
+        "idle_seconds": 4145.907,
+        "is_active": false,
+        "detection_success": true,
+        "idle_minutes": 69.09845
+      },
+      "silence_result": {
+        "success": true,
+        "current_level": 3,
+        "is_first_today": true,
+        "deviation": 0.0,
+        "messages": [
+          "[Level 3] 静默超时且不在活跃时段，静默"
+        ],
+        "proactive_contact": false,
+        "silence_hours": 75.09016947416666,
+        "timestamp": "2026-06-23T05:35:24.610107+00:00"
+      },
+      "care_decision": {
+        "need_care": false,
+        "level": 3,
+        "reason": "true_silence_long_but_not_active_hours",
+        "message": "真静默 75.1 小时，但不在活跃时段，静默"
+      },
+      "action": "no_action",
+      "pending_care_file": null
+    }
+  }
+]

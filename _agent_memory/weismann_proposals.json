@@ -1,0 +1,282 @@
+[
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260809110807_0_0",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-08-09T03:29:03Z",
+    "status": "applied",
+    "applied_at": "2026-08-09T03:29:13Z"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903160542_0_1",
+    "theme": "frustration_edge",
+    "tension_score": 0.8,
+    "reason": "蒸馏出高张力矛盾（0.8）：frustration_edge",
+    "proposed_at": "2026-09-03T08:05:43Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903160542_1_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T08:05:43Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903160542_1_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T08:05:43Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903160542_1_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T08:05:43Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903160542_1_6",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T08:05:43Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903171742_0_1",
+    "theme": "frustration_edge",
+    "tension_score": 0.8,
+    "reason": "蒸馏出高张力矛盾（0.8）：frustration_edge",
+    "proposed_at": "2026-09-03T09:17:42Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903171742_1_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T09:17:42Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903171742_1_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T09:17:42Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903171742_1_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T09:17:42Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260903171742_1_6",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-03T09:17:42Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904104205_0_0",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T02:42:06Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904104205_0_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T02:42:06Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904104205_0_3",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T02:42:06Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904104205_0_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T02:42:06Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904104205_0_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T02:42:06Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904111701_0_0",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T03:44:49Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904111701_0_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T03:44:49Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904111701_0_3",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T03:44:49Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904111701_0_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T03:44:49Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904111701_0_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T03:44:49Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904133517_0_0",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T05:35:18Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904133517_0_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T05:35:18Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904133517_0_3",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T05:35:18Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904133517_0_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T05:35:18Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904133517_0_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T05:35:18Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904154713_0_0",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T07:47:14Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904154713_0_2",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T07:47:14Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904154713_0_3",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T07:47:14Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904154713_0_4",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T07:47:14Z",
+    "status": "pending"
+  },
+  {
+    "source": "tension_distill",
+    "fingerprint": "frust_20260904154713_0_5",
+    "theme": "frustration_edge",
+    "tension_score": 0.6,
+    "reason": "蒸馏出高张力矛盾（0.6）：frustration_edge",
+    "proposed_at": "2026-09-04T07:47:14Z",
+    "status": "pending"
+  }
+]

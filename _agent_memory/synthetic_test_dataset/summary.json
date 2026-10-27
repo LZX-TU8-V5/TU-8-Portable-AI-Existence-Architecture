@@ -1,0 +1,19 @@
+{
+  "total_samples": 43,
+  "type_counts": {
+    "A_clean_slab": 9,
+    "B_isotropic_circle": 12,
+    "C_noisy_slab": 12,
+    "D_texture_covered": 4,
+    "E_dual_slab": 3,
+    "F_multi_object": 3
+  },
+  "categories": {
+    "A": "纯净斜面（边界角度）",
+    "B": "各向同性圆（应拒绝）",
+    "C": "噪声污染斜面",
+    "D": "纹理覆盖斜面",
+    "E": "双斜面（scene级）",
+    "F": "多物体（scene级）"
+  }
+}
