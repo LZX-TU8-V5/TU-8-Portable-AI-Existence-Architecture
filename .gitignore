@@ -44,3 +44,7 @@ backup/
 backups/
 _GOV_ARCHIVE_*/
 _opensource_stage/
+
+# 私人创作（不参与开源）
+小说/
+
