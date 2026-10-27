@@ -67,12 +67,13 @@ such rights in consideration of benefits the Licensor receives from
 making the Licensed Material available under these terms and
 conditions.
 
+
 Section 1 -- Definitions.
 
   a. Adapted Material means material subject to Copyright and Similar
      Rights that is derived from or based upon the Licensed Material
      and in which the Licensed Material is translated, altered,
-     arranged, modified, or otherwise modified in a manner requiring
+     arranged, transformed, or otherwise modified in a manner requiring
      permission under the Copyright and Similar Rights held by the
      Licensor. For purposes of this Public License, where the Licensed
      Material is a musical work, performance, or sound recording,
@@ -101,9 +102,9 @@ Section 1 -- Definitions.
      Treaty adopted on December 20, 1996, and/or similar international
      agreements.
 
-  f. Exceptions and Limitations means fair use, fair dealing, and/or any
-     other exception or limitation to Copyright and Similar Rights that
-     applies to Your use of the Licensed Material.
+  f. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
 
   g. License Elements means the license attributes listed in the name
      of a Creative Commons Public License. The License Elements of this
@@ -137,6 +138,7 @@ Section 1 -- Definitions.
 
   m. You means the individual or entity exercising the Licensed Rights
      under this Public License. Your has a corresponding meaning.
+
 
 Section 2 -- Scope.
 
@@ -180,7 +182,13 @@ Section 2 -- Scope.
                Licensed Rights under the terms and conditions of this
                Public License.
 
-            b. No downstream restrictions. You may not offer or impose
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
                any additional or different terms or conditions on, or
                apply any Effective Technological Measures to, the
                Licensed Material if doing so restricts exercise of the
@@ -213,6 +221,7 @@ Section 2 -- Scope.
           under any voluntary or waivable statutory or compulsory
           licensing scheme. In all other cases the Licensor expressly
           reserves any right to collect such royalties.
+
 
 Section 3 -- License Conditions.
 
@@ -261,10 +270,6 @@ following conditions.
           information required by Section 3(a)(1)(A) to the extent
           reasonably practicable.
 
-       4. If You Share Adapted Material You produce, the Adapter's
-          License You apply must not prevent recipients of the Adapted
-          Material from complying with this Public License.
-
   b. ShareAlike.
 
      In addition to the conditions in Section 3(a), if You Share
@@ -284,6 +289,7 @@ following conditions.
           Measures to, Adapted Material that restrict exercise of the
           rights granted under the Adapter's License You apply.
 
+
 Section 4 -- Sui Generis Database Rights.
 
 Where the Licensed Rights include Sui Generis Database Rights that
@@ -296,7 +302,8 @@ apply to Your use of the Licensed Material:
   b. if You include all or a substantial portion of the database
      contents in a database in which You have Sui Generis Database
      Rights, then the database in which You have Sui Generis Database
-     Rights (but not its individual contents) is Adapted Material; and
+     Rights (but not its individual contents) is Adapted Material,
+     including for purposes of Section 3(b); and
 
   c. You must comply with the conditions in Section 3(a) if You Share
      all or a substantial portion of the contents of the database.
@@ -304,6 +311,7 @@ apply to Your use of the Licensed Material:
 For the avoidance of doubt, this Section 4 supplements and does not
 replace Your obligations under this Public License where the Licensed
 Rights include other Copyright and Similar Rights.
+
 
 Section 5 -- Disclaimer of Warranties and Limitation of Liability.
 
@@ -333,6 +341,7 @@ Section 5 -- Disclaimer of Warranties and Limitation of Liability.
      possible, most closely approximates an absolute disclaimer and
      waiver of all liability.
 
+
 Section 6 -- Term and Termination.
 
   a. This Public License applies for the term of the Copyright and
@@ -361,6 +370,7 @@ Section 6 -- Term and Termination.
   d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
      License.
 
+
 Section 7 -- Other Terms and Conditions.
 
   a. The Licensor shall not be bound by any additional or different
@@ -369,6 +379,7 @@ Section 7 -- Other Terms and Conditions.
   b. Any arrangements, understandings, or agreements regarding the
      Licensed Material not stated herein are separate from and
      independent of the terms and conditions of this Public License.
+
 
 Section 8 -- Interpretation.
 
@@ -393,12 +404,13 @@ Section 8 -- Interpretation.
      that apply to the Licensor or You, including from the legal
      processes of any jurisdiction or authority.
 
+
 =======================================================================
 
 Creative Commons is not a party to its public licenses.
 Notwithstanding, Creative Commons may elect to apply one of its public
 licenses to material it publishes and in those instances will be
-considered the "Licensor." The text of the Creative Commons public
+considered the “Licensor.” The text of the Creative Commons public
 licenses is dedicated to the public domain under the CC0 Public Domain
 Dedication. Except for the limited purpose of indicating that material
 is shared under a Creative Commons public license or as otherwise
@@ -409,5 +421,7 @@ of Creative Commons without its prior written consent including,
 without limitation, in connection with any unauthorized modifications
 to any of its public licenses or any other arrangements,
 understandings, or agreements concerning use of licensed material. For
-the avoidance of doubt, this Public License does not form part of the
-public licenses.
+the avoidance of doubt, this paragraph does not form part of the public
+licenses.
+
+Creative Commons may be contacted at creativecommons.org.
